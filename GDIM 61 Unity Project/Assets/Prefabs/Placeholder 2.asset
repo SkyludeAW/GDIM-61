@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0f3d14bec57aec4b9666eb977aff1b0, type: 3}
+  m_Name: Placeholder 2
+  m_EditorClassIdentifier: 
+  Name: Placeholder Unit 2
+  Description: "\u4F60\u518D\u9A82\uFF01"
+  Art: {fileID: 53058113739057883, guid: 770fb0e40aea489458c116f744d1b63e, type: 3}
+  Cost: 4
+  HitPoint: 666
+  Damage: 23.3
+  AttackCooldown: 2.4
+  Speed: 0.8
+  KnockbackPower: 200
+  KnockbackResistance: 0.75
+  UnitDeploySprite: {fileID: 53058113739057883, guid: 770fb0e40aea489458c116f744d1b63e, type: 3}
+  SummonedUnit: {fileID: 7432004080277801927, guid: 68f09662dd2cf38429035f119a005e8c, type: 3}

@@ -15,12 +15,14 @@ public abstract class Unit : MonoBehaviour {
     #region Member Variables
     // Essential attributes
     // 核心属性值
+    [SerializeField] protected Card Base;
     [SerializeField] protected float HitPoint;
     [SerializeField] protected float MaxHitPoint;
     [SerializeField] protected float Speed = 1f;
     [SerializeField] protected float BaseDamage;
     [SerializeField] protected float AttackCooldown;
     [SerializeField] protected float NextAttackTime;
+    [SerializeField] protected float KnockbackPower;
     [SerializeField] protected float KnockbackResistance = 0f;
     [SerializeField] protected bool IsInvincible = false;
 
@@ -41,20 +43,35 @@ public abstract class Unit : MonoBehaviour {
     // Physics
     // 物理效果相关
     [SerializeField] protected Rigidbody2D RB;
-    [field: SerializeField] public Collider2D Collider { get; protected set; }
+    [field:SerializeField] public Collider2D Collider { get; protected set; }
     #endregion
 
     #region Methods
     // Overridable initialization of hitpoint and other core attributes; to be run every time a new unit is spawned
     // 生命值以及其他核心属性的初始化；每次某单位生成时都应调用一遍
     protected virtual void Initialize() {
+        if (Base != null) {
+            MaxHitPoint = Base.HitPoint;
+            BaseDamage = Base.Damage;
+            AttackCooldown = Base.AttackCooldown;
+            Speed = Base.Speed;
+            KnockbackPower = Base.KnockbackPower;
+            KnockbackResistance = Base.KnockbackResistance;
+        }
         HitPoint = MaxHitPoint;
         HealthUI.SetHealth(HitPoint / MaxHitPoint);
+        SetFaction(Faction);
         if (Agent != null) {
             Agent.updateRotation = false;
             Agent.updateUpAxis = false;
             Agent.speed = Speed;
-            Agent.isStopped = true;
+            Agent.isStopped = false;
+        }
+    }
+
+    private void OnValidate() {
+        if (Application.isPlaying) {
+            SetFaction(Faction);
         }
     }
 
@@ -80,9 +97,20 @@ public abstract class Unit : MonoBehaviour {
             Target = null;
             if (Agent != null) {
                 Agent.SetDestination(targetDestination);
+                //print("Desired Destination:" + targetDestination);
+                //print("Destination Set Successfully?" + Agent.SetDestination(targetDestination));
+                //print("Current Destination:" + Agent.destination);
+                //print("Agent isStopped?" + Agent.isStopped);
+                //print("Agent hasPath?" + Agent.hasPath);
+                //print(Agent.isOnNavMesh);
+                //print(Agent.pathStatus);
                 Agent.isStopped = false;
             }
         }
+    }
+
+    IEnumerator a() {
+        yield return new WaitForSeconds(5);
     }
 
     public void SetTarget(Unit targetUnit) {
@@ -100,7 +128,7 @@ public abstract class Unit : MonoBehaviour {
             HitPoint -= damage;
             HealthUI.SetHealth(HitPoint / MaxHitPoint);
             if (RB != null)
-                RB.AddForce(force * Mathf.Min(1f - KnockbackResistance, 0));
+                RB.AddForce(force * Mathf.Max(1f - KnockbackResistance, 0));
             if (HitPoint <= 0f)
                 Die();
         } 
@@ -119,6 +147,7 @@ public abstract class Unit : MonoBehaviour {
             elapsed += Time.deltaTime;
             yield return null;
         }
+        SR.color = Color.white;
     }
 
     // Visualization of the NavMesh Agent's path
