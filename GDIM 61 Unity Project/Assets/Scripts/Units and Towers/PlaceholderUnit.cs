@@ -2,14 +2,24 @@
 using UnityEngine.AI;
 
 public class PlaceholderUnit : Unit {
-    [SerializeField] private int _faction;
     [SerializeField] protected float AttackRange;
+
+    [SerializeField] private float _retargetingInterval = 1f;
+    private float _nextTargetCheckTime = 0f;
 
     private void Awake() {
         Initialize();
     }
 
     private void Update() {
+        // Faction 1 refers to enemy AI
+        if (Faction == 1) {
+            if (Time.time > _nextTargetCheckTime) {
+                FindAndSetClosestTarget(0);
+                _nextTargetCheckTime = Time.time + _retargetingInterval;
+            }
+        }
+
         // State machine for when there exists a target unit
         if (Target != null) {
             Agent.SetDestination(Target.transform.position);
@@ -34,6 +44,7 @@ public class PlaceholderUnit : Unit {
         if (Input.GetKeyDown(KeyCode.E)) {
             TakeDamage(25);
         }
+
     }
 
     private void Attack(Unit target) {
@@ -48,6 +59,9 @@ public class PlaceholderUnit : Unit {
 
     // 似了
     public override void Die() {
+        if (UnitsManager.Instance != null) {
+            UnitsManager.Instance.UnregisterUnit(this);
+        }
         Destroy(this.gameObject);
     }
 }

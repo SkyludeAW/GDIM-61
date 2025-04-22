@@ -421,8 +421,10 @@ MonoBehaviour:
   KnockbackPower: 100
   KnockbackResistance: 0
   IsInvincible: 0
+  <IsDead>k__BackingField: 0
   Selectable: 1
   Controllable: 1
+  <Faction>k__BackingField: 0
   Target: {fileID: 0}
   Agent: {fileID: 4576664305330250393}
   SR: {fileID: 9017058525056403493}
@@ -430,8 +432,8 @@ MonoBehaviour:
   HealthUI: {fileID: 917693790944275180}
   RB: {fileID: 728290311976050843}
   <Collider>k__BackingField: {fileID: 1401347149154922316}
-  _faction: 0
-  AttackRange: 0.75
+  AttackRange: 0.8
+  _retargetingInterval: 1
 --- !u!114 &7013611938529466988
 MonoBehaviour:
   m_ObjectHideFlags: 0

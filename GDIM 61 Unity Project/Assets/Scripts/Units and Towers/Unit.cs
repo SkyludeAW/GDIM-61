@@ -25,12 +25,13 @@ public abstract class Unit : MonoBehaviour {
     [SerializeField] protected float KnockbackPower;
     [SerializeField] protected float KnockbackResistance = 0f;
     [SerializeField] protected bool IsInvincible = false;
+    [field:SerializeField] public bool IsDead { get; protected set; } = false;
 
     // Control-related
     // 单位控制相关
     public bool Selectable = true;
     public bool Controllable = false;
-    public int Faction { get; private set; }
+    [field:SerializeField] public int Faction { get; private set; }
     public Unit Target;
     [SerializeField] protected NavMeshAgent Agent;
 
@@ -120,6 +121,36 @@ public abstract class Unit : MonoBehaviour {
         }
     }
 
+    // For AI targeting units
+    protected void FindAndSetClosestTarget(int targetFaction) {
+        Unit closestEnemy = null;
+        float minDistanceSqr = float.MaxValue;
+
+        if (UnitsManager.Instance != null) {
+            // Use the manager to get only the relevant faction units
+            foreach (Unit unit in UnitsManager.Instance.GetUnitsInFaction(targetFaction)) {
+                // Check if the unit is valid, not itself, and is alive
+                // GetUnitsInFaction might contain nulls if Purge wasn't run recently after destruction
+                if (unit != null && unit != this && !unit.IsDead) {
+                    float distanceSqr = (unit.transform.position - this.transform.position).sqrMagnitude;
+                    if (distanceSqr < minDistanceSqr) {
+                        minDistanceSqr = distanceSqr;
+                        closestEnemy = unit;
+                    }
+                }
+            }
+        } else {
+            Debug.LogWarning("UnitsManager instance not found during AI target scan.");
+        }
+
+        if (this.Target != closestEnemy) {
+            this.Target = closestEnemy;
+            if (this.Target != null && Agent != null) {
+                Agent.isStopped = false;
+            }
+        }
+    }
+
     // 受击
     public virtual void TakeDamage(float damage, Vector2 force = default, Unit origin = null) {
         if (!IsInvincible) {
@@ -129,8 +160,10 @@ public abstract class Unit : MonoBehaviour {
             HealthUI.SetHealth(HitPoint / MaxHitPoint);
             if (RB != null)
                 RB.AddForce(force * Mathf.Max(1f - KnockbackResistance, 0));
-            if (HitPoint <= 0f)
+            if (HitPoint <= 0f) {
+                IsDead = true;
                 Die();
+            }
         } 
     }
 
@@ -160,6 +193,22 @@ public abstract class Unit : MonoBehaviour {
 
         for (int i = 0; i < corners.Length - 1; i++) {
             Gizmos.DrawLine(corners[i], corners[i + 1]);
+        }
+    }
+    protected virtual void OnEnable() {
+        // Ensure the Instance exists before trying to register
+        if (UnitsManager.Instance != null) {
+            UnitsManager.Instance.RegisterUnit(this);
+        }
+        // Optional: else Debug.LogError("UnitsManager not found during OnEnable!"); 
+        // This might happen if script execution order isn't set correctly.
+    }
+
+    protected virtual void OnDisable() {
+        // Unregister when the GameObject is disabled or destroyed
+        // Check if Instance still exists (it might be destroyed first during scene unload)
+        if (UnitsManager.Instance != null) {
+            UnitsManager.Instance.UnregisterUnit(this);
         }
     }
     #endregion

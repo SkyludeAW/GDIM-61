@@ -21,6 +21,6 @@ MonoBehaviour:
   AttackCooldown: 2.4
   Speed: 0.8
   KnockbackPower: 200
-  KnockbackResistance: 0.75
+  KnockbackResistance: 0.9
   UnitDeploySprite: {fileID: 53058113739057883, guid: 770fb0e40aea489458c116f744d1b63e, type: 3}
   SummonedUnit: {fileID: 7432004080277801927, guid: 68f09662dd2cf38429035f119a005e8c, type: 3}
