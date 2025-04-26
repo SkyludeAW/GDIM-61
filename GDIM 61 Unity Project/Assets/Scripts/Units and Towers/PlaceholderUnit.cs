@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Linq;
+using UnityEngine;
 using UnityEngine.AI;
 
 public class PlaceholderUnit : Unit {
@@ -54,7 +55,9 @@ public class PlaceholderUnit : Unit {
 
     protected override void Initialize() {
         base.Initialize();
-        Controllable = true;
+        if (UnitsManager.Instance != null && !UnitsManager.Instance.GetUnitsInFaction(Faction).Contains(this)) {
+            UnitsManager.Instance.RegisterUnit(this);
+        }
     }
 
     // 似了

@@ -1,8 +1,8 @@
-﻿using UnityEngine;
+﻿using System.Linq;
+using UnityEngine;
 using UnityEngine.AI;
 
 public class PlaceholderTower : Unit {
-    [SerializeField] private int _faction;
 
     private void Awake() {
         Initialize();
@@ -18,8 +18,10 @@ public class PlaceholderTower : Unit {
 
     protected override void Initialize() {
         base.Initialize();
-        SetFaction(_faction);
         Controllable = false;
+        if (UnitsManager.Instance != null && !UnitsManager.Instance.GetUnitsInFaction(Faction).Contains(this)) {
+            UnitsManager.Instance.RegisterUnit(this);
+        }
     }
 
     // 似了

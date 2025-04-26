@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Unity.Cinemachine;
 using UnityEngine;
 
 /*
@@ -12,6 +13,7 @@ public class CameraLocator : MonoBehaviour {
     public Camera PlayerCamera {
         get; private set;
     }
+    [field:SerializeField] public CinemachineCamera PlayerCinemachineCamera { get; private set; }
 
     private void Awake() {
         if (Instance != null && Instance != this)

@@ -525,7 +525,7 @@ MonoBehaviour:
   IsInvincible: 0
   <IsDead>k__BackingField: 0
   Selectable: 1
-  Controllable: 1
+  Controllable: 0
   <Faction>k__BackingField: 1
   Target: {fileID: 0}
   Agent: {fileID: 7564949951374835614}
@@ -649,7 +649,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: efc7fe4eeef9e2949a7a6dd380796f05, type: 3}
-  m_Color: {r: 0.282, g: 0.369, b: 0.859, a: 1}
+  m_Color: {r: 0.859, g: 0.302, b: 0.282, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

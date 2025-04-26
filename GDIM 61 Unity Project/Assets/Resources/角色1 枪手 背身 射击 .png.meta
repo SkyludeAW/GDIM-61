@@ -162,6 +162,58 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -684,7 +736,30 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "\u89D2\u82721 \u67AA\u624B \u80CC\u8EAB \u5C04\u51FB _0": 1362856128401953467
+      "\u89D2\u82721 \u67AA\u624B \u80CC\u8EAB \u5C04\u51FB _1": 3592038296690158144
+      "\u89D2\u82721 \u67AA\u624B \u80CC\u8EAB \u5C04\u51FB _10": 9207743398000309250
+      "\u89D2\u82721 \u67AA\u624B \u80CC\u8EAB \u5C04\u51FB _11": 7222055146282088448
+      "\u89D2\u82721 \u67AA\u624B \u80CC\u8EAB \u5C04\u51FB _12": -8275755956471595903
+      "\u89D2\u82721 \u67AA\u624B \u80CC\u8EAB \u5C04\u51FB _13": 6287967956888463472
+      "\u89D2\u82721 \u67AA\u624B \u80CC\u8EAB \u5C04\u51FB _14": 2964036497969292651
+      "\u89D2\u82721 \u67AA\u624B \u80CC\u8EAB \u5C04\u51FB _15": -793744767579786709
+      "\u89D2\u82721 \u67AA\u624B \u80CC\u8EAB \u5C04\u51FB _16": -7703412408947935239
+      "\u89D2\u82721 \u67AA\u624B \u80CC\u8EAB \u5C04\u51FB _17": 1137458138398249004
+      "\u89D2\u82721 \u67AA\u624B \u80CC\u8EAB \u5C04\u51FB _18": -8953272412646261693
+      "\u89D2\u82721 \u67AA\u624B \u80CC\u8EAB \u5C04\u51FB _19": 9160618818018287979
+      "\u89D2\u82721 \u67AA\u624B \u80CC\u8EAB \u5C04\u51FB _2": -1115401150233425803
+      "\u89D2\u82721 \u67AA\u624B \u80CC\u8EAB \u5C04\u51FB _20": -98716325225840209
+      "\u89D2\u82721 \u67AA\u624B \u80CC\u8EAB \u5C04\u51FB _21": 169289226086484831
+      "\u89D2\u82721 \u67AA\u624B \u80CC\u8EAB \u5C04\u51FB _22": -5076732684735567123
+      "\u89D2\u82721 \u67AA\u624B \u80CC\u8EAB \u5C04\u51FB _3": -1142495064816454487
+      "\u89D2\u82721 \u67AA\u624B \u80CC\u8EAB \u5C04\u51FB _4": 769575767345687073
+      "\u89D2\u82721 \u67AA\u624B \u80CC\u8EAB \u5C04\u51FB _5": -1795556969658876005
+      "\u89D2\u82721 \u67AA\u624B \u80CC\u8EAB \u5C04\u51FB _6": 6616766881539537532
+      "\u89D2\u82721 \u67AA\u624B \u80CC\u8EAB \u5C04\u51FB _7": 5649636874506426764
+      "\u89D2\u82721 \u67AA\u624B \u80CC\u8EAB \u5C04\u51FB _8": 1192892595084096172
+      "\u89D2\u82721 \u67AA\u624B \u80CC\u8EAB \u5C04\u51FB _9": 3569855472175950600
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

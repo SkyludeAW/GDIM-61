@@ -125,8 +125,10 @@ MonoBehaviour:
   KnockbackPower: 0
   KnockbackResistance: 0
   IsInvincible: 0
+  <IsDead>k__BackingField: 0
   Selectable: 1
-  Controllable: 0
+  Controllable: 1
+  <Faction>k__BackingField: 0
   Target: {fileID: 0}
   Agent: {fileID: 6801357358098756951}
   SR: {fileID: 321528028288891541}
@@ -134,7 +136,6 @@ MonoBehaviour:
   HealthUI: {fileID: 3954432520388326200}
   RB: {fileID: 2930341002457673125}
   <Collider>k__BackingField: {fileID: 4407610287317521967}
-  _faction: 0
 --- !u!195 &6801357358098756951
 NavMeshAgent:
   m_ObjectHideFlags: 0

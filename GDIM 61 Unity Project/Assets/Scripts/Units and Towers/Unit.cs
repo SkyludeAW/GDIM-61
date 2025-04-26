@@ -83,6 +83,11 @@ public abstract class Unit : MonoBehaviour {
         } catch(IndexOutOfRangeException) {
             SelectionSR.color = Color.gray;
         }
+        if (Faction == 0) {
+            Controllable = true;
+        } else {
+            Controllable = false;
+        }
     }
 
     public void SetSelectionActive(bool selected) {
