@@ -5,12 +5,13 @@ using UnityEngine;
 public class GameController : MonoBehaviour {
     public static GameController Instance;
 
+    #region Unit Selection Variables
     private Vector2 _clickStartPosition;
     private bool _clickBeganInBattleState;
     [SerializeField] private LayerMask _unitLayer;
     [SerializeField] private Transform _selectionAreaTransform;
-
     private List<Unit> _selectedUnits;
+    #endregion
 
     public enum ControlState {
         InBattle,
@@ -19,10 +20,17 @@ public class GameController : MonoBehaviour {
     }
     private ControlState _currentState;
 
+    #region Deck & In-Game Variables
     public List<Card> Deck;
     private Queue<Card> _deckQueue;
     [UnityEngine.Range(1, 10)] public int MaxHandSize = 5;
     private Card[] _cardsInHand;
+
+    private float _cost;
+    public float CostGrowthSpeed = 0.4f;
+    [SerializeField] private float _costUIUpdateInterval = 0.1f;
+    private float _nextCostUIUpdateTime;
+    #endregion
 
     private void Awake() {
         if (Instance == null) {
@@ -34,6 +42,7 @@ public class GameController : MonoBehaviour {
     }
 
     private void Initialize() {
+        _cost = 0f;
         _selectedUnits = new List<Unit>();
         _cardsInHand = new Card[MaxHandSize];
         _selectionAreaTransform.gameObject.SetActive(false);
@@ -114,8 +123,15 @@ public class GameController : MonoBehaviour {
                 // Left mouse button down deploys the selected unit in UIManager
                 if (Input.GetMouseButtonDown(0)) {
                     _clickBeganInBattleState = false;
-                    Instantiate(PlayCard(UIManager.Instance.SelectedCardIndex).SummonedUnit, GetMouseWorldPosition(), Quaternion.identity);
+                    float cardCost = _cardsInHand[UIManager.Instance.SelectedCardIndex].Cost;
+                    if (cardCost <= _cost) {
+                        Instantiate(PlayCard(UIManager.Instance.SelectedCardIndex).SummonedUnit, GetMouseWorldPosition(), Quaternion.identity);
+                        _cost -= cardCost;
+                    } else {
+                        UIManager.Instance.PlayInsufficientCostAnimation();
+                    }
                     UIManager.Instance.DeselectCard();
+                    SwitchControlState(ControlState.InBattle);
                 }
 
                 // Right mouse button down deselects the unit in UIManager
@@ -124,6 +140,12 @@ public class GameController : MonoBehaviour {
                     SwitchControlState(ControlState.InBattle);
                 }
                 break;
+        }
+
+        _cost += Time.deltaTime * CostGrowthSpeed;
+        if (Time.time > _nextCostUIUpdateTime) {
+            _nextCostUIUpdateTime = Time.time + _costUIUpdateInterval;
+            UIManager.Instance.UpdateCostUIValue(_cost);
         }
     }
 
@@ -152,7 +174,6 @@ public class GameController : MonoBehaviour {
         // Update UI
         UIManager.Instance.InitializeCardUI(_cardsInHand);
 
-        SwitchControlState(ControlState.InBattle);
         return playedCard;
     }
 
@@ -168,7 +189,9 @@ public class GameController : MonoBehaviour {
         }
     }
 
+    #region Utilities
     public static Vector2 GetMouseWorldPosition() {
         return CameraLocator.Instance.PlayerCamera.ScreenToWorldPoint(Input.mousePosition);
     }
+    #endregion
 }

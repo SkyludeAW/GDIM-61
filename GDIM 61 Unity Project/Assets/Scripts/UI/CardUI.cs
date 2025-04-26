@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -8,6 +9,7 @@ public class CardUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler {
     public const float CARD_HEIGHT = 240f;
 
     [field:SerializeField] public Button CardButton { get; private set; }
+    [field:SerializeField] public TMP_Text CostText { get; private set; }
     public int Index = -1;
     public RectTransform CardUITransform { get; private set; }
     public bool Selectable = true;

@@ -1,3 +1,6 @@
+using System.Collections;
+using System.Globalization;
+using TMPro;
 using UnityEngine;
 
 public class UIManager : MonoBehaviour {
@@ -7,6 +10,8 @@ public class UIManager : MonoBehaviour {
     [field:SerializeField] public RectTransform CardSlotTransform { get; private set; }
     public float CardUIVerticalOffset = -20;
     public int SelectedCardIndex;
+
+    [field:SerializeField] public TMP_Text CostValue { get; private set; }
 
     [SerializeField] private DeployIndicator _deployIndicator;
 
@@ -58,11 +63,34 @@ public class UIManager : MonoBehaviour {
         if (card == null) {
             ui.Selectable = false;
             ui.CardArt.enabled = false;
+            ui.CostText.enabled = false;
         } else {
             ui.Selectable = true;
             ui.CardArt.enabled = true;
+            ui.CostText.enabled = true;
+            ui.CostText.text = card.Cost.ToString();
             ui.CardArt.sprite = card.Art;
             ui.DeploySprite = card.UnitDeploySprite;
         }
+    }
+
+    public void UpdateCostUIValue(float value) {
+        CostValue.text = value.ToString("F1", CultureInfo.InvariantCulture);
+    }
+
+    public void PlayInsufficientCostAnimation() {
+        StartCoroutine(InsufficientCostAnimation());
+    }
+
+    private IEnumerator InsufficientCostAnimation() {
+        float elapsed = 0f;
+        float duration = 0.25f;
+
+        while (elapsed < duration) {
+            CostValue.color = new Color(1f - Mathf.Min(elapsed / duration, 1f), 0f, 0f);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+        CostValue.color = Color.black;
     }
 }
