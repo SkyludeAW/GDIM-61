@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 6071cc9eb86744742804081feadcb46c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8838188434137622674
+    second: Blood Spill - Pierce_0
+  - first:
+      213: 1920277407045322101
+    second: Blood Spill - Pierce_1
+  - first:
+      213: 1059009063092339154
+    second: Blood Spill - Pierce_2
+  - first:
+      213: -4843846375641610087
+    second: Blood Spill - Pierce_3
+  - first:
+      213: 8710304608623365196
+    second: Blood Spill - Pierce_4
+  - first:
+      213: 6379431044776371543
+    second: Blood Spill - Pierce_5
+  - first:
+      213: 6126786332388320805
+    second: Blood Spill - Pierce_6
+  - first:
+      213: -2207185248931440646
+    second: Blood Spill - Pierce_7
+  - first:
+      213: 7990335524798922731
+    second: Blood Spill - Pierce_8
+  - first:
+      213: 1622371813064347500
+    second: Blood Spill - Pierce_9
+  - first:
+      213: -2425068825789069196
+    second: Blood Spill - Pierce_10
+  - first:
+      213: 1738697089984409339
+    second: Blood Spill - Pierce_11
+  - first:
+      213: 5674523838984693329
+    second: Blood Spill - Pierce_12
+  - first:
+      213: -5177683926277437817
+    second: Blood Spill - Pierce_13
+  - first:
+      213: -7233150700361479332
+    second: Blood Spill - Pierce_14
+  - first:
+      213: -5328600732410227992
+    second: Blood Spill - Pierce_15
+  - first:
+      213: -4234366964866066886
+    second: Blood Spill - Pierce_16
+  - first:
+      213: -1474992280903758547
+    second: Blood Spill - Pierce_17
+  - first:
+      213: 9051972056523591219
+    second: Blood Spill - Pierce_18
+  - first:
+      213: -6077776126385211884
+    second: Blood Spill - Pierce_19
+  - first:
+      213: -2941054832924474335
+    second: Blood Spill - Pierce_20
+  - first:
+      213: -5335219599455822841
+    second: Blood Spill - Pierce_21
+  - first:
+      213: 1360581937828829042
+    second: Blood Spill - Pierce_22
+  - first:
+      213: 2252042970414202259
+    second: Blood Spill - Pierce_23
+  - first:
+      213: -1530468564457321695
+    second: Blood Spill - Pierce_24
+  - first:
+      213: 7965508556650175055
+    second: Blood Spill - Pierce_25
+  - first:
+      213: -2351359799358624166
+    second: Blood Spill - Pierce_26
+  - first:
+      213: -3609247319520133705
+    second: Blood Spill - Pierce_27
+  - first:
+      213: -6784914547705740114
+    second: Blood Spill - Pierce_28
+  - first:
+      213: -6748007772550636662
+    second: Blood Spill - Pierce_29
+  - first:
+      213: 8981679353711922175
+    second: Blood Spill - Pierce_30
+  - first:
+      213: -2004581719424392647
+    second: Blood Spill - Pierce_31
+  - first:
+      213: 7651718421637134715
+    second: Blood Spill - Pierce_32
+  - first:
+      213: 2695067145711360681
+    second: Blood Spill - Pierce_33
+  - first:
+      213: 8536453754560223433
+    second: Blood Spill - Pierce_34
+  - first:
+      213: -3929249581596109889
+    second: Blood Spill - Pierce_35
+  - first:
+      213: 7792503004740628199
+    second: Blood Spill - Pierce_36
+  - first:
+      213: -7959479855327840469
+    second: Blood Spill - Pierce_37
+  - first:
+      213: 841597649280700286
+    second: Blood Spill - Pierce_38
+  - first:
+      213: 2651232478618174211
+    second: Blood Spill - Pierce_39
+  - first:
+      213: 7772819340607978890
+    second: Blood Spill - Pierce_40
+  - first:
+      213: 7187081191322497274
+    second: Blood Spill - Pierce_41
+  - first:
+      213: -7824642103621721021
+    second: Blood Spill - Pierce_42
+  - first:
+      213: -114489576014281123
+    second: Blood Spill - Pierce_43
+  - first:
+      213: 6036536365560098195
+    second: Blood Spill - Pierce_44
+  - first:
+      213: -145745675005262290
+    second: Blood Spill - Pierce_45
+  - first:
+      213: -8810385422507775066
+    second: Blood Spill - Pierce_46
+  - first:
+      213: -3916831550063497268
+    second: Blood Spill - Pierce_47
+  - first:
+      213: -978344791225910181
+    second: Blood Spill - Pierce_48
+  - first:
+      213: 1405959648809958658
+    second: Blood Spill - Pierce_49
+  - first:
+      213: 904637605765109369
+    second: Blood Spill - Pierce_50
+  - first:
+      213: -465234321433883240
+    second: Blood Spill - Pierce_51
+  - first:
+      213: 6637367229256682897
+    second: Blood Spill - Pierce_52
+  - first:
+      213: 2716695074176735875
+    second: Blood Spill - Pierce_53
+  - first:
+      213: -1825700097845501849
+    second: Blood Spill - Pierce_54
+  - first:
+      213: -5849966442202877580
+    second: Blood Spill - Pierce_55
+  - first:
+      213: 6965403397352311138
+    second: Blood Spill - Pierce_56
+  - first:
+      213: -6562811467809763176
+    second: Blood Spill - Pierce_57
+  - first:
+      213: -7988655047594283165
+    second: Blood Spill - Pierce_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 2000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blood Spill - Pierce_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 1024
+        height: 1173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2982dbadd8d87aa70800000000000000
+      internalID: 8838188434137622674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Spill - Pierce_1
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 77
+        width: 1908
+        height: 1795
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575052da02236aa10800000000000000
+      internalID: 1920277407045322101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Spill - Pierce_2
+      rect:
+        serializedVersion: 2
+        x: 3254
+        y: 12
+        width: 2022
+        height: 3066
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1c98bc12b52be00800000000000000
+      internalID: 1059009063092339154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Spill - Pierce_3
+      rect:
+        serializedVersion: 2
+        x: 5495
+        y: 59
+        width: 2190
+        height: 3065
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9988159926337ccb0800000000000000
+      internalID: -4843846375641610087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Spill - Pierce_4
+      rect:
+        serializedVersion: 2
+        x: 7795
+        y: 396
+        width: 1778
+        height: 2613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c817274e731e870800000000000000
+      internalID: 8710304608623365196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Spill - Pierce_5
+      rect:
+        serializedVersion: 2
+        x: 9672
+        y: 506
+        width: 1931
+        height: 2547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755aefc4cba488850800000000000000
+      internalID: 6379431044776371543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Spill - Pierce_6
+      rect:
+        serializedVersion: 2
+        x: 11834
+        y: 616
+        width: 2184
+        height: 1833
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52669bc45b7b60550800000000000000
+      internalID: 6126786332388320805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 15e8b02db71f93f458fbe4ddda47f216
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Blood Spill - Pierce_0: 8838188434137622674
+      Blood Spill - Pierce_1: 1920277407045322101
+      Blood Spill - Pierce_2: 1059009063092339154
+      Blood Spill - Pierce_3: -4843846375641610087
+      Blood Spill - Pierce_4: 8710304608623365196
+      Blood Spill - Pierce_5: 6379431044776371543
+      Blood Spill - Pierce_6: 6126786332388320805
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

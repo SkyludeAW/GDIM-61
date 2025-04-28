@@ -1,0 +1,1174 @@
+fileFormatVersion: 2
+guid: 457d1b52396560e4db1c5820c221fef5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3792580866956358210
+    second: run back side_0
+  - first:
+      213: 2952435987116801586
+    second: run back side_1
+  - first:
+      213: -7886552645324420283
+    second: run back side_2
+  - first:
+      213: 1157897544416391306
+    second: run back side_3
+  - first:
+      213: 1724174111883690608
+    second: run back side_4
+  - first:
+      213: -4634556778041830699
+    second: run back side_5
+  - first:
+      213: 6983361584704688803
+    second: run back side_6
+  - first:
+      213: 4366806325869940563
+    second: run back side_7
+  - first:
+      213: -2442829107385915611
+    second: run back side_8
+  - first:
+      213: -3856426913714203504
+    second: run back side_9
+  - first:
+      213: 6202564439506153101
+    second: run back side_10
+  - first:
+      213: 835660235031626830
+    second: run back side_11
+  - first:
+      213: -3533462588998151410
+    second: run back side_12
+  - first:
+      213: -6308198813288688961
+    second: run back side_13
+  - first:
+      213: -5255784861412430401
+    second: run back side_14
+  - first:
+      213: 536811032503666490
+    second: run back side_15
+  - first:
+      213: 1931054388113961288
+    second: run back side_16
+  - first:
+      213: 6309306139653168751
+    second: run back side_17
+  - first:
+      213: -6894724000327068292
+    second: run back side_18
+  - first:
+      213: 7457372103335760383
+    second: run back side_19
+  - first:
+      213: 8018271290100474432
+    second: run back side_20
+  - first:
+      213: -9089585288759486927
+    second: run back side_21
+  - first:
+      213: -5599124683510058946
+    second: run back side_22
+  - first:
+      213: -2704700263458581211
+    second: run back side_23
+  - first:
+      213: -295153172013403038
+    second: run back side_24
+  - first:
+      213: -7349790895622767955
+    second: run back side_25
+  - first:
+      213: 4283707158517059102
+    second: run back side_26
+  - first:
+      213: -8612626446143734326
+    second: run back side_27
+  - first:
+      213: 5226755446158750621
+    second: run back side_28
+  - first:
+      213: -1997137102068916841
+    second: run back side_29
+  - first:
+      213: 5041863778716265892
+    second: run back side_30
+  - first:
+      213: -8952020687990534904
+    second: run back side_31
+  - first:
+      213: 3498901271127894821
+    second: run back side_32
+  - first:
+      213: 7489721654352112799
+    second: run back side_33
+  - first:
+      213: 243685479544484643
+    second: run back side_34
+  - first:
+      213: 8600089211061593064
+    second: run back side_35
+  - first:
+      213: -4978070069630865903
+    second: run back side_36
+  - first:
+      213: 2084687576100356151
+    second: run back side_37
+  - first:
+      213: -6315133298597967917
+    second: run back side_38
+  - first:
+      213: -1378960670233549625
+    second: run back side_39
+  - first:
+      213: 5889864138413136431
+    second: run back side_40
+  - first:
+      213: -2542084664945065798
+    second: run back side_41
+  - first:
+      213: 1015740484032065989
+    second: run back side_42
+  - first:
+      213: -7272037864245833977
+    second: run back side_43
+  - first:
+      213: 2085668634003447017
+    second: run back side_44
+  - first:
+      213: -8059053849040689782
+    second: run back side_45
+  - first:
+      213: 2547774887717477692
+    second: run back side_46
+  - first:
+      213: 8554801540847452514
+    second: run back side_47
+  - first:
+      213: 3124173999275960761
+    second: run back side_48
+  - first:
+      213: 7116606274125049268
+    second: run back side_49
+  - first:
+      213: 625191627548619585
+    second: run back side_50
+  - first:
+      213: 6052734882853379516
+    second: run back side_51
+  - first:
+      213: 5745316442822659136
+    second: run back side_52
+  - first:
+      213: 6310654606754062264
+    second: run back side_53
+  - first:
+      213: -5789702061961984663
+    second: run back side_54
+  - first:
+      213: 723103302426457916
+    second: run back side_55
+  - first:
+      213: 3357266455687077253
+    second: run back side_56
+  - first:
+      213: -6112626566878933952
+    second: run back side_57
+  - first:
+      213: -142019923404194918
+    second: run back side_58
+  - first:
+      213: 2573349453176918713
+    second: run back side_59
+  - first:
+      213: -5346008157813138537
+    second: run back side_60
+  - first:
+      213: -3679658031076961714
+    second: run back side_61
+  - first:
+      213: -1979831662783265525
+    second: run back side_62
+  - first:
+      213: -4413794009857903756
+    second: run back side_63
+  - first:
+      213: 5095473177140143271
+    second: run back side_64
+  - first:
+      213: 5685284717246278997
+    second: run back side_65
+  - first:
+      213: 2844809607688982079
+    second: run back side_66
+  - first:
+      213: -4666983545209996600
+    second: run back side_67
+  - first:
+      213: 7104279796781490031
+    second: run back side_68
+  - first:
+      213: -9177265503456258501
+    second: run back side_69
+  - first:
+      213: 6061792285324867349
+    second: run back side_70
+  - first:
+      213: 2449121546862261548
+    second: run back side_71
+  - first:
+      213: 5680021015832404584
+    second: run back side_72
+  - first:
+      213: 6574033641941371616
+    second: run back side_73
+  - first:
+      213: -4690851647139905000
+    second: run back side_74
+  - first:
+      213: 4775911331645865391
+    second: run back side_75
+  - first:
+      213: 7938326653473869434
+    second: run back side_76
+  - first:
+      213: 2742018542802645268
+    second: run back side_77
+  - first:
+      213: -5183557379408139486
+    second: run back side_78
+  - first:
+      213: 7363525742498067811
+    second: run back side_79
+  - first:
+      213: 6705475463492175250
+    second: run back side_80
+  - first:
+      213: -4772290875221392105
+    second: run back side_81
+  - first:
+      213: 6138326334490500225
+    second: run back side_82
+  - first:
+      213: 2060595283504508608
+    second: run back side_83
+  - first:
+      213: 5420347836149056749
+    second: run back side_84
+  - first:
+      213: 8349568327874695574
+    second: run back side_85
+  - first:
+      213: -5007047914925445040
+    second: run back side_86
+  - first:
+      213: 1071978488158865950
+    second: run back side_87
+  - first:
+      213: -1606502762577560433
+    second: run back side_88
+  - first:
+      213: 6723550641391212153
+    second: run back side_89
+  - first:
+      213: 4933997779676048061
+    second: run back side_90
+  - first:
+      213: 3025625553795314636
+    second: run back side_91
+  - first:
+      213: -4806287041606227659
+    second: run back side_92
+  - first:
+      213: -787212665410697960
+    second: run back side_93
+  - first:
+      213: 184813653176483794
+    second: run back side_94
+  - first:
+      213: -4478640905833160801
+    second: run back side_95
+  - first:
+      213: 7386156313490217567
+    second: run back side_96
+  - first:
+      213: 3647132975976104513
+    second: run back side_97
+  - first:
+      213: 2942624791741918913
+    second: run back side_98
+  - first:
+      213: -5258265808396743359
+    second: run back side_99
+  - first:
+      213: -3717028354243820235
+    second: run back side_100
+  - first:
+      213: 57791517324689864
+    second: run back side_101
+  - first:
+      213: 311995124226919715
+    second: run back side_102
+  - first:
+      213: -4877293101199154793
+    second: run back side_103
+  - first:
+      213: -4481806717860291594
+    second: run back side_104
+  - first:
+      213: 8613540653166517207
+    second: run back side_105
+  - first:
+      213: -2979603264320772374
+    second: run back side_106
+  - first:
+      213: 7299712677825522928
+    second: run back side_107
+  - first:
+      213: -4785573206365918611
+    second: run back side_108
+  - first:
+      213: -7195291986356914536
+    second: run back side_109
+  - first:
+      213: -3165085296415071910
+    second: run back side_110
+  - first:
+      213: 73626608033846934
+    second: run back side_111
+  - first:
+      213: -3725694135810192321
+    second: run back side_112
+  - first:
+      213: 115006592887778937
+    second: run back side_113
+  - first:
+      213: 837730038804081768
+    second: run back side_114
+  - first:
+      213: 431683114201341034
+    second: run back side_115
+  - first:
+      213: -4751866556050913407
+    second: run back side_116
+  - first:
+      213: -492335328223257048
+    second: run back side_117
+  - first:
+      213: 4837805244623964880
+    second: run back side_118
+  - first:
+      213: 1078461612885879028
+    second: run back side_119
+  - first:
+      213: 2976945688623313818
+    second: run back side_120
+  - first:
+      213: -1700181462021385085
+    second: run back side_121
+  - first:
+      213: -3862439786913553674
+    second: run back side_122
+  - first:
+      213: -716593363257382372
+    second: run back side_123
+  - first:
+      213: 3898742456942934792
+    second: run back side_124
+  - first:
+      213: 2548444731545812411
+    second: run back side_125
+  - first:
+      213: -7330561919144018883
+    second: run back side_126
+  - first:
+      213: 6828118270480389651
+    second: run back side_127
+  - first:
+      213: -632310714780764565
+    second: run back side_128
+  - first:
+      213: 562696926659483539
+    second: run back side_129
+  - first:
+      213: 7849284572032672774
+    second: run back side_130
+  - first:
+      213: -4152876726940522866
+    second: run back side_131
+  - first:
+      213: 3868416177259298532
+    second: run back side_132
+  - first:
+      213: 1498879889308411398
+    second: run back side_133
+  - first:
+      213: 5163218794181665675
+    second: run back side_134
+  - first:
+      213: 69767971061686551
+    second: run back side_135
+  - first:
+      213: 7300858375724164703
+    second: run back side_136
+  - first:
+      213: 6525625137505702943
+    second: run back side_137
+  - first:
+      213: 4880684840834702797
+    second: run back side_138
+  - first:
+      213: 3488936898638604387
+    second: run back side_139
+  - first:
+      213: 9041850145358362093
+    second: run back side_140
+  - first:
+      213: -5932450439238832024
+    second: run back side_141
+  - first:
+      213: -5864763331035933690
+    second: run back side_142
+  - first:
+      213: -5797180856877769112
+    second: run back side_143
+  - first:
+      213: -225505664819357081
+    second: run back side_144
+  - first:
+      213: -7801740620952809039
+    second: run back side_145
+  - first:
+      213: -5388499667001917941
+    second: run back side_146
+  - first:
+      213: -7825815679841619113
+    second: run back side_147
+  - first:
+      213: 8974428553436559890
+    second: run back side_148
+  - first:
+      213: 2059071430792121055
+    second: run back side_149
+  - first:
+      213: -5454869306712266648
+    second: run back side_150
+  - first:
+      213: -2629402167810125606
+    second: run back side_151
+  - first:
+      213: -6388009186308244213
+    second: run back side_152
+  - first:
+      213: 488434760900332956
+    second: run back side_153
+  - first:
+      213: 9044077112795114631
+    second: run back side_154
+  - first:
+      213: -2721401202122105502
+    second: run back side_155
+  - first:
+      213: 8611918052812082923
+    second: run back side_156
+  - first:
+      213: 8576685138888569694
+    second: run back side_157
+  - first:
+      213: -6973815486378684646
+    second: run back side_158
+  - first:
+      213: 4382504132324204340
+    second: run back side_159
+  - first:
+      213: -8916143262922654453
+    second: run back side_160
+  - first:
+      213: 7449052360336512210
+    second: run back side_161
+  - first:
+      213: -7847194223691177894
+    second: run back side_162
+  - first:
+      213: 4640309443160331335
+    second: run back side_163
+  - first:
+      213: -1264095718536011195
+    second: run back side_164
+  - first:
+      213: -8676139948539290892
+    second: run back side_165
+  - first:
+      213: -2263220643865972874
+    second: run back side_166
+  - first:
+      213: -4941830676727568502
+    second: run back side_167
+  - first:
+      213: 7145578369583022138
+    second: run back side_168
+  - first:
+      213: -3882708567594080292
+    second: run back side_169
+  - first:
+      213: -1243088980936964833
+    second: run back side_170
+  - first:
+      213: 7035806116616735655
+    second: run back side_171
+  - first:
+      213: -2883528449251891373
+    second: run back side_172
+  - first:
+      213: 3925368661771606908
+    second: run back side_173
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: run back side_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5000
+        width: 600
+        height: 1000
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd8f13abcb0e5bc0800000000000000
+      internalID: -3792580866956358210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side_1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 5000
+        width: 600
+        height: 1000
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e3d2a33e829f820800000000000000
+      internalID: 2952435987116801586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side_2
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 5000
+        width: 600
+        height: 1000
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b450167265d8290800000000000000
+      internalID: -7886552645324420283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side_3
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 5000
+        width: 600
+        height: 1000
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a807c3d8eada11010800000000000000
+      internalID: 1157897544416391306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4000
+        width: 600
+        height: 1000
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07280cd383f7de710800000000000000
+      internalID: 1724174111883690608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side_5
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4000
+        width: 600
+        height: 1000
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d210715a2fbeafb0800000000000000
+      internalID: -4634556778041830699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4000
+        width: 600
+        height: 1000
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a29e62ac52e9e060800000000000000
+      internalID: 6983361584704688803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side_7
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4000
+        width: 600
+        height: 1000
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f086097330a9c30800000000000000
+      internalID: 4366806325869940563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3000
+        width: 600
+        height: 1000
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52727479ed3591ed0800000000000000
+      internalID: -2442829107385915611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side_9
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3000
+        width: 600
+        height: 1000
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0941fc977283b7ac0800000000000000
+      internalID: -3856426913714203504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side_10
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3000
+        width: 600
+        height: 1000
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8eeb31ce7fe31650800000000000000
+      internalID: 6202564439506153101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side_11
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3000
+        width: 600
+        height: 1000
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44caf56e8cd89b00800000000000000
+      internalID: 835660235031626830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2000
+        width: 600
+        height: 1000
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0312a31f7e96fec0800000000000000
+      internalID: -3533462588998151410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2000
+        width: 600
+        height: 1000
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb213610a96c478a0800000000000000
+      internalID: -6308198813288688961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side_14
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2000
+        width: 600
+        height: 1000
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbde2afc383bf07b0800000000000000
+      internalID: -5255784861412430401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side_15
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2000
+        width: 600
+        height: 1000
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3744e73ac2237700800000000000000
+      internalID: 536811032503666490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 600
+        height: 1000
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841fd7d1cbb7cca10800000000000000
+      internalID: 1931054388113961288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side_17
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1000
+        width: 600
+        height: 1000
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ed73181882f8750800000000000000
+      internalID: 6309306139653168751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side_18
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1000
+        width: 600
+        height: 1000
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7515203d050150a0800000000000000
+      internalID: -6894724000327068292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side_19
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1000
+        width: 600
+        height: 1000
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff15c39ca68ed7760800000000000000
+      internalID: 7457372103335760383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 600
+        height: 1000
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 042e627714f964f60800000000000000
+      internalID: 8018271290100474432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: afd481d88ec65b54ba4b145be272087a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      run back side_0: -3792580866956358210
+      run back side_1: 2952435987116801586
+      run back side_10: 6202564439506153101
+      run back side_11: 835660235031626830
+      run back side_12: -3533462588998151410
+      run back side_13: -6308198813288688961
+      run back side_14: -5255784861412430401
+      run back side_15: 536811032503666490
+      run back side_16: 1931054388113961288
+      run back side_17: 6309306139653168751
+      run back side_18: -6894724000327068292
+      run back side_19: 7457372103335760383
+      run back side_2: -7886552645324420283
+      run back side_20: 8018271290100474432
+      run back side_3: 1157897544416391306
+      run back side_4: 1724174111883690608
+      run back side_5: -4634556778041830699
+      run back side_6: 6983361584704688803
+      run back side_7: 4366806325869940563
+      run back side_8: -2442829107385915611
+      run back side_9: -3856426913714203504
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
