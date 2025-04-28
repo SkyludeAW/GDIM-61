@@ -1,7 +1,7 @@
 using UnityEngine;
 
 public class Attack_RangedInstaHit : Attack {
-    [SerializeField] private VFXPlayer vfx;
+    [SerializeField] private VFXHandler vfx;
     [SerializeField] private AnimationController _animationController;
     [SerializeField] private AnimationListener _animationListener;
 

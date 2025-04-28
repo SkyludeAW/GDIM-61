@@ -1,0 +1,2040 @@
+fileFormatVersion: 2
+guid: ba198e69faf3d7040bbb1e57868f0918
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4618527763500110782
+    second: run back side 2_0
+  - first:
+      213: 6108497705993250005
+    second: run back side 2_1
+  - first:
+      213: 3011092043276897634
+    second: run back side 2_2
+  - first:
+      213: 3701485831288914688
+    second: run back side 2_3
+  - first:
+      213: 8944780218314193093
+    second: run back side 2_4
+  - first:
+      213: 2510047038968811589
+    second: run back side 2_5
+  - first:
+      213: 1187205379027765460
+    second: run back side 2_6
+  - first:
+      213: 3211027172699241987
+    second: run back side 2_7
+  - first:
+      213: 4031663404607916900
+    second: run back side 2_8
+  - first:
+      213: 8833499889980598051
+    second: run back side 2_9
+  - first:
+      213: -5265258399607782213
+    second: run back side 2_10
+  - first:
+      213: -5151007627820316103
+    second: run back side 2_11
+  - first:
+      213: 8100112194000990017
+    second: run back side 2_12
+  - first:
+      213: -8947846079086501011
+    second: run back side 2_13
+  - first:
+      213: -2956391159388202348
+    second: run back side 2_14
+  - first:
+      213: 2794960198747621783
+    second: run back side 2_15
+  - first:
+      213: -4087321631427088057
+    second: run back side 2_16
+  - first:
+      213: 5354316326780257867
+    second: run back side 2_17
+  - first:
+      213: -8639162237337032153
+    second: run back side 2_18
+  - first:
+      213: -8120977999559820712
+    second: run back side 2_19
+  - first:
+      213: -6556466550741773935
+    second: run back side 2_20
+  - first:
+      213: -4405067998927098288
+    second: run back side 2_21
+  - first:
+      213: 5390072233638998104
+    second: run back side 2_22
+  - first:
+      213: -2168249401253720903
+    second: run back side 2_23
+  - first:
+      213: -4707152355854300791
+    second: run back side 2_24
+  - first:
+      213: -124556192552348631
+    second: run back side 2_25
+  - first:
+      213: -6408498753352988040
+    second: run back side 2_26
+  - first:
+      213: 4188889604863612787
+    second: run back side 2_27
+  - first:
+      213: 9223048219624090167
+    second: run back side 2_28
+  - first:
+      213: 6417821867286705065
+    second: run back side 2_29
+  - first:
+      213: -1947660007271562353
+    second: run back side 2_30
+  - first:
+      213: 1533724197521357422
+    second: run back side 2_31
+  - first:
+      213: -8708884296345880921
+    second: run back side 2_32
+  - first:
+      213: -2302440132213910072
+    second: run back side 2_33
+  - first:
+      213: -3584515015604129508
+    second: run back side 2_34
+  - first:
+      213: -794307875937230399
+    second: run back side 2_35
+  - first:
+      213: 8847499848008930007
+    second: run back side 2_36
+  - first:
+      213: 3113313594596801339
+    second: run back side 2_37
+  - first:
+      213: -1949926221366926188
+    second: run back side 2_38
+  - first:
+      213: -4485753286119832667
+    second: run back side 2_39
+  - first:
+      213: -1491873528581972121
+    second: run back side 2_40
+  - first:
+      213: 7247726154123861506
+    second: run back side 2_41
+  - first:
+      213: 837678040584723198
+    second: run back side 2_42
+  - first:
+      213: 6573805972040230507
+    second: run back side 2_43
+  - first:
+      213: -8086518713641094609
+    second: run back side 2_44
+  - first:
+      213: -6171139805508576342
+    second: run back side 2_45
+  - first:
+      213: -8084548668745599089
+    second: run back side 2_46
+  - first:
+      213: 431386068300402602
+    second: run back side 2_47
+  - first:
+      213: 9000277428123757317
+    second: run back side 2_48
+  - first:
+      213: 3105374719798737668
+    second: run back side 2_49
+  - first:
+      213: -5669854588542576482
+    second: run back side 2_50
+  - first:
+      213: 3417845354294616752
+    second: run back side 2_51
+  - first:
+      213: -6567291923057792384
+    second: run back side 2_52
+  - first:
+      213: 945709719467350522
+    second: run back side 2_53
+  - first:
+      213: 2071538916707926936
+    second: run back side 2_54
+  - first:
+      213: 3709631091343261448
+    second: run back side 2_55
+  - first:
+      213: -4589184734196745359
+    second: run back side 2_56
+  - first:
+      213: 2208121884754451482
+    second: run back side 2_57
+  - first:
+      213: 8513827367650235205
+    second: run back side 2_58
+  - first:
+      213: -1696275030059966841
+    second: run back side 2_59
+  - first:
+      213: -3792891202806152094
+    second: run back side 2_60
+  - first:
+      213: 2343543663931159333
+    second: run back side 2_61
+  - first:
+      213: -5111770413875914368
+    second: run back side 2_62
+  - first:
+      213: -6486992683540586772
+    second: run back side 2_63
+  - first:
+      213: 4225353709769479348
+    second: run back side 2_64
+  - first:
+      213: 8907419221375424058
+    second: run back side 2_65
+  - first:
+      213: -599704201410012706
+    second: run back side 2_66
+  - first:
+      213: -534858519378260898
+    second: run back side 2_67
+  - first:
+      213: 318246972915463069
+    second: run back side 2_68
+  - first:
+      213: 9072905772025744931
+    second: run back side 2_69
+  - first:
+      213: 7903200493795226229
+    second: run back side 2_70
+  - first:
+      213: 3436893429990671841
+    second: run back side 2_71
+  - first:
+      213: -8985533743613363674
+    second: run back side 2_72
+  - first:
+      213: -1660879171653818250
+    second: run back side 2_73
+  - first:
+      213: -4254902512708671237
+    second: run back side 2_74
+  - first:
+      213: 3263649737406298366
+    second: run back side 2_75
+  - first:
+      213: -7578739860382471569
+    second: run back side 2_76
+  - first:
+      213: 1140849216881230025
+    second: run back side 2_77
+  - first:
+      213: -4115830856377526799
+    second: run back side 2_78
+  - first:
+      213: -8624962109897013365
+    second: run back side 2_79
+  - first:
+      213: 8464572629632937984
+    second: run back side 2_80
+  - first:
+      213: -8255827217469459757
+    second: run back side 2_81
+  - first:
+      213: -1893696721023095609
+    second: run back side 2_82
+  - first:
+      213: -6666082146327953326
+    second: run back side 2_83
+  - first:
+      213: 8244552350655115970
+    second: run back side 2_84
+  - first:
+      213: 6880567056816596393
+    second: run back side 2_85
+  - first:
+      213: 3808667520523744684
+    second: run back side 2_86
+  - first:
+      213: 2718333330246109072
+    second: run back side 2_87
+  - first:
+      213: 6995312425589851869
+    second: run back side 2_88
+  - first:
+      213: 2787940321651526826
+    second: run back side 2_89
+  - first:
+      213: 7822315391006989100
+    second: run back side 2_90
+  - first:
+      213: 5902138512326776116
+    second: run back side 2_91
+  - first:
+      213: 1854989895225229025
+    second: run back side 2_92
+  - first:
+      213: 2737222027168718110
+    second: run back side 2_93
+  - first:
+      213: 3851974770706919396
+    second: run back side 2_94
+  - first:
+      213: 3946499325615859261
+    second: run back side 2_95
+  - first:
+      213: 6177853782984305847
+    second: run back side 2_96
+  - first:
+      213: -7858867498786687420
+    second: run back side 2_97
+  - first:
+      213: 9214013074262910435
+    second: run back side 2_98
+  - first:
+      213: -8057685009834430137
+    second: run back side 2_99
+  - first:
+      213: -8372839038199744391
+    second: run back side 2_100
+  - first:
+      213: 9179823465873569318
+    second: run back side 2_101
+  - first:
+      213: -5417047582299830496
+    second: run back side 2_102
+  - first:
+      213: -8607168005158459863
+    second: run back side 2_103
+  - first:
+      213: 8490477058550558715
+    second: run back side 2_104
+  - first:
+      213: 5407980606859634810
+    second: run back side 2_105
+  - first:
+      213: 1775493556255876755
+    second: run back side 2_106
+  - first:
+      213: 2201860442839131268
+    second: run back side 2_107
+  - first:
+      213: 6976939815673442757
+    second: run back side 2_108
+  - first:
+      213: 745440111057799012
+    second: run back side 2_109
+  - first:
+      213: -5890108116159880207
+    second: run back side 2_110
+  - first:
+      213: -9017172748796897851
+    second: run back side 2_111
+  - first:
+      213: 690562256147840770
+    second: run back side 2_112
+  - first:
+      213: 7969363995278234770
+    second: run back side 2_113
+  - first:
+      213: 1379972934556643628
+    second: run back side 2_114
+  - first:
+      213: -508948894145672321
+    second: run back side 2_115
+  - first:
+      213: -6860947216418001104
+    second: run back side 2_116
+  - first:
+      213: -8116348014861660755
+    second: run back side 2_117
+  - first:
+      213: 6514591222858771910
+    second: run back side 2_118
+  - first:
+      213: 1109897987725859232
+    second: run back side 2_119
+  - first:
+      213: -8400315815164251624
+    second: run back side 2_120
+  - first:
+      213: -6566572993589665252
+    second: run back side 2_121
+  - first:
+      213: 4176233139178430407
+    second: run back side 2_122
+  - first:
+      213: 124854444618938756
+    second: run back side 2_123
+  - first:
+      213: -2741716320619618467
+    second: run back side 2_124
+  - first:
+      213: 2007599315019905474
+    second: run back side 2_125
+  - first:
+      213: 784678460562131432
+    second: run back side 2_126
+  - first:
+      213: -546799411153543504
+    second: run back side 2_127
+  - first:
+      213: -2964411838581190110
+    second: run back side 2_128
+  - first:
+      213: 8835838604368533946
+    second: run back side 2_129
+  - first:
+      213: -7009800765317341818
+    second: run back side 2_130
+  - first:
+      213: -2771422918450225631
+    second: run back side 2_131
+  - first:
+      213: -430617579374452257
+    second: run back side 2_132
+  - first:
+      213: 1023700955728972203
+    second: run back side 2_133
+  - first:
+      213: 7483069640243747909
+    second: run back side 2_134
+  - first:
+      213: -2902804422930570572
+    second: run back side 2_135
+  - first:
+      213: 187832638920891853
+    second: run back side 2_136
+  - first:
+      213: -2835563724762560458
+    second: run back side 2_137
+  - first:
+      213: -1874299235050451799
+    second: run back side 2_138
+  - first:
+      213: 7796261314480400075
+    second: run back side 2_139
+  - first:
+      213: -8150906860004117951
+    second: run back side 2_140
+  - first:
+      213: -9122818690336154756
+    second: run back side 2_141
+  - first:
+      213: -5355475580836751497
+    second: run back side 2_142
+  - first:
+      213: 432401890028047202
+    second: run back side 2_143
+  - first:
+      213: -6400850940661781305
+    second: run back side 2_144
+  - first:
+      213: 8082372533378942529
+    second: run back side 2_145
+  - first:
+      213: -2600250888784292599
+    second: run back side 2_146
+  - first:
+      213: 4210497647170338029
+    second: run back side 2_147
+  - first:
+      213: -382230528355637424
+    second: run back side 2_148
+  - first:
+      213: -156087155736163721
+    second: run back side 2_149
+  - first:
+      213: 3845051161157761354
+    second: run back side 2_150
+  - first:
+      213: -7472665058153003074
+    second: run back side 2_151
+  - first:
+      213: 2902940009906134630
+    second: run back side 2_152
+  - first:
+      213: 7616492358208072104
+    second: run back side 2_153
+  - first:
+      213: -3775674366150153487
+    second: run back side 2_154
+  - first:
+      213: 3742964836978195713
+    second: run back side 2_155
+  - first:
+      213: -3173580599280072078
+    second: run back side 2_156
+  - first:
+      213: -5948001525544024391
+    second: run back side 2_157
+  - first:
+      213: -4859519513791270596
+    second: run back side 2_158
+  - first:
+      213: 6582407509035256332
+    second: run back side 2_159
+  - first:
+      213: 751631505678939699
+    second: run back side 2_160
+  - first:
+      213: 7715286334599947676
+    second: run back side 2_161
+  - first:
+      213: -8946342350346667314
+    second: run back side 2_162
+  - first:
+      213: 6507892325284432144
+    second: run back side 2_163
+  - first:
+      213: 5144299970076036759
+    second: run back side 2_164
+  - first:
+      213: 5976725663647388995
+    second: run back side 2_165
+  - first:
+      213: 8313327033869196415
+    second: run back side 2_166
+  - first:
+      213: 1830343111241787335
+    second: run back side 2_167
+  - first:
+      213: -6186170196502992334
+    second: run back side 2_168
+  - first:
+      213: -5264321418547667594
+    second: run back side 2_169
+  - first:
+      213: -7298007048287587025
+    second: run back side 2_170
+  - first:
+      213: -9098135306878374886
+    second: run back side 2_171
+  - first:
+      213: 2421083544891663386
+    second: run back side 2_172
+  - first:
+      213: 4538651108698216115
+    second: run back side 2_173
+  - first:
+      213: 3266973002023588791
+    second: run back side 2_174
+  - first:
+      213: -7418258187967416671
+    second: run back side 2_175
+  - first:
+      213: -1011988612656319041
+    second: run back side 2_176
+  - first:
+      213: -6147724148641986671
+    second: run back side 2_177
+  - first:
+      213: -3567361563857645535
+    second: run back side 2_178
+  - first:
+      213: -5907000311299494676
+    second: run back side 2_179
+  - first:
+      213: 2086832325895119572
+    second: run back side 2_180
+  - first:
+      213: 8115478604025047446
+    second: run back side 2_181
+  - first:
+      213: -274495559910084251
+    second: run back side 2_182
+  - first:
+      213: 3881822912742949416
+    second: run back side 2_183
+  - first:
+      213: 6590530432987320775
+    second: run back side 2_184
+  - first:
+      213: -1616874526901066880
+    second: run back side 2_185
+  - first:
+      213: -3484043471418817541
+    second: run back side 2_186
+  - first:
+      213: -4750325167207691658
+    second: run back side 2_187
+  - first:
+      213: -4151983741341234198
+    second: run back side 2_188
+  - first:
+      213: -7879529686962491085
+    second: run back side 2_189
+  - first:
+      213: 7138236097070139137
+    second: run back side 2_190
+  - first:
+      213: 4892851396436989329
+    second: run back side 2_191
+  - first:
+      213: 6754453031800210203
+    second: run back side 2_192
+  - first:
+      213: -3830791380419485124
+    second: run back side 2_193
+  - first:
+      213: 1351902686792959551
+    second: run back side 2_194
+  - first:
+      213: 1702046154956764859
+    second: run back side 2_195
+  - first:
+      213: -641886640725437535
+    second: run back side 2_196
+  - first:
+      213: -8848384752241271482
+    second: run back side 2_197
+  - first:
+      213: 5074944009411254876
+    second: run back side 2_198
+  - first:
+      213: 7570955757190439887
+    second: run back side 2_199
+  - first:
+      213: -3068174935706533862
+    second: run back side 2_200
+  - first:
+      213: -4994667371904152689
+    second: run back side 2_201
+  - first:
+      213: -5467904208826929625
+    second: run back side 2_202
+  - first:
+      213: 6351556230223888575
+    second: run back side 2_203
+  - first:
+      213: 1872477891131242454
+    second: run back side 2_204
+  - first:
+      213: -1578994206115821090
+    second: run back side 2_205
+  - first:
+      213: 3983764602838166488
+    second: run back side 2_206
+  - first:
+      213: -1735289185166931496
+    second: run back side 2_207
+  - first:
+      213: -6167066887349244896
+    second: run back side 2_208
+  - first:
+      213: 8077835250735704451
+    second: run back side 2_209
+  - first:
+      213: -1148530173339730540
+    second: run back side 2_210
+  - first:
+      213: 6602308824764520455
+    second: run back side 2_211
+  - first:
+      213: 9198603901175245635
+    second: run back side 2_212
+  - first:
+      213: -7307533506541882554
+    second: run back side 2_213
+  - first:
+      213: -7648789730851085147
+    second: run back side 2_214
+  - first:
+      213: -2470199108973685550
+    second: run back side 2_215
+  - first:
+      213: 2328196208896464195
+    second: run back side 2_216
+  - first:
+      213: -9031698801738875203
+    second: run back side 2_217
+  - first:
+      213: -7445920320255176442
+    second: run back side 2_218
+  - first:
+      213: 1787948429267022414
+    second: run back side 2_219
+  - first:
+      213: -9178004730317955118
+    second: run back side 2_220
+  - first:
+      213: -3201185268334268306
+    second: run back side 2_221
+  - first:
+      213: -1009884619569604410
+    second: run back side 2_222
+  - first:
+      213: 2980505489045759738
+    second: run back side 2_223
+  - first:
+      213: -8493897323461012427
+    second: run back side 2_224
+  - first:
+      213: 5636189979237591653
+    second: run back side 2_225
+  - first:
+      213: -5616071586139083166
+    second: run back side 2_226
+  - first:
+      213: 7283774904100874304
+    second: run back side 2_227
+  - first:
+      213: -5909724158279008267
+    second: run back side 2_228
+  - first:
+      213: 4401797591648646615
+    second: run back side 2_229
+  - first:
+      213: 557978573500690907
+    second: run back side 2_230
+  - first:
+      213: -3921894564472979779
+    second: run back side 2_231
+  - first:
+      213: 3240394202693370359
+    second: run back side 2_232
+  - first:
+      213: 1385409813408663981
+    second: run back side 2_233
+  - first:
+      213: -3899915070066565694
+    second: run back side 2_234
+  - first:
+      213: 1035052130515707559
+    second: run back side 2_235
+  - first:
+      213: 4170815592522695388
+    second: run back side 2_236
+  - first:
+      213: -1534126196270772848
+    second: run back side 2_237
+  - first:
+      213: -7668873850873908485
+    second: run back side 2_238
+  - first:
+      213: 2451475255721292123
+    second: run back side 2_239
+  - first:
+      213: -2187387203127440626
+    second: run back side 2_240
+  - first:
+      213: 9001857524234006911
+    second: run back side 2_241
+  - first:
+      213: 4167740437139601758
+    second: run back side 2_242
+  - first:
+      213: 5971267405762510364
+    second: run back side 2_243
+  - first:
+      213: -5266339955870984146
+    second: run back side 2_244
+  - first:
+      213: -4091799712616986740
+    second: run back side 2_245
+  - first:
+      213: 1637631602027455255
+    second: run back side 2_246
+  - first:
+      213: 8360869694809687259
+    second: run back side 2_247
+  - first:
+      213: 1839050100993328675
+    second: run back side 2_248
+  - first:
+      213: -2257876034244073076
+    second: run back side 2_249
+  - first:
+      213: -5422792954286614385
+    second: run back side 2_250
+  - first:
+      213: -675947458996335015
+    second: run back side 2_251
+  - first:
+      213: -3562741615987433031
+    second: run back side 2_252
+  - first:
+      213: 4723349651881631992
+    second: run back side 2_253
+  - first:
+      213: -3867138233918392159
+    second: run back side 2_254
+  - first:
+      213: 6562704005037802756
+    second: run back side 2_255
+  - first:
+      213: -5845057640495097100
+    second: run back side 2_256
+  - first:
+      213: 2286237099646917731
+    second: run back side 2_257
+  - first:
+      213: 4309510781588056675
+    second: run back side 2_258
+  - first:
+      213: 2592553019171891183
+    second: run back side 2_259
+  - first:
+      213: 4212889740949767226
+    second: run back side 2_260
+  - first:
+      213: 3228666665175464175
+    second: run back side 2_261
+  - first:
+      213: 1097286559707574198
+    second: run back side 2_262
+  - first:
+      213: -1858402205013689507
+    second: run back side 2_263
+  - first:
+      213: 416390437427429075
+    second: run back side 2_264
+  - first:
+      213: 149630893867161879
+    second: run back side 2_265
+  - first:
+      213: -3040692904737633054
+    second: run back side 2_266
+  - first:
+      213: 5869455771498236362
+    second: run back side 2_267
+  - first:
+      213: 4292470310170419369
+    second: run back side 2_268
+  - first:
+      213: -8488961326313467705
+    second: run back side 2_269
+  - first:
+      213: 4947776419639632070
+    second: run back side 2_270
+  - first:
+      213: 1161332881780180136
+    second: run back side 2_271
+  - first:
+      213: 5239206137674128177
+    second: run back side 2_272
+  - first:
+      213: 900831862318962304
+    second: run back side 2_273
+  - first:
+      213: -2578436978413122062
+    second: run back side 2_274
+  - first:
+      213: 6205600521059252969
+    second: run back side 2_275
+  - first:
+      213: 7847108951195860532
+    second: run back side 2_276
+  - first:
+      213: 1536593785004755550
+    second: run back side 2_277
+  - first:
+      213: 601032570684724408
+    second: run back side 2_278
+  - first:
+      213: 3726635634297202392
+    second: run back side 2_279
+  - first:
+      213: 2411770287946668540
+    second: run back side 2_280
+  - first:
+      213: 1686057162290306005
+    second: run back side 2_281
+  - first:
+      213: 6684331859600774056
+    second: run back side 2_282
+  - first:
+      213: -3882738807456811123
+    second: run back side 2_283
+  - first:
+      213: -5181671298212229303
+    second: run back side 2_284
+  - first:
+      213: -2552805664400065488
+    second: run back side 2_285
+  - first:
+      213: -5870787355095965849
+    second: run back side 2_286
+  - first:
+      213: 2773389545580881772
+    second: run back side 2_287
+  - first:
+      213: 1184738971667818993
+    second: run back side 2_288
+  - first:
+      213: 3044419994780457606
+    second: run back side 2_289
+  - first:
+      213: -7088262191893527037
+    second: run back side 2_290
+  - first:
+      213: 9171820153331930598
+    second: run back side 2_291
+  - first:
+      213: 5594902808110257486
+    second: run back side 2_292
+  - first:
+      213: -8416643023264987818
+    second: run back side 2_293
+  - first:
+      213: 4598907962501101884
+    second: run back side 2_294
+  - first:
+      213: 8388404337439346902
+    second: run back side 2_295
+  - first:
+      213: -3944047473779993777
+    second: run back side 2_296
+  - first:
+      213: -8462341471192125783
+    second: run back side 2_297
+  - first:
+      213: -3311830813623400589
+    second: run back side 2_298
+  - first:
+      213: 5107246839644220870
+    second: run back side 2_299
+  - first:
+      213: -2976675960991217905
+    second: run back side 2_300
+  - first:
+      213: -9074946036557179855
+    second: run back side 2_301
+  - first:
+      213: 6699833359559863570
+    second: run back side 2_302
+  - first:
+      213: 2133866233197033465
+    second: run back side 2_303
+  - first:
+      213: 2345718360950537981
+    second: run back side 2_304
+  - first:
+      213: 8417202558514768167
+    second: run back side 2_305
+  - first:
+      213: 8119499359363521670
+    second: run back side 2_306
+  - first:
+      213: 5374626814660320552
+    second: run back side 2_307
+  - first:
+      213: -8707931684362023145
+    second: run back side 2_308
+  - first:
+      213: -1115288127045018658
+    second: run back side 2_309
+  - first:
+      213: -3080754847331619700
+    second: run back side 2_310
+  - first:
+      213: -8810945507580285516
+    second: run back side 2_311
+  - first:
+      213: 203836570179422561
+    second: run back side 2_312
+  - first:
+      213: 3170468654635019871
+    second: run back side 2_313
+  - first:
+      213: -66945173104985056
+    second: run back side 2_314
+  - first:
+      213: -1634787117972738711
+    second: run back side 2_315
+  - first:
+      213: 7792496613335534991
+    second: run back side 2_316
+  - first:
+      213: 1211885702679273302
+    second: run back side 2_317
+  - first:
+      213: -4368276916987579111
+    second: run back side 2_318
+  - first:
+      213: 5381850944430339590
+    second: run back side 2_319
+  - first:
+      213: 2251890790206369000
+    second: run back side 2_320
+  - first:
+      213: -1089606088124869936
+    second: run back side 2_321
+  - first:
+      213: -3241078913978486598
+    second: run back side 2_322
+  - first:
+      213: 6922466825107383351
+    second: run back side 2_323
+  - first:
+      213: -2210195848321489198
+    second: run back side 2_324
+  - first:
+      213: -1944475322212682264
+    second: run back side 2_325
+  - first:
+      213: -3401813512033840581
+    second: run back side 2_326
+  - first:
+      213: -5190255147462762895
+    second: run back side 2_327
+  - first:
+      213: -1353089331255986453
+    second: run back side 2_328
+  - first:
+      213: 8486627533132466723
+    second: run back side 2_329
+  - first:
+      213: 6234788323998794220
+    second: run back side 2_330
+  - first:
+      213: 484547613355626861
+    second: run back side 2_331
+  - first:
+      213: -6603509672166349680
+    second: run back side 2_332
+  - first:
+      213: -7106438424496924235
+    second: run back side 2_333
+  - first:
+      213: -7918143405922970011
+    second: run back side 2_334
+  - first:
+      213: -5074590046674612494
+    second: run back side 2_335
+  - first:
+      213: 7517004009271924324
+    second: run back side 2_336
+  - first:
+      213: 2291867321601332982
+    second: run back side 2_337
+  - first:
+      213: -2231281971590680505
+    second: run back side 2_338
+  - first:
+      213: 4306341188449804667
+    second: run back side 2_339
+  - first:
+      213: 5448331538177531471
+    second: run back side 2_340
+  - first:
+      213: 2887187213032761817
+    second: run back side 2_341
+  - first:
+      213: 98608105112114586
+    second: run back side 2_342
+  - first:
+      213: 8050237125479384478
+    second: run back side 2_343
+  - first:
+      213: -3246635158393714773
+    second: run back side 2_344
+  - first:
+      213: -6525264572983282115
+    second: run back side 2_345
+  - first:
+      213: 916692006638173521
+    second: run back side 2_346
+  - first:
+      213: -6172955348127303382
+    second: run back side 2_347
+  - first:
+      213: 7103560728707839887
+    second: run back side 2_348
+  - first:
+      213: -9150239425395423943
+    second: run back side 2_349
+  - first:
+      213: -5420031224637703505
+    second: run back side 2_350
+  - first:
+      213: -2990871856788959823
+    second: run back side 2_351
+  - first:
+      213: -8185484363697360716
+    second: run back side 2_352
+  - first:
+      213: -3798397540256473497
+    second: run back side 2_353
+  - first:
+      213: -1337131083371369195
+    second: run back side 2_354
+  - first:
+      213: 5664225528068580987
+    second: run back side 2_355
+  - first:
+      213: -1461397248514300230
+    second: run back side 2_356
+  - first:
+      213: -7644459828872905897
+    second: run back side 2_357
+  - first:
+      213: -2364733815654076708
+    second: run back side 2_358
+  - first:
+      213: -8601776861020474349
+    second: run back side 2_359
+  - first:
+      213: 8440907860487948681
+    second: run back side 2_360
+  - first:
+      213: 3727144095334497688
+    second: run back side 2_361
+  - first:
+      213: -1301339962822274215
+    second: run back side 2_362
+  - first:
+      213: 1726858508526361634
+    second: run back side 2_363
+  - first:
+      213: -7775149555424163825
+    second: run back side 2_364
+  - first:
+      213: -5981382489588631136
+    second: run back side 2_365
+  - first:
+      213: -3092703180203073025
+    second: run back side 2_366
+  - first:
+      213: 6997223827290667121
+    second: run back side 2_367
+  - first:
+      213: 3907568219265400201
+    second: run back side 2_368
+  - first:
+      213: 2617714414733274649
+    second: run back side 2_369
+  - first:
+      213: -4034752320232502203
+    second: run back side 2_370
+  - first:
+      213: -7562046511352745418
+    second: run back side 2_371
+  - first:
+      213: -3735553980575605968
+    second: run back side 2_372
+  - first:
+      213: 5066502125740848505
+    second: run back side 2_373
+  - first:
+      213: 2410173094290041262
+    second: run back side 2_374
+  - first:
+      213: 6312384091145341771
+    second: run back side 2_375
+  - first:
+      213: -2143713375310690934
+    second: run back side 2_376
+  - first:
+      213: 1739605082228707683
+    second: run back side 2_377
+  - first:
+      213: 2440419088043055684
+    second: run back side 2_378
+  - first:
+      213: -9207246126030268589
+    second: run back side 2_379
+  - first:
+      213: -3079882551204326364
+    second: run back side 2_380
+  - first:
+      213: 8742848191554998077
+    second: run back side 2_381
+  - first:
+      213: -3232297226901886676
+    second: run back side 2_382
+  - first:
+      213: 8349210276458488107
+    second: run back side 2_383
+  - first:
+      213: 2670853475936656695
+    second: run back side 2_384
+  - first:
+      213: 4269402216046216165
+    second: run back side 2_385
+  - first:
+      213: -8117053208947225710
+    second: run back side 2_386
+  - first:
+      213: 2129680728758422885
+    second: run back side 2_387
+  - first:
+      213: 7583749137292608049
+    second: run back side 2_388
+  - first:
+      213: -2786499346954810175
+    second: run back side 2_389
+  - first:
+      213: 2632859790261928264
+    second: run back side 2_390
+  - first:
+      213: -6073808680520534665
+    second: run back side 2_391
+  - first:
+      213: -1841301109627056552
+    second: run back side 2_392
+  - first:
+      213: 3762056319586814842
+    second: run back side 2_393
+  - first:
+      213: -3784968591298319148
+    second: run back side 2_394
+  - first:
+      213: -6358831919424729091
+    second: run back side 2_395
+  - first:
+      213: -8769374153534522733
+    second: run back side 2_396
+  - first:
+      213: 4249711912823686555
+    second: run back side 2_397
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: run back side 2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9100
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb314b8e78e481040800000000000000
+      internalID: 4618527763500110782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_1
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 9100
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d42405ac4eb5c450800000000000000
+      internalID: 6108497705993250005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_2
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 9100
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d4689824c89c920800000000000000
+      internalID: 3011092043276897634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_3
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 9100
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0030e1390c15e5330800000000000000
+      internalID: 3701485831288914688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7800
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8fe82973e322c70800000000000000
+      internalID: 8944780218314193093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_5
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 7800
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540d14fab7a75d220800000000000000
+      internalID: 2510047038968811589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_6
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 7800
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8026c800dc97010800000000000000
+      internalID: 1187205379027765460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_7
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 7800
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e7dd8633cdf8c20800000000000000
+      internalID: 3211027172699241987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6500
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46bc89d718853f730800000000000000
+      internalID: 4031663404607916900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_9
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 6500
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327eeb91955e69a70800000000000000
+      internalID: 8833499889980598051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_10
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 6500
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb48cb0d16b0ee6b0800000000000000
+      internalID: -5265258399607782213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_11
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 6500
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a417c8ad1f388b0800000000000000
+      internalID: -5151007627820316103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5200
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f2d3ccf11696070800000000000000
+      internalID: 8100112194000990017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_13
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 5200
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d636d27166dd2d380800000000000000
+      internalID: -8947846079086501011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_14
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 5200
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a9f8777e9c8f6d0800000000000000
+      internalID: -2956391159388202348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_15
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 5200
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79905bf0e71b9c620800000000000000
+      internalID: 2794960198747621783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3900
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741b40cb1aae647c0800000000000000
+      internalID: -4087321631427088057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_17
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 3900
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46cfc0b45a5e4a40800000000000000
+      internalID: 5354316326780257867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_18
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 3900
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72aae86a7b78b1880800000000000000
+      internalID: -8639162237337032153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_19
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 3900
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a7973498d7c4f80800000000000000
+      internalID: -8120977999559820712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2600
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1915e45e860c205a0800000000000000
+      internalID: -6556466550741773935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_21
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 2600
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e62887efd0ed2c0800000000000000
+      internalID: -4405067998927098288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_22
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 2600
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850bfbf73226dca40800000000000000
+      internalID: 5390072233638998104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_23
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 2600
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc81dd48a4d8e1e0800000000000000
+      internalID: -2168249401253720903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1300
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98949a53fd5dcaeb0800000000000000
+      internalID: -4707152355854300791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_25
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1300
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92497548dcc754ef0800000000000000
+      internalID: -124556192552348631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_26
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 1300
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a8cd666507017a0800000000000000
+      internalID: -6408498753352988040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_27
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 1300
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377d835e6ece12a30800000000000000
+      internalID: 4188889604863612787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a2efc6d79deff70800000000000000
+      internalID: 9223048219624090167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run back side 2_29
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 0
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3bb573cfea01950800000000000000
+      internalID: 6417821867286705065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0b8aa3cd3dcfe324397ba4ec28292f86
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      run back side 2_0: 4618527763500110782
+      run back side 2_1: 6108497705993250005
+      run back side 2_10: -5265258399607782213
+      run back side 2_11: -5151007627820316103
+      run back side 2_12: 8100112194000990017
+      run back side 2_13: -8947846079086501011
+      run back side 2_14: -2956391159388202348
+      run back side 2_15: 2794960198747621783
+      run back side 2_16: -4087321631427088057
+      run back side 2_17: 5354316326780257867
+      run back side 2_18: -8639162237337032153
+      run back side 2_19: -8120977999559820712
+      run back side 2_2: 3011092043276897634
+      run back side 2_20: -6556466550741773935
+      run back side 2_21: -4405067998927098288
+      run back side 2_22: 5390072233638998104
+      run back side 2_23: -2168249401253720903
+      run back side 2_24: -4707152355854300791
+      run back side 2_25: -124556192552348631
+      run back side 2_26: -6408498753352988040
+      run back side 2_27: 4188889604863612787
+      run back side 2_28: 9223048219624090167
+      run back side 2_29: 6417821867286705065
+      run back side 2_3: 3701485831288914688
+      run back side 2_4: 8944780218314193093
+      run back side 2_5: 2510047038968811589
+      run back side 2_6: 1187205379027765460
+      run back side 2_7: 3211027172699241987
+      run back side 2_8: 4031663404607916900
+      run back side 2_9: 8833499889980598051
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1411 @@
+fileFormatVersion: 2
+guid: e4b9c22208d00c149b23837ed2d87f63
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 162258672452074896
+    second: attack back side_0
+  - first:
+      213: -7908827437921988592
+    second: attack back side_1
+  - first:
+      213: -1833831709391269232
+    second: attack back side_2
+  - first:
+      213: 5048774298691158795
+    second: attack back side_3
+  - first:
+      213: -3738848732121445935
+    second: attack back side_4
+  - first:
+      213: -456265049985804629
+    second: attack back side_5
+  - first:
+      213: -6753689051004401945
+    second: attack back side_6
+  - first:
+      213: -6734322355907101373
+    second: attack back side_7
+  - first:
+      213: -5764335504938650855
+    second: attack back side_8
+  - first:
+      213: -2338506794833049841
+    second: attack back side_9
+  - first:
+      213: 1293822309373797971
+    second: attack back side_10
+  - first:
+      213: 5892266663132660531
+    second: attack back side_11
+  - first:
+      213: 4088766598161979242
+    second: attack back side_12
+  - first:
+      213: 5047164003547879754
+    second: attack back side_13
+  - first:
+      213: -2731548098439791470
+    second: attack back side_14
+  - first:
+      213: -7523389296634999346
+    second: attack back side_15
+  - first:
+      213: 4699963251804564108
+    second: attack back side_16
+  - first:
+      213: -993574790756588526
+    second: attack back side_17
+  - first:
+      213: -5264433870630368746
+    second: attack back side_18
+  - first:
+      213: -720533140634050628
+    second: attack back side_19
+  - first:
+      213: 8770680181154006674
+    second: attack back side_20
+  - first:
+      213: 6515552944106421436
+    second: attack back side_21
+  - first:
+      213: 7436479395285884429
+    second: attack back side_22
+  - first:
+      213: 374668662737556850
+    second: attack back side_23
+  - first:
+      213: 6771853576883727275
+    second: attack back side_24
+  - first:
+      213: 1443209868068383495
+    second: attack back side_25
+  - first:
+      213: 2306848096581072876
+    second: attack back side_26
+  - first:
+      213: 737097865200360471
+    second: attack back side_27
+  - first:
+      213: 2358997350852653014
+    second: attack back side_28
+  - first:
+      213: 4503559139706558768
+    second: attack back side_29
+  - first:
+      213: 8824255411539878813
+    second: attack back side_30
+  - first:
+      213: -7190038248693508729
+    second: attack back side_31
+  - first:
+      213: -7748853177164051860
+    second: attack back side_32
+  - first:
+      213: -7236776442350760199
+    second: attack back side_33
+  - first:
+      213: -6894507002147927971
+    second: attack back side_34
+  - first:
+      213: 2895463058629416344
+    second: attack back side_35
+  - first:
+      213: 7908976089104761300
+    second: attack back side_36
+  - first:
+      213: -435718696887634959
+    second: attack back side_37
+  - first:
+      213: -4876240550021000132
+    second: attack back side_38
+  - first:
+      213: 3591792048582272809
+    second: attack back side_39
+  - first:
+      213: -5695851616212521480
+    second: attack back side_40
+  - first:
+      213: -6659139238774940718
+    second: attack back side_41
+  - first:
+      213: -866684929085590258
+    second: attack back side_42
+  - first:
+      213: -3600598670752426972
+    second: attack back side_43
+  - first:
+      213: 7324452623521564125
+    second: attack back side_44
+  - first:
+      213: -5543597007392701505
+    second: attack back side_45
+  - first:
+      213: -7820161193748545712
+    second: attack back side_46
+  - first:
+      213: 6594507920771594219
+    second: attack back side_47
+  - first:
+      213: 8849107156516084849
+    second: attack back side_48
+  - first:
+      213: 2824081680007105743
+    second: attack back side_49
+  - first:
+      213: -1886482884887376591
+    second: attack back side_50
+  - first:
+      213: -5164563285647322612
+    second: attack back side_51
+  - first:
+      213: -8274817666317466298
+    second: attack back side_52
+  - first:
+      213: 9092544416632715402
+    second: attack back side_53
+  - first:
+      213: 1172253200391646463
+    second: attack back side_54
+  - first:
+      213: -7901640358615986713
+    second: attack back side_55
+  - first:
+      213: 8799042326509496799
+    second: attack back side_56
+  - first:
+      213: -6074876342361645540
+    second: attack back side_57
+  - first:
+      213: 5188187998578086673
+    second: attack back side_58
+  - first:
+      213: 480474925314996263
+    second: attack back side_59
+  - first:
+      213: -7009226931593567653
+    second: attack back side_60
+  - first:
+      213: 86049247188285162
+    second: attack back side_61
+  - first:
+      213: 3152680941707304118
+    second: attack back side_62
+  - first:
+      213: -1444336781584716432
+    second: attack back side_63
+  - first:
+      213: 1984026572679437994
+    second: attack back side_64
+  - first:
+      213: -7562088961576263801
+    second: attack back side_65
+  - first:
+      213: -9175971846465080004
+    second: attack back side_66
+  - first:
+      213: 9098421648533268258
+    second: attack back side_67
+  - first:
+      213: 7178839383299700516
+    second: attack back side_68
+  - first:
+      213: 5252238667214819638
+    second: attack back side_69
+  - first:
+      213: -6281883887372133500
+    second: attack back side_70
+  - first:
+      213: -1168153145486621872
+    second: attack back side_71
+  - first:
+      213: -930578540422473976
+    second: attack back side_72
+  - first:
+      213: 4469519124528529779
+    second: attack back side_73
+  - first:
+      213: 3799520684888243832
+    second: attack back side_74
+  - first:
+      213: -1359050486256100171
+    second: attack back side_75
+  - first:
+      213: -8349354814974931804
+    second: attack back side_76
+  - first:
+      213: -7470000329919122843
+    second: attack back side_77
+  - first:
+      213: 5814838994019671514
+    second: attack back side_78
+  - first:
+      213: -631460192761637176
+    second: attack back side_79
+  - first:
+      213: -2222446851663781990
+    second: attack back side_80
+  - first:
+      213: -7259702649437156167
+    second: attack back side_81
+  - first:
+      213: 5246728797097251224
+    second: attack back side_82
+  - first:
+      213: 8274868245726670201
+    second: attack back side_83
+  - first:
+      213: 2749880151076294378
+    second: attack back side_84
+  - first:
+      213: 4982469576463839005
+    second: attack back side_85
+  - first:
+      213: -2202520896944380172
+    second: attack back side_86
+  - first:
+      213: 4946797921772126244
+    second: attack back side_87
+  - first:
+      213: -5196201575324360607
+    second: attack back side_88
+  - first:
+      213: 108780932242318650
+    second: attack back side_89
+  - first:
+      213: -9056886926428777140
+    second: attack back side_90
+  - first:
+      213: -412647286319986722
+    second: attack back side_91
+  - first:
+      213: -2909531696638019112
+    second: attack back side_92
+  - first:
+      213: 3000270791162311934
+    second: attack back side_93
+  - first:
+      213: -7882452908584347641
+    second: attack back side_94
+  - first:
+      213: 9104459576877670215
+    second: attack back side_95
+  - first:
+      213: 2505099706407413461
+    second: attack back side_96
+  - first:
+      213: 6397919860137721278
+    second: attack back side_97
+  - first:
+      213: 8632632237374621882
+    second: attack back side_98
+  - first:
+      213: -2527290580378210600
+    second: attack back side_99
+  - first:
+      213: 6290792260690418587
+    second: attack back side_100
+  - first:
+      213: 4800031389107207159
+    second: attack back side_101
+  - first:
+      213: -7173194980023938094
+    second: attack back side_102
+  - first:
+      213: 4626256821048798088
+    second: attack back side_103
+  - first:
+      213: 6307187185686736432
+    second: attack back side_104
+  - first:
+      213: 6341824060773882185
+    second: attack back side_105
+  - first:
+      213: 4566789135388690849
+    second: attack back side_106
+  - first:
+      213: -2483669977750991782
+    second: attack back side_107
+  - first:
+      213: -2750103662195985494
+    second: attack back side_108
+  - first:
+      213: -8121385718532013337
+    second: attack back side_109
+  - first:
+      213: -9058685102255383114
+    second: attack back side_110
+  - first:
+      213: 8022441000303867594
+    second: attack back side_111
+  - first:
+      213: 7646097069282204375
+    second: attack back side_112
+  - first:
+      213: -3576969362365034724
+    second: attack back side_113
+  - first:
+      213: -5068088407698899310
+    second: attack back side_114
+  - first:
+      213: -6388633510610457810
+    second: attack back side_115
+  - first:
+      213: 5294819635400592505
+    second: attack back side_116
+  - first:
+      213: 9087546700795038488
+    second: attack back side_117
+  - first:
+      213: 2986644944361438754
+    second: attack back side_118
+  - first:
+      213: -7740441727589352314
+    second: attack back side_119
+  - first:
+      213: 3947840465189104861
+    second: attack back side_120
+  - first:
+      213: 7348854687252541984
+    second: attack back side_121
+  - first:
+      213: 5683445644683349903
+    second: attack back side_122
+  - first:
+      213: 8274857897383770878
+    second: attack back side_123
+  - first:
+      213: -4452032401947882435
+    second: attack back side_124
+  - first:
+      213: -7404150109603122444
+    second: attack back side_125
+  - first:
+      213: -3726686151513540526
+    second: attack back side_126
+  - first:
+      213: 8826209194461333907
+    second: attack back side_127
+  - first:
+      213: 3038221512479397831
+    second: attack back side_128
+  - first:
+      213: -7414366500726661428
+    second: attack back side_129
+  - first:
+      213: -2359717962709189122
+    second: attack back side_130
+  - first:
+      213: -7875427392788154846
+    second: attack back side_131
+  - first:
+      213: -8247525286428613111
+    second: attack back side_132
+  - first:
+      213: -4067876396556387315
+    second: attack back side_133
+  - first:
+      213: -1530158768791388813
+    second: attack back side_134
+  - first:
+      213: 8556168565028065503
+    second: attack back side_135
+  - first:
+      213: -3337627395369708547
+    second: attack back side_136
+  - first:
+      213: -3634196655614092760
+    second: attack back side_137
+  - first:
+      213: 2899685540990150676
+    second: attack back side_138
+  - first:
+      213: -1992685319332010023
+    second: attack back side_139
+  - first:
+      213: -8598029937939696621
+    second: attack back side_140
+  - first:
+      213: -669709174574863549
+    second: attack back side_141
+  - first:
+      213: -7905658673487575066
+    second: attack back side_142
+  - first:
+      213: 4919028501009504512
+    second: attack back side_143
+  - first:
+      213: 653052371416393533
+    second: attack back side_144
+  - first:
+      213: -7427677757781631558
+    second: attack back side_145
+  - first:
+      213: -1452322280600003459
+    second: attack back side_146
+  - first:
+      213: -2052649942681369290
+    second: attack back side_147
+  - first:
+      213: -8709542965598869846
+    second: attack back side_148
+  - first:
+      213: 3283039299990416791
+    second: attack back side_149
+  - first:
+      213: 74366678817360111
+    second: attack back side_150
+  - first:
+      213: -7403923140645681964
+    second: attack back side_151
+  - first:
+      213: -231371571339965501
+    second: attack back side_152
+  - first:
+      213: 2778341132617139023
+    second: attack back side_153
+  - first:
+      213: 6503463543248094869
+    second: attack back side_154
+  - first:
+      213: 771945877528949762
+    second: attack back side_155
+  - first:
+      213: 4424390553111920154
+    second: attack back side_156
+  - first:
+      213: 6264591761491729570
+    second: attack back side_157
+  - first:
+      213: 3933096845350696470
+    second: attack back side_158
+  - first:
+      213: 8583054475328483940
+    second: attack back side_159
+  - first:
+      213: 4951713954742691540
+    second: attack back side_160
+  - first:
+      213: 1191020949632491413
+    second: attack back side_161
+  - first:
+      213: 2543421288797311738
+    second: attack back side_162
+  - first:
+      213: -528850482108989469
+    second: attack back side_163
+  - first:
+      213: 7017164643162072917
+    second: attack back side_164
+  - first:
+      213: -964898512240408450
+    second: attack back side_165
+  - first:
+      213: 3749625814818013012
+    second: attack back side_166
+  - first:
+      213: -3221515833258363695
+    second: attack back side_167
+  - first:
+      213: -6680337156884592921
+    second: attack back side_168
+  - first:
+      213: -7405987377823392148
+    second: attack back side_169
+  - first:
+      213: -5884105182483860959
+    second: attack back side_170
+  - first:
+      213: 4910876843092545208
+    second: attack back side_171
+  - first:
+      213: 6696564729950820349
+    second: attack back side_172
+  - first:
+      213: -5022794201738498122
+    second: attack back side_173
+  - first:
+      213: 8520446998519654096
+    second: attack back side_174
+  - first:
+      213: 3021695911392827061
+    second: attack back side_175
+  - first:
+      213: 346033286278178991
+    second: attack back side_176
+  - first:
+      213: -8939837701460762761
+    second: attack back side_177
+  - first:
+      213: -2024448887960650911
+    second: attack back side_178
+  - first:
+      213: 7735178625177782755
+    second: attack back side_179
+  - first:
+      213: -7474088427197697513
+    second: attack back side_180
+  - first:
+      213: -2739960439981760743
+    second: attack back side_181
+  - first:
+      213: 6108256776177095399
+    second: attack back side_182
+  - first:
+      213: 516306766800062512
+    second: attack back side_183
+  - first:
+      213: 3440802902529741780
+    second: attack back side_184
+  - first:
+      213: 3404760295005130896
+    second: attack back side_185
+  - first:
+      213: 8895815707792053994
+    second: attack back side_186
+  - first:
+      213: 4613770662435732428
+    second: attack back side_187
+  - first:
+      213: -4457931894061366372
+    second: attack back side_188
+  - first:
+      213: 1079447441594138033
+    second: attack back side_189
+  - first:
+      213: 5261108738846633
+    second: attack back side_190
+  - first:
+      213: 6229922661332065030
+    second: attack back side_191
+  - first:
+      213: -1098370708051506180
+    second: attack back side_192
+  - first:
+      213: 4277024077398878614
+    second: attack back side_193
+  - first:
+      213: -5685904264781043164
+    second: attack back side_194
+  - first:
+      213: -6954407606714335485
+    second: attack back side_195
+  - first:
+      213: 787748165290018573
+    second: attack back side_196
+  - first:
+      213: -8834369098709216582
+    second: attack back side_197
+  - first:
+      213: -6461744904258959885
+    second: attack back side_198
+  - first:
+      213: 2403551657070808867
+    second: attack back side_199
+  - first:
+      213: 7691492712838769089
+    second: attack back side_200
+  - first:
+      213: 3056123104520618924
+    second: attack back side_201
+  - first:
+      213: 5552416513618707538
+    second: attack back side_202
+  - first:
+      213: -457275368141760616
+    second: attack back side_203
+  - first:
+      213: -7168107999975275024
+    second: attack back side_204
+  - first:
+      213: 5744007160294020016
+    second: attack back side_205
+  - first:
+      213: 5522161607497348763
+    second: attack back side_206
+  - first:
+      213: -2481532805615017496
+    second: attack back side_207
+  - first:
+      213: -1497368540885826842
+    second: attack back side_208
+  - first:
+      213: -8752395647271071601
+    second: attack back side_209
+  - first:
+      213: 376054237321922596
+    second: attack back side_210
+  - first:
+      213: 7832696509808686998
+    second: attack back side_211
+  - first:
+      213: -7351953940677814868
+    second: attack back side_212
+  - first:
+      213: 934533803110833095
+    second: attack back side_213
+  - first:
+      213: 717238607172621267
+    second: attack back side_214
+  - first:
+      213: 2973741538555323369
+    second: attack back side_215
+  - first:
+      213: 3430777150005212873
+    second: attack back side_216
+  - first:
+      213: -7477816861937394423
+    second: attack back side_217
+  - first:
+      213: 8915045609622125230
+    second: attack back side_218
+  - first:
+      213: -7475910744353984262
+    second: attack back side_219
+  - first:
+      213: -4718407867712903331
+    second: attack back side_220
+  - first:
+      213: 7996696827326613286
+    second: attack back side_221
+  - first:
+      213: -3467248831749200738
+    second: attack back side_222
+  - first:
+      213: 6924653724867783784
+    second: attack back side_223
+  - first:
+      213: -1427851537899411694
+    second: attack back side_224
+  - first:
+      213: 1538096416538784099
+    second: attack back side_225
+  - first:
+      213: 6627982091371058198
+    second: attack back side_226
+  - first:
+      213: -5851284503630109552
+    second: attack back side_227
+  - first:
+      213: -8231867297693083648
+    second: attack back side_228
+  - first:
+      213: -9058562325101754071
+    second: attack back side_229
+  - first:
+      213: -6045543213984400415
+    second: attack back side_230
+  - first:
+      213: -4846570952095165940
+    second: attack back side_231
+  - first:
+      213: 2790663449425988212
+    second: attack back side_232
+  - first:
+      213: 114994550992856446
+    second: attack back side_233
+  - first:
+      213: -727378262505265543
+    second: attack back side_234
+  - first:
+      213: 6235685550085403034
+    second: attack back side_235
+  - first:
+      213: 3149582802327034080
+    second: attack back side_236
+  - first:
+      213: 192850283374114405
+    second: attack back side_237
+  - first:
+      213: 7254252609297593553
+    second: attack back side_238
+  - first:
+      213: 2331129970763760223
+    second: attack back side_239
+  - first:
+      213: -553184200826530905
+    second: attack back side_240
+  - first:
+      213: -7717129772651588537
+    second: attack back side_241
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: attack back side_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6500
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d7b352765704200800000000000000
+      internalID: 162258672452074896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack back side_1
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 6500
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0101cc419533e3290800000000000000
+      internalID: -7908827437921988592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack back side_2
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 6500
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092d2efb6cbec86e0800000000000000
+      internalID: -1833831709391269232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack back side_3
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 6500
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03cb90a979d01640800000000000000
+      internalID: 5048774298691158795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack back side_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5200
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d94bfc23e0fc1cc0800000000000000
+      internalID: -3738848732121445935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack back side_5
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 5200
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba69b2cba550ba9f0800000000000000
+      internalID: -456265049985804629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack back side_6
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 5200
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6007737931642a0800000000000000
+      internalID: -6753689051004401945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack back side_7
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 5200
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d7f2d4f71ea82a0800000000000000
+      internalID: -6734322355907101373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack back side_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3900
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913b5f52667f000b0800000000000000
+      internalID: -5764335504938650855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack back side_9
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 3900
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f078325c574fb8fd0800000000000000
+      internalID: -2338506794833049841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack back side_10
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 3900
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35663b0198494f110800000000000000
+      internalID: 1293822309373797971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack back side_11
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 3900
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33306e1cf4985c150800000000000000
+      internalID: 5892266663132660531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack back side_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2600
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a675decce873eb830800000000000000
+      internalID: 4088766598161979242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack back side_13
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 2600
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a491c929be02b0640800000000000000
+      internalID: 5047164003547879754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack back side_14
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 2600
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c3a911a77971ad0800000000000000
+      internalID: -2731548098439791470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack back side_15
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 2600
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd481b9b4d879790800000000000000
+      internalID: -7523389296634999346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack back side_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1300
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a63311daf993140800000000000000
+      internalID: 4699963251804564108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack back side_17
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1300
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214ab23fdfc1632f0800000000000000
+      internalID: -993574790756588526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack back side_18
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 1300
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61aca8d6949f0f6b0800000000000000
+      internalID: -5264433870630368746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack back side_19
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 1300
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf5c971de62006f0800000000000000
+      internalID: -720533140634050628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack back side_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2964e3cd727b7b970800000000000000
+      internalID: 8770680181154006674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack back side_21
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 0
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbcb6bcb1e4eb6a50800000000000000
+      internalID: 6515552944106421436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack back side_22
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 0
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ed68f1c9ea33760800000000000000
+      internalID: 7436479395285884429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a0f3328e65ca3d34b97be6d72b4bb809
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      attack back side_0: 162258672452074896
+      attack back side_1: -7908827437921988592
+      attack back side_10: 1293822309373797971
+      attack back side_11: 5892266663132660531
+      attack back side_12: 4088766598161979242
+      attack back side_13: 5047164003547879754
+      attack back side_14: -2731548098439791470
+      attack back side_15: -7523389296634999346
+      attack back side_16: 4699963251804564108
+      attack back side_17: -993574790756588526
+      attack back side_18: -5264433870630368746
+      attack back side_19: -720533140634050628
+      attack back side_2: -1833831709391269232
+      attack back side_20: 8770680181154006674
+      attack back side_21: 6515552944106421436
+      attack back side_22: 7436479395285884429
+      attack back side_3: 5048774298691158795
+      attack back side_4: -3738848732121445935
+      attack back side_5: -456265049985804629
+      attack back side_6: -6753689051004401945
+      attack back side_7: -6734322355907101373
+      attack back side_8: -5764335504938650855
+      attack back side_9: -2338506794833049841
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
