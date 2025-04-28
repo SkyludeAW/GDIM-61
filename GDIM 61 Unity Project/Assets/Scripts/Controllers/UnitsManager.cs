@@ -52,7 +52,7 @@ public class UnitsManager : MonoBehaviour {
         if (faction >= 0 && faction < _factionUnits.Count) {
             // HashSet automatically handles duplicates (won't add if already present)
             bool added = _factionUnits[faction].Add(unit);
-            if (added) Debug.Log($"{unit.name} registered to faction {faction}");
+            // if (added) Debug.Log($"{unit.name} registered to faction {faction}");
         } else {
             Debug.LogWarning($"Attempted to register unit {unit.name} with invalid faction index: {faction}");
         }

@@ -58,6 +58,11 @@ public class PlaceholderUnit : Unit {
         if (UnitsManager.Instance != null && !UnitsManager.Instance.GetUnitsInFaction(Faction).Contains(this)) {
             UnitsManager.Instance.RegisterUnit(this);
         }
+        if (Faction == 0) {
+            Controllable = true;
+        } else {
+            Controllable = false;
+        }
     }
 
     // 似了

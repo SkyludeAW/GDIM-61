@@ -85,11 +85,6 @@ public abstract class Unit : MonoBehaviour {
         } catch(IndexOutOfRangeException) {
             SelectionSR.color = Color.gray;
         }
-        if (Faction == 0) {
-            Controllable = true;
-        } else {
-            Controllable = false;
-        }
     }
 
     public void SetSelectionActive(bool selected) {
@@ -105,13 +100,15 @@ public abstract class Unit : MonoBehaviour {
             Target = null;
             if (Agent != null) {
                 Agent.SetDestination(targetDestination);
-                //print("Desired Destination:" + targetDestination);
-                //print("Destination Set Successfully?" + Agent.SetDestination(targetDestination));
-                //print("Current Destination:" + Agent.destination);
-                //print("Agent isStopped?" + Agent.isStopped);
-                //print("Agent hasPath?" + Agent.hasPath);
-                //print(Agent.isOnNavMesh);
-                //print(Agent.pathStatus);
+                /*
+                print("Desired Destination:" + targetDestination);
+                print("Destination Set Successfully?" + Agent.SetDestination(targetDestination));
+                print("Current Destination:" + Agent.destination);
+                print("Agent isStopped?" + Agent.isStopped);
+                print("Agent hasPath?" + Agent.hasPath);
+                print(Agent.isOnNavMesh);
+                print(Agent.pathStatus);
+                */
                 Agent.isStopped = false;
             }
         }
