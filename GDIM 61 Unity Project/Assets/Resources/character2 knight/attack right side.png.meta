@@ -1,0 +1,2457 @@
+fileFormatVersion: 2
+guid: a7cf778f157cc744e9e20a563e251fd5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6624035010243118066
+    second: attack right side_0
+  - first:
+      213: 977562362233175078
+    second: attack right side_1
+  - first:
+      213: -7480634335184421565
+    second: attack right side_2
+  - first:
+      213: -4680955710594899811
+    second: attack right side_3
+  - first:
+      213: -4123716442637623048
+    second: attack right side_4
+  - first:
+      213: 4322514529062441066
+    second: attack right side_5
+  - first:
+      213: 3362438452198965502
+    second: attack right side_6
+  - first:
+      213: 2496637916054809696
+    second: attack right side_7
+  - first:
+      213: 3438439967755097557
+    second: attack right side_8
+  - first:
+      213: -7232260157689362852
+    second: attack right side_9
+  - first:
+      213: -5471430871816506648
+    second: attack right side_10
+  - first:
+      213: 7841924329403348697
+    second: attack right side_11
+  - first:
+      213: -5340689491444956776
+    second: attack right side_12
+  - first:
+      213: 1100924771125330274
+    second: attack right side_13
+  - first:
+      213: 5098526016320338107
+    second: attack right side_14
+  - first:
+      213: 1676785332570601105
+    second: attack right side_15
+  - first:
+      213: -2942014662640448146
+    second: attack right side_16
+  - first:
+      213: -4216654105050435965
+    second: attack right side_17
+  - first:
+      213: -7236169332794127397
+    second: attack right side_18
+  - first:
+      213: 7438288807615552436
+    second: attack right side_19
+  - first:
+      213: 3587664133877720710
+    second: attack right side_20
+  - first:
+      213: 7135242221711587673
+    second: attack right side_21
+  - first:
+      213: -7007866770646613943
+    second: attack right side_22
+  - first:
+      213: -2655891975889552835
+    second: attack right side_23
+  - first:
+      213: 2195522923905815498
+    second: attack right side_24
+  - first:
+      213: -331091008059202209
+    second: attack right side_25
+  - first:
+      213: -1432893350689073644
+    second: attack right side_26
+  - first:
+      213: -3519007696102945167
+    second: attack right side_27
+  - first:
+      213: -6338477801435720255
+    second: attack right side_28
+  - first:
+      213: -5139139267798144807
+    second: attack right side_29
+  - first:
+      213: 5879531661147552128
+    second: attack right side_30
+  - first:
+      213: 8161109615879404807
+    second: attack right side_31
+  - first:
+      213: 6279021826237309028
+    second: attack right side_32
+  - first:
+      213: -6796489398955878089
+    second: attack right side_33
+  - first:
+      213: -6322171606441039270
+    second: attack right side_34
+  - first:
+      213: -3609163695905803645
+    second: attack right side_35
+  - first:
+      213: 381293826144270793
+    second: attack right side_36
+  - first:
+      213: 6834521440135898969
+    second: attack right side_37
+  - first:
+      213: -7132744347808106879
+    second: attack right side_38
+  - first:
+      213: -3160601758519010084
+    second: attack right side_39
+  - first:
+      213: -5310096412363814639
+    second: attack right side_40
+  - first:
+      213: -1862199576238119307
+    second: attack right side_41
+  - first:
+      213: -743186271843661888
+    second: attack right side_42
+  - first:
+      213: -6407838260248157990
+    second: attack right side_43
+  - first:
+      213: 3607357545212586809
+    second: attack right side_44
+  - first:
+      213: -8220807130886567728
+    second: attack right side_45
+  - first:
+      213: 5678337233931582404
+    second: attack right side_46
+  - first:
+      213: -8088014685742461813
+    second: attack right side_47
+  - first:
+      213: 4864861269329855177
+    second: attack right side_48
+  - first:
+      213: 4612317840722983896
+    second: attack right side_49
+  - first:
+      213: 3539103547598277521
+    second: attack right side_50
+  - first:
+      213: 3843222710506330328
+    second: attack right side_51
+  - first:
+      213: -8199199577875067860
+    second: attack right side_52
+  - first:
+      213: 2680903072958572098
+    second: attack right side_53
+  - first:
+      213: -6737842568861375229
+    second: attack right side_54
+  - first:
+      213: -8261214826568561882
+    second: attack right side_55
+  - first:
+      213: -4522450198055130009
+    second: attack right side_56
+  - first:
+      213: 8328100984676997458
+    second: attack right side_57
+  - first:
+      213: 1288842537588515264
+    second: attack right side_58
+  - first:
+      213: -6451131831874373704
+    second: attack right side_59
+  - first:
+      213: -1084280917516764914
+    second: attack right side_60
+  - first:
+      213: -3304270185215852116
+    second: attack right side_61
+  - first:
+      213: 4821867651143059850
+    second: attack right side_62
+  - first:
+      213: 3149452131420421327
+    second: attack right side_63
+  - first:
+      213: 3427084615370807251
+    second: attack right side_64
+  - first:
+      213: 8223207958737365027
+    second: attack right side_65
+  - first:
+      213: 5964571968797696970
+    second: attack right side_66
+  - first:
+      213: 6285151590283346885
+    second: attack right side_67
+  - first:
+      213: -3060980484204050616
+    second: attack right side_68
+  - first:
+      213: -5422199424971439511
+    second: attack right side_69
+  - first:
+      213: 4700705387590772078
+    second: attack right side_70
+  - first:
+      213: -6600283224886143090
+    second: attack right side_71
+  - first:
+      213: 7495230232563612060
+    second: attack right side_72
+  - first:
+      213: 4265551275933485430
+    second: attack right side_73
+  - first:
+      213: 4951390627275869623
+    second: attack right side_74
+  - first:
+      213: 1292999527114284220
+    second: attack right side_75
+  - first:
+      213: -775665221085988714
+    second: attack right side_76
+  - first:
+      213: -4982774438286986745
+    second: attack right side_77
+  - first:
+      213: 2881713157398525868
+    second: attack right side_78
+  - first:
+      213: 6687845008696778997
+    second: attack right side_79
+  - first:
+      213: 5522265121606703466
+    second: attack right side_80
+  - first:
+      213: 1739427741541266675
+    second: attack right side_81
+  - first:
+      213: 1376679887119854575
+    second: attack right side_82
+  - first:
+      213: 843781463830156566
+    second: attack right side_83
+  - first:
+      213: -6531119170864692133
+    second: attack right side_84
+  - first:
+      213: 4555639803127075197
+    second: attack right side_85
+  - first:
+      213: 7962728831113548217
+    second: attack right side_86
+  - first:
+      213: 2943074650525823897
+    second: attack right side_87
+  - first:
+      213: -2924423423644467229
+    second: attack right side_88
+  - first:
+      213: 5580912884106773607
+    second: attack right side_89
+  - first:
+      213: -3141058274425296006
+    second: attack right side_90
+  - first:
+      213: -9075450418443336359
+    second: attack right side_91
+  - first:
+      213: 8726807472143514222
+    second: attack right side_92
+  - first:
+      213: 931522389620283296
+    second: attack right side_93
+  - first:
+      213: 7793092483596157761
+    second: attack right side_94
+  - first:
+      213: 6473324758063381815
+    second: attack right side_95
+  - first:
+      213: 323073794493913979
+    second: attack right side_96
+  - first:
+      213: -6284858523637338384
+    second: attack right side_97
+  - first:
+      213: -4581672906920893389
+    second: attack right side_98
+  - first:
+      213: 7555837686332230841
+    second: attack right side_99
+  - first:
+      213: -6784141911623534153
+    second: attack right side_100
+  - first:
+      213: 2653144301752653432
+    second: attack right side_101
+  - first:
+      213: 1288685346760633035
+    second: attack right side_102
+  - first:
+      213: -2091759136395270609
+    second: attack right side_103
+  - first:
+      213: -6097574210248339038
+    second: attack right side_104
+  - first:
+      213: 1258337437795849589
+    second: attack right side_105
+  - first:
+      213: 184540325708114289
+    second: attack right side_106
+  - first:
+      213: -3216720002814159204
+    second: attack right side_107
+  - first:
+      213: -7604405557242290917
+    second: attack right side_108
+  - first:
+      213: -6253918626103229873
+    second: attack right side_109
+  - first:
+      213: 689107394077866012
+    second: attack right side_110
+  - first:
+      213: 2559745685098165909
+    second: attack right side_111
+  - first:
+      213: -3615965247756180684
+    second: attack right side_112
+  - first:
+      213: 3016453364990132955
+    second: attack right side_113
+  - first:
+      213: 9176389533675548809
+    second: attack right side_114
+  - first:
+      213: 5804980764636716751
+    second: attack right side_115
+  - first:
+      213: -2206488266065896381
+    second: attack right side_116
+  - first:
+      213: 5069648983576742003
+    second: attack right side_117
+  - first:
+      213: -4463544941441356143
+    second: attack right side_118
+  - first:
+      213: -6564658418695425704
+    second: attack right side_119
+  - first:
+      213: 6514102198306883571
+    second: attack right side_120
+  - first:
+      213: -5128442669099922471
+    second: attack right side_121
+  - first:
+      213: -5650860393045692316
+    second: attack right side_122
+  - first:
+      213: -4827166118800360317
+    second: attack right side_123
+  - first:
+      213: 1721778247077086202
+    second: attack right side_124
+  - first:
+      213: -8842194304777442037
+    second: attack right side_125
+  - first:
+      213: 8332608957550509004
+    second: attack right side_126
+  - first:
+      213: -5557988727168833634
+    second: attack right side_127
+  - first:
+      213: -3392024490000148415
+    second: attack right side_128
+  - first:
+      213: 694372041560490276
+    second: attack right side_129
+  - first:
+      213: -4656810128771615432
+    second: attack right side_130
+  - first:
+      213: 4839622481556729680
+    second: attack right side_131
+  - first:
+      213: -3664762070642843913
+    second: attack right side_132
+  - first:
+      213: 392856836302431625
+    second: attack right side_133
+  - first:
+      213: 2819073859316086732
+    second: attack right side_134
+  - first:
+      213: 8607768977515434268
+    second: attack right side_135
+  - first:
+      213: 5500402074127648506
+    second: attack right side_136
+  - first:
+      213: -5728011027585780680
+    second: attack right side_137
+  - first:
+      213: 7435489960326108066
+    second: attack right side_138
+  - first:
+      213: 657394140323362465
+    second: attack right side_139
+  - first:
+      213: 2580695840210757176
+    second: attack right side_140
+  - first:
+      213: 3938727882031636327
+    second: attack right side_141
+  - first:
+      213: 741277884228545105
+    second: attack right side_142
+  - first:
+      213: 1712608651271966105
+    second: attack right side_143
+  - first:
+      213: -8827104317970453608
+    second: attack right side_144
+  - first:
+      213: -8336694618375267838
+    second: attack right side_145
+  - first:
+      213: -3020364689871058401
+    second: attack right side_146
+  - first:
+      213: -1781718329793155491
+    second: attack right side_147
+  - first:
+      213: -7367087656524637030
+    second: attack right side_148
+  - first:
+      213: -2004246217265900805
+    second: attack right side_149
+  - first:
+      213: 136719747464973600
+    second: attack right side_150
+  - first:
+      213: 5198659786813254526
+    second: attack right side_151
+  - first:
+      213: 8100318729892283908
+    second: attack right side_152
+  - first:
+      213: -9204338948742134863
+    second: attack right side_153
+  - first:
+      213: -8588861067055450466
+    second: attack right side_154
+  - first:
+      213: -8802115729912006937
+    second: attack right side_155
+  - first:
+      213: 5283481834339591765
+    second: attack right side_156
+  - first:
+      213: 5033710051439304856
+    second: attack right side_157
+  - first:
+      213: 2034515379904964665
+    second: attack right side_158
+  - first:
+      213: 4838217328529837856
+    second: attack right side_159
+  - first:
+      213: -2586164939192663213
+    second: attack right side_160
+  - first:
+      213: 8826031521371277575
+    second: attack right side_161
+  - first:
+      213: -6511555096322091430
+    second: attack right side_162
+  - first:
+      213: 8538876443569176747
+    second: attack right side_163
+  - first:
+      213: -257914131885822688
+    second: attack right side_164
+  - first:
+      213: 7398239625800317508
+    second: attack right side_165
+  - first:
+      213: -5816614782079035548
+    second: attack right side_166
+  - first:
+      213: 2454991601619806232
+    second: attack right side_167
+  - first:
+      213: 848747092917805144
+    second: attack right side_168
+  - first:
+      213: 170537205594470610
+    second: attack right side_169
+  - first:
+      213: 830875322796787341
+    second: attack right side_170
+  - first:
+      213: -8484061142439313594
+    second: attack right side_171
+  - first:
+      213: 1792882309141330381
+    second: attack right side_172
+  - first:
+      213: -9177080978327816836
+    second: attack right side_173
+  - first:
+      213: -8096120007820205904
+    second: attack right side_174
+  - first:
+      213: 526906838004327186
+    second: attack right side_175
+  - first:
+      213: -1130121145904082761
+    second: attack right side_176
+  - first:
+      213: 1163695019189014132
+    second: attack right side_177
+  - first:
+      213: -9198663448118384631
+    second: attack right side_178
+  - first:
+      213: -6919932220228256967
+    second: attack right side_179
+  - first:
+      213: -8341258739224876220
+    second: attack right side_180
+  - first:
+      213: 2690972933105400705
+    second: attack right side_181
+  - first:
+      213: -2923160515551855412
+    second: attack right side_182
+  - first:
+      213: 3490868221653240976
+    second: attack right side_183
+  - first:
+      213: 7639224910918443400
+    second: attack right side_184
+  - first:
+      213: 8631324773122950033
+    second: attack right side_185
+  - first:
+      213: 4868241096758649604
+    second: attack right side_186
+  - first:
+      213: 5176948974892681292
+    second: attack right side_187
+  - first:
+      213: 2845467700486084647
+    second: attack right side_188
+  - first:
+      213: 6818297750937461474
+    second: attack right side_189
+  - first:
+      213: -5645444579493382888
+    second: attack right side_190
+  - first:
+      213: 2146800964740924333
+    second: attack right side_191
+  - first:
+      213: 6141980344220444830
+    second: attack right side_192
+  - first:
+      213: -4720296249024188668
+    second: attack right side_193
+  - first:
+      213: -8553764145428112399
+    second: attack right side_194
+  - first:
+      213: 8882426959815960342
+    second: attack right side_195
+  - first:
+      213: 1659680613431708858
+    second: attack right side_196
+  - first:
+      213: 2945828858454928720
+    second: attack right side_197
+  - first:
+      213: -949821008698229343
+    second: attack right side_198
+  - first:
+      213: -8047845049115100620
+    second: attack right side_199
+  - first:
+      213: -5727879314480758029
+    second: attack right side_200
+  - first:
+      213: -7805506902309615362
+    second: attack right side_201
+  - first:
+      213: -4242581850311213619
+    second: attack right side_202
+  - first:
+      213: 8526514100530397114
+    second: attack right side_203
+  - first:
+      213: -1873828539525624100
+    second: attack right side_204
+  - first:
+      213: -7940890975850377186
+    second: attack right side_205
+  - first:
+      213: 2574545581235403960
+    second: attack right side_206
+  - first:
+      213: 5806685790373053497
+    second: attack right side_207
+  - first:
+      213: -1641548865070471930
+    second: attack right side_208
+  - first:
+      213: -1203271520364709253
+    second: attack right side_209
+  - first:
+      213: 4446127560510796967
+    second: attack right side_210
+  - first:
+      213: 5315411188701519666
+    second: attack right side_211
+  - first:
+      213: 8546771464359759450
+    second: attack right side_212
+  - first:
+      213: -198885304322797907
+    second: attack right side_213
+  - first:
+      213: 5285331255382418524
+    second: attack right side_214
+  - first:
+      213: -1116455780556304738
+    second: attack right side_215
+  - first:
+      213: 156573109210781507
+    second: attack right side_216
+  - first:
+      213: -1998552563853783009
+    second: attack right side_217
+  - first:
+      213: 5440354778062669281
+    second: attack right side_218
+  - first:
+      213: 7212999012483706847
+    second: attack right side_219
+  - first:
+      213: 3720054999649269097
+    second: attack right side_220
+  - first:
+      213: 6625593173498901256
+    second: attack right side_221
+  - first:
+      213: 7533743281354239134
+    second: attack right side_222
+  - first:
+      213: -2858144238418972514
+    second: attack right side_223
+  - first:
+      213: 1319713811090800943
+    second: attack right side_224
+  - first:
+      213: 5963461440405881502
+    second: attack right side_225
+  - first:
+      213: -7383753371560502471
+    second: attack right side_226
+  - first:
+      213: 2541911569242056346
+    second: attack right side_227
+  - first:
+      213: 7973364647869237118
+    second: attack right side_228
+  - first:
+      213: -1592647561578279993
+    second: attack right side_229
+  - first:
+      213: -7296995265880344090
+    second: attack right side_230
+  - first:
+      213: 9007252710409030398
+    second: attack right side_231
+  - first:
+      213: -3659429221141649355
+    second: attack right side_232
+  - first:
+      213: -7600053723321330782
+    second: attack right side_233
+  - first:
+      213: 6496448422908718419
+    second: attack right side_234
+  - first:
+      213: 834929356248396087
+    second: attack right side_235
+  - first:
+      213: -8664228336749404580
+    second: attack right side_236
+  - first:
+      213: 3525938041644714815
+    second: attack right side_237
+  - first:
+      213: -51253579510386949
+    second: attack right side_238
+  - first:
+      213: 4650585944205173425
+    second: attack right side_239
+  - first:
+      213: -7111492711021561674
+    second: attack right side_240
+  - first:
+      213: 429324686207430377
+    second: attack right side_241
+  - first:
+      213: 565525737588493771
+    second: attack right side_242
+  - first:
+      213: -480770627077393291
+    second: attack right side_243
+  - first:
+      213: 5707120920799706128
+    second: attack right side_244
+  - first:
+      213: -2000665920309757853
+    second: attack right side_245
+  - first:
+      213: 8603123164339493381
+    second: attack right side_246
+  - first:
+      213: -8633328285493305067
+    second: attack right side_247
+  - first:
+      213: 8391425059865886145
+    second: attack right side_248
+  - first:
+      213: -6166151770257587603
+    second: attack right side_249
+  - first:
+      213: -956833927029351558
+    second: attack right side_250
+  - first:
+      213: 3315377653886546774
+    second: attack right side_251
+  - first:
+      213: 4351840623646925552
+    second: attack right side_252
+  - first:
+      213: -463466269574585142
+    second: attack right side_253
+  - first:
+      213: -6899393886631422135
+    second: attack right side_254
+  - first:
+      213: 4189460783396663000
+    second: attack right side_255
+  - first:
+      213: -7317414787843249349
+    second: attack right side_256
+  - first:
+      213: -2824165731355402530
+    second: attack right side_257
+  - first:
+      213: -7030654614517475671
+    second: attack right side_258
+  - first:
+      213: 4221586891284244686
+    second: attack right side_259
+  - first:
+      213: -5396447772551116637
+    second: attack right side_260
+  - first:
+      213: 1106897426982323673
+    second: attack right side_261
+  - first:
+      213: -2685746148224800660
+    second: attack right side_262
+  - first:
+      213: -6472023776655053774
+    second: attack right side_263
+  - first:
+      213: 3983321564384534425
+    second: attack right side_264
+  - first:
+      213: -4013331430746996987
+    second: attack right side_265
+  - first:
+      213: -5021099070891741075
+    second: attack right side_266
+  - first:
+      213: 2682953799111161439
+    second: attack right side_267
+  - first:
+      213: 4785405550456241855
+    second: attack right side_268
+  - first:
+      213: 8638410004680084290
+    second: attack right side_269
+  - first:
+      213: -8346951180224306708
+    second: attack right side_270
+  - first:
+      213: 3088840405405272592
+    second: attack right side_271
+  - first:
+      213: -6938148415214232516
+    second: attack right side_272
+  - first:
+      213: -4638505825232285155
+    second: attack right side_273
+  - first:
+      213: -7869459946226000474
+    second: attack right side_274
+  - first:
+      213: -2045756987205367422
+    second: attack right side_275
+  - first:
+      213: -6825247818016732505
+    second: attack right side_276
+  - first:
+      213: 9000908895013582223
+    second: attack right side_277
+  - first:
+      213: 546483909500875015
+    second: attack right side_278
+  - first:
+      213: -7161705671112995229
+    second: attack right side_279
+  - first:
+      213: 3401223907065528937
+    second: attack right side_280
+  - first:
+      213: -4926115384122900234
+    second: attack right side_281
+  - first:
+      213: 2724625740191292718
+    second: attack right side_282
+  - first:
+      213: -134607006110136778
+    second: attack right side_283
+  - first:
+      213: 4411565333557160933
+    second: attack right side_284
+  - first:
+      213: -155489531994492539
+    second: attack right side_285
+  - first:
+      213: 4154068214921260687
+    second: attack right side_286
+  - first:
+      213: 8222566567534647230
+    second: attack right side_287
+  - first:
+      213: 7121234148045863935
+    second: attack right side_288
+  - first:
+      213: -2067093620485302131
+    second: attack right side_289
+  - first:
+      213: 7892600761631601601
+    second: attack right side_290
+  - first:
+      213: -1720576589639484973
+    second: attack right side_291
+  - first:
+      213: -90948227237068086
+    second: attack right side_292
+  - first:
+      213: -4754006304325118084
+    second: attack right side_293
+  - first:
+      213: -7360915151121521021
+    second: attack right side_294
+  - first:
+      213: 7623253003833106037
+    second: attack right side_295
+  - first:
+      213: -8354840442285983686
+    second: attack right side_296
+  - first:
+      213: -3624799056112899801
+    second: attack right side_297
+  - first:
+      213: -9126162619046993857
+    second: attack right side_298
+  - first:
+      213: 4991349031420844638
+    second: attack right side_299
+  - first:
+      213: 6397599079147655628
+    second: attack right side_300
+  - first:
+      213: 2711377917076442623
+    second: attack right side_301
+  - first:
+      213: -6273248837880685822
+    second: attack right side_302
+  - first:
+      213: -6754820144314880598
+    second: attack right side_303
+  - first:
+      213: 7253441089083965776
+    second: attack right side_304
+  - first:
+      213: 2092363920616638986
+    second: attack right side_305
+  - first:
+      213: 6121985375589284816
+    second: attack right side_306
+  - first:
+      213: -4733161616643303252
+    second: attack right side_307
+  - first:
+      213: -783653360967012681
+    second: attack right side_308
+  - first:
+      213: 4204700403977053929
+    second: attack right side_309
+  - first:
+      213: -4508640343506550583
+    second: attack right side_310
+  - first:
+      213: -8993311168899490266
+    second: attack right side_311
+  - first:
+      213: -8534810421782073304
+    second: attack right side_312
+  - first:
+      213: -1831073599472056533
+    second: attack right side_313
+  - first:
+      213: 6633639529139118932
+    second: attack right side_314
+  - first:
+      213: -6062425314677965733
+    second: attack right side_315
+  - first:
+      213: -4458232337823041186
+    second: attack right side_316
+  - first:
+      213: 683565655121859786
+    second: attack right side_317
+  - first:
+      213: 8551864704714482813
+    second: attack right side_318
+  - first:
+      213: 2914905981390394642
+    second: attack right side_319
+  - first:
+      213: -4570466369041920141
+    second: attack right side_320
+  - first:
+      213: -7933473155300168862
+    second: attack right side_321
+  - first:
+      213: -6487569100993121280
+    second: attack right side_322
+  - first:
+      213: 7133150227838305714
+    second: attack right side_323
+  - first:
+      213: 2904932932228340247
+    second: attack right side_324
+  - first:
+      213: -8827565072134566767
+    second: attack right side_325
+  - first:
+      213: 9013393363124445492
+    second: attack right side_326
+  - first:
+      213: -7971637853666362023
+    second: attack right side_327
+  - first:
+      213: 5993035522113318258
+    second: attack right side_328
+  - first:
+      213: -5276973783208208112
+    second: attack right side_329
+  - first:
+      213: -8111545588318870040
+    second: attack right side_330
+  - first:
+      213: -5741111193908506409
+    second: attack right side_331
+  - first:
+      213: -4561141773400824753
+    second: attack right side_332
+  - first:
+      213: 5216431155854179766
+    second: attack right side_333
+  - first:
+      213: 3017502243149336859
+    second: attack right side_334
+  - first:
+      213: -2229764950156311548
+    second: attack right side_335
+  - first:
+      213: 1244785501723593212
+    second: attack right side_336
+  - first:
+      213: 5696111040046937855
+    second: attack right side_337
+  - first:
+      213: 396063819382458515
+    second: attack right side_338
+  - first:
+      213: -1119203018245272727
+    second: attack right side_339
+  - first:
+      213: -5693139836867973157
+    second: attack right side_340
+  - first:
+      213: -8175015394535985598
+    second: attack right side_341
+  - first:
+      213: -5016559347050610018
+    second: attack right side_342
+  - first:
+      213: -7116915617603419578
+    second: attack right side_343
+  - first:
+      213: -8913965953826215883
+    second: attack right side_344
+  - first:
+      213: 5762597624768626051
+    second: attack right side_345
+  - first:
+      213: -6354257924920036279
+    second: attack right side_346
+  - first:
+      213: -4679980189447407342
+    second: attack right side_347
+  - first:
+      213: 4031033666176263918
+    second: attack right side_348
+  - first:
+      213: -3606685129998866218
+    second: attack right side_349
+  - first:
+      213: -754571929217315206
+    second: attack right side_350
+  - first:
+      213: 1598654817115736920
+    second: attack right side_351
+  - first:
+      213: 62594369891508418
+    second: attack right side_352
+  - first:
+      213: -3736484116316053328
+    second: attack right side_353
+  - first:
+      213: -4371215615957374127
+    second: attack right side_354
+  - first:
+      213: -4780088348223710384
+    second: attack right side_355
+  - first:
+      213: -2920360087073175610
+    second: attack right side_356
+  - first:
+      213: -9041818828356811320
+    second: attack right side_357
+  - first:
+      213: -6039568987943333714
+    second: attack right side_358
+  - first:
+      213: -3784542241323648365
+    second: attack right side_359
+  - first:
+      213: 6598748447640242008
+    second: attack right side_360
+  - first:
+      213: -1940234007716453269
+    second: attack right side_361
+  - first:
+      213: 5174813516595613036
+    second: attack right side_362
+  - first:
+      213: 5982809788306023272
+    second: attack right side_363
+  - first:
+      213: 5291552615801971915
+    second: attack right side_364
+  - first:
+      213: 6128661514995939916
+    second: attack right side_365
+  - first:
+      213: -2197864227149302680
+    second: attack right side_366
+  - first:
+      213: -1556102913540096774
+    second: attack right side_367
+  - first:
+      213: -3853902262035979188
+    second: attack right side_368
+  - first:
+      213: 6424895328637711789
+    second: attack right side_369
+  - first:
+      213: 168342943261895151
+    second: attack right side_370
+  - first:
+      213: 561173256042839079
+    second: attack right side_371
+  - first:
+      213: -4199562245592169921
+    second: attack right side_372
+  - first:
+      213: -6772251532246352903
+    second: attack right side_373
+  - first:
+      213: 6043381704820572803
+    second: attack right side_374
+  - first:
+      213: 1901629214839878736
+    second: attack right side_375
+  - first:
+      213: 3983350280504987326
+    second: attack right side_376
+  - first:
+      213: -7428471554651352922
+    second: attack right side_377
+  - first:
+      213: 7465724526003186529
+    second: attack right side_378
+  - first:
+      213: -7136655872467202230
+    second: attack right side_379
+  - first:
+      213: 2137216587593089127
+    second: attack right side_380
+  - first:
+      213: -144593448008005089
+    second: attack right side_381
+  - first:
+      213: 401148430262620237
+    second: attack right side_382
+  - first:
+      213: -1602841010292187271
+    second: attack right side_383
+  - first:
+      213: -4532902587923596760
+    second: attack right side_384
+  - first:
+      213: -7980457562754399026
+    second: attack right side_385
+  - first:
+      213: -2500218895362644085
+    second: attack right side_386
+  - first:
+      213: 2662318444115770266
+    second: attack right side_387
+  - first:
+      213: -4836014813434773743
+    second: attack right side_388
+  - first:
+      213: -4872511768690675711
+    second: attack right side_389
+  - first:
+      213: 7256709930228528054
+    second: attack right side_390
+  - first:
+      213: 1498343263809968060
+    second: attack right side_391
+  - first:
+      213: -3809973905328967965
+    second: attack right side_392
+  - first:
+      213: -8416672849060068909
+    second: attack right side_393
+  - first:
+      213: 7830081814361229300
+    second: attack right side_394
+  - first:
+      213: -976905218313128901
+    second: attack right side_395
+  - first:
+      213: -5726198298267000335
+    second: attack right side_396
+  - first:
+      213: -403737671905480228
+    second: attack right side_397
+  - first:
+      213: -7518752253126729618
+    second: attack right side_398
+  - first:
+      213: -8998896060406036299
+    second: attack right side_399
+  - first:
+      213: 8983269012647999475
+    second: attack right side_400
+  - first:
+      213: 2081754061652143104
+    second: attack right side_401
+  - first:
+      213: -5183371187077135376
+    second: attack right side_402
+  - first:
+      213: -7048138811251061337
+    second: attack right side_403
+  - first:
+      213: -3245995047709928022
+    second: attack right side_404
+  - first:
+      213: -5973632592668579108
+    second: attack right side_405
+  - first:
+      213: 4499917450865973191
+    second: attack right side_406
+  - first:
+      213: -5157093855497501671
+    second: attack right side_407
+  - first:
+      213: -103748313999655162
+    second: attack right side_408
+  - first:
+      213: -8947554671408798084
+    second: attack right side_409
+  - first:
+      213: -6639807145663243623
+    second: attack right side_410
+  - first:
+      213: -7233351192751481211
+    second: attack right side_411
+  - first:
+      213: -8175414922691720525
+    second: attack right side_412
+  - first:
+      213: 7491913107604015216
+    second: attack right side_413
+  - first:
+      213: -7082466855658009866
+    second: attack right side_414
+  - first:
+      213: -7242533298583923109
+    second: attack right side_415
+  - first:
+      213: -1024858739941812256
+    second: attack right side_416
+  - first:
+      213: 675777466926016684
+    second: attack right side_417
+  - first:
+      213: -5152976031826530302
+    second: attack right side_418
+  - first:
+      213: 3103524555805190636
+    second: attack right side_419
+  - first:
+      213: -6568503310549521125
+    second: attack right side_420
+  - first:
+      213: -6603636536875475736
+    second: attack right side_421
+  - first:
+      213: 8569630760226361755
+    second: attack right side_422
+  - first:
+      213: 7473281562331195570
+    second: attack right side_423
+  - first:
+      213: -6991970885519566574
+    second: attack right side_424
+  - first:
+      213: 8672674159853049807
+    second: attack right side_425
+  - first:
+      213: -7485274081560652241
+    second: attack right side_426
+  - first:
+      213: 3765749831849100581
+    second: attack right side_427
+  - first:
+      213: 7889838051458248294
+    second: attack right side_428
+  - first:
+      213: 3551702464216239625
+    second: attack right side_429
+  - first:
+      213: -7286152627328721718
+    second: attack right side_430
+  - first:
+      213: -4888397792095204739
+    second: attack right side_431
+  - first:
+      213: -5903762810389750770
+    second: attack right side_432
+  - first:
+      213: -2978876856073977416
+    second: attack right side_433
+  - first:
+      213: 4403771278811614663
+    second: attack right side_434
+  - first:
+      213: 3042266092790376963
+    second: attack right side_435
+  - first:
+      213: 54523430401200678
+    second: attack right side_436
+  - first:
+      213: -151456210265537658
+    second: attack right side_437
+  - first:
+      213: -7661962369377755638
+    second: attack right side_438
+  - first:
+      213: -5996781947038449694
+    second: attack right side_439
+  - first:
+      213: -6703430300712924267
+    second: attack right side_440
+  - first:
+      213: 9028115092614737854
+    second: attack right side_441
+  - first:
+      213: 3959475549778886517
+    second: attack right side_442
+  - first:
+      213: -864244376597963504
+    second: attack right side_443
+  - first:
+      213: 8709050474464669623
+    second: attack right side_444
+  - first:
+      213: 587429172298391263
+    second: attack right side_445
+  - first:
+      213: -8679085615859276568
+    second: attack right side_446
+  - first:
+      213: -5916644418270188405
+    second: attack right side_447
+  - first:
+      213: -2658862214247499620
+    second: attack right side_448
+  - first:
+      213: -383297922345716787
+    second: attack right side_449
+  - first:
+      213: -6518422157626787101
+    second: attack right side_450
+  - first:
+      213: 8849498074541471730
+    second: attack right side_451
+  - first:
+      213: 1897076594903093006
+    second: attack right side_452
+  - first:
+      213: 7377641121768867395
+    second: attack right side_453
+  - first:
+      213: 6371800779446251240
+    second: attack right side_454
+  - first:
+      213: 5650721619161700177
+    second: attack right side_455
+  - first:
+      213: -104408285235060403
+    second: attack right side_456
+  - first:
+      213: -673535538508259535
+    second: attack right side_457
+  - first:
+      213: 7453621792978145139
+    second: attack right side_458
+  - first:
+      213: -862417064957074532
+    second: attack right side_459
+  - first:
+      213: -147328919142863870
+    second: attack right side_460
+  - first:
+      213: -8060233135223085307
+    second: attack right side_461
+  - first:
+      213: -8299567647795356056
+    second: attack right side_462
+  - first:
+      213: -1092958568277810647
+    second: attack right side_463
+  - first:
+      213: -9199858417895996778
+    second: attack right side_464
+  - first:
+      213: 2598481383750299677
+    second: attack right side_465
+  - first:
+      213: 4337431793445869475
+    second: attack right side_466
+  - first:
+      213: 306328068076364120
+    second: attack right side_467
+  - first:
+      213: 862256816523213245
+    second: attack right side_468
+  - first:
+      213: -6537698283548242893
+    second: attack right side_469
+  - first:
+      213: -4861844610110988356
+    second: attack right side_470
+  - first:
+      213: 3985837077460237100
+    second: attack right side_471
+  - first:
+      213: 2152583504237320957
+    second: attack right side_472
+  - first:
+      213: 967822391844002162
+    second: attack right side_473
+  - first:
+      213: 3068825079226366069
+    second: attack right side_474
+  - first:
+      213: -2472676691810861310
+    second: attack right side_475
+  - first:
+      213: 2127898475407903764
+    second: attack right side_476
+  - first:
+      213: 7841399232998061574
+    second: attack right side_477
+  - first:
+      213: -9219296903421566704
+    second: attack right side_478
+  - first:
+      213: 5249281072271898949
+    second: attack right side_479
+  - first:
+      213: -7891001238029587385
+    second: attack right side_480
+  - first:
+      213: -9003741758126488318
+    second: attack right side_481
+  - first:
+      213: -8103735846688095669
+    second: attack right side_482
+  - first:
+      213: -6820663152487360628
+    second: attack right side_483
+  - first:
+      213: -7411960492252118343
+    second: attack right side_484
+  - first:
+      213: 1178617133691665860
+    second: attack right side_485
+  - first:
+      213: 632564130488247702
+    second: attack right side_486
+  - first:
+      213: -7693013765935083640
+    second: attack right side_487
+  - first:
+      213: 7608857300247802624
+    second: attack right side_488
+  - first:
+      213: 1943335503200969224
+    second: attack right side_489
+  - first:
+      213: 808503021112178498
+    second: attack right side_490
+  - first:
+      213: -7638995575457725441
+    second: attack right side_491
+  - first:
+      213: 3359577267626039242
+    second: attack right side_492
+  - first:
+      213: 7973438432556304561
+    second: attack right side_493
+  - first:
+      213: 2888398757370392046
+    second: attack right side_494
+  - first:
+      213: -4910879035790116749
+    second: attack right side_495
+  - first:
+      213: -6815594862863958104
+    second: attack right side_496
+  - first:
+      213: -6181090572816967770
+    second: attack right side_497
+  - first:
+      213: -1654294076906740220
+    second: attack right side_498
+  - first:
+      213: 9022584685892280517
+    second: attack right side_499
+  - first:
+      213: 1894737325360682472
+    second: attack right side_500
+  - first:
+      213: 268909131877147689
+    second: attack right side_501
+  - first:
+      213: 6479008162661898765
+    second: attack right side_502
+  - first:
+      213: -3946425864400045653
+    second: attack right side_503
+  - first:
+      213: 85083555046716416
+    second: attack right side_504
+  - first:
+      213: -1234369829140951811
+    second: attack right side_505
+  - first:
+      213: -5789636335064099235
+    second: attack right side_506
+  - first:
+      213: -2633040867451623393
+    second: attack right side_507
+  - first:
+      213: -7139419524696206027
+    second: attack right side_508
+  - first:
+      213: -804328952491074019
+    second: attack right side_509
+  - first:
+      213: -8047457456605183555
+    second: attack right side_510
+  - first:
+      213: -8404933946619467022
+    second: attack right side_511
+  - first:
+      213: 8614399722528134771
+    second: attack right side_512
+  - first:
+      213: 2825924761969164189
+    second: attack right side_513
+  - first:
+      213: -5748063918869579308
+    second: attack right side_514
+  - first:
+      213: -7745045590393239718
+    second: attack right side_515
+  - first:
+      213: -858774812687078926
+    second: attack right side_516
+  - first:
+      213: -3307239457133773622
+    second: attack right side_517
+  - first:
+      213: 5928675093026775953
+    second: attack right side_518
+  - first:
+      213: 1543638074021025345
+    second: attack right side_519
+  - first:
+      213: -18220617511957741
+    second: attack right side_520
+  - first:
+      213: -4012249906873064361
+    second: attack right side_521
+  - first:
+      213: -3266668411837249239
+    second: attack right side_522
+  - first:
+      213: -3917530441020934864
+    second: attack right side_523
+  - first:
+      213: 1287730941660223124
+    second: attack right side_524
+  - first:
+      213: -4796708397615033095
+    second: attack right side_525
+  - first:
+      213: -4687302955954792181
+    second: attack right side_526
+  - first:
+      213: -6064555231320193859
+    second: attack right side_527
+  - first:
+      213: 351929555529777411
+    second: attack right side_528
+  - first:
+      213: -3849060188691834967
+    second: attack right side_529
+  - first:
+      213: 8180518869635964706
+    second: attack right side_530
+  - first:
+      213: -7567956298757518579
+    second: attack right side_531
+  - first:
+      213: -4698930090001837180
+    second: attack right side_532
+  - first:
+      213: -6648520935745111328
+    second: attack right side_533
+  - first:
+      213: -6843286453015236114
+    second: attack right side_534
+  - first:
+      213: -2713926368581527422
+    second: attack right side_535
+  - first:
+      213: -7986530044541119650
+    second: attack right side_536
+  - first:
+      213: -8493635805691295044
+    second: attack right side_537
+  - first:
+      213: 193461241191837775
+    second: attack right side_538
+  - first:
+      213: -3129286006197914568
+    second: attack right side_539
+  - first:
+      213: -1980613857907230139
+    second: attack right side_540
+  - first:
+      213: 6667046053955710983
+    second: attack right side_541
+  - first:
+      213: 6703749934820058559
+    second: attack right side_542
+  - first:
+      213: -9054373259883167288
+    second: attack right side_543
+  - first:
+      213: 1012272273750220214
+    second: attack right side_544
+  - first:
+      213: -4304394700079020744
+    second: attack right side_545
+  - first:
+      213: -4529387178697268210
+    second: attack right side_546
+  - first:
+      213: 4478461056757190137
+    second: attack right side_547
+  - first:
+      213: 809107578311642949
+    second: attack right side_548
+  - first:
+      213: -6422055494793558406
+    second: attack right side_549
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: attack right side_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9100
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96c86eb71ff42c408a6d2610039b3c9
+      internalID: 1337890957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_1
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 9100
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e976baa48f4f8cf46933e7a2aabaa762
+      internalID: 1271236634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_2
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 9100
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caea9512d45fb01448cbb0ca3b64c113
+      internalID: 497126614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_3
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 9100
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c0afa95b72d2142a1fb1fdb3a36971
+      internalID: -1336777854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7800
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e339b4826d3aa024d95c5ea1f6594842
+      internalID: 23826470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_5
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 7800
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27faa07fbc6ab1e48841d56b0d8838c5
+      internalID: 1326644497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_6
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 7800
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be94e840b53003b42890bfa8bdb9017c
+      internalID: -1167853003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_7
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 7800
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a44d730187fb245a5c729d58f00395
+      internalID: 1514775750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6500
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88524b8d066b5e64f8a45e8dee0484a9
+      internalID: -1670257579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_9
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 6500
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fc9925e872c794e8a9341aecd02b30
+      internalID: -1708159675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_10
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 6500
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ce590289afe3b4f8b326aef411f852
+      internalID: 60594647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_11
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 6500
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c2dc6bec19a634ba36bea37cef5ca4
+      internalID: 1558912883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5200
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc2f3ff4c73d634ab9be8e8ddc2d681
+      internalID: 272218402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_13
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 5200
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1758faecbb89a564aa1dbc6d3808fa4e
+      internalID: -1737873001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_14
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 5200
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9370e16a72defe84ca3c9f9063cbe271
+      internalID: 1827019848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_15
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 5200
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc9a25abf1600e4ea79db1fe1cc0c83
+      internalID: -1157327006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3900
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ee87e2e2a68334aa5d4a478dfc94b4
+      internalID: -1336993864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_17
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 3900
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0e2e874f8acf245b114841b9126a00
+      internalID: 958820062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_18
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 3900
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a0fbd5c05e84a4b8781d9101539dd4
+      internalID: 886656752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_19
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 3900
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a617172201bb0bc4bb8fde43b101378c
+      internalID: -150916826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2600
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf8811ad4753be4a889299e7290666a
+      internalID: 148188171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_21
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 2600
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b1334de314e7943a23430a38af4f6d
+      internalID: -2079658829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_22
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 2600
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95f889d1fd0b3c46b3ef9ab737e9c7a
+      internalID: 975764362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_23
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 2600
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65357b267bc0464891cafd670fc6e4f
+      internalID: 529378719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1300
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6c16466e6dc5149ab84e821b552de1
+      internalID: 2061484272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_25
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1300
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc5a77d139273248b353cf9a662a1ea
+      internalID: -2002251939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_26
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 1300
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f909a244d87de4aa781c8dc1486493
+      internalID: -1825948117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_27
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 1300
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a5101b68f97b34db501c5f40dfdeef
+      internalID: -882070521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4364d1db4335f4c43be14a0d96326735
+      internalID: 1385749870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right side_29
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 0
+        width: 1300
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc15bdd4c6258a48a8582940b2c82c1
+      internalID: 1018547094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 48fa9e50467afee4f8ed36606b1b303e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      attack right side_0: 1337890957
+      attack right side_1: 1271236634
+      attack right side_10: 60594647
+      attack right side_11: 1558912883
+      attack right side_12: 272218402
+      attack right side_13: -1737873001
+      attack right side_14: 1827019848
+      attack right side_15: -1157327006
+      attack right side_16: -1336993864
+      attack right side_17: 958820062
+      attack right side_18: 886656752
+      attack right side_19: -150916826
+      attack right side_2: 497126614
+      attack right side_20: 148188171
+      attack right side_21: -2079658829
+      attack right side_22: 975764362
+      attack right side_23: 529378719
+      attack right side_24: 2061484272
+      attack right side_25: -2002251939
+      attack right side_26: -1825948117
+      attack right side_27: -882070521
+      attack right side_28: 1385749870
+      attack right side_29: 1018547094
+      attack right side_3: -1336777854
+      attack right side_4: 23826470
+      attack right side_5: 1326644497
+      attack right side_6: -1167853003
+      attack right side_7: 1514775750
+      attack right side_8: -1670257579
+      attack right side_9: -1708159675
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

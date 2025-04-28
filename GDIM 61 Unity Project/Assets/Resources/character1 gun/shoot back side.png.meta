@@ -1,0 +1,669 @@
+fileFormatVersion: 2
+guid: 590a56ac88b536e4b88cb2b321a06458
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3777107572596595957
+    second: shoot back side_0
+  - first:
+      213: -6464332409605605400
+    second: shoot back side_1
+  - first:
+      213: -7431299519568567597
+    second: shoot back side_2
+  - first:
+      213: 4024472554128802868
+    second: shoot back side_3
+  - first:
+      213: 5574831771278498379
+    second: shoot back side_4
+  - first:
+      213: 4167368461151223833
+    second: shoot back side_5
+  - first:
+      213: 8692090832910610767
+    second: shoot back side_6
+  - first:
+      213: -7716925113662078054
+    second: shoot back side_7
+  - first:
+      213: -879532888622173852
+    second: shoot back side_8
+  - first:
+      213: -8397377530644690258
+    second: shoot back side_9
+  - first:
+      213: -6679148972844174538
+    second: shoot back side_10
+  - first:
+      213: -5137088744623861679
+    second: shoot back side_11
+  - first:
+      213: 4785772012852313360
+    second: shoot back side_12
+  - first:
+      213: -7370264831974411821
+    second: shoot back side_13
+  - first:
+      213: 6202766811010707012
+    second: shoot back side_14
+  - first:
+      213: -3629298054901019700
+    second: shoot back side_15
+  - first:
+      213: -1270632456469846361
+    second: shoot back side_16
+  - first:
+      213: -7533346861240375214
+    second: shoot back side_17
+  - first:
+      213: -5331717421077418448
+    second: shoot back side_18
+  - first:
+      213: 3918736724235153739
+    second: shoot back side_19
+  - first:
+      213: -5655275488172985723
+    second: shoot back side_20
+  - first:
+      213: -5875260152606647180
+    second: shoot back side_21
+  - first:
+      213: 9084218825183073776
+    second: shoot back side_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shoot back side_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5000
+        width: 600
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56b974a9babc1f4dbdd08496a60c920
+      internalID: 1736393205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot back side_1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 5000
+        width: 600
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b165c258ba00774aabebb94e8b64d9c
+      internalID: -582420070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot back side_2
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 5000
+        width: 600
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7551ed96738d76742ab6c242b9ca5099
+      internalID: 1558208429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot back side_3
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 5000
+        width: 600
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6d46858c81af0448d098e416f031af
+      internalID: 1787601710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot back side_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4000
+        width: 600
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1878cf71a833fbd488a02b82038be303
+      internalID: 22072839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot back side_5
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4000
+        width: 600
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43f7c726d5dfaf4cbd738a46b3093d8
+      internalID: -1896508710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot back side_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4000
+        width: 600
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956b913b4f895b04d86a79a19a8f759e
+      internalID: 1451846105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot back side_7
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4000
+        width: 600
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1a3ac1ff11bb0459f33d4f4b540e6d
+      internalID: 38386660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot back side_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3000
+        width: 600
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9c6d872a493c44ab4109aa02298e3e
+      internalID: -1158260929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot back side_9
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3000
+        width: 600
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18423967f4c6bc4ca6ac65bc5447ba0
+      internalID: 699669557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot back side_10
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3000
+        width: 600
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26104ce165a514349b615786238a29e0
+      internalID: -1060987405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot back side_11
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3000
+        width: 600
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8001e27f6d4ed145a13c44bed5650f1
+      internalID: -1199638433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot back side_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2000
+        width: 600
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f363653d29fd2164b927a4945c565a08
+      internalID: -2800901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot back side_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2000
+        width: 600
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d610d69ea62364488c1270859bbbdd6
+      internalID: -1619281639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot back side_14
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2000
+        width: 600
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ffa84bf9d9ffb45bcd93d0c00915ed
+      internalID: 835972641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot back side_15
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2000
+        width: 600
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1fc408a0c7938479ddd262a707ef61
+      internalID: 1004694726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot back side_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 600
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b2302e117cb7e48906672b47c68ba4
+      internalID: -851107085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot back side_17
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1000
+        width: 600
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10235e9324e42ca4688a8eb377c99510
+      internalID: 246066230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot back side_18
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1000
+        width: 600
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651fed8c2614bba4e871be0361f4cac9
+      internalID: -92205172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot back side_19
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1000
+        width: 600
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b6277e87a8296408a67be83e3ecc30
+      internalID: 966502642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot back side_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 600
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42473e2bbdec3f14a936cf1da206a017
+      internalID: -87933009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8b272bf658274204a9e4d8d7ec925123
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      shoot back side_0: 1736393205
+      shoot back side_1: -582420070
+      shoot back side_10: -1060987405
+      shoot back side_11: -1199638433
+      shoot back side_12: -2800901
+      shoot back side_13: -1619281639
+      shoot back side_14: 835972641
+      shoot back side_15: 1004694726
+      shoot back side_16: -851107085
+      shoot back side_17: 246066230
+      shoot back side_18: -92205172
+      shoot back side_19: 966502642
+      shoot back side_2: 1558208429
+      shoot back side_20: -87933009
+      shoot back side_3: 1787601710
+      shoot back side_4: 22072839
+      shoot back side_5: -1896508710
+      shoot back side_6: 1451846105
+      shoot back side_7: 38386660
+      shoot back side_8: -1158260929
+      shoot back side_9: 699669557
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
