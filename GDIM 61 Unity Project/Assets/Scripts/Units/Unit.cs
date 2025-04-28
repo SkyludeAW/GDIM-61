@@ -6,6 +6,7 @@ using System.Linq.Expressions;
 using Unity.VisualScripting;
 using System;
 using UnityEngine.UIElements;
+using System.Linq;
 
 public abstract class Unit : MonoBehaviour {
     // Color of four factions (blue, red, yellow, purple respectively)
@@ -72,6 +73,13 @@ public abstract class Unit : MonoBehaviour {
         }
     }
 
+    public void Initialize(float maxHP, float attack) {
+        Initialize();
+        MaxHitPoint = maxHP;
+        HitPoint = MaxHitPoint;
+        BaseDamage = attack;
+    }
+
     private void OnValidate() {
         if (Application.isPlaying) {
             SetFaction(Faction);
@@ -79,7 +87,13 @@ public abstract class Unit : MonoBehaviour {
     }
 
     public void SetFaction(int faction) {
+        if (UnitsManager.Instance == null)
+            return;
+        if (UnitsManager.Instance.GetUnitsInFaction(Faction).Contains(this))
+            UnitsManager.Instance.UnregisterUnit(this);
         this.Faction = faction;
+        UnitsManager.Instance.RegisterUnit(this);
+
         try {
             SelectionSR.color = FACTION_COLORS[Faction];
         } catch(IndexOutOfRangeException) {

@@ -1,5 +1,4 @@
 ﻿using System.Linq;
-using UnityEditorInternal;
 using UnityEngine;
 
 public class BasicUnit : Unit {
@@ -26,8 +25,10 @@ public class BasicUnit : Unit {
         switch (Faction) {
             case 0:
                 if (!Controllable && _currentState != BehaviorState.Attacking) {
-                    FindAndSetClosestTarget(1);
-                    _nextTargetCheckTime = Time.time + _retargetingInterval;
+                    if (Time.time > _nextTargetCheckTime) {
+                        FindAndSetClosestTarget(1);
+                        _nextTargetCheckTime = Time.time + _retargetingInterval;
+                    }
                 }
 
                 break;

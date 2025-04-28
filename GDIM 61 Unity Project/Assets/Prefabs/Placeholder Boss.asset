@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0f3d14bec57aec4b9666eb977aff1b0, type: 3}
+  m_Name: Placeholder Boss
+  m_EditorClassIdentifier: 
+  Name: "\u8D85\u7EA7\u5764\u5764"
+  Description: "\u53C8\u9E1F    \u4EBB\u5C14    \u592A    \u7F8E    !!!!"
+  Art: {fileID: -8296558068664232762, guid: ae7de934c3df1a4499dcc72ac0f562be, type: 3}
+  Cost: 100
+  HitPoint: 1000
+  Damage: 40
+  AttackCooldown: 4
+  Speed: 0.5
+  KnockbackPower: 600
+  KnockbackResistance: 0.9
+  AttackRange: 0.5
+  UnitDeploySprite: {fileID: -8296558068664232762, guid: ae7de934c3df1a4499dcc72ac0f562be, type: 3}
+  SummonedUnit: {fileID: 2120028733952626376, guid: bd822b7bbc9274945ba3c35e75dd2308, type: 3}
