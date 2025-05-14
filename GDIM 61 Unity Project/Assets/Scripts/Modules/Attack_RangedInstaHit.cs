@@ -24,7 +24,7 @@ public class Attack_RangedInstaHit : Attack {
 
     private void TargetHit() {
         if (_target != null && !_target.IsDead) {
-            _target.TakeDamage(_damage, (_target.transform.position - (_origin != null ? _origin.transform.position : transform.position)) * _knockback, _origin);
+            _target.TakeDamage(_damage, _knockback, _origin);
             vfx.gameObject.SetActive(true);
             vfx.Target = _target.transform;
             vfx.PlayAnimation("Blood Spill - Pierce");

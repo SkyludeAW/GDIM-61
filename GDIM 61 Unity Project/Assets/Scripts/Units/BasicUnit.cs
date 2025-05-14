@@ -124,7 +124,7 @@ public class BasicUnit : Unit {
 
     private void Attack(Unit target) {
         if (_attack != null) {
-            _attack.Initialize(BaseDamage, target, (target.transform.position - transform.position) * KnockbackPower, this);
+            _attack.Initialize(BaseDamage, target, ((target.transform.position - transform.position)).normalized * KnockbackPower, this);
         }
         _attack.Execute();
 

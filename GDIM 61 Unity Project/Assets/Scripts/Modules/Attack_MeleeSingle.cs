@@ -23,7 +23,7 @@ public class Attack_MeleeSingle : Attack {
 
     private void TargetHit() {
         if (_target != null && !_target.IsDead) {
-            _target.TakeDamage(_damage, (_target.transform.position - transform.position) * _knockback, _origin);
+            _target.TakeDamage(_damage, _knockback, _origin);
         }
     }
 }

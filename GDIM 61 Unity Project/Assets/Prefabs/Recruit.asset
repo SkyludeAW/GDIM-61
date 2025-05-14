@@ -18,8 +18,8 @@ MonoBehaviour:
   Art: {fileID: -6306969538060732093, guid: b26216aa13d0c6f4b9d3aa80a998d59e, type: 3}
   Cost: 3
   HitPoint: 80
-  Damage: 15
-  AttackCooldown: 1.6
+  Damage: 20
+  AttackCooldown: 1.8
   Speed: 1
   KnockbackPower: 10
   KnockbackResistance: 0

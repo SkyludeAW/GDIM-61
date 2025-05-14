@@ -15,12 +15,13 @@ MonoBehaviour:
   Name: Placeholder Unit 1
   Description: "\u9E21\u4F60\u592A\u7F8E"
   Art: {fileID: -8296558068664232762, guid: ae7de934c3df1a4499dcc72ac0f562be, type: 3}
-  Cost: 2
-  HitPoint: 114
-  Damage: 51.4
-  AttackCooldown: 3
-  Speed: 1.2
+  Cost: 5
+  HitPoint: 420
+  Damage: 60
+  AttackCooldown: 1.2
+  Speed: 1.4
   KnockbackPower: 400
   KnockbackResistance: 0.25
+  AttackRange: 0
   UnitDeploySprite: {fileID: -8296558068664232762, guid: ae7de934c3df1a4499dcc72ac0f562be, type: 3}
   SummonedUnit: {fileID: 2120028733952626376, guid: bd822b7bbc9274945ba3c35e75dd2308, type: 3}

@@ -15,12 +15,12 @@ MonoBehaviour:
   Name: Knight
   Description: A durable knight. May withstand good amounts of damage.
   Art: {fileID: 1816506484, guid: a92696d7e193d0f47a9683032afeb4fb, type: 3}
-  Cost: 5
-  HitPoint: 720
-  Damage: 10
-  AttackCooldown: 3.2
+  Cost: 4
+  HitPoint: 600
+  Damage: 50
+  AttackCooldown: 2.6
   Speed: 0.5
-  KnockbackPower: 200
+  KnockbackPower: 300
   KnockbackResistance: 0.8
   AttackRange: 0.5
   UnitDeploySprite: {fileID: 1816506484, guid: a92696d7e193d0f47a9683032afeb4fb, type: 3}
