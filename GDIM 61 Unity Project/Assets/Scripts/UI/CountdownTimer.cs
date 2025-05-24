@@ -15,7 +15,7 @@ public class CountdownTimer : MonoBehaviour {
     }
 
     private void Update() {
-        _timerText.text = TimeSpan.FromSeconds(TimeLeft).ToString(@"hh\:mm\:ss");
+        _timerText.text = TimeSpan.FromSeconds(TimeLeft).ToString(@"mm\:ss");
         TimeLeft -= Time.deltaTime;
     }
 
