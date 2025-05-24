@@ -24,5 +24,6 @@ MonoBehaviour:
   KnockbackPower: 100
   KnockbackResistance: 0
   AttackRange: 5
+  AggroRadius: 10
   UnitDeploySprite: {fileID: -6306969538060732093, guid: b26216aa13d0c6f4b9d3aa80a998d59e, type: 3}
   SummonedUnit: {fileID: 3411056785759735125, guid: 7f9db34fec1ebb945aed3c141080d097, type: 3}

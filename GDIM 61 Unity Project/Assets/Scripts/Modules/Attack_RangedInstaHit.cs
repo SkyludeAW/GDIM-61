@@ -25,6 +25,7 @@ public class Attack_RangedInstaHit : Attack {
 
     private void TargetHit() {
         if (_target != null && !_target.IsDead) {
+            AttackTriggered?.Invoke();
             _target.TakeDamage(_damage, _knockback, _origin);
             vfx.gameObject.SetActive(true);
             vfx.Target = _target.transform;

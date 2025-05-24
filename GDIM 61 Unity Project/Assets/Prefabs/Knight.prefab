@@ -178,6 +178,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f44478dd115408649b57706f8e89feb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AttackTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4184158858383528428}
+        m_TargetAssemblyTypeName: BasicUnit, Assembly-CSharp
+        m_MethodName: AttackTriggered
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   AttackComplete:
     m_PersistentCalls:
       m_Calls:
@@ -298,7 +313,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &4184158858383528428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -318,27 +333,30 @@ MonoBehaviour:
   BaseDamage: 0
   AttackRange: 0
   AttackCooldown: 0
-  NextAttackTime: 0
+  <NextAttackTime>k__BackingField: 0
   KnockbackPower: 0
   KnockbackResistance: 0
   IsInvincible: 0
   <IsDead>k__BackingField: 0
+  <PatrolCenter>k__BackingField: {x: 0, y: 0, z: 0}
+  <AggroRadius>k__BackingField: 10
+  <Attack>k__BackingField: {fileID: 5545481649337971934}
   Selectable: 1
   Controllable: 0
   <Faction>k__BackingField: 0
   Target: {fileID: 0}
+  UnpierceableLayers:
+    serializedVersion: 2
+    m_Bits: 128
   Agent: {fileID: 587568208371009717}
   SR: {fileID: 3243418698309184594}
   SelectionSR: {fileID: 8626396087998928455}
   HealthUI: {fileID: 2481857444362765719}
   RB: {fileID: 7954320688604872512}
   <Collider>k__BackingField: {fileID: 1876917392952921913}
-  _retargetingInterval: 1
-  _animationController: {fileID: 1208962625254630823}
-  _unpierceableLayers:
-    serializedVersion: 2
-    m_Bits: 128
+  AnimationController: {fileID: 1208962625254630823}
   _attack: {fileID: 5545481649337971934}
+  _overrideAggroRadius: 0
 --- !u!114 &5779057947924896940
 MonoBehaviour:
   m_ObjectHideFlags: 0

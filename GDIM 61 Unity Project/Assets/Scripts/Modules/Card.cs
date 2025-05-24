@@ -15,6 +15,7 @@ public class Card : ScriptableObject {
     public float KnockbackPower;
     public float KnockbackResistance;
     public float AttackRange;
+    public float AggroRadius;
 
     public Sprite UnitDeploySprite;
 

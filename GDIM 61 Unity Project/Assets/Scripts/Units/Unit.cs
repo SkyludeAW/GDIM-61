@@ -1,21 +1,17 @@
 ﻿using UnityEngine;
 using UnityEngine.AI;
 using System.Collections;
-using static UnityEngine.EventSystems.EventTrigger;
-using System.Linq.Expressions;
-using Unity.VisualScripting;
 using System;
-using UnityEngine.UIElements;
-using System.Linq;
 
 public abstract class Unit : MonoBehaviour {
-    // Color of four factions (blue, red, yellow, purple respectively)
-    // 四阵营分别为蓝色、红色、黄色与紫色
-    public static readonly Color[] FACTION_COLORS = { new Color(0.282f, 0.369f, 0.859f), new Color(0.859f, 0.302f, 0.282f), new Color(0.749f, 0.722f, 0.345f), new Color(0.545f, 0.353f, 0.678f) };
+    public static readonly Color[] FACTION_COLORS = {
+        new Color(0.282f, 0.369f, 0.859f), new Color(0.859f, 0.302f, 0.282f),
+        new Color(0.749f, 0.722f, 0.345f), new Color(0.545f, 0.353f, 0.678f)
+    };
+
+    public enum Stance { Offensive, Defensive }
 
     #region Member Variables
-    // Essential attributes
-    // 核心属性值
     [SerializeField] protected Card Base;
     [SerializeField] protected float HitPoint;
     [SerializeField] protected float MaxHitPoint;
@@ -23,35 +19,42 @@ public abstract class Unit : MonoBehaviour {
     [SerializeField] protected float BaseDamage;
     [SerializeField] protected float AttackRange; public float Range => AttackRange;
     [SerializeField] protected float AttackCooldown;
-    [SerializeField] protected float NextAttackTime;
+    [field: SerializeField] public float NextAttackTime { get; set; }
     [SerializeField] protected float KnockbackPower;
     [SerializeField] protected float KnockbackResistance = 0f;
     [SerializeField] protected bool IsInvincible = false;
-    [field:SerializeField] public bool IsDead { get; protected set; } = false;
+    [field: SerializeField] public bool IsDead { get; protected set; } = false;
 
-    // Control-related
-    // 单位控制相关
+    [field: SerializeField] public Vector3 PatrolCenter { get; set; }
+    [field: SerializeField] public float AggroRadius { get; set; } = 10f;
+    [field: SerializeField] public Attack Attack { get; protected set; }
+
     public bool Selectable = true;
     public bool Controllable = false;
-    [field:SerializeField] public int Faction { get; private set; }
-    public Unit Target;
-    [SerializeField] protected NavMeshAgent Agent;
 
-    // Visuals
-    // 视觉贴图相关
+    [Tooltip("The faction of the unit. Set via ConfigureFaction.")]
+    [field: SerializeField] public int Faction { get; private set; }
+
+    [Tooltip("The current target of this unit.")]
+    public Unit Target;
+
+    [Tooltip("True if the target was manually set by the player and should not be overridden by AI scans.")]
+    public bool IsTargetLocked { get; private set; } // NEW: Flag for manual target lock
+
+    public LayerMask UnpierceableLayers;
+    [SerializeField] public NavMeshAgent Agent;
     [SerializeField] protected SpriteRenderer SR;
     [SerializeField] protected SpriteRenderer SelectionSR;
     [SerializeField] protected HealthBarUI HealthUI;
-
-    // Physics
-    // 物理效果相关
     [SerializeField] protected Rigidbody2D RB;
-    [field:SerializeField] public Collider2D Collider { get; protected set; }
+    [field: SerializeField] public Collider2D Collider { get; protected set; }
+
+    [Header("State Machine Related")]
+    public Stance CurrentStance { get; protected set; } = Stance.Offensive;
+    [SerializeField] public AnimationController AnimationController;
     #endregion
 
     #region Methods
-    // Overridable initialization of hitpoint and other core attributes; to be run every time a new unit is spawned
-    // 生命值以及其他核心属性的初始化；每次某单位生成时都应调用一遍
     protected virtual void Initialize() {
         if (Base != null) {
             MaxHitPoint = Base.HitPoint;
@@ -63,134 +66,136 @@ public abstract class Unit : MonoBehaviour {
             AttackRange = Base.AttackRange;
         }
         HitPoint = MaxHitPoint;
-        HealthUI.SetHealth(HitPoint / MaxHitPoint);
-        SetFaction(Faction);
-        if (Agent != null) {
-            Agent.updateRotation = false;
-            Agent.updateUpAxis = false;
+        if (HealthUI != null) {
+            HealthUI.SetHealth(HitPoint / MaxHitPoint);
+        }
+        if (PatrolCenter == Vector3.zero) {
+            PatrolCenter = transform.position;
+        }
+        // Inside Unit.cs Initialize() method:
+        if (Agent != null && Agent.enabled) {
+            Agent.updateRotation = false; // This line prevents the NavMeshAgent from rotating the Unit's transform.
+            Agent.updateUpAxis = false;   // This is also important for 2D NavMesh setups, especially with NavMeshPlus.
             Agent.speed = Speed;
             Agent.isStopped = false;
         }
+        ConfigureFaction(Faction);
     }
 
-    public void Initialize(float maxHP, float attack) {
-        Initialize();
-        MaxHitPoint = maxHP;
-        HitPoint = MaxHitPoint;
-        BaseDamage = attack;
-    }
+    public void ConfigureFaction(int newFaction) {
+        UnitsManager.Instance.UnregisterUnit(this);
+        this.Faction = newFaction;
 
-    private void OnValidate() {
-        if (Application.isPlaying) {
-            SetFaction(Faction);
+        if (UnitsManager.Instance != null && Application.isPlaying) {
+            UnitsManager.Instance.RegisterUnit(this);
         }
+
+        if (SelectionSR != null) {
+            try {
+                SelectionSR.color = FACTION_COLORS[this.Faction];
+            } catch (IndexOutOfRangeException) {
+                SelectionSR.color = Color.gray;
+            }
+        }
+
+        OnFactionConfigured();
     }
 
-    public void SetFaction(int faction) {
-        if (UnitsManager.Instance == null)
+    protected virtual void OnFactionConfigured() { }
+
+    public virtual void SetStance(Stance newStance) {
+        if (this.CurrentStance == newStance)
             return;
-        if (UnitsManager.Instance.GetUnitsInFaction(Faction).Contains(this))
-            UnitsManager.Instance.UnregisterUnit(this);
-        this.Faction = faction;
-        UnitsManager.Instance.RegisterUnit(this);
 
-        try {
-            SelectionSR.color = FACTION_COLORS[Faction];
-        } catch(IndexOutOfRangeException) {
-            SelectionSR.color = Color.gray;
+        this.CurrentStance = newStance;
+        if (this.CurrentStance == Stance.Defensive) {
+            if (Application.isPlaying)
+                PatrolCenter = transform.position;
         }
+        OnStanceChanged();
     }
 
-    public void SetSelectionActive(bool selected) {
-        if (selected) {
-            SelectionSR.color = Color.green;
-        } else {
-            SelectionSR.color = FACTION_COLORS[Faction];
-        }
-    }
+    protected virtual void OnStanceChanged() { }
 
+    /// <summary>
+    /// Sets a destination for the unit if it's controllable. Clears any locked target.
+    /// </summary>
     public void SetTargetDestination(Vector2 targetDestination) {
         if (Controllable) {
             Target = null;
+            IsTargetLocked = false; // NEW: Moving to a destination unlocks the target
             if (Agent != null) {
-                Agent.SetDestination(targetDestination);
-                /*
-                print("Desired Destination:" + targetDestination);
-                print("Destination Set Successfully?" + Agent.SetDestination(targetDestination));
-                print("Current Destination:" + Agent.destination);
-                print("Agent isStopped?" + Agent.isStopped);
-                print("Agent hasPath?" + Agent.hasPath);
-                print(Agent.isOnNavMesh);
-                print(Agent.pathStatus);
-                */
+                Agent.SetDestination(new Vector3(targetDestination.x, targetDestination.y, transform.position.z));
                 Agent.isStopped = false;
             }
         }
     }
 
-    IEnumerator a() {
-        yield return new WaitForSeconds(5);
-    }
-
-    public void SetTarget(Unit targetUnit) {
+    /// <summary>
+    /// Manually sets a target unit for this unit if it's controllable and locks it.
+    /// </summary>
+    public void ForceSetTarget(Unit targetUnit) {
         if (Controllable && Agent != null) {
             Target = targetUnit;
+            IsTargetLocked = true; // NEW: Manually setting a target locks it
             Agent.isStopped = false;
         }
     }
 
-    // For AI targeting units
-    protected void FindAndSetClosestTarget(int targetFaction) {
+    public void TrySetTarget(Unit targetUnit) {
+        if (IsTargetLocked) {
+            if (Target == null || Target.IsDead) {
+                IsTargetLocked = false;
+            } else
+                return;
+        }
+
+        Target = targetUnit;
+        if (Agent != null)
+            Agent.isStopped = false;
+    }
+
+    /// <summary>
+    /// Finds and sets the closest enemy unit as the target. Does NOT lock the target.
+    /// </summary>
+    public void FindAndSetClosestTarget(int targetFaction, float searchRadius = 0f) {
         Unit closestEnemy = null;
         float minDistanceSqr = float.MaxValue;
-
         if (UnitsManager.Instance != null) {
-            // Use the manager to get only the relevant faction units
             foreach (Unit unit in UnitsManager.Instance.GetUnitsInFaction(targetFaction)) {
-                // Check if the unit is valid, not itself, and is alive
-                // GetUnitsInFaction might contain nulls if Purge wasn't run recently after destruction
-                if (unit != null && unit != this && !unit.IsDead) {
+                if (unit != null && unit != this && !unit.IsDead && !unit.IsInvincible) {
                     float distanceSqr = (unit.transform.position - this.transform.position).sqrMagnitude;
+                    if (searchRadius > 0 && distanceSqr > searchRadius * searchRadius) {
+                        continue;
+                    }
                     if (distanceSqr < minDistanceSqr) {
                         minDistanceSqr = distanceSqr;
                         closestEnemy = unit;
                     }
                 }
             }
-        } else {
-            Debug.LogWarning("UnitsManager instance not found during AI target scan.");
         }
-
-        if (this.Target != closestEnemy) {
+        // This method does not set IsTargetLocked to false, allowing a locked target to persist
+        // until it's cleared or a new manual command is given.
+        // However, if there's no locked target, it will freely update to the nearest.
+        if (!IsTargetLocked) {
             this.Target = closestEnemy;
-            if (this.Target != null && Agent != null) {
+            if (this.Target != null && Agent != null && Agent.enabled) {
                 Agent.isStopped = false;
             }
+        } else {
+            // If the target is locked, we only clear it if it dies.
+            if (Target == null || Target.IsDead) {
+                IsTargetLocked = false;
+                Target = closestEnemy; // Find a new target after locked one dies.
+            }
         }
     }
 
-    // 受击
-    public virtual void TakeDamage(float damage, Vector2 force = default, Unit origin = null) {
-        if (!IsInvincible) {
-            if (damage > 0)
-                StartCoroutine(Hurt(0.25f));
-            HitPoint -= damage;
-            HealthUI.SetHealth(HitPoint / MaxHitPoint);
-            if (RB != null)
-                RB.AddForce(force * Mathf.Max(1f - KnockbackResistance, 0));
-            if (HitPoint <= 0f) {
-                IsDead = true;
-                Die();
-            }
-        } 
-    }
-
-
-    // 似了
+    public void Initialize(float maxHP, float attack) { Initialize(); MaxHitPoint = maxHP; HitPoint = MaxHitPoint; BaseDamage = attack; if (HealthUI != null) { HealthUI.SetHealth(HitPoint / MaxHitPoint); } }
+    public void SetSelectionActive(bool selected) { if (SelectionSR == null) return; if (selected) { SelectionSR.color = Color.green; } else { try { SelectionSR.color = FACTION_COLORS[Faction]; } catch (IndexOutOfRangeException) { SelectionSR.color = Color.gray; } } }
+    public virtual void TakeDamage(float damage, Vector2 force = default, Unit origin = null) { if (IsDead || IsInvincible) return; if (damage > 0) { StartCoroutine(Hurt(0.25f)); } HitPoint -= damage; if (HealthUI != null) { HealthUI.SetHealth(HitPoint / MaxHitPoint); } if (RB != null && force != Vector2.zero) { RB.AddForce(force * Mathf.Max(1f - KnockbackResistance, 0f)); } if (HitPoint <= 0f) { HitPoint = 0f; IsDead = true; Die(); } }
     public abstract void Die();
-
-    // Visual effect of turning red and gradually fading back when the entity is hit
-    // 受击后的红温效果
     protected virtual IEnumerator Hurt(float hurtDuration) {
         float elapsed = 0f;
 
@@ -201,34 +206,25 @@ public abstract class Unit : MonoBehaviour {
         }
         SR.color = Color.white;
     }
-
-    // Visualization of the NavMesh Agent's path
-    void OnDrawGizmos() {
-        if (Agent == null || Agent.path == null)
-            return;
-
-        Gizmos.color = Color.yellow;
-        Vector3[] corners = Agent.path.corners;
-
-        for (int i = 0; i < corners.Length - 1; i++) {
-            Gizmos.DrawLine(corners[i], corners[i + 1]);
+    protected virtual void OnDrawGizmosSelected() { 
+        if (Agent != null && Agent.hasPath) { 
+            Gizmos.color = Color.yellow; 
+            Vector3[] corners = Agent.path.corners; 
+            for (int i = 0; i < corners.Length - 1; i++) { 
+                Gizmos.DrawLine(corners[i], corners[i + 1]); 
+            } 
         }
-    }
-    protected virtual void OnEnable() {
-        // Ensure the Instance exists before trying to register
-        if (UnitsManager.Instance != null) {
-            UnitsManager.Instance.RegisterUnit(this);
-        }
-        // Optional: else Debug.LogError("UnitsManager not found during OnEnable!"); 
-        // This might happen if script execution order isn't set correctly.
-    }
 
-    protected virtual void OnDisable() {
-        // Unregister when the GameObject is disabled or destroyed
-        // Check if Instance still exists (it might be destroyed first during scene unload)
-        if (UnitsManager.Instance != null) {
-            UnitsManager.Instance.UnregisterUnit(this);
+        if (CurrentStance == Stance.Defensive) {
+            Gizmos.color = new Color(1f, 0f, 0f, 0.3f);
+            Gizmos.DrawWireSphere(transform.position, AggroRadius);
         }
+
+        Gizmos.color = new Color(0f, 1f, 0f, 0.3f); 
+        Gizmos.DrawWireSphere(transform.position, AttackRange); 
     }
+    protected virtual void OnEnable() { if (UnitsManager.Instance != null && Application.isPlaying) { UnitsManager.Instance.RegisterUnit(this); } if (PatrolCenter == Vector3.zero && Application.isPlaying) { PatrolCenter = transform.position; } }
+    protected virtual void OnDisable() { if (UnitsManager.Instance != null && Application.isPlaying) { UnitsManager.Instance.UnregisterUnit(this); } }
+    public abstract void PerformAttack(Unit targetUnit);
     #endregion
 }

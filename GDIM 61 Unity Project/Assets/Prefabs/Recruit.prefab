@@ -588,7 +588,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &3411056785759735125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -608,27 +608,30 @@ MonoBehaviour:
   BaseDamage: 0
   AttackRange: 0
   AttackCooldown: 0
-  NextAttackTime: 0
+  <NextAttackTime>k__BackingField: 0
   KnockbackPower: 0
   KnockbackResistance: 0
   IsInvincible: 0
   <IsDead>k__BackingField: 0
+  <PatrolCenter>k__BackingField: {x: 0, y: 0, z: 0}
+  <AggroRadius>k__BackingField: 10
+  <Attack>k__BackingField: {fileID: 3609923425242934543}
   Selectable: 1
   Controllable: 0
   <Faction>k__BackingField: 0
   Target: {fileID: 0}
+  UnpierceableLayers:
+    serializedVersion: 2
+    m_Bits: 128
   Agent: {fileID: 565778482928957059}
   SR: {fileID: 4905669276927814202}
   SelectionSR: {fileID: 3159147615836317183}
   HealthUI: {fileID: 3406944931410768435}
   RB: {fileID: 5841237147200359202}
   <Collider>k__BackingField: {fileID: 7962030054817763804}
-  _retargetingInterval: 1
-  _animationController: {fileID: 6010824990126144697}
-  _unpierceableLayers:
-    serializedVersion: 2
-    m_Bits: 128
+  AnimationController: {fileID: 6010824990126144697}
   _attack: {fileID: 3609923425242934543}
+  _overrideAggroRadius: 0
 --- !u!114 &2833938768783166232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -930,6 +933,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2e488a0bd0d77f41970fd4fec181f4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AttackTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3411056785759735125}
+        m_TargetAssemblyTypeName: BasicUnit, Assembly-CSharp
+        m_MethodName: AttackTriggered
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   AttackComplete:
     m_PersistentCalls:
       m_Calls:

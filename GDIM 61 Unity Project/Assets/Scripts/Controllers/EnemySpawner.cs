@@ -22,7 +22,8 @@ public class EnemySpawner : MonoBehaviour {
             nextSpawnTime = Time.time + spawnInterval;
             Unit unit = Instantiate(spawnedUnit, transform.position, Quaternion.identity);
             unit.Initialize(_HP, _attack);
-            unit.SetFaction(1);
+            unit.ConfigureFaction(1);
+            unit.SetStance(Unit.Stance.Offensive);
             _HP *= _strengthenFactor;
             _attack *= _strengthenFactor;
         }

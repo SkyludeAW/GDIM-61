@@ -72,4 +72,8 @@ public class PlaceholderUnit : Unit {
         }
         Destroy(this.gameObject);
     }
+
+    public override void PerformAttack(Unit targetUnit) {
+        // throw new System.NotImplementedException();
+    }
 }

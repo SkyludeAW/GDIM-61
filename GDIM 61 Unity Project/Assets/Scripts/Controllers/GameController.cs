@@ -108,7 +108,7 @@ public class GameController : MonoBehaviour {
                             _selectedUnits.RemoveAll(unit => unit == null);
                             foreach (Unit unit in _selectedUnits) {
                                 if (unit != selectedTarget)
-                                    unit.SetTarget(selectedTarget);
+                                    unit.ForceSetTarget(selectedTarget);
                             }
                         }
                     } else {

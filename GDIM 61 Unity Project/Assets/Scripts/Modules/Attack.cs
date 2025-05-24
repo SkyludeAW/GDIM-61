@@ -14,5 +14,6 @@ public abstract class Attack : MonoBehaviour {
         _origin = origin;
     }
     public abstract void Execute();
+    public UnityEvent AttackTriggered;
     public UnityEvent AttackComplete;
 }

@@ -28,4 +28,8 @@ public class PlaceholderTower : Unit {
     public override void Die() {
         Destroy(this.gameObject);
     }
+
+    public override void PerformAttack(Unit targetUnit) {
+        // throw new System.NotImplementedException();
+    }
 }

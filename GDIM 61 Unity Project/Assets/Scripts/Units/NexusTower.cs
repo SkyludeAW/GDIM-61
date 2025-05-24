@@ -18,4 +18,8 @@ public class NexusTower : Unit {
         Destroy(this.gameObject);
         SceneController.Instance.GoToDefeatScene();
     }
+
+    public override void PerformAttack(Unit targetUnit) {
+        // throw new System.NotImplementedException();
+    }
 }
