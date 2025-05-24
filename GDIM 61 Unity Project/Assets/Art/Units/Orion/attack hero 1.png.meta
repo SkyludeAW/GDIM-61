@@ -1,0 +1,2871 @@
+fileFormatVersion: 2
+guid: 4b6ef9d43f2b560439ab93b77d153283
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7774282037061499540
+    second: attack hero 1_0
+  - first:
+      213: 2790832904374545364
+    second: attack hero 1_1
+  - first:
+      213: 2808137212577887194
+    second: attack hero 1_2
+  - first:
+      213: 5770386753678289924
+    second: attack hero 1_3
+  - first:
+      213: 8046666538759527644
+    second: attack hero 1_4
+  - first:
+      213: -174814586553343855
+    second: attack hero 1_5
+  - first:
+      213: 6841620502662209380
+    second: attack hero 1_6
+  - first:
+      213: 662595426048927097
+    second: attack hero 1_7
+  - first:
+      213: -4482231378224352732
+    second: attack hero 1_8
+  - first:
+      213: -2508681429100681684
+    second: attack hero 1_9
+  - first:
+      213: 4711903773657351557
+    second: attack hero 1_10
+  - first:
+      213: 1450162676022938387
+    second: attack hero 1_11
+  - first:
+      213: 4230730936164516752
+    second: attack hero 1_12
+  - first:
+      213: -8716808520211830454
+    second: attack hero 1_13
+  - first:
+      213: -1434228836326599833
+    second: attack hero 1_14
+  - first:
+      213: -101684969787356559
+    second: attack hero 1_15
+  - first:
+      213: 3779128945023375431
+    second: attack hero 1_16
+  - first:
+      213: 2541153850939824449
+    second: attack hero 1_17
+  - first:
+      213: -25670402559388225
+    second: attack hero 1_18
+  - first:
+      213: 2290421701833896338
+    second: attack hero 1_19
+  - first:
+      213: -6378140650058617988
+    second: attack hero 1_20
+  - first:
+      213: -4871692008368134299
+    second: attack hero 1_21
+  - first:
+      213: 7389490365188931302
+    second: attack hero 1_22
+  - first:
+      213: -3086321343151402532
+    second: attack hero 1_23
+  - first:
+      213: 2830597156569612431
+    second: attack hero 1_24
+  - first:
+      213: 2980704192450056158
+    second: attack hero 1_25
+  - first:
+      213: 7130983484799582816
+    second: attack hero 1_26
+  - first:
+      213: 1619831148981407622
+    second: attack hero 1_27
+  - first:
+      213: 896113388228881168
+    second: attack hero 1_28
+  - first:
+      213: 3342308309957523926
+    second: attack hero 1_29
+  - first:
+      213: 5568676389713859472
+    second: attack hero 1_30
+  - first:
+      213: -4681606080010838156
+    second: attack hero 1_31
+  - first:
+      213: -1280994767131029399
+    second: attack hero 1_32
+  - first:
+      213: -5985774395208478519
+    second: attack hero 1_33
+  - first:
+      213: -9053300504768158421
+    second: attack hero 1_34
+  - first:
+      213: 2106374670060122232
+    second: attack hero 1_35
+  - first:
+      213: 4508144398394490947
+    second: attack hero 1_36
+  - first:
+      213: 3969823049665167657
+    second: attack hero 1_37
+  - first:
+      213: -4613382806773836866
+    second: attack hero 1_38
+  - first:
+      213: -3690994569819339811
+    second: attack hero 1_39
+  - first:
+      213: 296641692906158839
+    second: attack hero 1_40
+  - first:
+      213: -8128597394833323403
+    second: attack hero 1_41
+  - first:
+      213: 2049347039776000359
+    second: attack hero 1_42
+  - first:
+      213: -1966790695573167046
+    second: attack hero 1_43
+  - first:
+      213: -2412484498758700403
+    second: attack hero 1_44
+  - first:
+      213: 2773714562071260371
+    second: attack hero 1_45
+  - first:
+      213: -8407401967130444945
+    second: attack hero 1_46
+  - first:
+      213: -5874359246693563444
+    second: attack hero 1_47
+  - first:
+      213: -9020991518008332032
+    second: attack hero 1_48
+  - first:
+      213: -3874408650471088097
+    second: attack hero 1_49
+  - first:
+      213: -2674106301570187153
+    second: attack hero 1_50
+  - first:
+      213: 5154042027694601318
+    second: attack hero 1_51
+  - first:
+      213: 2807990671738449175
+    second: attack hero 1_52
+  - first:
+      213: -2014847249340059055
+    second: attack hero 1_53
+  - first:
+      213: -5706122018529071980
+    second: attack hero 1_54
+  - first:
+      213: 7903125605007841490
+    second: attack hero 1_55
+  - first:
+      213: -1471636777914046952
+    second: attack hero 1_56
+  - first:
+      213: 2500382801825856569
+    second: attack hero 1_57
+  - first:
+      213: -4065471384652120750
+    second: attack hero 1_58
+  - first:
+      213: 1683792919184297040
+    second: attack hero 1_59
+  - first:
+      213: -2867074038136966772
+    second: attack hero 1_60
+  - first:
+      213: 3065247496039846514
+    second: attack hero 1_61
+  - first:
+      213: 5682750000580595644
+    second: attack hero 1_62
+  - first:
+      213: 4787125619112680254
+    second: attack hero 1_63
+  - first:
+      213: -4350907294393402530
+    second: attack hero 1_64
+  - first:
+      213: 9003662855580089868
+    second: attack hero 1_65
+  - first:
+      213: -2272695567944824195
+    second: attack hero 1_66
+  - first:
+      213: 4167282108642184496
+    second: attack hero 1_67
+  - first:
+      213: 6422150790777016760
+    second: attack hero 1_68
+  - first:
+      213: 7633386002973145365
+    second: attack hero 1_69
+  - first:
+      213: 5963958927366733593
+    second: attack hero 1_70
+  - first:
+      213: -6641988335328831722
+    second: attack hero 1_71
+  - first:
+      213: -4728673952557438852
+    second: attack hero 1_72
+  - first:
+      213: -5315025328253210085
+    second: attack hero 1_73
+  - first:
+      213: 1331139731172223385
+    second: attack hero 1_74
+  - first:
+      213: 8098672134815904767
+    second: attack hero 1_75
+  - first:
+      213: -7543517147371047422
+    second: attack hero 1_76
+  - first:
+      213: 3967810053453562585
+    second: attack hero 1_77
+  - first:
+      213: 4745472349421664179
+    second: attack hero 1_78
+  - first:
+      213: 340952068512131406
+    second: attack hero 1_79
+  - first:
+      213: -2902845124946794982
+    second: attack hero 1_80
+  - first:
+      213: -3084786294211797970
+    second: attack hero 1_81
+  - first:
+      213: -8132571934222978419
+    second: attack hero 1_82
+  - first:
+      213: 3244611024506345666
+    second: attack hero 1_83
+  - first:
+      213: -1940826757666982606
+    second: attack hero 1_84
+  - first:
+      213: 4365097773328517184
+    second: attack hero 1_85
+  - first:
+      213: -6717923295897624330
+    second: attack hero 1_86
+  - first:
+      213: 5748804588126952058
+    second: attack hero 1_87
+  - first:
+      213: 3921196650028004991
+    second: attack hero 1_88
+  - first:
+      213: -7567104296658488651
+    second: attack hero 1_89
+  - first:
+      213: -5625337481549543817
+    second: attack hero 1_90
+  - first:
+      213: 2674568753376390233
+    second: attack hero 1_91
+  - first:
+      213: 3704956156538656166
+    second: attack hero 1_92
+  - first:
+      213: -5148468793636022968
+    second: attack hero 1_93
+  - first:
+      213: 5454071495903367057
+    second: attack hero 1_94
+  - first:
+      213: -8255185164862859704
+    second: attack hero 1_95
+  - first:
+      213: 6336414254518327245
+    second: attack hero 1_96
+  - first:
+      213: 8007539397179359958
+    second: attack hero 1_97
+  - first:
+      213: 2936457944424437144
+    second: attack hero 1_98
+  - first:
+      213: -7291607973884640956
+    second: attack hero 1_99
+  - first:
+      213: 6357101415567738713
+    second: attack hero 1_100
+  - first:
+      213: -2054613983273446301
+    second: attack hero 1_101
+  - first:
+      213: 6985922593814503643
+    second: attack hero 1_102
+  - first:
+      213: 8581215520590896876
+    second: attack hero 1_103
+  - first:
+      213: -3121345053941174210
+    second: attack hero 1_104
+  - first:
+      213: 3795893223386956269
+    second: attack hero 1_105
+  - first:
+      213: 2326699142090585591
+    second: attack hero 1_106
+  - first:
+      213: 8739071382388850851
+    second: attack hero 1_107
+  - first:
+      213: -8287213110018129714
+    second: attack hero 1_108
+  - first:
+      213: -2518814701927277230
+    second: attack hero 1_109
+  - first:
+      213: 3469280559894312177
+    second: attack hero 1_110
+  - first:
+      213: -1551076817873929653
+    second: attack hero 1_111
+  - first:
+      213: -2471537170093420482
+    second: attack hero 1_112
+  - first:
+      213: 2757593399756402181
+    second: attack hero 1_113
+  - first:
+      213: -6796423039813985406
+    second: attack hero 1_114
+  - first:
+      213: -4277414024358495865
+    second: attack hero 1_115
+  - first:
+      213: 8314651169255591741
+    second: attack hero 1_116
+  - first:
+      213: -1108973237294503920
+    second: attack hero 1_117
+  - first:
+      213: -2958186902832746017
+    second: attack hero 1_118
+  - first:
+      213: -7139875431936839344
+    second: attack hero 1_119
+  - first:
+      213: -5267148646252242525
+    second: attack hero 1_120
+  - first:
+      213: -7750823433904532255
+    second: attack hero 1_121
+  - first:
+      213: 6948643506975481606
+    second: attack hero 1_122
+  - first:
+      213: -1803889799198912625
+    second: attack hero 1_123
+  - first:
+      213: -5702610410043994505
+    second: attack hero 1_124
+  - first:
+      213: 5142819616306702444
+    second: attack hero 1_125
+  - first:
+      213: 7265426634133019931
+    second: attack hero 1_126
+  - first:
+      213: -1622765512400038308
+    second: attack hero 1_127
+  - first:
+      213: -6588424996095868582
+    second: attack hero 1_128
+  - first:
+      213: 8346764391155089218
+    second: attack hero 1_129
+  - first:
+      213: -4670220009966195767
+    second: attack hero 1_130
+  - first:
+      213: -6399039510067405270
+    second: attack hero 1_131
+  - first:
+      213: 2946048154943778586
+    second: attack hero 1_132
+  - first:
+      213: -7713228453582380214
+    second: attack hero 1_133
+  - first:
+      213: -4563931212169872706
+    second: attack hero 1_134
+  - first:
+      213: -4025104630520038
+    second: attack hero 1_135
+  - first:
+      213: -4720017867384000134
+    second: attack hero 1_136
+  - first:
+      213: -1263209692869524572
+    second: attack hero 1_137
+  - first:
+      213: -9127830623660357391
+    second: attack hero 1_138
+  - first:
+      213: -1410574956111317377
+    second: attack hero 1_139
+  - first:
+      213: -4440209958227773462
+    second: attack hero 1_140
+  - first:
+      213: 4165488058554242758
+    second: attack hero 1_141
+  - first:
+      213: 6210302268637904024
+    second: attack hero 1_142
+  - first:
+      213: 382538157044075235
+    second: attack hero 1_143
+  - first:
+      213: 239691486152718793
+    second: attack hero 1_144
+  - first:
+      213: 7734478054282463312
+    second: attack hero 1_145
+  - first:
+      213: -4258614876703141891
+    second: attack hero 1_146
+  - first:
+      213: -3172624392075516848
+    second: attack hero 1_147
+  - first:
+      213: 6118810514487351548
+    second: attack hero 1_148
+  - first:
+      213: -7423647369568202868
+    second: attack hero 1_149
+  - first:
+      213: -9083322509157719588
+    second: attack hero 1_150
+  - first:
+      213: 7911422770514923992
+    second: attack hero 1_151
+  - first:
+      213: 2379976924849972342
+    second: attack hero 1_152
+  - first:
+      213: 8985462823922720334
+    second: attack hero 1_153
+  - first:
+      213: 5887119447127572028
+    second: attack hero 1_154
+  - first:
+      213: -6463692687132855614
+    second: attack hero 1_155
+  - first:
+      213: -3987960041742972900
+    second: attack hero 1_156
+  - first:
+      213: 6185812482758615858
+    second: attack hero 1_157
+  - first:
+      213: 8633679834844984200
+    second: attack hero 1_158
+  - first:
+      213: -4876005035602006416
+    second: attack hero 1_159
+  - first:
+      213: -834125668914500658
+    second: attack hero 1_160
+  - first:
+      213: 3433668687224915441
+    second: attack hero 1_161
+  - first:
+      213: 3028905511582088574
+    second: attack hero 1_162
+  - first:
+      213: 1915814246506409982
+    second: attack hero 1_163
+  - first:
+      213: 8704604056886606940
+    second: attack hero 1_164
+  - first:
+      213: -6404769158577501429
+    second: attack hero 1_165
+  - first:
+      213: -3043245397977678272
+    second: attack hero 1_166
+  - first:
+      213: 6777669800649377985
+    second: attack hero 1_167
+  - first:
+      213: 4148472187762994763
+    second: attack hero 1_168
+  - first:
+      213: -6366523899118101318
+    second: attack hero 1_169
+  - first:
+      213: 2312075572817802762
+    second: attack hero 1_170
+  - first:
+      213: -8834022558239132318
+    second: attack hero 1_171
+  - first:
+      213: -5689178169261391616
+    second: attack hero 1_172
+  - first:
+      213: -7366837022976267177
+    second: attack hero 1_173
+  - first:
+      213: 2115154353010252189
+    second: attack hero 1_174
+  - first:
+      213: 6148827958673953138
+    second: attack hero 1_175
+  - first:
+      213: 7762471077026406835
+    second: attack hero 1_176
+  - first:
+      213: -211112017879566030
+    second: attack hero 1_177
+  - first:
+      213: -4320298168088613566
+    second: attack hero 1_178
+  - first:
+      213: 7060197558344635043
+    second: attack hero 1_179
+  - first:
+      213: -3393544236898744700
+    second: attack hero 1_180
+  - first:
+      213: 2627475012303522698
+    second: attack hero 1_181
+  - first:
+      213: 8728736643449064128
+    second: attack hero 1_182
+  - first:
+      213: -3154784411283253343
+    second: attack hero 1_183
+  - first:
+      213: -884247884079342630
+    second: attack hero 1_184
+  - first:
+      213: -1269598269551915127
+    second: attack hero 1_185
+  - first:
+      213: 4941839183483103994
+    second: attack hero 1_186
+  - first:
+      213: -7158474153430828639
+    second: attack hero 1_187
+  - first:
+      213: -5958268108415634291
+    second: attack hero 1_188
+  - first:
+      213: 4924755713913051357
+    second: attack hero 1_189
+  - first:
+      213: 1876249084768301260
+    second: attack hero 1_190
+  - first:
+      213: 1699197743816286222
+    second: attack hero 1_191
+  - first:
+      213: 4368068605486615889
+    second: attack hero 1_192
+  - first:
+      213: -2270672610790881242
+    second: attack hero 1_193
+  - first:
+      213: -5291197390114162081
+    second: attack hero 1_194
+  - first:
+      213: -2158979113722622260
+    second: attack hero 1_195
+  - first:
+      213: -8050074489059400271
+    second: attack hero 1_196
+  - first:
+      213: 1913422883971466594
+    second: attack hero 1_197
+  - first:
+      213: -3143993536536258124
+    second: attack hero 1_198
+  - first:
+      213: -6784034652095126937
+    second: attack hero 1_199
+  - first:
+      213: -2446181949694471763
+    second: attack hero 1_200
+  - first:
+      213: -5093180496441653451
+    second: attack hero 1_201
+  - first:
+      213: -1156726518586094032
+    second: attack hero 1_202
+  - first:
+      213: 7940145748523533380
+    second: attack hero 1_203
+  - first:
+      213: 6353373342491948645
+    second: attack hero 1_204
+  - first:
+      213: -1318025158916400233
+    second: attack hero 1_205
+  - first:
+      213: -5043254841574674692
+    second: attack hero 1_206
+  - first:
+      213: 1558307023006461876
+    second: attack hero 1_207
+  - first:
+      213: 9125487969334294557
+    second: attack hero 1_208
+  - first:
+      213: 4994396268133966143
+    second: attack hero 1_209
+  - first:
+      213: -1586335317946808672
+    second: attack hero 1_210
+  - first:
+      213: 1648588745551317881
+    second: attack hero 1_211
+  - first:
+      213: 8789197093633627207
+    second: attack hero 1_212
+  - first:
+      213: 643571259812122093
+    second: attack hero 1_213
+  - first:
+      213: -1736462965062858449
+    second: attack hero 1_214
+  - first:
+      213: -5466137316988998605
+    second: attack hero 1_215
+  - first:
+      213: 841282619912175091
+    second: attack hero 1_216
+  - first:
+      213: 3231143162781951754
+    second: attack hero 1_217
+  - first:
+      213: -1636102639634717829
+    second: attack hero 1_218
+  - first:
+      213: 8105951895247128682
+    second: attack hero 1_219
+  - first:
+      213: 4599313798506255272
+    second: attack hero 1_220
+  - first:
+      213: -499659356005851859
+    second: attack hero 1_221
+  - first:
+      213: -8758803256097693173
+    second: attack hero 1_222
+  - first:
+      213: 5711136712898291812
+    second: attack hero 1_223
+  - first:
+      213: 7328222760299861292
+    second: attack hero 1_224
+  - first:
+      213: -2058096651837205472
+    second: attack hero 1_225
+  - first:
+      213: -7379856175411518194
+    second: attack hero 1_226
+  - first:
+      213: 2240916414200075851
+    second: attack hero 1_227
+  - first:
+      213: 1882661287043604529
+    second: attack hero 1_228
+  - first:
+      213: -1598675395524194353
+    second: attack hero 1_229
+  - first:
+      213: 3420074851098363501
+    second: attack hero 1_230
+  - first:
+      213: 7989405616572434037
+    second: attack hero 1_231
+  - first:
+      213: -795736756172585998
+    second: attack hero 1_232
+  - first:
+      213: 2680639451513672987
+    second: attack hero 1_233
+  - first:
+      213: 2715228539247045944
+    second: attack hero 1_234
+  - first:
+      213: 7415928893359505855
+    second: attack hero 1_235
+  - first:
+      213: -8564159074265705106
+    second: attack hero 1_236
+  - first:
+      213: 4858890953297371141
+    second: attack hero 1_237
+  - first:
+      213: -8326964634169465947
+    second: attack hero 1_238
+  - first:
+      213: -7234315812568860855
+    second: attack hero 1_239
+  - first:
+      213: -5291559955362945684
+    second: attack hero 1_240
+  - first:
+      213: 2652049668435594931
+    second: attack hero 1_241
+  - first:
+      213: -5552504256106294637
+    second: attack hero 1_242
+  - first:
+      213: -2571551778002953408
+    second: attack hero 1_243
+  - first:
+      213: 7278522971547314380
+    second: attack hero 1_244
+  - first:
+      213: -1273012729914074760
+    second: attack hero 1_245
+  - first:
+      213: 5818424487197548926
+    second: attack hero 1_246
+  - first:
+      213: 5791741523456024517
+    second: attack hero 1_247
+  - first:
+      213: -587526654342990786
+    second: attack hero 1_248
+  - first:
+      213: 927317189941759659
+    second: attack hero 1_249
+  - first:
+      213: 3550029289529608849
+    second: attack hero 1_250
+  - first:
+      213: -480579548438228108
+    second: attack hero 1_251
+  - first:
+      213: -3251323395383450528
+    second: attack hero 1_252
+  - first:
+      213: -4659128206674502068
+    second: attack hero 1_253
+  - first:
+      213: 8804180321548495109
+    second: attack hero 1_254
+  - first:
+      213: -3312254591126120963
+    second: attack hero 1_255
+  - first:
+      213: 4109223328893917138
+    second: attack hero 1_256
+  - first:
+      213: 7989764038189868731
+    second: attack hero 1_257
+  - first:
+      213: 4780429606162358130
+    second: attack hero 1_258
+  - first:
+      213: 5992335762547634103
+    second: attack hero 1_259
+  - first:
+      213: -1467907322228047917
+    second: attack hero 1_260
+  - first:
+      213: -7144613535497749016
+    second: attack hero 1_261
+  - first:
+      213: -2579426032651928204
+    second: attack hero 1_262
+  - first:
+      213: 997288305412034591
+    second: attack hero 1_263
+  - first:
+      213: 5464538406001334782
+    second: attack hero 1_264
+  - first:
+      213: 7359360171026601281
+    second: attack hero 1_265
+  - first:
+      213: 4952332833299926678
+    second: attack hero 1_266
+  - first:
+      213: 7048328700798356198
+    second: attack hero 1_267
+  - first:
+      213: 9015876067181463599
+    second: attack hero 1_268
+  - first:
+      213: -8324419723469379021
+    second: attack hero 1_269
+  - first:
+      213: 2734071229075077951
+    second: attack hero 1_270
+  - first:
+      213: 6893123131731741816
+    second: attack hero 1_271
+  - first:
+      213: -4211157848133873906
+    second: attack hero 1_272
+  - first:
+      213: 7768918838116041967
+    second: attack hero 1_273
+  - first:
+      213: 4896034853808043796
+    second: attack hero 1_274
+  - first:
+      213: -4118777480451511270
+    second: attack hero 1_275
+  - first:
+      213: 1089171171994160172
+    second: attack hero 1_276
+  - first:
+      213: 8923065261656178095
+    second: attack hero 1_277
+  - first:
+      213: -3241624916981595082
+    second: attack hero 1_278
+  - first:
+      213: -6586690539761855752
+    second: attack hero 1_279
+  - first:
+      213: 6504731691749432568
+    second: attack hero 1_280
+  - first:
+      213: 4347637418648428604
+    second: attack hero 1_281
+  - first:
+      213: 1143082113797185903
+    second: attack hero 1_282
+  - first:
+      213: 8466843152361609113
+    second: attack hero 1_283
+  - first:
+      213: 3420347232624092714
+    second: attack hero 1_284
+  - first:
+      213: 8674887412315492495
+    second: attack hero 1_285
+  - first:
+      213: -5536280004842526100
+    second: attack hero 1_286
+  - first:
+      213: -8603194244276371801
+    second: attack hero 1_287
+  - first:
+      213: 48824282175857734
+    second: attack hero 1_288
+  - first:
+      213: -3120138192257413031
+    second: attack hero 1_289
+  - first:
+      213: 5786078133194964131
+    second: attack hero 1_290
+  - first:
+      213: -8763216210748443586
+    second: attack hero 1_291
+  - first:
+      213: -3334301123492332849
+    second: attack hero 1_292
+  - first:
+      213: 777123908103822583
+    second: attack hero 1_293
+  - first:
+      213: 1887708425717122459
+    second: attack hero 1_294
+  - first:
+      213: -5012061704190613353
+    second: attack hero 1_295
+  - first:
+      213: -6999983359961195186
+    second: attack hero 1_296
+  - first:
+      213: -8807727303040551701
+    second: attack hero 1_297
+  - first:
+      213: 2165791237022517125
+    second: attack hero 1_298
+  - first:
+      213: 3344958407355392164
+    second: attack hero 1_299
+  - first:
+      213: -1548890890983792777
+    second: attack hero 1_300
+  - first:
+      213: -7802559336214312824
+    second: attack hero 1_301
+  - first:
+      213: 2735735956259986718
+    second: attack hero 1_302
+  - first:
+      213: 78872037843280425
+    second: attack hero 1_303
+  - first:
+      213: 5106269970938256678
+    second: attack hero 1_304
+  - first:
+      213: 1212598975232568121
+    second: attack hero 1_305
+  - first:
+      213: -1627897911263649503
+    second: attack hero 1_306
+  - first:
+      213: -5346778067790570556
+    second: attack hero 1_307
+  - first:
+      213: -7751446210881342153
+    second: attack hero 1_308
+  - first:
+      213: -1943463623798284148
+    second: attack hero 1_309
+  - first:
+      213: -4575119831444796583
+    second: attack hero 1_310
+  - first:
+      213: -1015372101258855002
+    second: attack hero 1_311
+  - first:
+      213: -2039929164169467581
+    second: attack hero 1_312
+  - first:
+      213: 1479315295742487923
+    second: attack hero 1_313
+  - first:
+      213: 7755851203921682766
+    second: attack hero 1_314
+  - first:
+      213: 7794329837487719857
+    second: attack hero 1_315
+  - first:
+      213: 1798295245973602629
+    second: attack hero 1_316
+  - first:
+      213: -8396774361078509088
+    second: attack hero 1_317
+  - first:
+      213: 7261362070957517966
+    second: attack hero 1_318
+  - first:
+      213: 5905423801097310942
+    second: attack hero 1_319
+  - first:
+      213: -6443058292285286113
+    second: attack hero 1_320
+  - first:
+      213: -1966445992914846675
+    second: attack hero 1_321
+  - first:
+      213: 7990918338216424607
+    second: attack hero 1_322
+  - first:
+      213: -5425357411707928811
+    second: attack hero 1_323
+  - first:
+      213: 4045281482498262168
+    second: attack hero 1_324
+  - first:
+      213: -7909435132014754802
+    second: attack hero 1_325
+  - first:
+      213: 5205555852604491537
+    second: attack hero 1_326
+  - first:
+      213: 225760267177939745
+    second: attack hero 1_327
+  - first:
+      213: 6295144153353941087
+    second: attack hero 1_328
+  - first:
+      213: 6695466247097556237
+    second: attack hero 1_329
+  - first:
+      213: -6567142189163571969
+    second: attack hero 1_330
+  - first:
+      213: 2859464167479204882
+    second: attack hero 1_331
+  - first:
+      213: -5808919529679954064
+    second: attack hero 1_332
+  - first:
+      213: 1552083522644892236
+    second: attack hero 1_333
+  - first:
+      213: 838748148184800342
+    second: attack hero 1_334
+  - first:
+      213: 7824130587777351392
+    second: attack hero 1_335
+  - first:
+      213: 7938031429512665782
+    second: attack hero 1_336
+  - first:
+      213: 5862129883256554383
+    second: attack hero 1_337
+  - first:
+      213: 3363308592454450491
+    second: attack hero 1_338
+  - first:
+      213: 6128323319340382252
+    second: attack hero 1_339
+  - first:
+      213: -3376920967657400913
+    second: attack hero 1_340
+  - first:
+      213: 4141901940942611733
+    second: attack hero 1_341
+  - first:
+      213: -3853670924795112271
+    second: attack hero 1_342
+  - first:
+      213: 53392122143447887
+    second: attack hero 1_343
+  - first:
+      213: -4031991034489365856
+    second: attack hero 1_344
+  - first:
+      213: -7570635396577809827
+    second: attack hero 1_345
+  - first:
+      213: -3824850104316121707
+    second: attack hero 1_346
+  - first:
+      213: 8514219007659331790
+    second: attack hero 1_347
+  - first:
+      213: 2783654712784396597
+    second: attack hero 1_348
+  - first:
+      213: -6144723642987649605
+    second: attack hero 1_349
+  - first:
+      213: -5489221703566726681
+    second: attack hero 1_350
+  - first:
+      213: -3360767468809712322
+    second: attack hero 1_351
+  - first:
+      213: 211223870106486061
+    second: attack hero 1_352
+  - first:
+      213: 2690357372251214837
+    second: attack hero 1_353
+  - first:
+      213: 5225526678314877771
+    second: attack hero 1_354
+  - first:
+      213: 6049140523544892867
+    second: attack hero 1_355
+  - first:
+      213: 7869182023486540081
+    second: attack hero 1_356
+  - first:
+      213: -5482712892288165599
+    second: attack hero 1_357
+  - first:
+      213: 2028512094713467046
+    second: attack hero 1_358
+  - first:
+      213: 5269801511216936264
+    second: attack hero 1_359
+  - first:
+      213: 295279469241225091
+    second: attack hero 1_360
+  - first:
+      213: -10623701798414439
+    second: attack hero 1_361
+  - first:
+      213: 2269971436020027634
+    second: attack hero 1_362
+  - first:
+      213: 6744515823678533005
+    second: attack hero 1_363
+  - first:
+      213: 5915309668929063352
+    second: attack hero 1_364
+  - first:
+      213: -8041018238029759412
+    second: attack hero 1_365
+  - first:
+      213: 1721866568140139203
+    second: attack hero 1_366
+  - first:
+      213: 1467038855926971491
+    second: attack hero 1_367
+  - first:
+      213: -5728580068757744571
+    second: attack hero 1_368
+  - first:
+      213: -1341322594180266666
+    second: attack hero 1_369
+  - first:
+      213: 6441053829611116607
+    second: attack hero 1_370
+  - first:
+      213: -5788797027752262100
+    second: attack hero 1_371
+  - first:
+      213: -8836367324122629370
+    second: attack hero 1_372
+  - first:
+      213: -4797623977616664894
+    second: attack hero 1_373
+  - first:
+      213: -8392397476518713718
+    second: attack hero 1_374
+  - first:
+      213: 6789700487410572045
+    second: attack hero 1_375
+  - first:
+      213: -9012548966170074946
+    second: attack hero 1_376
+  - first:
+      213: -8623192005726035329
+    second: attack hero 1_377
+  - first:
+      213: -7856810731879831774
+    second: attack hero 1_378
+  - first:
+      213: -3668249658543577343
+    second: attack hero 1_379
+  - first:
+      213: -669679438653389974
+    second: attack hero 1_380
+  - first:
+      213: -2550709066929516439
+    second: attack hero 1_381
+  - first:
+      213: 6457542749972430656
+    second: attack hero 1_382
+  - first:
+      213: -5010065204373293798
+    second: attack hero 1_383
+  - first:
+      213: -3944603752679507155
+    second: attack hero 1_384
+  - first:
+      213: 8596671903742712032
+    second: attack hero 1_385
+  - first:
+      213: 6314404773201191493
+    second: attack hero 1_386
+  - first:
+      213: 1641248770335930825
+    second: attack hero 1_387
+  - first:
+      213: -1350790598413533879
+    second: attack hero 1_388
+  - first:
+      213: 2432344764638490200
+    second: attack hero 1_389
+  - first:
+      213: -5404827428490119067
+    second: attack hero 1_390
+  - first:
+      213: 8477466860417527020
+    second: attack hero 1_391
+  - first:
+      213: -969761258147949649
+    second: attack hero 1_392
+  - first:
+      213: -1252794169719148932
+    second: attack hero 1_393
+  - first:
+      213: -96930218223167605
+    second: attack hero 1_394
+  - first:
+      213: 4451589340540301657
+    second: attack hero 1_395
+  - first:
+      213: -5149199764259361430
+    second: attack hero 1_396
+  - first:
+      213: -8134560717007188059
+    second: attack hero 1_397
+  - first:
+      213: 4568063522956805345
+    second: attack hero 1_398
+  - first:
+      213: -4077195126879033787
+    second: attack hero 1_399
+  - first:
+      213: -3797151455672051087
+    second: attack hero 1_400
+  - first:
+      213: -747898511934655152
+    second: attack hero 1_401
+  - first:
+      213: 7987114440062224731
+    second: attack hero 1_402
+  - first:
+      213: -1810496191062860231
+    second: attack hero 1_403
+  - first:
+      213: -7896882675721105124
+    second: attack hero 1_404
+  - first:
+      213: 1578967441239429371
+    second: attack hero 1_405
+  - first:
+      213: 3001795534671726095
+    second: attack hero 1_406
+  - first:
+      213: 8828961824333081755
+    second: attack hero 1_407
+  - first:
+      213: -4720964451291968236
+    second: attack hero 1_408
+  - first:
+      213: -5497322080697710934
+    second: attack hero 1_409
+  - first:
+      213: -276772586974654911
+    second: attack hero 1_410
+  - first:
+      213: 6716478882343017001
+    second: attack hero 1_411
+  - first:
+      213: 172130619795171664
+    second: attack hero 1_412
+  - first:
+      213: -8830052466172279672
+    second: attack hero 1_413
+  - first:
+      213: -3058772443165257206
+    second: attack hero 1_414
+  - first:
+      213: 642312902719986103
+    second: attack hero 1_415
+  - first:
+      213: -4938543241186702417
+    second: attack hero 1_416
+  - first:
+      213: -9171672064063531514
+    second: attack hero 1_417
+  - first:
+      213: -108423097221854308
+    second: attack hero 1_418
+  - first:
+      213: -2481782321964119225
+    second: attack hero 1_419
+  - first:
+      213: 2105536790951137931
+    second: attack hero 1_420
+  - first:
+      213: -3107980935344954996
+    second: attack hero 1_421
+  - first:
+      213: -8736619872916104012
+    second: attack hero 1_422
+  - first:
+      213: 4505127520892460664
+    second: attack hero 1_423
+  - first:
+      213: -4790101538681306499
+    second: attack hero 1_424
+  - first:
+      213: -1005159362941753382
+    second: attack hero 1_425
+  - first:
+      213: 5282736713190514672
+    second: attack hero 1_426
+  - first:
+      213: 4097341479672792500
+    second: attack hero 1_427
+  - first:
+      213: -1122325390657871799
+    second: attack hero 1_428
+  - first:
+      213: -2726923995444937458
+    second: attack hero 1_429
+  - first:
+      213: -7238140327373895787
+    second: attack hero 1_430
+  - first:
+      213: 5000715312790344524
+    second: attack hero 1_431
+  - first:
+      213: -4394016162342887166
+    second: attack hero 1_432
+  - first:
+      213: -1712373332634538152
+    second: attack hero 1_433
+  - first:
+      213: -5390349000115652703
+    second: attack hero 1_434
+  - first:
+      213: -8449507089220742462
+    second: attack hero 1_435
+  - first:
+      213: 6711024138083269508
+    second: attack hero 1_436
+  - first:
+      213: 7860742941775197826
+    second: attack hero 1_437
+  - first:
+      213: 8614241270752675350
+    second: attack hero 1_438
+  - first:
+      213: 6729840771079431848
+    second: attack hero 1_439
+  - first:
+      213: 3686728922212878067
+    second: attack hero 1_440
+  - first:
+      213: 444598839938858255
+    second: attack hero 1_441
+  - first:
+      213: 4334240100304747408
+    second: attack hero 1_442
+  - first:
+      213: -6103281978083773840
+    second: attack hero 1_443
+  - first:
+      213: -8224563510861242394
+    second: attack hero 1_444
+  - first:
+      213: -6975093539240501472
+    second: attack hero 1_445
+  - first:
+      213: 1695874844653961914
+    second: attack hero 1_446
+  - first:
+      213: -2395066971915914464
+    second: attack hero 1_447
+  - first:
+      213: -4203613138071131390
+    second: attack hero 1_448
+  - first:
+      213: -3517969351485667215
+    second: attack hero 1_449
+  - first:
+      213: -959957374622638145
+    second: attack hero 1_450
+  - first:
+      213: -40718944953790505
+    second: attack hero 1_451
+  - first:
+      213: 4037273030391009357
+    second: attack hero 1_452
+  - first:
+      213: 4491090276793698702
+    second: attack hero 1_453
+  - first:
+      213: -6304747122418310281
+    second: attack hero 1_454
+  - first:
+      213: -2041776917032454711
+    second: attack hero 1_455
+  - first:
+      213: -7844584863185441356
+    second: attack hero 1_456
+  - first:
+      213: 1774568952413831321
+    second: attack hero 1_457
+  - first:
+      213: -9117906741190359385
+    second: attack hero 1_458
+  - first:
+      213: -2638028913259087321
+    second: attack hero 1_459
+  - first:
+      213: -6065564441407886939
+    second: attack hero 1_460
+  - first:
+      213: 4557347768835200196
+    second: attack hero 1_461
+  - first:
+      213: -288476267587017296
+    second: attack hero 1_462
+  - first:
+      213: 212275729041384742
+    second: attack hero 1_463
+  - first:
+      213: 691260448835113077
+    second: attack hero 1_464
+  - first:
+      213: 8899338709683377788
+    second: attack hero 1_465
+  - first:
+      213: -6203781780634893495
+    second: attack hero 1_466
+  - first:
+      213: -1601265242538072451
+    second: attack hero 1_467
+  - first:
+      213: -7458971948192219009
+    second: attack hero 1_468
+  - first:
+      213: -2319204543094609648
+    second: attack hero 1_469
+  - first:
+      213: 645139778410904935
+    second: attack hero 1_470
+  - first:
+      213: -5358609480314341806
+    second: attack hero 1_471
+  - first:
+      213: 6960442173618873905
+    second: attack hero 1_472
+  - first:
+      213: 633647546595066281
+    second: attack hero 1_473
+  - first:
+      213: -1023117271023910287
+    second: attack hero 1_474
+  - first:
+      213: 8401495959127860126
+    second: attack hero 1_475
+  - first:
+      213: 7827667983840153919
+    second: attack hero 1_476
+  - first:
+      213: -7712523483165355222
+    second: attack hero 1_477
+  - first:
+      213: 4941612475658176131
+    second: attack hero 1_478
+  - first:
+      213: 2382126233923097531
+    second: attack hero 1_479
+  - first:
+      213: -7788393689391742309
+    second: attack hero 1_480
+  - first:
+      213: 5969031068429368080
+    second: attack hero 1_481
+  - first:
+      213: 4226868588621641988
+    second: attack hero 1_482
+  - first:
+      213: -6532943765424500425
+    second: attack hero 1_483
+  - first:
+      213: 1612904499847668555
+    second: attack hero 1_484
+  - first:
+      213: 1221092981605979140
+    second: attack hero 1_485
+  - first:
+      213: -1067158097770545900
+    second: attack hero 1_486
+  - first:
+      213: -4542185908303314452
+    second: attack hero 1_487
+  - first:
+      213: -6653255985465191411
+    second: attack hero 1_488
+  - first:
+      213: -4541741418375086532
+    second: attack hero 1_489
+  - first:
+      213: 4686155033736984170
+    second: attack hero 1_490
+  - first:
+      213: -4144475292055621982
+    second: attack hero 1_491
+  - first:
+      213: -6330587271038389406
+    second: attack hero 1_492
+  - first:
+      213: -465100880816143310
+    second: attack hero 1_493
+  - first:
+      213: 8775966169039247055
+    second: attack hero 1_494
+  - first:
+      213: 3860050679176355919
+    second: attack hero 1_495
+  - first:
+      213: 6030566489812095666
+    second: attack hero 1_496
+  - first:
+      213: 5014276773529199676
+    second: attack hero 1_497
+  - first:
+      213: -3611696120910453468
+    second: attack hero 1_498
+  - first:
+      213: 3214456559733762548
+    second: attack hero 1_499
+  - first:
+      213: 8576902584333030778
+    second: attack hero 1_500
+  - first:
+      213: 1466858861956699347
+    second: attack hero 1_501
+  - first:
+      213: -8327187656327105951
+    second: attack hero 1_502
+  - first:
+      213: 6066646048286442052
+    second: attack hero 1_503
+  - first:
+      213: 3713320078113447077
+    second: attack hero 1_504
+  - first:
+      213: 2411521459449175850
+    second: attack hero 1_505
+  - first:
+      213: 841598812874222928
+    second: attack hero 1_506
+  - first:
+      213: 6932712365291375003
+    second: attack hero 1_507
+  - first:
+      213: -5959096913158769251
+    second: attack hero 1_508
+  - first:
+      213: -8321766449573051100
+    second: attack hero 1_509
+  - first:
+      213: -7879835142908893376
+    second: attack hero 1_510
+  - first:
+      213: 5428810309359975848
+    second: attack hero 1_511
+  - first:
+      213: 5843493275982286974
+    second: attack hero 1_512
+  - first:
+      213: -3251020778880336740
+    second: attack hero 1_513
+  - first:
+      213: -4656720046893771786
+    second: attack hero 1_514
+  - first:
+      213: -5511789089827278348
+    second: attack hero 1_515
+  - first:
+      213: -264256516168080264
+    second: attack hero 1_516
+  - first:
+      213: -141762310546860368
+    second: attack hero 1_517
+  - first:
+      213: -2385486408820364522
+    second: attack hero 1_518
+  - first:
+      213: 8843092564835128876
+    second: attack hero 1_519
+  - first:
+      213: -2876199578827517280
+    second: attack hero 1_520
+  - first:
+      213: -6779495136950441447
+    second: attack hero 1_521
+  - first:
+      213: -7293481968761138710
+    second: attack hero 1_522
+  - first:
+      213: 9144852385877714944
+    second: attack hero 1_523
+  - first:
+      213: 4975040306064667187
+    second: attack hero 1_524
+  - first:
+      213: -6395187246747334192
+    second: attack hero 1_525
+  - first:
+      213: -5444695721557657041
+    second: attack hero 1_526
+  - first:
+      213: 334824089408687010
+    second: attack hero 1_527
+  - first:
+      213: 7938646908090542190
+    second: attack hero 1_528
+  - first:
+      213: 6188759086552086943
+    second: attack hero 1_529
+  - first:
+      213: -8444932288264720303
+    second: attack hero 1_530
+  - first:
+      213: -1039653143793429382
+    second: attack hero 1_531
+  - first:
+      213: -1128522489604164231
+    second: attack hero 1_532
+  - first:
+      213: -2800273305707687658
+    second: attack hero 1_533
+  - first:
+      213: 814649294475948916
+    second: attack hero 1_534
+  - first:
+      213: -4152602369538322946
+    second: attack hero 1_535
+  - first:
+      213: -619773054410209171
+    second: attack hero 1_536
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: attack hero 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14300
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06a042e1c34e8b43b0f5bf587200c4e
+      internalID: -1855956676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_1
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 14300
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc49d33ae014314fa4e6e5c2b8f0b06
+      internalID: -1147194855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_2
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 14300
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcd8639728c20344a163772ab5f7935
+      internalID: -1777240062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_3
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 14300
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03a549378a860f4a89b8457bf0d0acb
+      internalID: 977881089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13000
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4753a5fa7f4fc3c48aea8023efd90912
+      internalID: 87153965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_5
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 13000
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29da53aec5d000f4e8bbbb11004d0ed6
+      internalID: 393554032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_6
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 13000
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a7fa198cbe22d44904f85504335d21
+      internalID: 1744916630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_7
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 13000
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c196df472b30b49874c4866859e008
+      internalID: -315966560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11700
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee4b4a58cca64e4d91efc9637cbfdc7
+      internalID: -1634397982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_9
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 11700
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16cc5b78e9dfeef4d9426db7b61f4033
+      internalID: 147387561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_10
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 11700
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd8c72fdb469b147845ed78f4b2238e
+      internalID: 3747395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_11
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 11700
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1a5cd4f805e454eac4eb096820240b
+      internalID: -1415168452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10400
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e499d0120ecc034daf447f5de742570
+      internalID: 261997062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_13
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 10400
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5341205cde9a4614ebecaadfab3593ca
+      internalID: -485202992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_14
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 10400
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813f418eff09497409f567e7a7860b81
+      internalID: -1552884619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_15
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 10400
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b96dae627c7fb49b10f1aec73aac21
+      internalID: 1315029864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9100
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc27f5211b1bf84999ac227e77cc8af
+      internalID: -1945147988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_17
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 9100
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805e70ccd14ad4c4dbcd9711733b6860
+      internalID: 633932139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_18
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 9100
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181050dbe5ecdd842bb28c2804c09339
+      internalID: -1978046591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_19
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 9100
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba28549d9afd4d34ca70eea55f0f48ee
+      internalID: 1033564943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7800
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7da056bf44ed04c9e0034192578718
+      internalID: -1949444729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_21
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 7800
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca84d91e1444c5c49b4a535a3ecdbd23
+      internalID: 1835420035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_22
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 7800
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a850cfadf4b79640aa00315b3d13188
+      internalID: -2042501238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_23
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 7800
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4603634119460db408e86dc74b1faf6d
+      internalID: 1576792057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6500
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e405130d9f9af784a9d7a757f317a6ef
+      internalID: -470629190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_25
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 6500
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d958b1de0d23c2498b653a0c67fd3bf
+      internalID: 1179395428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_26
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 6500
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c042cfa70166fb4b98dc315ec92d360
+      internalID: -1139156462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_27
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 6500
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2be51e30c020a4c96a263e4dcba226
+      internalID: 1664717295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5200
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec373a85b8ba1e4ba41cb92750048bc
+      internalID: -848522580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_29
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 5200
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e96c1c1dfee6c24c9a57e16e4f084e7
+      internalID: 604346954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_30
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 5200
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ec490318b200941b28601d4bb946a1
+      internalID: 1372848829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_31
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 5200
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036497d618e2f4642b45bead7aae7f07
+      internalID: -2137917212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3900
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1967f3c629a012b4a9eec60a5eef12f5
+      internalID: 914835488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_33
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 3900
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eecaa6dd71ce3f14fb0c0bff72676be3
+      internalID: -1990789715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_34
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 3900
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28017caca8dc97f4ebdb30c08f5dbeec
+      internalID: -884063634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_35
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 3900
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9be22d09b5b994d80313bf46b5b7a0
+      internalID: 210914631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2600
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe38d61f0ce188e4e81a4f74a96d4678
+      internalID: 1460471919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_37
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 2600
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf28d84d0310afd41b8660e08ef4b173
+      internalID: -1479856335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_38
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 2600
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be89e965d19144b4faf45f638010a984
+      internalID: 457632681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_39
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 2600
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9685773a9f3fbae4da68c7dd0b70d932
+      internalID: -1777470355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1300
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d6ce63e6d476f4d97f25bd1103eb34
+      internalID: 2094948331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_41
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1300
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0203611f093eb714e9cb97c28e4f6053
+      internalID: 1954307582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_42
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 1300
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0130df1ac40c9b4dbd0722ec46f6c29
+      internalID: -376481039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_43
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 1300
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5086a6d6f7677942a8c376826ee2a5d
+      internalID: -1824144433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74246fa894032ce488de6b118eadaaad
+      internalID: -2136770606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_45
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 0
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913250bb8964e2341a578afd36360b71
+      internalID: -589050149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_46
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 0
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45d71ada685f8c46abc394bb4287934
+      internalID: -966570723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack hero 1_47
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 0
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6eb2714ba4e4946b532cae45cbe86d
+      internalID: 510465275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fbd21d40ab0df9142a2b6823c6b5ae40
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      attack hero 1_0: -1855956676
+      attack hero 1_1: -1147194855
+      attack hero 1_10: 3747395
+      attack hero 1_11: -1415168452
+      attack hero 1_12: 261997062
+      attack hero 1_13: -485202992
+      attack hero 1_14: -1552884619
+      attack hero 1_15: 1315029864
+      attack hero 1_16: -1945147988
+      attack hero 1_17: 633932139
+      attack hero 1_18: -1978046591
+      attack hero 1_19: 1033564943
+      attack hero 1_2: -1777240062
+      attack hero 1_20: -1949444729
+      attack hero 1_21: 1835420035
+      attack hero 1_22: -2042501238
+      attack hero 1_23: 1576792057
+      attack hero 1_24: -470629190
+      attack hero 1_25: 1179395428
+      attack hero 1_26: -1139156462
+      attack hero 1_27: 1664717295
+      attack hero 1_28: -848522580
+      attack hero 1_29: 604346954
+      attack hero 1_3: 977881089
+      attack hero 1_30: 1372848829
+      attack hero 1_31: -2137917212
+      attack hero 1_32: 914835488
+      attack hero 1_33: -1990789715
+      attack hero 1_34: -884063634
+      attack hero 1_35: 210914631
+      attack hero 1_36: 1460471919
+      attack hero 1_37: -1479856335
+      attack hero 1_38: 457632681
+      attack hero 1_39: -1777470355
+      attack hero 1_4: 87153965
+      attack hero 1_40: 2094948331
+      attack hero 1_41: 1954307582
+      attack hero 1_42: -376481039
+      attack hero 1_43: -1824144433
+      attack hero 1_44: -2136770606
+      attack hero 1_45: -589050149
+      attack hero 1_46: -966570723
+      attack hero 1_47: 510465275
+      attack hero 1_5: 393554032
+      attack hero 1_6: 1744916630
+      attack hero 1_7: -315966560
+      attack hero 1_8: -1634397982
+      attack hero 1_9: 147387561
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -23,6 +23,9 @@ public class CardUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler {
     public Vector3 OriginalPosition;
     public Vector3 OriginalScale;
 
+    private Coroutine _inflate;
+    private Coroutine _deflate;
+
     private void Awake() {
         CardButton = GetComponent<Button>();
         CardArt = GetComponent<Image>();
@@ -67,11 +70,15 @@ public class CardUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler {
     }
 
     public void StartInflate() {
-        StartCoroutine(InflateAnimation(true));
+        if(_inflate != null) StopCoroutine(_inflate);
+        if(_deflate != null) StopCoroutine(_deflate);
+        _inflate = StartCoroutine(InflateAnimation(true));
     }
 
     public void StartDeflate() {
-        StartCoroutine(InflateAnimation(false));
+        if (_inflate != null) StopCoroutine(_inflate);
+        if (_deflate != null) StopCoroutine(_deflate);
+        _deflate = StartCoroutine(InflateAnimation(false));
     }
 
     

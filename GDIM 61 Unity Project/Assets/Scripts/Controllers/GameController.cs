@@ -155,6 +155,7 @@ public class GameController : MonoBehaviour {
         int M = _cardsInHand.Length;
         for (int i = 0; i < N && i < M; i++) {
             _cardsInHand[i] = _deckQueue.Dequeue();
+            // Debug.Log(_cardsInHand[i].Name + " dealt to position " + i);
         }
     }
 
@@ -165,11 +166,13 @@ public class GameController : MonoBehaviour {
         Card playedCard = _cardsInHand[selectedCardIndex];
         _cardsInHand[selectedCardIndex] = null;
         _deckQueue.Enqueue(playedCard);
+        // Debug.Log(playedCard.Name + " queued to position " + (_deckQueue.Count - 1));
 
         // Move the rest of the card forward to fill up the null place
         for (int i = selectedCardIndex; i < MaxHandSize - 1; i++)
             _cardsInHand[i] = _cardsInHand[i + 1];
-        _cardsInHand[Mathf.Min(_deckQueue.Count, MaxHandSize) - 1] = _deckQueue.Dequeue();
+        _cardsInHand[Mathf.Min(Deck.Count, MaxHandSize) - 1] = _deckQueue.Dequeue();
+        // Debug.Log(_cardsInHand[Mathf.Min(Deck.Count, MaxHandSize) - 1].Name + " dealt to position " + (Mathf.Min(_deckQueue.Count, MaxHandSize) - 1));
 
         // Update UI
         UIManager.Instance.InitializeCardUI(_cardsInHand);

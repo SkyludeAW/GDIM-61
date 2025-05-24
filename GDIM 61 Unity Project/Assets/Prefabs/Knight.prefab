@@ -78,7 +78,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 0}
   m_FillRect: {fileID: 7677216503163050240}
   m_HandleRect: {fileID: 0}
@@ -229,8 +229,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 6248001004033519692}
   - {fileID: 7710297711948256546}
+  - {fileID: 6248001004033519692}
   - {fileID: 8713653641757766902}
   - {fileID: 2987338271897322476}
   - {fileID: 7749550546894080509}

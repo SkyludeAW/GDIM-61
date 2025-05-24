@@ -72,9 +72,9 @@ public class BasicUnit : Unit {
                     _animationController.ChangeAnimationState(AnimationController.AnimationState.Moving_Forward);
                 }
                 if (Agent.velocity.x > 0) {
-                    _animationController.SR.flipX = false;
+                    _animationController.transform.rotation = Quaternion.LookRotation(Vector3.forward);
                 } else if (Agent.velocity.x < 0) {
-                    _animationController.SR.flipX = true;
+                    _animationController.transform.rotation = Quaternion.LookRotation(Vector3.back);
                 }
                 #endregion
 
@@ -88,9 +88,9 @@ public class BasicUnit : Unit {
                 #region Animation
                 _animationController.ChangeAnimationState(AnimationController.AnimationState.Idle);
                 if (Agent.velocity.x > 0) {
-                    _animationController.SR.flipX = false;
+                    _animationController.transform.rotation = Quaternion.LookRotation(Vector3.forward);
                 } else if (Agent.velocity.x < 0) {
-                    _animationController.SR.flipX = true;
+                    _animationController.transform.rotation = Quaternion.LookRotation(Vector3.back);
                 }
                 #endregion
 
@@ -104,9 +104,9 @@ public class BasicUnit : Unit {
                 float xDifferenceWithTarget = Target.transform.position.x - transform.position.x;
                 _animationController.ChangeAnimationState(AnimationController.AnimationState.Idle);
                 if (xDifferenceWithTarget > 0) {
-                    _animationController.SR.flipX = false;
+                    _animationController.transform.rotation = Quaternion.LookRotation(Vector3.forward);
                 } else if (xDifferenceWithTarget < 0) {
-                    _animationController.SR.flipX = true;
+                    _animationController.transform.rotation = Quaternion.LookRotation(Vector3.back);
                 }
                 if (Time.time >= NextAttackTime) {
                     Attack(Target);

@@ -480,10 +480,10 @@ MonoBehaviour:
   CanChangeAnimationState: 1
   _animations:
   - {fileID: 7400000, guid: f76f9c6460491234caee79701725e9f5, type: 2}
-  - {fileID: 7400000, guid: 7bb92702f12d9ae4f9a5bcf11ae5d68b, type: 2}
-  - {fileID: 7400000, guid: 7bb92702f12d9ae4f9a5bcf11ae5d68b, type: 2}
-  - {fileID: 7400000, guid: fafa831e0f27f7e4ba19e9bef8b2eae8, type: 2}
-  - {fileID: 7400000, guid: 237b8785fb08b794b887b19bc4eb3c45, type: 2}
+  - {fileID: 7400000, guid: 3c68889d0a7e8484fb55e7e9b5b7c873, type: 2}
+  - {fileID: 7400000, guid: 3c68889d0a7e8484fb55e7e9b5b7c873, type: 2}
+  - {fileID: 7400000, guid: a1b2199805da4334bae00d4e9bef05ad, type: 2}
+  - {fileID: 7400000, guid: e5fe22f88274e604fb2d0d31e7f6dfb9, type: 2}
 --- !u!1 &5169072644580875752
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,8 +518,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 3398754499108391037}
   - {fileID: 7817815774390152107}
+  - {fileID: 3398754499108391037}
   - {fileID: 8065184065559368925}
   - {fileID: 6152976376182715642}
   - {fileID: 7108404528228555131}
@@ -830,7 +830,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 0}
   m_FillRect: {fileID: 1098392055338775039}
   m_HandleRect: {fileID: 0}

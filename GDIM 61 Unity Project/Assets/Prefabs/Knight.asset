@@ -16,12 +16,12 @@ MonoBehaviour:
   Description: A durable knight. May withstand good amounts of damage.
   Art: {fileID: 1816506484, guid: a92696d7e193d0f47a9683032afeb4fb, type: 3}
   Cost: 4
-  HitPoint: 600
-  Damage: 50
-  AttackCooldown: 2.6
-  Speed: 0.5
+  HitPoint: 400
+  Damage: 60
+  AttackCooldown: 2
+  Speed: 0.8
   KnockbackPower: 300
-  KnockbackResistance: 0.8
-  AttackRange: 0.5
+  KnockbackResistance: 0.6
+  AttackRange: 0.6
   UnitDeploySprite: {fileID: 1816506484, guid: a92696d7e193d0f47a9683032afeb4fb, type: 3}
   SummonedUnit: {fileID: 4184158858383528428, guid: ca514cea09dfcd54daea3b6f7af5e9f8, type: 3}

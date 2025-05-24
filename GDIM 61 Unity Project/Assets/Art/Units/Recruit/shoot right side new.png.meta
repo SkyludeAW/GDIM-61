@@ -1,0 +1,3057 @@
+fileFormatVersion: 2
+guid: 5719f418707d4584d883e1e3a31f4918
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3408463640541106517
+    second: shoot right side new_0
+  - first:
+      213: -2655070642001005913
+    second: shoot right side new_1
+  - first:
+      213: 3893658440263625857
+    second: shoot right side new_2
+  - first:
+      213: 601617028788506724
+    second: shoot right side new_3
+  - first:
+      213: 1634158958927883243
+    second: shoot right side new_4
+  - first:
+      213: 1706282967232212993
+    second: shoot right side new_5
+  - first:
+      213: 3101420474160827084
+    second: shoot right side new_6
+  - first:
+      213: 1120626692946209441
+    second: shoot right side new_7
+  - first:
+      213: 6947739314970863898
+    second: shoot right side new_8
+  - first:
+      213: 2237841370776626699
+    second: shoot right side new_9
+  - first:
+      213: 2720000729668543277
+    second: shoot right side new_10
+  - first:
+      213: 519904649625183921
+    second: shoot right side new_11
+  - first:
+      213: 7406946722203087247
+    second: shoot right side new_12
+  - first:
+      213: 8707063348384588565
+    second: shoot right side new_13
+  - first:
+      213: -4544171066663407435
+    second: shoot right side new_14
+  - first:
+      213: 1278450294899233199
+    second: shoot right side new_15
+  - first:
+      213: -1049109606012556124
+    second: shoot right side new_16
+  - first:
+      213: -3587383751922037226
+    second: shoot right side new_17
+  - first:
+      213: -5663231419763050768
+    second: shoot right side new_18
+  - first:
+      213: -8970928784735346222
+    second: shoot right side new_19
+  - first:
+      213: -7360693413254119507
+    second: shoot right side new_20
+  - first:
+      213: 3978172927936278462
+    second: shoot right side new_21
+  - first:
+      213: 2325010251820246251
+    second: shoot right side new_22
+  - first:
+      213: 9083540292772845958
+    second: shoot right side new_23
+  - first:
+      213: 8504069459125052894
+    second: shoot right side new_24
+  - first:
+      213: 1363033096078312151
+    second: shoot right side new_25
+  - first:
+      213: -2610232544303348034
+    second: shoot right side new_26
+  - first:
+      213: 6892690361864590126
+    second: shoot right side new_27
+  - first:
+      213: 8032058293348946007
+    second: shoot right side new_28
+  - first:
+      213: -2476713024050818809
+    second: shoot right side new_29
+  - first:
+      213: -883265761621052160
+    second: shoot right side new_30
+  - first:
+      213: 5821911190720936187
+    second: shoot right side new_31
+  - first:
+      213: -7178622090861397663
+    second: shoot right side new_32
+  - first:
+      213: -2173619312289075787
+    second: shoot right side new_33
+  - first:
+      213: -8103608862577799037
+    second: shoot right side new_34
+  - first:
+      213: -4914301613854883296
+    second: shoot right side new_35
+  - first:
+      213: 6894536053247021329
+    second: shoot right side new_36
+  - first:
+      213: 8211588517462503616
+    second: shoot right side new_37
+  - first:
+      213: -1320074822121098989
+    second: shoot right side new_38
+  - first:
+      213: 8969557152826651532
+    second: shoot right side new_39
+  - first:
+      213: 2381449302611988996
+    second: shoot right side new_40
+  - first:
+      213: -8663156390017447110
+    second: shoot right side new_41
+  - first:
+      213: -2265843977812314749
+    second: shoot right side new_42
+  - first:
+      213: -2873403581471973000
+    second: shoot right side new_43
+  - first:
+      213: 5447077036272317208
+    second: shoot right side new_44
+  - first:
+      213: 3532373093533350513
+    second: shoot right side new_45
+  - first:
+      213: -8162897162316684751
+    second: shoot right side new_46
+  - first:
+      213: 7306517039638845822
+    second: shoot right side new_47
+  - first:
+      213: -7474049019982100117
+    second: shoot right side new_48
+  - first:
+      213: 2920137340151613852
+    second: shoot right side new_49
+  - first:
+      213: 6934110136475841761
+    second: shoot right side new_50
+  - first:
+      213: -5497352162341039472
+    second: shoot right side new_51
+  - first:
+      213: 6363532924192966646
+    second: shoot right side new_52
+  - first:
+      213: -4369746173176406189
+    second: shoot right side new_53
+  - first:
+      213: 4824245282415562285
+    second: shoot right side new_54
+  - first:
+      213: 4415963342367153625
+    second: shoot right side new_55
+  - first:
+      213: 1856008053093973694
+    second: shoot right side new_56
+  - first:
+      213: -5122051138324983488
+    second: shoot right side new_57
+  - first:
+      213: 8742346106752544025
+    second: shoot right side new_58
+  - first:
+      213: 5023669313723409351
+    second: shoot right side new_59
+  - first:
+      213: -6797147202422294005
+    second: shoot right side new_60
+  - first:
+      213: 1213112745848390974
+    second: shoot right side new_61
+  - first:
+      213: -648282630506726964
+    second: shoot right side new_62
+  - first:
+      213: 475575980670718734
+    second: shoot right side new_63
+  - first:
+      213: -5126239206052751648
+    second: shoot right side new_64
+  - first:
+      213: -8262713410024308056
+    second: shoot right side new_65
+  - first:
+      213: 3018533786769115987
+    second: shoot right side new_66
+  - first:
+      213: 5238740258935697426
+    second: shoot right side new_67
+  - first:
+      213: -5766144130798958661
+    second: shoot right side new_68
+  - first:
+      213: -6953443227613344344
+    second: shoot right side new_69
+  - first:
+      213: -6799643032759129318
+    second: shoot right side new_70
+  - first:
+      213: -5404515921834818545
+    second: shoot right side new_71
+  - first:
+      213: 5889482170296885253
+    second: shoot right side new_72
+  - first:
+      213: 5341309425193656818
+    second: shoot right side new_73
+  - first:
+      213: -3501067941422430079
+    second: shoot right side new_74
+  - first:
+      213: 5468245630029113091
+    second: shoot right side new_75
+  - first:
+      213: 3150796505534498137
+    second: shoot right side new_76
+  - first:
+      213: 350879536399497598
+    second: shoot right side new_77
+  - first:
+      213: 6301578339476515374
+    second: shoot right side new_78
+  - first:
+      213: 7369655419502624931
+    second: shoot right side new_79
+  - first:
+      213: 4842055592251782164
+    second: shoot right side new_80
+  - first:
+      213: -8030383876251503585
+    second: shoot right side new_81
+  - first:
+      213: 5854214927187297311
+    second: shoot right side new_82
+  - first:
+      213: -3722184723664200078
+    second: shoot right side new_83
+  - first:
+      213: -1078737121447988418
+    second: shoot right side new_84
+  - first:
+      213: 1403684110757529347
+    second: shoot right side new_85
+  - first:
+      213: 6062393021376130737
+    second: shoot right side new_86
+  - first:
+      213: -5855499582460103992
+    second: shoot right side new_87
+  - first:
+      213: 5206282867341153898
+    second: shoot right side new_88
+  - first:
+      213: -325752234118088388
+    second: shoot right side new_89
+  - first:
+      213: 5972486441957857433
+    second: shoot right side new_90
+  - first:
+      213: 992158987191815972
+    second: shoot right side new_91
+  - first:
+      213: -1300710286773464183
+    second: shoot right side new_92
+  - first:
+      213: 141650807109152641
+    second: shoot right side new_93
+  - first:
+      213: -6241927784878973065
+    second: shoot right side new_94
+  - first:
+      213: -257925170646936208
+    second: shoot right side new_95
+  - first:
+      213: -7005527442798887890
+    second: shoot right side new_96
+  - first:
+      213: 2515847498064378719
+    second: shoot right side new_97
+  - first:
+      213: 9103644766414730496
+    second: shoot right side new_98
+  - first:
+      213: 6122756886731234970
+    second: shoot right side new_99
+  - first:
+      213: -5241873184814796050
+    second: shoot right side new_100
+  - first:
+      213: 2132440452930482863
+    second: shoot right side new_101
+  - first:
+      213: 8272029088116350710
+    second: shoot right side new_102
+  - first:
+      213: 253476504137216338
+    second: shoot right side new_103
+  - first:
+      213: 2716494543801605902
+    second: shoot right side new_104
+  - first:
+      213: -5891336843555435124
+    second: shoot right side new_105
+  - first:
+      213: 2993787559803212339
+    second: shoot right side new_106
+  - first:
+      213: -8880675687658929990
+    second: shoot right side new_107
+  - first:
+      213: -4120544585337860727
+    second: shoot right side new_108
+  - first:
+      213: -6988698004685597749
+    second: shoot right side new_109
+  - first:
+      213: 4567426487728952227
+    second: shoot right side new_110
+  - first:
+      213: 4476358189054341361
+    second: shoot right side new_111
+  - first:
+      213: -8552083891494495324
+    second: shoot right side new_112
+  - first:
+      213: 5260092008724531041
+    second: shoot right side new_113
+  - first:
+      213: 3953647348966658634
+    second: shoot right side new_114
+  - first:
+      213: 3813898954762789325
+    second: shoot right side new_115
+  - first:
+      213: -3018119790059948535
+    second: shoot right side new_116
+  - first:
+      213: 3862991730022300814
+    second: shoot right side new_117
+  - first:
+      213: -7715783485165268610
+    second: shoot right side new_118
+  - first:
+      213: -8109930077669266558
+    second: shoot right side new_119
+  - first:
+      213: 2115427105488151449
+    second: shoot right side new_120
+  - first:
+      213: -3561323704629462250
+    second: shoot right side new_121
+  - first:
+      213: 4677208083698085049
+    second: shoot right side new_122
+  - first:
+      213: 8698051476400929298
+    second: shoot right side new_123
+  - first:
+      213: 6275826207824047096
+    second: shoot right side new_124
+  - first:
+      213: -3173053838572021088
+    second: shoot right side new_125
+  - first:
+      213: -8758483952952859010
+    second: shoot right side new_126
+  - first:
+      213: 3232923694677848043
+    second: shoot right side new_127
+  - first:
+      213: 3743050193091080795
+    second: shoot right side new_128
+  - first:
+      213: 1370714124064314563
+    second: shoot right side new_129
+  - first:
+      213: -7473204144172528993
+    second: shoot right side new_130
+  - first:
+      213: -6302468754516153899
+    second: shoot right side new_131
+  - first:
+      213: -4515242902330608284
+    second: shoot right side new_132
+  - first:
+      213: 8258886829554521614
+    second: shoot right side new_133
+  - first:
+      213: 15151113114752290
+    second: shoot right side new_134
+  - first:
+      213: 7975048134459930761
+    second: shoot right side new_135
+  - first:
+      213: -8758319085754789292
+    second: shoot right side new_136
+  - first:
+      213: 3968845924621141070
+    second: shoot right side new_137
+  - first:
+      213: 267159998940188818
+    second: shoot right side new_138
+  - first:
+      213: 9011160974437826855
+    second: shoot right side new_139
+  - first:
+      213: 4667857934858191939
+    second: shoot right side new_140
+  - first:
+      213: 3456582911588312624
+    second: shoot right side new_141
+  - first:
+      213: 8911093420391119990
+    second: shoot right side new_142
+  - first:
+      213: -8005456523816983786
+    second: shoot right side new_143
+  - first:
+      213: 2686091656825973026
+    second: shoot right side new_144
+  - first:
+      213: -8278463190524263741
+    second: shoot right side new_145
+  - first:
+      213: -3790131507856788023
+    second: shoot right side new_146
+  - first:
+      213: 3677075192872794440
+    second: shoot right side new_147
+  - first:
+      213: -8285940027648099223
+    second: shoot right side new_148
+  - first:
+      213: 8759503064768219276
+    second: shoot right side new_149
+  - first:
+      213: -5037156287349064220
+    second: shoot right side new_150
+  - first:
+      213: -7659393714122974034
+    second: shoot right side new_151
+  - first:
+      213: 2546071729617854971
+    second: shoot right side new_152
+  - first:
+      213: 8630048935657420938
+    second: shoot right side new_153
+  - first:
+      213: 3437993893574896363
+    second: shoot right side new_154
+  - first:
+      213: -1799985778517667486
+    second: shoot right side new_155
+  - first:
+      213: -8641061194135703208
+    second: shoot right side new_156
+  - first:
+      213: 792427707193342567
+    second: shoot right side new_157
+  - first:
+      213: 8588536500464702008
+    second: shoot right side new_158
+  - first:
+      213: -314686217319267334
+    second: shoot right side new_159
+  - first:
+      213: 6416630946709055587
+    second: shoot right side new_160
+  - first:
+      213: -7946711009330368143
+    second: shoot right side new_161
+  - first:
+      213: -2035194856809288248
+    second: shoot right side new_162
+  - first:
+      213: -69094858057235250
+    second: shoot right side new_163
+  - first:
+      213: 7379582236136265344
+    second: shoot right side new_164
+  - first:
+      213: -2876921583922040521
+    second: shoot right side new_165
+  - first:
+      213: -2313458288475521929
+    second: shoot right side new_166
+  - first:
+      213: -5669644766266400173
+    second: shoot right side new_167
+  - first:
+      213: 4091027831536832838
+    second: shoot right side new_168
+  - first:
+      213: -6431327478273008845
+    second: shoot right side new_169
+  - first:
+      213: -6630522826831924587
+    second: shoot right side new_170
+  - first:
+      213: 4030683946899164797
+    second: shoot right side new_171
+  - first:
+      213: -9201059984951607156
+    second: shoot right side new_172
+  - first:
+      213: 3575864534660094887
+    second: shoot right side new_173
+  - first:
+      213: 7811203224870765224
+    second: shoot right side new_174
+  - first:
+      213: -7269021701307801472
+    second: shoot right side new_175
+  - first:
+      213: 7759357323515129242
+    second: shoot right side new_176
+  - first:
+      213: -1473945686947788111
+    second: shoot right side new_177
+  - first:
+      213: -7654518020250595067
+    second: shoot right side new_178
+  - first:
+      213: 933366412473747845
+    second: shoot right side new_179
+  - first:
+      213: -8388737210707075787
+    second: shoot right side new_180
+  - first:
+      213: 5610029820727149067
+    second: shoot right side new_181
+  - first:
+      213: -3929947627923526547
+    second: shoot right side new_182
+  - first:
+      213: -4893272137451446414
+    second: shoot right side new_183
+  - first:
+      213: 2137540205112504123
+    second: shoot right side new_184
+  - first:
+      213: -8983709746236616982
+    second: shoot right side new_185
+  - first:
+      213: -3153883295469941872
+    second: shoot right side new_186
+  - first:
+      213: -2456610037935126214
+    second: shoot right side new_187
+  - first:
+      213: 4366909614810892051
+    second: shoot right side new_188
+  - first:
+      213: -9198796116672201768
+    second: shoot right side new_189
+  - first:
+      213: 5611659632187181095
+    second: shoot right side new_190
+  - first:
+      213: 217867608207401212
+    second: shoot right side new_191
+  - first:
+      213: 4708957879749917834
+    second: shoot right side new_192
+  - first:
+      213: -6200849980222220291
+    second: shoot right side new_193
+  - first:
+      213: -1380198252503466847
+    second: shoot right side new_194
+  - first:
+      213: 7646799823289404042
+    second: shoot right side new_195
+  - first:
+      213: 5159542254496547930
+    second: shoot right side new_196
+  - first:
+      213: -2691189284663648373
+    second: shoot right side new_197
+  - first:
+      213: 933833488206461564
+    second: shoot right side new_198
+  - first:
+      213: -363273874550023871
+    second: shoot right side new_199
+  - first:
+      213: -4348424761854125559
+    second: shoot right side new_200
+  - first:
+      213: -7167627976323880148
+    second: shoot right side new_201
+  - first:
+      213: -3145280964078945755
+    second: shoot right side new_202
+  - first:
+      213: -2036780006841329217
+    second: shoot right side new_203
+  - first:
+      213: 5814130899688490856
+    second: shoot right side new_204
+  - first:
+      213: 3180759751582799000
+    second: shoot right side new_205
+  - first:
+      213: -8760497107680651941
+    second: shoot right side new_206
+  - first:
+      213: 4533054402677692261
+    second: shoot right side new_207
+  - first:
+      213: -6047611649132179319
+    second: shoot right side new_208
+  - first:
+      213: 2149271151775325490
+    second: shoot right side new_209
+  - first:
+      213: 8008541384744153615
+    second: shoot right side new_210
+  - first:
+      213: 6564213062689124013
+    second: shoot right side new_211
+  - first:
+      213: -3922165176060798354
+    second: shoot right side new_212
+  - first:
+      213: -4147752816449843078
+    second: shoot right side new_213
+  - first:
+      213: 6441613827977773581
+    second: shoot right side new_214
+  - first:
+      213: 5408692475704942362
+    second: shoot right side new_215
+  - first:
+      213: 6165209669019313904
+    second: shoot right side new_216
+  - first:
+      213: -5962871660715099184
+    second: shoot right side new_217
+  - first:
+      213: -15763436103181012
+    second: shoot right side new_218
+  - first:
+      213: -8553675978876766596
+    second: shoot right side new_219
+  - first:
+      213: 7572403178118934026
+    second: shoot right side new_220
+  - first:
+      213: -600842626640869384
+    second: shoot right side new_221
+  - first:
+      213: -7210206782340568257
+    second: shoot right side new_222
+  - first:
+      213: -6882551145644723429
+    second: shoot right side new_223
+  - first:
+      213: -6594430574948454911
+    second: shoot right side new_224
+  - first:
+      213: 1023408043915607076
+    second: shoot right side new_225
+  - first:
+      213: -4016121930607148300
+    second: shoot right side new_226
+  - first:
+      213: -7406335988214741737
+    second: shoot right side new_227
+  - first:
+      213: 559724160356037561
+    second: shoot right side new_228
+  - first:
+      213: -3226273475481964647
+    second: shoot right side new_229
+  - first:
+      213: -4521296813018984699
+    second: shoot right side new_230
+  - first:
+      213: 2612928039219450164
+    second: shoot right side new_231
+  - first:
+      213: 587429916698533336
+    second: shoot right side new_232
+  - first:
+      213: 755709324905358225
+    second: shoot right side new_233
+  - first:
+      213: -1523686567799584047
+    second: shoot right side new_234
+  - first:
+      213: -5293002682709312890
+    second: shoot right side new_235
+  - first:
+      213: 709005446969378423
+    second: shoot right side new_236
+  - first:
+      213: 6146548518739317899
+    second: shoot right side new_237
+  - first:
+      213: 6005408160631160287
+    second: shoot right side new_238
+  - first:
+      213: -6897696641306996235
+    second: shoot right side new_239
+  - first:
+      213: -5213573317699995749
+    second: shoot right side new_240
+  - first:
+      213: 6395285481181772247
+    second: shoot right side new_241
+  - first:
+      213: 7228289301362000504
+    second: shoot right side new_242
+  - first:
+      213: 8763486034273183574
+    second: shoot right side new_243
+  - first:
+      213: -3108037446990888329
+    second: shoot right side new_244
+  - first:
+      213: 1156986477455253242
+    second: shoot right side new_245
+  - first:
+      213: 9151467555565684952
+    second: shoot right side new_246
+  - first:
+      213: -7255794873750114427
+    second: shoot right side new_247
+  - first:
+      213: 8480531193790056804
+    second: shoot right side new_248
+  - first:
+      213: -8093791909900298751
+    second: shoot right side new_249
+  - first:
+      213: -8704303353535991419
+    second: shoot right side new_250
+  - first:
+      213: -6060938800386185271
+    second: shoot right side new_251
+  - first:
+      213: -3626488300690271979
+    second: shoot right side new_252
+  - first:
+      213: -5401242852201726223
+    second: shoot right side new_253
+  - first:
+      213: -8305326647871338524
+    second: shoot right side new_254
+  - first:
+      213: 3776813899930097400
+    second: shoot right side new_255
+  - first:
+      213: -8669350762631993419
+    second: shoot right side new_256
+  - first:
+      213: -2078652214691605748
+    second: shoot right side new_257
+  - first:
+      213: -2203380118522059791
+    second: shoot right side new_258
+  - first:
+      213: 8789481937168655382
+    second: shoot right side new_259
+  - first:
+      213: 7287141116690214128
+    second: shoot right side new_260
+  - first:
+      213: 3319650330923500459
+    second: shoot right side new_261
+  - first:
+      213: -6224742350098431220
+    second: shoot right side new_262
+  - first:
+      213: 9044819642327458341
+    second: shoot right side new_263
+  - first:
+      213: 6570667946900365315
+    second: shoot right side new_264
+  - first:
+      213: 4096926989213911769
+    second: shoot right side new_265
+  - first:
+      213: 2976033692472254974
+    second: shoot right side new_266
+  - first:
+      213: 6550335509078814454
+    second: shoot right side new_267
+  - first:
+      213: 1745427138151734124
+    second: shoot right side new_268
+  - first:
+      213: 8614776818930538906
+    second: shoot right side new_269
+  - first:
+      213: 5078317478673075892
+    second: shoot right side new_270
+  - first:
+      213: 6793984648893033687
+    second: shoot right side new_271
+  - first:
+      213: -4520192577387588770
+    second: shoot right side new_272
+  - first:
+      213: -9011837907986659375
+    second: shoot right side new_273
+  - first:
+      213: 6143324850746630673
+    second: shoot right side new_274
+  - first:
+      213: 855110595862988869
+    second: shoot right side new_275
+  - first:
+      213: 8189791745402102672
+    second: shoot right side new_276
+  - first:
+      213: -3611573837004921625
+    second: shoot right side new_277
+  - first:
+      213: -8258857844429467494
+    second: shoot right side new_278
+  - first:
+      213: 7926342382605536821
+    second: shoot right side new_279
+  - first:
+      213: 163244742756649162
+    second: shoot right side new_280
+  - first:
+      213: -284301500700099698
+    second: shoot right side new_281
+  - first:
+      213: 8004744410079805455
+    second: shoot right side new_282
+  - first:
+      213: 5674491175660143613
+    second: shoot right side new_283
+  - first:
+      213: -5171209424912727833
+    second: shoot right side new_284
+  - first:
+      213: -7670640669747963083
+    second: shoot right side new_285
+  - first:
+      213: 4118174692606238908
+    second: shoot right side new_286
+  - first:
+      213: 8241684844039701657
+    second: shoot right side new_287
+  - first:
+      213: 8280633145796795851
+    second: shoot right side new_288
+  - first:
+      213: 2553103561536618402
+    second: shoot right side new_289
+  - first:
+      213: 2138569831988632239
+    second: shoot right side new_290
+  - first:
+      213: 5870015535214344328
+    second: shoot right side new_291
+  - first:
+      213: 3215291463503947295
+    second: shoot right side new_292
+  - first:
+      213: 1081342440030907042
+    second: shoot right side new_293
+  - first:
+      213: -3458193593752146459
+    second: shoot right side new_294
+  - first:
+      213: -6730378703834644479
+    second: shoot right side new_295
+  - first:
+      213: -7924390498331225658
+    second: shoot right side new_296
+  - first:
+      213: 3596606658099523742
+    second: shoot right side new_297
+  - first:
+      213: 5281295363394537178
+    second: shoot right side new_298
+  - first:
+      213: -4666500202446374030
+    second: shoot right side new_299
+  - first:
+      213: -867881033098003540
+    second: shoot right side new_300
+  - first:
+      213: -1324001272111734003
+    second: shoot right side new_301
+  - first:
+      213: -2995023257643197057
+    second: shoot right side new_302
+  - first:
+      213: -2377308001300597820
+    second: shoot right side new_303
+  - first:
+      213: 3388957175015873578
+    second: shoot right side new_304
+  - first:
+      213: 1185285485608221787
+    second: shoot right side new_305
+  - first:
+      213: 6403920451176683845
+    second: shoot right side new_306
+  - first:
+      213: 8564848519360288770
+    second: shoot right side new_307
+  - first:
+      213: -33647259869705891
+    second: shoot right side new_308
+  - first:
+      213: 3034788939266356655
+    second: shoot right side new_309
+  - first:
+      213: -1301385226531700447
+    second: shoot right side new_310
+  - first:
+      213: -4709913878942420125
+    second: shoot right side new_311
+  - first:
+      213: 4395702628952352810
+    second: shoot right side new_312
+  - first:
+      213: -1736614115427538808
+    second: shoot right side new_313
+  - first:
+      213: -2423038147659083865
+    second: shoot right side new_314
+  - first:
+      213: -4580581620396650814
+    second: shoot right side new_315
+  - first:
+      213: -1752136218110184474
+    second: shoot right side new_316
+  - first:
+      213: -4956072382711179097
+    second: shoot right side new_317
+  - first:
+      213: -802753224403508488
+    second: shoot right side new_318
+  - first:
+      213: -4676156047976404346
+    second: shoot right side new_319
+  - first:
+      213: 5176906986365373614
+    second: shoot right side new_320
+  - first:
+      213: 3153855246674879916
+    second: shoot right side new_321
+  - first:
+      213: -5762219974185313552
+    second: shoot right side new_322
+  - first:
+      213: 8156871124772005152
+    second: shoot right side new_323
+  - first:
+      213: 7571440519469905884
+    second: shoot right side new_324
+  - first:
+      213: 2803741120149723633
+    second: shoot right side new_325
+  - first:
+      213: -321143400671653784
+    second: shoot right side new_326
+  - first:
+      213: -6844421529976201825
+    second: shoot right side new_327
+  - first:
+      213: -6732138689815728084
+    second: shoot right side new_328
+  - first:
+      213: 4238436813221562105
+    second: shoot right side new_329
+  - first:
+      213: -1190168707563409844
+    second: shoot right side new_330
+  - first:
+      213: 1236408166524529360
+    second: shoot right side new_331
+  - first:
+      213: -3336252936601105664
+    second: shoot right side new_332
+  - first:
+      213: -8047046049766228752
+    second: shoot right side new_333
+  - first:
+      213: -3683152498634477579
+    second: shoot right side new_334
+  - first:
+      213: 3051617854178551185
+    second: shoot right side new_335
+  - first:
+      213: -82499807604104578
+    second: shoot right side new_336
+  - first:
+      213: -1076600810208456964
+    second: shoot right side new_337
+  - first:
+      213: -6109143757266916904
+    second: shoot right side new_338
+  - first:
+      213: 1298829092712212108
+    second: shoot right side new_339
+  - first:
+      213: 1645736270591420907
+    second: shoot right side new_340
+  - first:
+      213: -9180940254954460199
+    second: shoot right side new_341
+  - first:
+      213: 1072537002992427156
+    second: shoot right side new_342
+  - first:
+      213: -4601982458376801708
+    second: shoot right side new_343
+  - first:
+      213: 8988036038396544784
+    second: shoot right side new_344
+  - first:
+      213: -1910669631431233925
+    second: shoot right side new_345
+  - first:
+      213: -6242935627238605127
+    second: shoot right side new_346
+  - first:
+      213: 7421230078743412967
+    second: shoot right side new_347
+  - first:
+      213: 6907266833233571522
+    second: shoot right side new_348
+  - first:
+      213: 1002098926606338165
+    second: shoot right side new_349
+  - first:
+      213: -7927366091625280423
+    second: shoot right side new_350
+  - first:
+      213: 7821661490281923279
+    second: shoot right side new_351
+  - first:
+      213: 1206415407201338888
+    second: shoot right side new_352
+  - first:
+      213: -7219355028159056928
+    second: shoot right side new_353
+  - first:
+      213: 6053916210142258005
+    second: shoot right side new_354
+  - first:
+      213: -5220886420082805218
+    second: shoot right side new_355
+  - first:
+      213: -7631435454682528603
+    second: shoot right side new_356
+  - first:
+      213: 1397428389905268844
+    second: shoot right side new_357
+  - first:
+      213: 514943928769078876
+    second: shoot right side new_358
+  - first:
+      213: 8413504147470590775
+    second: shoot right side new_359
+  - first:
+      213: 4477553280753917430
+    second: shoot right side new_360
+  - first:
+      213: -1905177789096485856
+    second: shoot right side new_361
+  - first:
+      213: 5292269968768534210
+    second: shoot right side new_362
+  - first:
+      213: 3278669747132600472
+    second: shoot right side new_363
+  - first:
+      213: -9145249906443057845
+    second: shoot right side new_364
+  - first:
+      213: 5012162535388298982
+    second: shoot right side new_365
+  - first:
+      213: 3951358683115255944
+    second: shoot right side new_366
+  - first:
+      213: -7573959333894023300
+    second: shoot right side new_367
+  - first:
+      213: -5148652984564627206
+    second: shoot right side new_368
+  - first:
+      213: -2118590001772459055
+    second: shoot right side new_369
+  - first:
+      213: -7031634295098888899
+    second: shoot right side new_370
+  - first:
+      213: 902248404831743441
+    second: shoot right side new_371
+  - first:
+      213: 8053402502940343149
+    second: shoot right side new_372
+  - first:
+      213: -1257528020793813197
+    second: shoot right side new_373
+  - first:
+      213: 3280908770297278351
+    second: shoot right side new_374
+  - first:
+      213: 6887183485341027526
+    second: shoot right side new_375
+  - first:
+      213: -672405634502575861
+    second: shoot right side new_376
+  - first:
+      213: -4838362557965252318
+    second: shoot right side new_377
+  - first:
+      213: 805492446151555866
+    second: shoot right side new_378
+  - first:
+      213: -872923294035392810
+    second: shoot right side new_379
+  - first:
+      213: -8873591606653058844
+    second: shoot right side new_380
+  - first:
+      213: -2413395883597188745
+    second: shoot right side new_381
+  - first:
+      213: -7601826875556488315
+    second: shoot right side new_382
+  - first:
+      213: -697891173568490236
+    second: shoot right side new_383
+  - first:
+      213: -4387474090558120702
+    second: shoot right side new_384
+  - first:
+      213: -4083152519495815131
+    second: shoot right side new_385
+  - first:
+      213: -7153239081911093312
+    second: shoot right side new_386
+  - first:
+      213: 5682307161647023734
+    second: shoot right side new_387
+  - first:
+      213: -8507041914347825899
+    second: shoot right side new_388
+  - first:
+      213: 6982183038655824633
+    second: shoot right side new_389
+  - first:
+      213: 6762756792396737465
+    second: shoot right side new_390
+  - first:
+      213: -7388729940621641511
+    second: shoot right side new_391
+  - first:
+      213: -7878226667860838234
+    second: shoot right side new_392
+  - first:
+      213: -1875215750191420819
+    second: shoot right side new_393
+  - first:
+      213: 2706640799073582350
+    second: shoot right side new_394
+  - first:
+      213: -1023717488952383935
+    second: shoot right side new_395
+  - first:
+      213: -2211251722228839240
+    second: shoot right side new_396
+  - first:
+      213: -2112526643908724918
+    second: shoot right side new_397
+  - first:
+      213: 3988316094635846151
+    second: shoot right side new_398
+  - first:
+      213: 3421715613982888265
+    second: shoot right side new_399
+  - first:
+      213: 1264939210409557751
+    second: shoot right side new_400
+  - first:
+      213: 4908747353489077564
+    second: shoot right side new_401
+  - first:
+      213: 5592082015939863674
+    second: shoot right side new_402
+  - first:
+      213: -8717747642063804802
+    second: shoot right side new_403
+  - first:
+      213: -508833212533652554
+    second: shoot right side new_404
+  - first:
+      213: 2265538282286472799
+    second: shoot right side new_405
+  - first:
+      213: -3042089104636014734
+    second: shoot right side new_406
+  - first:
+      213: -3958680629499905278
+    second: shoot right side new_407
+  - first:
+      213: -3070762806061611974
+    second: shoot right side new_408
+  - first:
+      213: -8191683195076261896
+    second: shoot right side new_409
+  - first:
+      213: -1039959958349494092
+    second: shoot right side new_410
+  - first:
+      213: 2425016021036813168
+    second: shoot right side new_411
+  - first:
+      213: 5660583298991335444
+    second: shoot right side new_412
+  - first:
+      213: 5010296229490063001
+    second: shoot right side new_413
+  - first:
+      213: 7004107346295194462
+    second: shoot right side new_414
+  - first:
+      213: -1389742191534016444
+    second: shoot right side new_415
+  - first:
+      213: -3882603397506551071
+    second: shoot right side new_416
+  - first:
+      213: -1106667185344979997
+    second: shoot right side new_417
+  - first:
+      213: -6867330564716781359
+    second: shoot right side new_418
+  - first:
+      213: -2822162747500093865
+    second: shoot right side new_419
+  - first:
+      213: -6669696951443890522
+    second: shoot right side new_420
+  - first:
+      213: 2245907272585265457
+    second: shoot right side new_421
+  - first:
+      213: -8307531909480718880
+    second: shoot right side new_422
+  - first:
+      213: 4894532173334867040
+    second: shoot right side new_423
+  - first:
+      213: -382422786628984010
+    second: shoot right side new_424
+  - first:
+      213: -8607293713744111734
+    second: shoot right side new_425
+  - first:
+      213: -2305054409219344106
+    second: shoot right side new_426
+  - first:
+      213: 7775230377227080437
+    second: shoot right side new_427
+  - first:
+      213: 1691430431569363401
+    second: shoot right side new_428
+  - first:
+      213: -3457186783203671044
+    second: shoot right side new_429
+  - first:
+      213: -5805921455771247307
+    second: shoot right side new_430
+  - first:
+      213: -3783317146947734987
+    second: shoot right side new_431
+  - first:
+      213: -2748255436608811736
+    second: shoot right side new_432
+  - first:
+      213: -7283115881289533016
+    second: shoot right side new_433
+  - first:
+      213: -8047914859803830583
+    second: shoot right side new_434
+  - first:
+      213: 3382818630561820106
+    second: shoot right side new_435
+  - first:
+      213: 8258041365691859541
+    second: shoot right side new_436
+  - first:
+      213: 2455314220458704774
+    second: shoot right side new_437
+  - first:
+      213: -3157599083016378180
+    second: shoot right side new_438
+  - first:
+      213: -8972852745703847585
+    second: shoot right side new_439
+  - first:
+      213: 2305855514726474569
+    second: shoot right side new_440
+  - first:
+      213: -2014887366490912396
+    second: shoot right side new_441
+  - first:
+      213: -6153535568550872330
+    second: shoot right side new_442
+  - first:
+      213: -3961667954474636579
+    second: shoot right side new_443
+  - first:
+      213: 3910046701211911685
+    second: shoot right side new_444
+  - first:
+      213: -15960182038602596
+    second: shoot right side new_445
+  - first:
+      213: 237172241880231028
+    second: shoot right side new_446
+  - first:
+      213: 1463002891649260896
+    second: shoot right side new_447
+  - first:
+      213: 3652173673020333192
+    second: shoot right side new_448
+  - first:
+      213: -1741138270909631843
+    second: shoot right side new_449
+  - first:
+      213: 8606941425626442363
+    second: shoot right side new_450
+  - first:
+      213: 3680248388120146865
+    second: shoot right side new_451
+  - first:
+      213: -1659477244427482477
+    second: shoot right side new_452
+  - first:
+      213: 2268915807583883673
+    second: shoot right side new_453
+  - first:
+      213: -2436522579483791107
+    second: shoot right side new_454
+  - first:
+      213: -5590899718192585366
+    second: shoot right side new_455
+  - first:
+      213: -3373836796602092447
+    second: shoot right side new_456
+  - first:
+      213: -6906401492531077070
+    second: shoot right side new_457
+  - first:
+      213: 5525092930127658122
+    second: shoot right side new_458
+  - first:
+      213: 1607891077422995166
+    second: shoot right side new_459
+  - first:
+      213: -5992256005480855045
+    second: shoot right side new_460
+  - first:
+      213: -4673564816176408708
+    second: shoot right side new_461
+  - first:
+      213: -7034745805165235637
+    second: shoot right side new_462
+  - first:
+      213: -1962721816045998347
+    second: shoot right side new_463
+  - first:
+      213: 4574334799535335644
+    second: shoot right side new_464
+  - first:
+      213: 442713259063609209
+    second: shoot right side new_465
+  - first:
+      213: 4656821857636063013
+    second: shoot right side new_466
+  - first:
+      213: 2914923553875497681
+    second: shoot right side new_467
+  - first:
+      213: -9165991705923732094
+    second: shoot right side new_468
+  - first:
+      213: 8859655680342705937
+    second: shoot right side new_469
+  - first:
+      213: 3406391503284458027
+    second: shoot right side new_470
+  - first:
+      213: 1687523863914851206
+    second: shoot right side new_471
+  - first:
+      213: 670045221574744325
+    second: shoot right side new_472
+  - first:
+      213: -1657244970165840112
+    second: shoot right side new_473
+  - first:
+      213: -8532477131774348225
+    second: shoot right side new_474
+  - first:
+      213: -8903308111196049154
+    second: shoot right side new_475
+  - first:
+      213: -7174576414375324763
+    second: shoot right side new_476
+  - first:
+      213: 5262457533676366486
+    second: shoot right side new_477
+  - first:
+      213: 5610429224305255784
+    second: shoot right side new_478
+  - first:
+      213: -4267559025027160284
+    second: shoot right side new_479
+  - first:
+      213: 6542557940022216107
+    second: shoot right side new_480
+  - first:
+      213: 8090348341735875353
+    second: shoot right side new_481
+  - first:
+      213: 4098551469701112789
+    second: shoot right side new_482
+  - first:
+      213: -378860264826298246
+    second: shoot right side new_483
+  - first:
+      213: 4804260419697158159
+    second: shoot right side new_484
+  - first:
+      213: -2322930594416079723
+    second: shoot right side new_485
+  - first:
+      213: 784551090387123282
+    second: shoot right side new_486
+  - first:
+      213: 68102961716765016
+    second: shoot right side new_487
+  - first:
+      213: -7850957559565924749
+    second: shoot right side new_488
+  - first:
+      213: -9070516631737889467
+    second: shoot right side new_489
+  - first:
+      213: -8635050609891962778
+    second: shoot right side new_490
+  - first:
+      213: -6539467344894205121
+    second: shoot right side new_491
+  - first:
+      213: 1330134288363516849
+    second: shoot right side new_492
+  - first:
+      213: 5825306081736880192
+    second: shoot right side new_493
+  - first:
+      213: 4204540587107082931
+    second: shoot right side new_494
+  - first:
+      213: -8999026862457274408
+    second: shoot right side new_495
+  - first:
+      213: 58683605084280511
+    second: shoot right side new_496
+  - first:
+      213: 9190214075813612381
+    second: shoot right side new_497
+  - first:
+      213: 5378371266896376252
+    second: shoot right side new_498
+  - first:
+      213: 3897155532697909392
+    second: shoot right side new_499
+  - first:
+      213: 7281767852294011524
+    second: shoot right side new_500
+  - first:
+      213: -7065816723412918312
+    second: shoot right side new_501
+  - first:
+      213: 6580791583832292232
+    second: shoot right side new_502
+  - first:
+      213: 6613591029319177496
+    second: shoot right side new_503
+  - first:
+      213: -4945403147041169786
+    second: shoot right side new_504
+  - first:
+      213: -8014850218588671828
+    second: shoot right side new_505
+  - first:
+      213: 4211827844015911470
+    second: shoot right side new_506
+  - first:
+      213: -3470998537588327168
+    second: shoot right side new_507
+  - first:
+      213: -4576355339092890720
+    second: shoot right side new_508
+  - first:
+      213: -2528026783061472598
+    second: shoot right side new_509
+  - first:
+      213: 3234815736400299358
+    second: shoot right side new_510
+  - first:
+      213: 4567472786739045490
+    second: shoot right side new_511
+  - first:
+      213: 4493304545482230388
+    second: shoot right side new_512
+  - first:
+      213: 8810136661861923481
+    second: shoot right side new_513
+  - first:
+      213: 8093442848339692698
+    second: shoot right side new_514
+  - first:
+      213: -775052432994320897
+    second: shoot right side new_515
+  - first:
+      213: -8982522962652721051
+    second: shoot right side new_516
+  - first:
+      213: 1545630737128326118
+    second: shoot right side new_517
+  - first:
+      213: -1034205097707043092
+    second: shoot right side new_518
+  - first:
+      213: 8818029079992825659
+    second: shoot right side new_519
+  - first:
+      213: -13002559421725573
+    second: shoot right side new_520
+  - first:
+      213: 7598768040619764308
+    second: shoot right side new_521
+  - first:
+      213: -1817111440278439095
+    second: shoot right side new_522
+  - first:
+      213: 4111623351634796324
+    second: shoot right side new_523
+  - first:
+      213: 1196408118470161880
+    second: shoot right side new_524
+  - first:
+      213: -3388748598840719802
+    second: shoot right side new_525
+  - first:
+      213: 3197149077683513334
+    second: shoot right side new_526
+  - first:
+      213: -3672761340050726948
+    second: shoot right side new_527
+  - first:
+      213: 6997223843785428638
+    second: shoot right side new_528
+  - first:
+      213: 2178155052051700488
+    second: shoot right side new_529
+  - first:
+      213: 4824889763605101314
+    second: shoot right side new_530
+  - first:
+      213: -3842305091559502838
+    second: shoot right side new_531
+  - first:
+      213: 5481720158063479384
+    second: shoot right side new_532
+  - first:
+      213: -1296874147707392876
+    second: shoot right side new_533
+  - first:
+      213: 5378635366914949246
+    second: shoot right side new_534
+  - first:
+      213: 1388187136505575455
+    second: shoot right side new_535
+  - first:
+      213: 7462211190160493630
+    second: shoot right side new_536
+  - first:
+      213: -3883398244299852109
+    second: shoot right side new_537
+  - first:
+      213: 4361682982976751600
+    second: shoot right side new_538
+  - first:
+      213: -2485613358074580001
+    second: shoot right side new_539
+  - first:
+      213: 7701639461425555172
+    second: shoot right side new_540
+  - first:
+      213: 1092377481679320671
+    second: shoot right side new_541
+  - first:
+      213: -1620885367991742736
+    second: shoot right side new_542
+  - first:
+      213: -8815343370301836289
+    second: shoot right side new_543
+  - first:
+      213: -2489396616678538112
+    second: shoot right side new_544
+  - first:
+      213: -3907207655209890292
+    second: shoot right side new_545
+  - first:
+      213: 5697529327115941729
+    second: shoot right side new_546
+  - first:
+      213: 937600478407715282
+    second: shoot right side new_547
+  - first:
+      213: 38358208884465958
+    second: shoot right side new_548
+  - first:
+      213: 5161839819095173026
+    second: shoot right side new_549
+  - first:
+      213: 8811180677969469602
+    second: shoot right side new_550
+  - first:
+      213: 1691616962408389386
+    second: shoot right side new_551
+  - first:
+      213: 5312992194423060985
+    second: shoot right side new_552
+  - first:
+      213: 2540013330587890502
+    second: shoot right side new_553
+  - first:
+      213: -4810516263366839158
+    second: shoot right side new_554
+  - first:
+      213: 8710347820251663961
+    second: shoot right side new_555
+  - first:
+      213: 2916443041152197586
+    second: shoot right side new_556
+  - first:
+      213: 5251516110985463367
+    second: shoot right side new_557
+  - first:
+      213: -2718265739438316884
+    second: shoot right side new_558
+  - first:
+      213: 6674416977378410379
+    second: shoot right side new_559
+  - first:
+      213: -5774485514133328868
+    second: shoot right side new_560
+  - first:
+      213: -8407677969055886133
+    second: shoot right side new_561
+  - first:
+      213: -1218158725302440781
+    second: shoot right side new_562
+  - first:
+      213: 5456197684459498118
+    second: shoot right side new_563
+  - first:
+      213: 1426624425325996754
+    second: shoot right side new_564
+  - first:
+      213: 4301604288643971902
+    second: shoot right side new_565
+  - first:
+      213: 8393588391813653660
+    second: shoot right side new_566
+  - first:
+      213: -93273726437383593
+    second: shoot right side new_567
+  - first:
+      213: -6215487628145194021
+    second: shoot right side new_568
+  - first:
+      213: 2215829085510667861
+    second: shoot right side new_569
+  - first:
+      213: -347771376176573226
+    second: shoot right side new_570
+  - first:
+      213: -6360347779702603107
+    second: shoot right side new_571
+  - first:
+      213: -6677308571107068061
+    second: shoot right side new_572
+  - first:
+      213: -4867776484651286934
+    second: shoot right side new_573
+  - first:
+      213: -5595698947016578663
+    second: shoot right side new_574
+  - first:
+      213: -3415515300605674559
+    second: shoot right side new_575
+  - first:
+      213: -7835462189429543245
+    second: shoot right side new_576
+  - first:
+      213: 9197604167837607795
+    second: shoot right side new_577
+  - first:
+      213: -3089884168574350560
+    second: shoot right side new_578
+  - first:
+      213: 3339457805071226384
+    second: shoot right side new_579
+  - first:
+      213: -4623352694793875888
+    second: shoot right side new_580
+  - first:
+      213: 5257757179751489212
+    second: shoot right side new_581
+  - first:
+      213: -9133812052389312110
+    second: shoot right side new_582
+  - first:
+      213: 7926515567452317568
+    second: shoot right side new_583
+  - first:
+      213: -5029446572786934384
+    second: shoot right side new_584
+  - first:
+      213: -5699462557808241008
+    second: shoot right side new_585
+  - first:
+      213: 7536997815204781643
+    second: shoot right side new_586
+  - first:
+      213: -4387613286571326819
+    second: shoot right side new_587
+  - first:
+      213: 4754385165613077543
+    second: shoot right side new_588
+  - first:
+      213: 917119753641188159
+    second: shoot right side new_589
+  - first:
+      213: 1263262739163715650
+    second: shoot right side new_590
+  - first:
+      213: -943453969697875957
+    second: shoot right side new_591
+  - first:
+      213: 5873615197104908651
+    second: shoot right side new_592
+  - first:
+      213: -4398043542637919346
+    second: shoot right side new_593
+  - first:
+      213: -3001942416333234644
+    second: shoot right side new_594
+  - first:
+      213: -9098403385083742747
+    second: shoot right side new_595
+  - first:
+      213: 2428733671786902941
+    second: shoot right side new_596
+  - first:
+      213: -2740325338562673952
+    second: shoot right side new_597
+  - first:
+      213: -2115893355829772372
+    second: shoot right side new_598
+  - first:
+      213: 1409907305974316927
+    second: shoot right side new_599
+  - first:
+      213: -1210633961154554142
+    second: shoot right side new_600
+  - first:
+      213: -5398975611783898218
+    second: shoot right side new_601
+  - first:
+      213: 8242931813860881191
+    second: shoot right side new_602
+  - first:
+      213: -5102611500000498560
+    second: shoot right side new_603
+  - first:
+      213: 7460058578495723985
+    second: shoot right side new_604
+  - first:
+      213: 2670996861418481432
+    second: shoot right side new_605
+  - first:
+      213: -373110732293652931
+    second: shoot right side new_606
+  - first:
+      213: 8612868799105176414
+    second: shoot right side new_607
+  - first:
+      213: -7416691464453721969
+    second: shoot right side new_608
+  - first:
+      213: 891597262426348567
+    second: shoot right side new_609
+  - first:
+      213: 1418815533503480834
+    second: shoot right side new_610
+  - first:
+      213: -4571504305011535258
+    second: shoot right side new_611
+  - first:
+      213: 1495417825495076194
+    second: shoot right side new_612
+  - first:
+      213: 1477984558684920399
+    second: shoot right side new_613
+  - first:
+      213: 7796806172213247803
+    second: shoot right side new_614
+  - first:
+      213: 5605115366279203064
+    second: shoot right side new_615
+  - first:
+      213: -3609009041697192811
+    second: shoot right side new_616
+  - first:
+      213: 2884208358662554646
+    second: shoot right side new_617
+  - first:
+      213: 8699280063155456933
+    second: shoot right side new_618
+  - first:
+      213: -468033271651289300
+    second: shoot right side new_619
+  - first:
+      213: -4248574585376216087
+    second: shoot right side new_620
+  - first:
+      213: -821379992989700108
+    second: shoot right side new_621
+  - first:
+      213: -9095533434701032733
+    second: shoot right side new_622
+  - first:
+      213: -827117480777185529
+    second: shoot right side new_623
+  - first:
+      213: -4392309832428998283
+    second: shoot right side new_624
+  - first:
+      213: -8576533887633964311
+    second: shoot right side new_625
+  - first:
+      213: 3188106559067162567
+    second: shoot right side new_626
+  - first:
+      213: 5774488714909715883
+    second: shoot right side new_627
+  - first:
+      213: 3806685475762634075
+    second: shoot right side new_628
+  - first:
+      213: -5584911564873020497
+    second: shoot right side new_629
+  - first:
+      213: 4380064755598257972
+    second: shoot right side new_630
+  - first:
+      213: -3791522481241639707
+    second: shoot right side new_631
+  - first:
+      213: -3928178453153167597
+    second: shoot right side new_632
+  - first:
+      213: 2507104891621401796
+    second: shoot right side new_633
+  - first:
+      213: -6427912383872638429
+    second: shoot right side new_634
+  - first:
+      213: 1602145248003593407
+    second: shoot right side new_635
+  - first:
+      213: 1721952578682645627
+    second: shoot right side new_636
+  - first:
+      213: -4965945087046797399
+    second: shoot right side new_637
+  - first:
+      213: -4968209590912066519
+    second: shoot right side new_638
+  - first:
+      213: -1513239267814735978
+    second: shoot right side new_639
+  - first:
+      213: -3307077565755187751
+    second: shoot right side new_640
+  - first:
+      213: 9057965152840560010
+    second: shoot right side new_641
+  - first:
+      213: -8081562939837729110
+    second: shoot right side new_642
+  - first:
+      213: 5307005240620450173
+    second: shoot right side new_643
+  - first:
+      213: 4697104769115216581
+    second: shoot right side new_644
+  - first:
+      213: 8010539543159456898
+    second: shoot right side new_645
+  - first:
+      213: 7228003480024446904
+    second: shoot right side new_646
+  - first:
+      213: -8073764410795346138
+    second: shoot right side new_647
+  - first:
+      213: -8287402604123537287
+    second: shoot right side new_648
+  - first:
+      213: -5561879343169223265
+    second: shoot right side new_649
+  - first:
+      213: -2412073940030660204
+    second: shoot right side new_650
+  - first:
+      213: -8824882504943203983
+    second: shoot right side new_651
+  - first:
+      213: 3824825074366953050
+    second: shoot right side new_652
+  - first:
+      213: -82371105880252516
+    second: shoot right side new_653
+  - first:
+      213: -3120158901957107615
+    second: shoot right side new_654
+  - first:
+      213: -5413156146362600276
+    second: shoot right side new_655
+  - first:
+      213: -4355375845786791200
+    second: shoot right side new_656
+  - first:
+      213: 4109305749518462655
+    second: shoot right side new_657
+  - first:
+      213: -6687685331028609692
+    second: shoot right side new_658
+  - first:
+      213: -5525966930704940282
+    second: shoot right side new_659
+  - first:
+      213: -7933966154755931161
+    second: shoot right side new_660
+  - first:
+      213: 8659761591854618960
+    second: shoot right side new_661
+  - first:
+      213: 8429420298228695762
+    second: shoot right side new_662
+  - first:
+      213: 4228519188055368613
+    second: shoot right side new_663
+  - first:
+      213: 912823756000976821
+    second: shoot right side new_664
+  - first:
+      213: -1038885235842760541
+    second: shoot right side new_665
+  - first:
+      213: 6405762419734643424
+    second: shoot right side new_666
+  - first:
+      213: 70320520263115646
+    second: shoot right side new_667
+  - first:
+      213: -140891378761690673
+    second: shoot right side new_668
+  - first:
+      213: 5006742059650416481
+    second: shoot right side new_669
+  - first:
+      213: 2281653713861367615
+    second: shoot right side new_670
+  - first:
+      213: -9077406312621852524
+    second: shoot right side new_671
+  - first:
+      213: -2688522911150432539
+    second: shoot right side new_672
+  - first:
+      213: 3397103233004135036
+    second: shoot right side new_673
+  - first:
+      213: -3794795150004228257
+    second: shoot right side new_674
+  - first:
+      213: 1846797284429553551
+    second: shoot right side new_675
+  - first:
+      213: 1052521118706574277
+    second: shoot right side new_676
+  - first:
+      213: -3248687174481715382
+    second: shoot right side new_677
+  - first:
+      213: -2543870046959283574
+    second: shoot right side new_678
+  - first:
+      213: 7661770502559186245
+    second: shoot right side new_679
+  - first:
+      213: 5113472923342676556
+    second: shoot right side new_680
+  - first:
+      213: -4681034675969829358
+    second: shoot right side new_681
+  - first:
+      213: -692888845450072850
+    second: shoot right side new_682
+  - first:
+      213: 899670527248742584
+    second: shoot right side new_683
+  - first:
+      213: 7483270685843357510
+    second: shoot right side new_684
+  - first:
+      213: 1948834156522278240
+    second: shoot right side new_685
+  - first:
+      213: -1618610132056702476
+    second: shoot right side new_686
+  - first:
+      213: 578383025270961980
+    second: shoot right side new_687
+  - first:
+      213: -4921965146116909756
+    second: shoot right side new_688
+  - first:
+      213: -7276018035203013499
+    second: shoot right side new_689
+  - first:
+      213: -8741381780009142339
+    second: shoot right side new_690
+  - first:
+      213: 6388446895041350451
+    second: shoot right side new_691
+  - first:
+      213: -7598763917263426159
+    second: shoot right side new_692
+  - first:
+      213: -7506309596900140300
+    second: shoot right side new_693
+  - first:
+      213: -1624487473704996687
+    second: shoot right side new_694
+  - first:
+      213: 8231504733345494628
+    second: shoot right side new_695
+  - first:
+      213: 4380381699669598359
+    second: shoot right side new_696
+  - first:
+      213: 1348643206948715387
+    second: shoot right side new_697
+  - first:
+      213: -8891391615230825705
+    second: shoot right side new_698
+  - first:
+      213: 26663607544130417
+    second: shoot right side new_699
+  - first:
+      213: -6583946710885727607
+    second: shoot right side new_700
+  - first:
+      213: -1775336842599642600
+    second: shoot right side new_701
+  - first:
+      213: 2497519493721254995
+    second: shoot right side new_702
+  - first:
+      213: -3420536386173502017
+    second: shoot right side new_703
+  - first:
+      213: 1767989068759368140
+    second: shoot right side new_704
+  - first:
+      213: -7633575774977762149
+    second: shoot right side new_705
+  - first:
+      213: 227132663873655788
+    second: shoot right side new_706
+  - first:
+      213: -4251460202686597250
+    second: shoot right side new_707
+  - first:
+      213: 5562652381890702322
+    second: shoot right side new_708
+  - first:
+      213: -6003584774148104756
+    second: shoot right side new_709
+  - first:
+      213: 2544160551027127917
+    second: shoot right side new_710
+  - first:
+      213: -2434880065085798023
+    second: shoot right side new_711
+  - first:
+      213: 5175173028499859126
+    second: shoot right side new_712
+  - first:
+      213: 4040285777841102485
+    second: shoot right side new_713
+  - first:
+      213: -144609213578163704
+    second: shoot right side new_714
+  - first:
+      213: 8587505672731541599
+    second: shoot right side new_715
+  - first:
+      213: 1827802719743480422
+    second: shoot right side new_716
+  - first:
+      213: 7429091164507630011
+    second: shoot right side new_717
+  - first:
+      213: -8857583838938102673
+    second: shoot right side new_718
+  - first:
+      213: -3285531492887928606
+    second: shoot right side new_719
+  - first:
+      213: 7225988096292953816
+    second: shoot right side new_720
+  - first:
+      213: -6469880600560460604
+    second: shoot right side new_721
+  - first:
+      213: 8406052814293033605
+    second: shoot right side new_722
+  - first:
+      213: -7945385379783929511
+    second: shoot right side new_723
+  - first:
+      213: -52392175808780980
+    second: shoot right side new_724
+  - first:
+      213: -1736889296686210743
+    second: shoot right side new_725
+  - first:
+      213: -5507286337652064671
+    second: shoot right side new_726
+  - first:
+      213: 989754372181148728
+    second: shoot right side new_727
+  - first:
+      213: -8603369118959283215
+    second: shoot right side new_728
+  - first:
+      213: -2192000119379333619
+    second: shoot right side new_729
+  - first:
+      213: -6895050453137845126
+    second: shoot right side new_730
+  - first:
+      213: 3587072486544700644
+    second: shoot right side new_731
+  - first:
+      213: -5511384736454548957
+    second: shoot right side new_732
+  - first:
+      213: -7785864458641819390
+    second: shoot right side new_733
+  - first:
+      213: 664099708385334778
+    second: shoot right side new_734
+  - first:
+      213: 117398131350670033
+    second: shoot right side new_735
+  - first:
+      213: -4531385154222843098
+    second: shoot right side new_736
+  - first:
+      213: 7258782143370199247
+    second: shoot right side new_737
+  - first:
+      213: 377583374028182449
+    second: shoot right side new_738
+  - first:
+      213: -7637372150336543282
+    second: shoot right side new_739
+  - first:
+      213: 9137277445110351364
+    second: shoot right side new_740
+  - first:
+      213: 810701454252745175
+    second: shoot right side new_741
+  - first:
+      213: -2920362592411604943
+    second: shoot right side new_742
+  - first:
+      213: -2396392177457073277
+    second: shoot right side new_743
+  - first:
+      213: 1972270944510175418
+    second: shoot right side new_744
+  - first:
+      213: 5725697434547136954
+    second: shoot right side new_745
+  - first:
+      213: 1782216045943857129
+    second: shoot right side new_746
+  - first:
+      213: -5183214972088434794
+    second: shoot right side new_747
+  - first:
+      213: 6674844567718371801
+    second: shoot right side new_748
+  - first:
+      213: 2450357449901984225
+    second: shoot right side new_749
+  - first:
+      213: -680894921767657184
+    second: shoot right side new_750
+  - first:
+      213: 192968457705439715
+    second: shoot right side new_751
+  - first:
+      213: -8398174564444279589
+    second: shoot right side new_752
+  - first:
+      213: -228922484126230777
+    second: shoot right side new_753
+  - first:
+      213: 3525227898127875358
+    second: shoot right side new_754
+  - first:
+      213: 1160002153815477535
+    second: shoot right side new_755
+  - first:
+      213: -5140248248841124063
+    second: shoot right side new_756
+  - first:
+      213: 3480114967874477175
+    second: shoot right side new_757
+  - first:
+      213: -8233213660624571477
+    second: shoot right side new_758
+  - first:
+      213: -4138806335340754593
+    second: shoot right side new_759
+  - first:
+      213: -5340692464156661779
+    second: shoot right side new_760
+  - first:
+      213: 4670318690426875577
+    second: shoot right side new_761
+  - first:
+      213: 3457517380373950261
+    second: shoot right side new_762
+  - first:
+      213: -2373318022007788847
+    second: shoot right side new_763
+  - first:
+      213: -4511055321678749764
+    second: shoot right side new_764
+  - first:
+      213: 7586801800073815828
+    second: shoot right side new_765
+  - first:
+      213: 4627924801905633584
+    second: shoot right side new_766
+  - first:
+      213: 4119323699083480884
+    second: shoot right side new_767
+  - first:
+      213: -5281122565759593257
+    second: shoot right side new_768
+  - first:
+      213: 2362130574863046900
+    second: shoot right side new_769
+  - first:
+      213: 2001603055329789277
+    second: shoot right side new_770
+  - first:
+      213: 2888814081497492788
+    second: shoot right side new_771
+  - first:
+      213: 8120871720506162630
+    second: shoot right side new_772
+  - first:
+      213: 3903052149373036734
+    second: shoot right side new_773
+  - first:
+      213: -7794842497726737115
+    second: shoot right side new_774
+  - first:
+      213: -3466480923376583042
+    second: shoot right side new_775
+  - first:
+      213: -3698981797858326445
+    second: shoot right side new_776
+  - first:
+      213: -5595376581292189529
+    second: shoot right side new_777
+  - first:
+      213: 4411646044283576976
+    second: shoot right side new_778
+  - first:
+      213: 5192067824032982999
+    second: shoot right side new_779
+  - first:
+      213: 7607024172423006486
+    second: shoot right side new_780
+  - first:
+      213: 4997942658126421856
+    second: shoot right side new_781
+  - first:
+      213: 4681389574922770702
+    second: shoot right side new_782
+  - first:
+      213: 8093444007987270434
+    second: shoot right side new_783
+  - first:
+      213: 2323574729053610408
+    second: shoot right side new_784
+  - first:
+      213: -3027150168077814432
+    second: shoot right side new_785
+  - first:
+      213: 8841835101408404227
+    second: shoot right side new_786
+  - first:
+      213: 8310514573483964995
+    second: shoot right side new_787
+  - first:
+      213: 2217341393693191116
+    second: shoot right side new_788
+  - first:
+      213: -237239028051628380
+    second: shoot right side new_789
+  - first:
+      213: -3223111562370839698
+    second: shoot right side new_790
+  - first:
+      213: 8657107526677241287
+    second: shoot right side new_791
+  - first:
+      213: -4430959686067809801
+    second: shoot right side new_792
+  - first:
+      213: 1412183288673117902
+    second: shoot right side new_793
+  - first:
+      213: -430092058835830322
+    second: shoot right side new_794
+  - first:
+      213: 1074978453559753151
+    second: shoot right side new_795
+  - first:
+      213: 709196905062033867
+    second: shoot right side new_796
+  - first:
+      213: 1200942332982938075
+    second: shoot right side new_797
+  - first:
+      213: -2211487753010321242
+    second: shoot right side new_798
+  - first:
+      213: -5041896275746417483
+    second: shoot right side new_799
+  - first:
+      213: -7431841251182730224
+    second: shoot right side new_800
+  - first:
+      213: 3880081920627410854
+    second: shoot right side new_801
+  - first:
+      213: 5613595496947479808
+    second: shoot right side new_802
+  - first:
+      213: -7650747296712746277
+    second: shoot right side new_803
+  - first:
+      213: 6742492089586082129
+    second: shoot right side new_804
+  - first:
+      213: 6895304896717303159
+    second: shoot right side new_805
+  - first:
+      213: 4807927834705888618
+    second: shoot right side new_806
+  - first:
+      213: -7722083356291567979
+    second: shoot right side new_807
+  - first:
+      213: -7506049147192815638
+    second: shoot right side new_808
+  - first:
+      213: -9205764621853048030
+    second: shoot right side new_809
+  - first:
+      213: -4237512276530923318
+    second: shoot right side new_810
+  - first:
+      213: -7114559685087469508
+    second: shoot right side new_811
+  - first:
+      213: 5205325941330798851
+    second: shoot right side new_812
+  - first:
+      213: -2731868909894830249
+    second: shoot right side new_813
+  - first:
+      213: 2144933350574251404
+    second: shoot right side new_814
+  - first:
+      213: -6916198758337139171
+    second: shoot right side new_815
+  - first:
+      213: -8814579786773778200
+    second: shoot right side new_816
+  - first:
+      213: -6803439533974773280
+    second: shoot right side new_817
+  - first:
+      213: 1811601625415615483
+    second: shoot right side new_818
+  - first:
+      213: 2111021310419820479
+    second: shoot right side new_819
+  - first:
+      213: 2823764111008884113
+    second: shoot right side new_820
+  - first:
+      213: 6426952380444335591
+    second: shoot right side new_821
+  - first:
+      213: 8153363462175406121
+    second: shoot right side new_822
+  - first:
+      213: 3431268087553227725
+    second: shoot right side new_823
+  - first:
+      213: 3058490306883044007
+    second: shoot right side new_824
+  - first:
+      213: -2890917616717291605
+    second: shoot right side new_825
+  - first:
+      213: -1338577815124761975
+    second: shoot right side new_826
+  - first:
+      213: -5068227362365458867
+    second: shoot right side new_827
+  - first:
+      213: -2015590087280946917
+    second: shoot right side new_828
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shoot right side new_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 5200
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c0fd0fbf2c5824b8d43278730d3db2
+      internalID: 918044825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot right side new_1
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 5200
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a92a0bd2c26c5341a0030276f194fe7
+      internalID: -1671118740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot right side new_2
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 5200
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec913fbea50a644f97295350e0b3914
+      internalID: 1855700917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot right side new_3
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 5200
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f2093a53db3b34badda62082138699
+      internalID: 1988159157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot right side new_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3900
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2d3a70466445e4aab942f0aa865287
+      internalID: 838280918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot right side new_5
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 3900
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb775298637693d458434a5aeef91def
+      internalID: -1226095718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot right side new_6
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 3900
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7e0250023632646b9d8fa5bc729b44
+      internalID: -461050566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot right side new_7
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 3900
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0f941c62907d146918e0631736e167
+      internalID: 862306486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot right side new_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2600
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cec095497e364349a83a258a3a08b61
+      internalID: 479889210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot right side new_9
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 2600
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e374cff737d63240b73e03db841bfd1
+      internalID: -772838051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot right side new_10
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 2600
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9802807917a6c44b1f6d63bd7c06d6
+      internalID: 795608360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot right side new_11
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 2600
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b3bd6b8f436a148bd7d933069218c4
+      internalID: -751341315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot right side new_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1300
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683bd7e33d64f314e995a18248240484
+      internalID: 264696383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot right side new_13
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1300
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f4d42d92d458246a915ca3067eeb88
+      internalID: -1156127584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot right side new_14
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 1300
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d7fe12e182c7d448fb1f6e1cafcbf1
+      internalID: 8103582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot right side new_15
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 1300
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22a5be55e778b344873f04f8d5f088f
+      internalID: 1693212502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot right side new_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171bffd8201a97f4993eb4427a859fa4
+      internalID: -1848390011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot right side new_17
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 0
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90443589d4a48ae4fa3dad3fdb0be398
+      internalID: -1212775754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0c5da071f2bfbbb40b3c15704d44ed1e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      shoot right side new_0: 918044825
+      shoot right side new_1: -1671118740
+      shoot right side new_10: 795608360
+      shoot right side new_11: -751341315
+      shoot right side new_12: 264696383
+      shoot right side new_13: -1156127584
+      shoot right side new_14: 8103582
+      shoot right side new_15: 1693212502
+      shoot right side new_16: -1848390011
+      shoot right side new_17: -1212775754
+      shoot right side new_2: 1855700917
+      shoot right side new_3: 1988159157
+      shoot right side new_4: 838280918
+      shoot right side new_5: -1226095718
+      shoot right side new_6: -461050566
+      shoot right side new_7: 862306486
+      shoot right side new_8: 479889210
+      shoot right side new_9: -772838051
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

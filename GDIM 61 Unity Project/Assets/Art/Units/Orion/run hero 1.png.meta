@@ -1,0 +1,2209 @@
+fileFormatVersion: 2
+guid: 521ac9c76555a004d8dcc4f75f07335c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1326609426413978168
+    second: run hero 1_0
+  - first:
+      213: -2995849811094207504
+    second: run hero 1_1
+  - first:
+      213: 3449870553382130628
+    second: run hero 1_2
+  - first:
+      213: 3872604998140017186
+    second: run hero 1_3
+  - first:
+      213: -2366926004978841014
+    second: run hero 1_4
+  - first:
+      213: 7040081604085885287
+    second: run hero 1_5
+  - first:
+      213: -4217623611023704414
+    second: run hero 1_6
+  - first:
+      213: -1692046335984963435
+    second: run hero 1_7
+  - first:
+      213: 108580334208513644
+    second: run hero 1_8
+  - first:
+      213: -5892499229953868749
+    second: run hero 1_9
+  - first:
+      213: 9131777220355219712
+    second: run hero 1_10
+  - first:
+      213: -3251034281583956702
+    second: run hero 1_11
+  - first:
+      213: 8441974101754294973
+    second: run hero 1_12
+  - first:
+      213: 8605483201270674653
+    second: run hero 1_13
+  - first:
+      213: -8778486679009582900
+    second: run hero 1_14
+  - first:
+      213: 4387398224770760781
+    second: run hero 1_15
+  - first:
+      213: 5301636358852734581
+    second: run hero 1_16
+  - first:
+      213: -9033862888743808723
+    second: run hero 1_17
+  - first:
+      213: -180054092175362261
+    second: run hero 1_18
+  - first:
+      213: 8412249010546954492
+    second: run hero 1_19
+  - first:
+      213: -1429943019918413585
+    second: run hero 1_20
+  - first:
+      213: 6292028877059737341
+    second: run hero 1_21
+  - first:
+      213: -3729433664198551380
+    second: run hero 1_22
+  - first:
+      213: 252516288428164428
+    second: run hero 1_23
+  - first:
+      213: 5264787541977387751
+    second: run hero 1_24
+  - first:
+      213: -3766564732578768056
+    second: run hero 1_25
+  - first:
+      213: 4736018784664699236
+    second: run hero 1_26
+  - first:
+      213: -2016506521035241089
+    second: run hero 1_27
+  - first:
+      213: -710711808748039168
+    second: run hero 1_28
+  - first:
+      213: 1966232064917192559
+    second: run hero 1_29
+  - first:
+      213: -8195030118733311160
+    second: run hero 1_30
+  - first:
+      213: -2438076308316367568
+    second: run hero 1_31
+  - first:
+      213: -1359150169666456279
+    second: run hero 1_32
+  - first:
+      213: 8249953963509814326
+    second: run hero 1_33
+  - first:
+      213: -7327021113022770053
+    second: run hero 1_34
+  - first:
+      213: -7854954809304255306
+    second: run hero 1_35
+  - first:
+      213: 5933294755375564285
+    second: run hero 1_36
+  - first:
+      213: 2709155500882666304
+    second: run hero 1_37
+  - first:
+      213: -303174252372588174
+    second: run hero 1_38
+  - first:
+      213: -6602127701206792742
+    second: run hero 1_39
+  - first:
+      213: 131442899968541454
+    second: run hero 1_40
+  - first:
+      213: -7040625533780086938
+    second: run hero 1_41
+  - first:
+      213: 67335074923255194
+    second: run hero 1_42
+  - first:
+      213: -3889097643344904032
+    second: run hero 1_43
+  - first:
+      213: 2698306677957159857
+    second: run hero 1_44
+  - first:
+      213: -374557306076675020
+    second: run hero 1_45
+  - first:
+      213: -7841473244223232283
+    second: run hero 1_46
+  - first:
+      213: 5059956060584916236
+    second: run hero 1_47
+  - first:
+      213: -7672046130582402672
+    second: run hero 1_48
+  - first:
+      213: 2767236722536447687
+    second: run hero 1_49
+  - first:
+      213: 8700588671837975532
+    second: run hero 1_50
+  - first:
+      213: 1905585063339079813
+    second: run hero 1_51
+  - first:
+      213: 3740089800378494759
+    second: run hero 1_52
+  - first:
+      213: 289232761505490749
+    second: run hero 1_53
+  - first:
+      213: 6244880203461477959
+    second: run hero 1_54
+  - first:
+      213: -1825686983481640162
+    second: run hero 1_55
+  - first:
+      213: -2871352072673560449
+    second: run hero 1_56
+  - first:
+      213: 5166447288068972194
+    second: run hero 1_57
+  - first:
+      213: -5024585687436666506
+    second: run hero 1_58
+  - first:
+      213: -7638410124230801866
+    second: run hero 1_59
+  - first:
+      213: -230412315244304934
+    second: run hero 1_60
+  - first:
+      213: 3187764256076082382
+    second: run hero 1_61
+  - first:
+      213: -3435294677058408220
+    second: run hero 1_62
+  - first:
+      213: -3543679574945923978
+    second: run hero 1_63
+  - first:
+      213: -8174259598847316308
+    second: run hero 1_64
+  - first:
+      213: 8133866170375361800
+    second: run hero 1_65
+  - first:
+      213: 3152840100012364129
+    second: run hero 1_66
+  - first:
+      213: 6859284133405380681
+    second: run hero 1_67
+  - first:
+      213: 43925259585503805
+    second: run hero 1_68
+  - first:
+      213: -7006932983687389521
+    second: run hero 1_69
+  - first:
+      213: 7962623281243650283
+    second: run hero 1_70
+  - first:
+      213: 588847452530859807
+    second: run hero 1_71
+  - first:
+      213: -4178470166720784792
+    second: run hero 1_72
+  - first:
+      213: -6762367466207174306
+    second: run hero 1_73
+  - first:
+      213: -5961222723600285720
+    second: run hero 1_74
+  - first:
+      213: 7139080276962623016
+    second: run hero 1_75
+  - first:
+      213: -8583210187997927975
+    second: run hero 1_76
+  - first:
+      213: -8053435598663049478
+    second: run hero 1_77
+  - first:
+      213: -6666370712714945027
+    second: run hero 1_78
+  - first:
+      213: 2835105753670195694
+    second: run hero 1_79
+  - first:
+      213: -5505619804915474887
+    second: run hero 1_80
+  - first:
+      213: 8976416758628268181
+    second: run hero 1_81
+  - first:
+      213: -4081394312676097417
+    second: run hero 1_82
+  - first:
+      213: -5846973292831748022
+    second: run hero 1_83
+  - first:
+      213: -5468066584873692137
+    second: run hero 1_84
+  - first:
+      213: 5815822375858435974
+    second: run hero 1_85
+  - first:
+      213: -7186123193235403233
+    second: run hero 1_86
+  - first:
+      213: 1866171460521534537
+    second: run hero 1_87
+  - first:
+      213: 8344350572204140196
+    second: run hero 1_88
+  - first:
+      213: -1485649044082399143
+    second: run hero 1_89
+  - first:
+      213: -6309105949490153138
+    second: run hero 1_90
+  - first:
+      213: 6421108655158751933
+    second: run hero 1_91
+  - first:
+      213: -3821207491015779727
+    second: run hero 1_92
+  - first:
+      213: -5118015620056740679
+    second: run hero 1_93
+  - first:
+      213: 6022968872447967987
+    second: run hero 1_94
+  - first:
+      213: -5190512895252504026
+    second: run hero 1_95
+  - first:
+      213: -9109812048452252350
+    second: run hero 1_96
+  - first:
+      213: 5714272786317748695
+    second: run hero 1_97
+  - first:
+      213: -3789151875923512379
+    second: run hero 1_98
+  - first:
+      213: 8316079862501723797
+    second: run hero 1_99
+  - first:
+      213: -6407844931611472434
+    second: run hero 1_100
+  - first:
+      213: -4774497912117792130
+    second: run hero 1_101
+  - first:
+      213: 428562666126577243
+    second: run hero 1_102
+  - first:
+      213: -5175996537773637385
+    second: run hero 1_103
+  - first:
+      213: -4677891435407238158
+    second: run hero 1_104
+  - first:
+      213: -7684078806550140934
+    second: run hero 1_105
+  - first:
+      213: 3976422783646921545
+    second: run hero 1_106
+  - first:
+      213: 2493074280878335470
+    second: run hero 1_107
+  - first:
+      213: -278568638540549009
+    second: run hero 1_108
+  - first:
+      213: -6013226650416072435
+    second: run hero 1_109
+  - first:
+      213: -7627918593499071711
+    second: run hero 1_110
+  - first:
+      213: -1312081930801102591
+    second: run hero 1_111
+  - first:
+      213: 5215138981781399555
+    second: run hero 1_112
+  - first:
+      213: -4471077422610220361
+    second: run hero 1_113
+  - first:
+      213: -2765808480817996267
+    second: run hero 1_114
+  - first:
+      213: -82574113610464282
+    second: run hero 1_115
+  - first:
+      213: 4237491834870165239
+    second: run hero 1_116
+  - first:
+      213: -3491648374590873205
+    second: run hero 1_117
+  - first:
+      213: -8830222704618001130
+    second: run hero 1_118
+  - first:
+      213: 6214406364393849679
+    second: run hero 1_119
+  - first:
+      213: -8821386822971504404
+    second: run hero 1_120
+  - first:
+      213: 3350535009419853238
+    second: run hero 1_121
+  - first:
+      213: -6886181029442386304
+    second: run hero 1_122
+  - first:
+      213: -3756693267560994755
+    second: run hero 1_123
+  - first:
+      213: -6478865215632039630
+    second: run hero 1_124
+  - first:
+      213: 5107097021515246109
+    second: run hero 1_125
+  - first:
+      213: -6617077348415493329
+    second: run hero 1_126
+  - first:
+      213: 4167325929429770712
+    second: run hero 1_127
+  - first:
+      213: -6077464461901811587
+    second: run hero 1_128
+  - first:
+      213: 7151947454127126128
+    second: run hero 1_129
+  - first:
+      213: 8252715071871526384
+    second: run hero 1_130
+  - first:
+      213: -6476748651970665947
+    second: run hero 1_131
+  - first:
+      213: 1008522690967679279
+    second: run hero 1_132
+  - first:
+      213: 593688166545422563
+    second: run hero 1_133
+  - first:
+      213: -3968590561855874258
+    second: run hero 1_134
+  - first:
+      213: -2586072579587861195
+    second: run hero 1_135
+  - first:
+      213: -1168877792233298520
+    second: run hero 1_136
+  - first:
+      213: 1926094952528287091
+    second: run hero 1_137
+  - first:
+      213: -5541379063359890290
+    second: run hero 1_138
+  - first:
+      213: 5012700782425960487
+    second: run hero 1_139
+  - first:
+      213: -1360831404007724592
+    second: run hero 1_140
+  - first:
+      213: -4563338252196957475
+    second: run hero 1_141
+  - first:
+      213: 3824026791855405660
+    second: run hero 1_142
+  - first:
+      213: 4390584784609438540
+    second: run hero 1_143
+  - first:
+      213: -7947164762744313446
+    second: run hero 1_144
+  - first:
+      213: 2845991434840422116
+    second: run hero 1_145
+  - first:
+      213: -5549002580709618401
+    second: run hero 1_146
+  - first:
+      213: -924029811750736436
+    second: run hero 1_147
+  - first:
+      213: 4120710525396627438
+    second: run hero 1_148
+  - first:
+      213: 638468931123070062
+    second: run hero 1_149
+  - first:
+      213: -3293416577711789686
+    second: run hero 1_150
+  - first:
+      213: 1343678184201150381
+    second: run hero 1_151
+  - first:
+      213: 2166800866718557537
+    second: run hero 1_152
+  - first:
+      213: 3952404398820732800
+    second: run hero 1_153
+  - first:
+      213: 8830397402476419937
+    second: run hero 1_154
+  - first:
+      213: 2414167091285489391
+    second: run hero 1_155
+  - first:
+      213: 4098669781889323694
+    second: run hero 1_156
+  - first:
+      213: -6001862142791679031
+    second: run hero 1_157
+  - first:
+      213: 427099489081489539
+    second: run hero 1_158
+  - first:
+      213: 553981761861095894
+    second: run hero 1_159
+  - first:
+      213: 7092790277093790826
+    second: run hero 1_160
+  - first:
+      213: 4448083695721992609
+    second: run hero 1_161
+  - first:
+      213: -5788235964506064377
+    second: run hero 1_162
+  - first:
+      213: 1743465785537774991
+    second: run hero 1_163
+  - first:
+      213: 8037522226620389238
+    second: run hero 1_164
+  - first:
+      213: -893526629536078316
+    second: run hero 1_165
+  - first:
+      213: 4719966559769381766
+    second: run hero 1_166
+  - first:
+      213: 269237137017499240
+    second: run hero 1_167
+  - first:
+      213: 1905328394669122788
+    second: run hero 1_168
+  - first:
+      213: -5618293332646246558
+    second: run hero 1_169
+  - first:
+      213: -2666978735543742691
+    second: run hero 1_170
+  - first:
+      213: 1256868276885345961
+    second: run hero 1_171
+  - first:
+      213: 7093185113975658608
+    second: run hero 1_172
+  - first:
+      213: 8065607512450838725
+    second: run hero 1_173
+  - first:
+      213: -5414923553354737984
+    second: run hero 1_174
+  - first:
+      213: -976140650253236582
+    second: run hero 1_175
+  - first:
+      213: -9094901811875139499
+    second: run hero 1_176
+  - first:
+      213: 6629944113334873507
+    second: run hero 1_177
+  - first:
+      213: 3987635557044732029
+    second: run hero 1_178
+  - first:
+      213: 2806316252146762550
+    second: run hero 1_179
+  - first:
+      213: -8979705122486493378
+    second: run hero 1_180
+  - first:
+      213: -7494659065570877096
+    second: run hero 1_181
+  - first:
+      213: 5008327984339605485
+    second: run hero 1_182
+  - first:
+      213: 2479967233110030622
+    second: run hero 1_183
+  - first:
+      213: 1049339472774868469
+    second: run hero 1_184
+  - first:
+      213: 6194425790686775970
+    second: run hero 1_185
+  - first:
+      213: 2814255228613716035
+    second: run hero 1_186
+  - first:
+      213: -4859874562868023634
+    second: run hero 1_187
+  - first:
+      213: 2765128896154813095
+    second: run hero 1_188
+  - first:
+      213: -1345669131414820467
+    second: run hero 1_189
+  - first:
+      213: 7293127925681411732
+    second: run hero 1_190
+  - first:
+      213: -3347223733985865722
+    second: run hero 1_191
+  - first:
+      213: -4858156373068477192
+    second: run hero 1_192
+  - first:
+      213: 6848881058532150468
+    second: run hero 1_193
+  - first:
+      213: -3480249499245467640
+    second: run hero 1_194
+  - first:
+      213: 6773121585846488771
+    second: run hero 1_195
+  - first:
+      213: -8943533198419899587
+    second: run hero 1_196
+  - first:
+      213: 4287442309100296599
+    second: run hero 1_197
+  - first:
+      213: 6469030462250098678
+    second: run hero 1_198
+  - first:
+      213: -4844688345101806227
+    second: run hero 1_199
+  - first:
+      213: 7998054362021920281
+    second: run hero 1_200
+  - first:
+      213: 5561962322808261447
+    second: run hero 1_201
+  - first:
+      213: 6285842436104491180
+    second: run hero 1_202
+  - first:
+      213: 8144514091488379919
+    second: run hero 1_203
+  - first:
+      213: 4495744280169173913
+    second: run hero 1_204
+  - first:
+      213: -1380916956002933790
+    second: run hero 1_205
+  - first:
+      213: -1249737330510239910
+    second: run hero 1_206
+  - first:
+      213: 7439570259901476167
+    second: run hero 1_207
+  - first:
+      213: 3667854409423788729
+    second: run hero 1_208
+  - first:
+      213: -4101074687780712046
+    second: run hero 1_209
+  - first:
+      213: -1427673577013573536
+    second: run hero 1_210
+  - first:
+      213: -377662601346862707
+    second: run hero 1_211
+  - first:
+      213: -5348306564057776418
+    second: run hero 1_212
+  - first:
+      213: -4305755465750789266
+    second: run hero 1_213
+  - first:
+      213: -8369215755419826084
+    second: run hero 1_214
+  - first:
+      213: -3846094241061829908
+    second: run hero 1_215
+  - first:
+      213: 7854353265893014018
+    second: run hero 1_216
+  - first:
+      213: -6329892922044316779
+    second: run hero 1_217
+  - first:
+      213: -6405414986112268755
+    second: run hero 1_218
+  - first:
+      213: 6818893885152353277
+    second: run hero 1_219
+  - first:
+      213: 508285066862636728
+    second: run hero 1_220
+  - first:
+      213: -3769601162193837356
+    second: run hero 1_221
+  - first:
+      213: -5384902531392183146
+    second: run hero 1_222
+  - first:
+      213: -3041150940783257738
+    second: run hero 1_223
+  - first:
+      213: 2876634503622330869
+    second: run hero 1_224
+  - first:
+      213: -6257992604172712534
+    second: run hero 1_225
+  - first:
+      213: 6944613998648102742
+    second: run hero 1_226
+  - first:
+      213: 3834421553528342353
+    second: run hero 1_227
+  - first:
+      213: -2375238154831189530
+    second: run hero 1_228
+  - first:
+      213: -4506673412491142181
+    second: run hero 1_229
+  - first:
+      213: 4803918977012526996
+    second: run hero 1_230
+  - first:
+      213: 4641848915523989357
+    second: run hero 1_231
+  - first:
+      213: -391013044571574966
+    second: run hero 1_232
+  - first:
+      213: -5014761678772284904
+    second: run hero 1_233
+  - first:
+      213: -7442519340739753754
+    second: run hero 1_234
+  - first:
+      213: -1923206112994580254
+    second: run hero 1_235
+  - first:
+      213: -82766700798171873
+    second: run hero 1_236
+  - first:
+      213: 5895221152910567756
+    second: run hero 1_237
+  - first:
+      213: -5246262499624316728
+    second: run hero 1_238
+  - first:
+      213: -2585042648756346966
+    second: run hero 1_239
+  - first:
+      213: -1351776286362703062
+    second: run hero 1_240
+  - first:
+      213: -4746464135948231373
+    second: run hero 1_241
+  - first:
+      213: -5049291404809906544
+    second: run hero 1_242
+  - first:
+      213: -8318285775836089047
+    second: run hero 1_243
+  - first:
+      213: -8863152385658303160
+    second: run hero 1_244
+  - first:
+      213: 5864568352874265526
+    second: run hero 1_245
+  - first:
+      213: 4924017212981891507
+    second: run hero 1_246
+  - first:
+      213: -6969703780709293268
+    second: run hero 1_247
+  - first:
+      213: -288950914406826303
+    second: run hero 1_248
+  - first:
+      213: -4586647204267501626
+    second: run hero 1_249
+  - first:
+      213: 919429645174272780
+    second: run hero 1_250
+  - first:
+      213: -6161288018335548853
+    second: run hero 1_251
+  - first:
+      213: -3429355700273834932
+    second: run hero 1_252
+  - first:
+      213: 2675661902565288667
+    second: run hero 1_253
+  - first:
+      213: -1911414275602530221
+    second: run hero 1_254
+  - first:
+      213: -4354008694570805453
+    second: run hero 1_255
+  - first:
+      213: 1017773675789037907
+    second: run hero 1_256
+  - first:
+      213: -5369741973178856007
+    second: run hero 1_257
+  - first:
+      213: 4032642857433537713
+    second: run hero 1_258
+  - first:
+      213: -1692661860128567864
+    second: run hero 1_259
+  - first:
+      213: -3951694558794299801
+    second: run hero 1_260
+  - first:
+      213: -556082391131685833
+    second: run hero 1_261
+  - first:
+      213: -7321399050519515124
+    second: run hero 1_262
+  - first:
+      213: 4134900037951458730
+    second: run hero 1_263
+  - first:
+      213: 1316825073920438735
+    second: run hero 1_264
+  - first:
+      213: 2101052480239666982
+    second: run hero 1_265
+  - first:
+      213: 5062242928043733934
+    second: run hero 1_266
+  - first:
+      213: 6113346653720551870
+    second: run hero 1_267
+  - first:
+      213: -6834112748279529722
+    second: run hero 1_268
+  - first:
+      213: 6224860318386215781
+    second: run hero 1_269
+  - first:
+      213: -7050769823936575070
+    second: run hero 1_270
+  - first:
+      213: -740363810471336830
+    second: run hero 1_271
+  - first:
+      213: 3973960756750321145
+    second: run hero 1_272
+  - first:
+      213: -6472114073044323813
+    second: run hero 1_273
+  - first:
+      213: 7090635920446927128
+    second: run hero 1_274
+  - first:
+      213: -8190326251338320754
+    second: run hero 1_275
+  - first:
+      213: -2403547400830207378
+    second: run hero 1_276
+  - first:
+      213: -6859445501482442830
+    second: run hero 1_277
+  - first:
+      213: -3046479055376974271
+    second: run hero 1_278
+  - first:
+      213: -4513339464020753403
+    second: run hero 1_279
+  - first:
+      213: 3081384132851404067
+    second: run hero 1_280
+  - first:
+      213: 1297816309105629207
+    second: run hero 1_281
+  - first:
+      213: 5824203896652105166
+    second: run hero 1_282
+  - first:
+      213: -4216953254386503468
+    second: run hero 1_283
+  - first:
+      213: -1868296517330636399
+    second: run hero 1_284
+  - first:
+      213: -87646693704542591
+    second: run hero 1_285
+  - first:
+      213: 1817365895660939743
+    second: run hero 1_286
+  - first:
+      213: 6662171464006601188
+    second: run hero 1_287
+  - first:
+      213: 7003812398342461594
+    second: run hero 1_288
+  - first:
+      213: -2160478417760358221
+    second: run hero 1_289
+  - first:
+      213: 7412675669982057374
+    second: run hero 1_290
+  - first:
+      213: 2525463995846562813
+    second: run hero 1_291
+  - first:
+      213: 4021104206777385620
+    second: run hero 1_292
+  - first:
+      213: 2186154739824286926
+    second: run hero 1_293
+  - first:
+      213: 4471599756937410358
+    second: run hero 1_294
+  - first:
+      213: -5642251879236709912
+    second: run hero 1_295
+  - first:
+      213: -7088303383905096169
+    second: run hero 1_296
+  - first:
+      213: 7254111264220541573
+    second: run hero 1_297
+  - first:
+      213: -6031704182657071806
+    second: run hero 1_298
+  - first:
+      213: 6634009633546907089
+    second: run hero 1_299
+  - first:
+      213: 2227457919715632597
+    second: run hero 1_300
+  - first:
+      213: 4929337721733208211
+    second: run hero 1_301
+  - first:
+      213: -2866095014731979377
+    second: run hero 1_302
+  - first:
+      213: 131883122231270098
+    second: run hero 1_303
+  - first:
+      213: 2099417909824036140
+    second: run hero 1_304
+  - first:
+      213: 1160834513092800226
+    second: run hero 1_305
+  - first:
+      213: 7362434180614950137
+    second: run hero 1_306
+  - first:
+      213: 104216460469452906
+    second: run hero 1_307
+  - first:
+      213: 2842199444631242514
+    second: run hero 1_308
+  - first:
+      213: -468650644317663871
+    second: run hero 1_309
+  - first:
+      213: 8126462669341618457
+    second: run hero 1_310
+  - first:
+      213: 2272262520026458286
+    second: run hero 1_311
+  - first:
+      213: 6894598890793134351
+    second: run hero 1_312
+  - first:
+      213: -187156529909682196
+    second: run hero 1_313
+  - first:
+      213: 3591642135284294352
+    second: run hero 1_314
+  - first:
+      213: -483729438924646086
+    second: run hero 1_315
+  - first:
+      213: -1432006705549187405
+    second: run hero 1_316
+  - first:
+      213: -7772059608975453342
+    second: run hero 1_317
+  - first:
+      213: -7576840942748374102
+    second: run hero 1_318
+  - first:
+      213: 1329916934352809371
+    second: run hero 1_319
+  - first:
+      213: -4246327142674103220
+    second: run hero 1_320
+  - first:
+      213: 2162536943953290468
+    second: run hero 1_321
+  - first:
+      213: 8821507308421704411
+    second: run hero 1_322
+  - first:
+      213: -6788151768351543825
+    second: run hero 1_323
+  - first:
+      213: 7994104446463500398
+    second: run hero 1_324
+  - first:
+      213: -6968810799873467368
+    second: run hero 1_325
+  - first:
+      213: -6530783821623917370
+    second: run hero 1_326
+  - first:
+      213: 6091813164911527690
+    second: run hero 1_327
+  - first:
+      213: 7779949943199571837
+    second: run hero 1_328
+  - first:
+      213: -3217366632659307436
+    second: run hero 1_329
+  - first:
+      213: -5054435788005183745
+    second: run hero 1_330
+  - first:
+      213: 8323796030927275245
+    second: run hero 1_331
+  - first:
+      213: -5269762048524469313
+    second: run hero 1_332
+  - first:
+      213: 5663081838996954522
+    second: run hero 1_333
+  - first:
+      213: 9200747540733996003
+    second: run hero 1_334
+  - first:
+      213: 2893754533811841226
+    second: run hero 1_335
+  - first:
+      213: 5396270373265865854
+    second: run hero 1_336
+  - first:
+      213: 4632598320488560582
+    second: run hero 1_337
+  - first:
+      213: -4758089524912995805
+    second: run hero 1_338
+  - first:
+      213: 3531211214827989891
+    second: run hero 1_339
+  - first:
+      213: -1952537922756436647
+    second: run hero 1_340
+  - first:
+      213: 5172411250836026233
+    second: run hero 1_341
+  - first:
+      213: 6970604837890420716
+    second: run hero 1_342
+  - first:
+      213: -9165439226273238224
+    second: run hero 1_343
+  - first:
+      213: -1643549371342899147
+    second: run hero 1_344
+  - first:
+      213: -3328990269233495327
+    second: run hero 1_345
+  - first:
+      213: -1442069391948457843
+    second: run hero 1_346
+  - first:
+      213: 4141007277920938849
+    second: run hero 1_347
+  - first:
+      213: -1135245522197762244
+    second: run hero 1_348
+  - first:
+      213: -3822077226751264737
+    second: run hero 1_349
+  - first:
+      213: 6907139124123599494
+    second: run hero 1_350
+  - first:
+      213: -7481973468501782263
+    second: run hero 1_351
+  - first:
+      213: -9076955393972059811
+    second: run hero 1_352
+  - first:
+      213: -5487003043153549188
+    second: run hero 1_353
+  - first:
+      213: -8960417855735397873
+    second: run hero 1_354
+  - first:
+      213: -2405691459945307585
+    second: run hero 1_355
+  - first:
+      213: -2218471414554007923
+    second: run hero 1_356
+  - first:
+      213: 1377362419187801732
+    second: run hero 1_357
+  - first:
+      213: -9210808080523735799
+    second: run hero 1_358
+  - first:
+      213: 2465620248051313910
+    second: run hero 1_359
+  - first:
+      213: -4143814141250468177
+    second: run hero 1_360
+  - first:
+      213: 3418124352864712119
+    second: run hero 1_361
+  - first:
+      213: 847440015273329498
+    second: run hero 1_362
+  - first:
+      213: 5169773211239205510
+    second: run hero 1_363
+  - first:
+      213: -3588846864215144214
+    second: run hero 1_364
+  - first:
+      213: -5562916514032122533
+    second: run hero 1_365
+  - first:
+      213: 3564314292680467659
+    second: run hero 1_366
+  - first:
+      213: -3505359596769353435
+    second: run hero 1_367
+  - first:
+      213: 5222387257711471963
+    second: run hero 1_368
+  - first:
+      213: 1368655317663978714
+    second: run hero 1_369
+  - first:
+      213: -5589090290088590739
+    second: run hero 1_370
+  - first:
+      213: 3948153826948669660
+    second: run hero 1_371
+  - first:
+      213: 270977558031424045
+    second: run hero 1_372
+  - first:
+      213: 6734840053391801437
+    second: run hero 1_373
+  - first:
+      213: 7633473998869097302
+    second: run hero 1_374
+  - first:
+      213: 915401011494543761
+    second: run hero 1_375
+  - first:
+      213: -6008308678145776028
+    second: run hero 1_376
+  - first:
+      213: -4384062178435106341
+    second: run hero 1_377
+  - first:
+      213: -6487995373572902642
+    second: run hero 1_378
+  - first:
+      213: 5726774418434691202
+    second: run hero 1_379
+  - first:
+      213: -5502772507640468871
+    second: run hero 1_380
+  - first:
+      213: -1014179090796611297
+    second: run hero 1_381
+  - first:
+      213: -511810301886293216
+    second: run hero 1_382
+  - first:
+      213: 40258143496576744
+    second: run hero 1_383
+  - first:
+      213: 6876186222412844007
+    second: run hero 1_384
+  - first:
+      213: -5576637733244642238
+    second: run hero 1_385
+  - first:
+      213: 3483380686977554026
+    second: run hero 1_386
+  - first:
+      213: -5585148319726196894
+    second: run hero 1_387
+  - first:
+      213: -4334042077047397908
+    second: run hero 1_388
+  - first:
+      213: -2873230471928779139
+    second: run hero 1_389
+  - first:
+      213: -1344487369153990416
+    second: run hero 1_390
+  - first:
+      213: -7876707903966867245
+    second: run hero 1_391
+  - first:
+      213: 9184868492336297465
+    second: run hero 1_392
+  - first:
+      213: -482160506005202981
+    second: run hero 1_393
+  - first:
+      213: -979087385885263599
+    second: run hero 1_394
+  - first:
+      213: 3656351492191262928
+    second: run hero 1_395
+  - first:
+      213: -2978891276978898108
+    second: run hero 1_396
+  - first:
+      213: -2286925440948371032
+    second: run hero 1_397
+  - first:
+      213: -2952407129618429337
+    second: run hero 1_398
+  - first:
+      213: -7772163716080420191
+    second: run hero 1_399
+  - first:
+      213: 6879458063723384811
+    second: run hero 1_400
+  - first:
+      213: -3241589987557153471
+    second: run hero 1_401
+  - first:
+      213: 1358014512668330461
+    second: run hero 1_402
+  - first:
+      213: 5604992251677259692
+    second: run hero 1_403
+  - first:
+      213: -5954596197030421677
+    second: run hero 1_404
+  - first:
+      213: -7235538424139227060
+    second: run hero 1_405
+  - first:
+      213: 5595160621113033611
+    second: run hero 1_406
+  - first:
+      213: -8538683612712640673
+    second: run hero 1_407
+  - first:
+      213: 167460541644674412
+    second: run hero 1_408
+  - first:
+      213: -4694679493179903409
+    second: run hero 1_409
+  - first:
+      213: 922950012210254394
+    second: run hero 1_410
+  - first:
+      213: 508556686962900809
+    second: run hero 1_411
+  - first:
+      213: 8068877565304476470
+    second: run hero 1_412
+  - first:
+      213: -4188972794231368119
+    second: run hero 1_413
+  - first:
+      213: 962502903806768306
+    second: run hero 1_414
+  - first:
+      213: 868186113484723451
+    second: run hero 1_415
+  - first:
+      213: 6998247802240618354
+    second: run hero 1_416
+  - first:
+      213: 4459974907070545250
+    second: run hero 1_417
+  - first:
+      213: 169617547896179003
+    second: run hero 1_418
+  - first:
+      213: -364799595750536740
+    second: run hero 1_419
+  - first:
+      213: 1055945550674484459
+    second: run hero 1_420
+  - first:
+      213: 4958949869068958642
+    second: run hero 1_421
+  - first:
+      213: 2181135977872119915
+    second: run hero 1_422
+  - first:
+      213: -3002489305337668187
+    second: run hero 1_423
+  - first:
+      213: -5102097371372744858
+    second: run hero 1_424
+  - first:
+      213: -8732708136248676307
+    second: run hero 1_425
+  - first:
+      213: -2420282569642559834
+    second: run hero 1_426
+  - first:
+      213: 5891610201980172933
+    second: run hero 1_427
+  - first:
+      213: -220537023890373500
+    second: run hero 1_428
+  - first:
+      213: -5623114375166342498
+    second: run hero 1_429
+  - first:
+      213: -7202838890941062523
+    second: run hero 1_430
+  - first:
+      213: -7117705269937865821
+    second: run hero 1_431
+  - first:
+      213: -2641340469853317851
+    second: run hero 1_432
+  - first:
+      213: 6862410577834555835
+    second: run hero 1_433
+  - first:
+      213: -4592109588065328578
+    second: run hero 1_434
+  - first:
+      213: -3097282775108063384
+    second: run hero 1_435
+  - first:
+      213: 527997815538349411
+    second: run hero 1_436
+  - first:
+      213: -9198554098736587635
+    second: run hero 1_437
+  - first:
+      213: -5030448298669109969
+    second: run hero 1_438
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: run hero 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9100
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372b898373094b94fa9c22fa7714f6c5
+      internalID: 1138917108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_1
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 9100
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3936d73fa3b55124c8f21de1d948d3b6
+      internalID: 637446460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_2
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 9100
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fa6b4fa846fbf498647f9d993e4cd6
+      internalID: 2014864993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_3
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 9100
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c65904a4ae169e4eb43c57ba8b9e20b
+      internalID: -1629208974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7800
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6f71c8e9aec984cb1b6544f313a6a6
+      internalID: 1781817974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_5
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 7800
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c502d091153548478f226cbd6a1e7b2
+      internalID: 1564541958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_6
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 7800
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35070b7a811b18b4e92c84de4f51bac3
+      internalID: 1752619949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_7
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 7800
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b45c931d691e446bd90c5bf1bcd5f6
+      internalID: 865865518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6500
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf1e5f70b04e9146866d8854e847558
+      internalID: -281975102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_9
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 6500
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561f7fba33cea24478fd5e123b5e0a50
+      internalID: -2124370374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_10
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 6500
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4626ca99b8fa5bd4c87190d24b4215ce
+      internalID: -707754073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_11
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 6500
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c71fd11c0c4da64dacf66493a986c8e
+      internalID: -740532725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5200
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29a43fb6f439b048a55d080fcce3ce9
+      internalID: 144898349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_13
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 5200
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630639d305795ec43a15ffe4c3ec06f3
+      internalID: 1727353485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_14
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 5200
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1022f202b530564ea84e6e94b4604ca
+      internalID: 697827151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_15
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 5200
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28344579ae5b7e9499c0c34c892bcd77
+      internalID: 1968933645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3900
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350328bcdae830947bc35e04bb55b5ff
+      internalID: 1856977050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_17
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 3900
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3495f998d0964d646890d70809303240
+      internalID: -1212197244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_18
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 3900
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6f7740067940b45b85969aaef3429f
+      internalID: -192126384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_19
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 3900
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c6f732cb69ee44484c7d141d6ec4d4
+      internalID: 301914477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2600
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4074bce7bb4933e48aecd94f32755642
+      internalID: -857165108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_21
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 2600
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c98f2402fc1804cbe03dae5568df62
+      internalID: -15440135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_22
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 2600
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562b27de226919a4e9d66c75cdaf9d91
+      internalID: -63470023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_23
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 2600
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23e46d57e45d5148a620cdb1e165a7e
+      internalID: -831994448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1300
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc116ac787d41d548a7fe42375364940
+      internalID: -665559300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_25
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1300
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c11ca0180f7cc4a80484531c12f471
+      internalID: 1823144334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_26
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 1300
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37395c669be84b439acbbffddbcea0e
+      internalID: 2066463760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_27
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 1300
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bafa758e234944f81a7e3500ae9fc2
+      internalID: 1181021362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67a44b290780bf47a7ef891d5f13225
+      internalID: 1147337384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_29
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 0
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a932eacbd9bcbb847bf2189ea5ee9d48
+      internalID: 695614974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_30
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 0
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad337f82a9e4d9e40900b9afc898ceed
+      internalID: -203117932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run hero 1_31
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 0
+        width: 1300
+        height: 1300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c14365dc4c524748917a50400aea6e3
+      internalID: 2034002391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d30fd0e6c797f7f4b81daac5e6be1a2e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      run hero 1_0: 1138917108
+      run hero 1_1: 637446460
+      run hero 1_10: -707754073
+      run hero 1_11: -740532725
+      run hero 1_12: 144898349
+      run hero 1_13: 1727353485
+      run hero 1_14: 697827151
+      run hero 1_15: 1968933645
+      run hero 1_16: 1856977050
+      run hero 1_17: -1212197244
+      run hero 1_18: -192126384
+      run hero 1_19: 301914477
+      run hero 1_2: 2014864993
+      run hero 1_20: -857165108
+      run hero 1_21: -15440135
+      run hero 1_22: -63470023
+      run hero 1_23: -831994448
+      run hero 1_24: -665559300
+      run hero 1_25: 1823144334
+      run hero 1_26: 2066463760
+      run hero 1_27: 1181021362
+      run hero 1_28: 1147337384
+      run hero 1_29: 695614974
+      run hero 1_3: -1629208974
+      run hero 1_30: -203117932
+      run hero 1_31: 2034002391
+      run hero 1_4: 1781817974
+      run hero 1_5: 1564541958
+      run hero 1_6: 1752619949
+      run hero 1_7: 865865518
+      run hero 1_8: -281975102
+      run hero 1_9: -2124370374
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

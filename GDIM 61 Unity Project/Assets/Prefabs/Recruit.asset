@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Recruit
   m_EditorClassIdentifier: 
   Name: Recruit
-  Description: An average recruit. Performs fast ranged attacks of moderate damage
-    using a pistol.
+  Description: An average recruit. Performs ranged attacks of moderate damage and
+    fire rate using a pistol.
   Art: {fileID: -6306969538060732093, guid: b26216aa13d0c6f4b9d3aa80a998d59e, type: 3}
   Cost: 3
-  HitPoint: 80
-  Damage: 20
-  AttackCooldown: 1.8
+  HitPoint: 100
+  Damage: 25
+  AttackCooldown: 1.9
   Speed: 1
-  KnockbackPower: 10
+  KnockbackPower: 100
   KnockbackResistance: 0
-  AttackRange: 4
+  AttackRange: 5
   UnitDeploySprite: {fileID: -6306969538060732093, guid: b26216aa13d0c6f4b9d3aa80a998d59e, type: 3}
   SummonedUnit: {fileID: 3411056785759735125, guid: 7f9db34fec1ebb945aed3c141080d097, type: 3}

@@ -8,7 +8,7 @@ public class Attack_MeleeSingle : Attack {
         _animationListener.AnimationEnd += AttackAnimationComplete;
         _animationListener.AttackTrigger += TargetHit;
         float yDifferenceWithTarget = _target.transform.position.y - (_origin != null ? _origin.transform.position.y : transform.position.y);
-        if (yDifferenceWithTarget < 0) {
+        if (yDifferenceWithTarget <= 0) {
             _animationController.ChangeAnimationState(AnimationController.AnimationState.Attacking_Forward, true);
         } else if (yDifferenceWithTarget > 0) {
             _animationController.ChangeAnimationState(AnimationController.AnimationState.Attacking_Backward, true);

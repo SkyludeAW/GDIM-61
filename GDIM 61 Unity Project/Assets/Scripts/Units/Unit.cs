@@ -21,7 +21,7 @@ public abstract class Unit : MonoBehaviour {
     [SerializeField] protected float MaxHitPoint;
     [SerializeField] protected float Speed = 1f;
     [SerializeField] protected float BaseDamage;
-    [SerializeField] protected float AttackRange;
+    [SerializeField] protected float AttackRange; public float Range => AttackRange;
     [SerializeField] protected float AttackCooldown;
     [SerializeField] protected float NextAttackTime;
     [SerializeField] protected float KnockbackPower;

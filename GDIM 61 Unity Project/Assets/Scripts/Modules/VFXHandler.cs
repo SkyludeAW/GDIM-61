@@ -10,7 +10,9 @@ public class VFXHandler : MonoBehaviour {
 
     private void Update() {
         if (Target != null) {
-            transform.position = Target.position;
+            SpriteRenderer SR = Target.GetComponentInChildren<SpriteRenderer>();
+            if (SR != null) 
+                transform.position = SR.bounds.center;
         }
     }
 

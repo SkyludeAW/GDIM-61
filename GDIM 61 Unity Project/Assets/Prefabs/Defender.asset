@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0f3d14bec57aec4b9666eb977aff1b0, type: 3}
+  m_Name: Defender
+  m_EditorClassIdentifier: 
+  Name: Defender
+  Description: A durable defender. Immune to knockbacks and hits with great force.
+  Art: {fileID: 1494634796927554989, guid: 47c6e70e45b38d74fa53d8bdac1e81b7, type: 3}
+  Cost: 6
+  HitPoint: 800
+  Damage: 35
+  AttackCooldown: 3.2
+  Speed: 0.4
+  KnockbackPower: 800
+  KnockbackResistance: 0.95
+  AttackRange: 0.5
+  UnitDeploySprite: {fileID: -850367067, guid: 2c41507f98f073f4c87f8261196bd1df, type: 3}
+  SummonedUnit: {fileID: 5938778328296511907, guid: 549d181d5a33bfb469553a22969b0564, type: 3}
