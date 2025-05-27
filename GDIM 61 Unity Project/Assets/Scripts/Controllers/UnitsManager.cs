@@ -10,7 +10,7 @@ public class UnitsManager : MonoBehaviour {
 
     // Use a List of HashSets. Each index in the list corresponds to a faction.
     // Each HashSet stores the units belonging to that faction.
-    private List<HashSet<Unit>> _factionUnits;
+    private List<HashSet<Unit>> _unitFactions;
 
     // Define the number of factions (adjust if needed)
     private const int NumberOfFactions = 4;
@@ -28,9 +28,9 @@ public class UnitsManager : MonoBehaviour {
         // --- End Singleton Initialization ---
 
         // Initialize the list and the HashSets for each faction
-        _factionUnits = new List<HashSet<Unit>>(NumberOfFactions);
+        _unitFactions = new List<HashSet<Unit>>(NumberOfFactions);
         for (int i = 0; i < NumberOfFactions; i++) {
-            _factionUnits.Add(new HashSet<Unit>());
+            _unitFactions.Add(new HashSet<Unit>());
         }
 
         // Optional: Start periodic cleanup of null units (if needed as a failsafe)
@@ -49,9 +49,9 @@ public class UnitsManager : MonoBehaviour {
 
         int faction = unit.Faction;
         // Check if the faction index is valid
-        if (faction >= 0 && faction < _factionUnits.Count) {
+        if (faction >= 0 && faction < _unitFactions.Count) {
             // HashSet automatically handles duplicates (won't add if already present)
-            bool added = _factionUnits[faction].Add(unit);
+            bool added = _unitFactions[faction].Add(unit);
             if (added) Debug.Log($"{unit.name} registered to faction {faction}");
         } else {
             Debug.LogWarning($"Attempted to register unit {unit.name} with invalid faction index: {faction}");
@@ -71,8 +71,8 @@ public class UnitsManager : MonoBehaviour {
 
         int faction = unit.Faction;
         // Check if the faction index is valid
-        if (faction >= 0 && faction < _factionUnits.Count) {
-            bool removed = _factionUnits[faction].Remove(unit);
+        if (faction >= 0 && faction < _unitFactions.Count) {
+            bool removed = _unitFactions[faction].Remove(unit);
             // if (removed) Debug.Log($"{unit.name} unregistered from faction {faction}");
         } else {
             // Less critical on unregister, but indicates a potential issue elsewhere
@@ -87,11 +87,11 @@ public class UnitsManager : MonoBehaviour {
     /// <param name="faction">The faction index.</param>
     /// <returns>An IEnumerable<Unit> for the requested faction.</returns>
     public IEnumerable<Unit> GetUnitsInFaction(int faction) {
-        if (faction >= 0 && faction < _factionUnits.Count) {
+        if (faction >= 0 && faction < _unitFactions.Count) {
             // Return the HashSet directly. Callers should not modify it extensively.
             // If modification protection is needed, could return a copy: `new HashSet<Unit>(_factionUnits[faction])`
             // but that allocates memory. Returning IEnumerable is generally safe for iteration.
-            return _factionUnits[faction];
+            return _unitFactions[faction];
         } else {
             Debug.LogWarning($"Requested units for invalid faction index: {faction}");
             // Return an empty enumerable to prevent null reference errors for the caller
@@ -106,7 +106,7 @@ public class UnitsManager : MonoBehaviour {
     public void PurgeNullUnits() {
         // Debug.Log("Purging null units...");
         int removedCount = 0;
-        foreach (HashSet<Unit> unitSet in _factionUnits) {
+        foreach (HashSet<Unit> unitSet in _unitFactions) {
             // HashSet<T>.RemoveWhere is efficient for removing multiple items based on a condition
             removedCount += unitSet.RemoveWhere(unit => unit == null);
         }
@@ -115,8 +115,8 @@ public class UnitsManager : MonoBehaviour {
 
     // Optional: Provide a way to get the count per faction for debugging
     public int GetUnitCount(int faction) {
-        if (faction >= 0 && faction < _factionUnits.Count) {
-            return _factionUnits[faction].Count;
+        if (faction >= 0 && faction < _unitFactions.Count) {
+            return _unitFactions[faction].Count;
         }
         return 0;
     }

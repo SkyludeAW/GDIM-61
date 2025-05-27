@@ -123,10 +123,7 @@ public class BasicUnit : Unit {
             return;
         }
 
-        
-
-        Vector2 knockbackDirection = (targetUnit.transform.position - transform.position).normalized;
-        _attack.Initialize(BaseDamage, targetUnit, knockbackDirection * KnockbackPower, this);
+        _attack.Initialize(BaseDamage, targetUnit, KnockbackPower, this);
         _attack.Execute();
     }
 

@@ -1,11 +1,12 @@
 using UnityEngine;
 
+[RequireComponent (typeof(Animator))]
 public class VFXHandler : MonoBehaviour {
     [SerializeField] private Animator animator;
     public Transform Target;
 
     private void Awake() {
-        animator = GetComponent<Animator>();
+        animator ??= GetComponent<Animator>();
     }
 
     private void Update() {

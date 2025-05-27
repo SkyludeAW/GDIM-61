@@ -15,14 +15,14 @@ MonoBehaviour:
   Name: Suppressor
   Description: His name stands for suppressive fire, not a stealth suppressor.
   Art: {fileID: 7439426567979852956, guid: f1769319ed34b524ebf2f391c2af7cb2, type: 3}
-  Cost: 8
-  HitPoint: 120
-  Damage: 10
-  AttackCooldown: 0.2
+  Cost: 7
+  HitPoint: 250
+  Damage: 30
+  AttackCooldown: 0.25
   Speed: 0.8
   KnockbackPower: 50
   KnockbackResistance: 0.2
-  AttackRange: 4
+  AttackRange: 4.5
   AggroRadius: 10
   UnitDeploySprite: {fileID: -1882347247711912902, guid: 5e077fe93a6c0d84dbf7e74e9cb819fa, type: 3}
   SummonedUnit: {fileID: 1805075001481919795, guid: fa978cab7ba7f3a49865b20238221bc5, type: 3}

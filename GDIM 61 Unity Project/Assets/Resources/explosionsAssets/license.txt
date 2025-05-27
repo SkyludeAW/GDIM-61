@@ -1,0 +1,9 @@
+The explosions textures are free for any use (free, educational or commercial).
+
+Giving appropriates credits are not mandatory but desirable.
+
+Credits: Antoine FAURE.
+
+The explosions textures have been made with bash files, image magick and the POVRay raytracer under a linux operating system.
+
+You can download this archive and other free ressources on my web site: https://www.ant01.fr

@@ -7,7 +7,7 @@ using UnityEngine;
 /// Transitions back to its primary stance if target is lost or dies.
 /// </summary>
 public class PursueState : UnitBaseState {
-    private float _retargetingInterval = 1f;
+    private float _retargetingInterval = 0.4f;
     private float _nextTargetCheckTime = 0f;
 
     public PursueState(Unit unit, UnitStateMachine stateMachine) : base(unit, stateMachine) { }

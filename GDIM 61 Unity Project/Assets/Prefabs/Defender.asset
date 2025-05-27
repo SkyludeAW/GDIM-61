@@ -15,11 +15,11 @@ MonoBehaviour:
   Name: Defender
   Description: A durable defender. Immune to knockbacks and hits with great force.
   Art: {fileID: 1494634796927554989, guid: 47c6e70e45b38d74fa53d8bdac1e81b7, type: 3}
-  Cost: 6
-  HitPoint: 800
-  Damage: 35
+  Cost: 5
+  HitPoint: 900
+  Damage: 40
   AttackCooldown: 3.2
-  Speed: 0.4
+  Speed: 0.75
   KnockbackPower: 800
   KnockbackResistance: 0.95
   AttackRange: 0.5

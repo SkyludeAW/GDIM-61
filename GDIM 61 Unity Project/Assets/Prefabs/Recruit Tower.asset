@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0f3d14bec57aec4b9666eb977aff1b0, type: 3}
+  m_Name: Recruit Tower
+  m_EditorClassIdentifier: 
+  Name: Recruit Tower
+  Description: A tower that helds a recruit with good range.
+  Art: {fileID: 21300000, guid: ad4d84dbb05cf3d4daba182101709bcd, type: 3}
+  Cost: 6
+  HitPoint: 1000
+  Damage: 0
+  AttackCooldown: 0
+  Speed: 0
+  KnockbackPower: 0
+  KnockbackResistance: 0
+  AttackRange: 0
+  AggroRadius: 0
+  UnitDeploySprite: {fileID: 21300000, guid: ad4d84dbb05cf3d4daba182101709bcd, type: 3}
+  SummonedUnit: {fileID: 9200371161777546529, guid: 4f55c9587b05f4946a672dc063e05dc9, type: 3}

@@ -194,7 +194,23 @@ public abstract class Unit : MonoBehaviour {
 
     public void Initialize(float maxHP, float attack) { Initialize(); MaxHitPoint = maxHP; HitPoint = MaxHitPoint; BaseDamage = attack; if (HealthUI != null) { HealthUI.SetHealth(HitPoint / MaxHitPoint); } }
     public void SetSelectionActive(bool selected) { if (SelectionSR == null) return; if (selected) { SelectionSR.color = Color.green; } else { try { SelectionSR.color = FACTION_COLORS[Faction]; } catch (IndexOutOfRangeException) { SelectionSR.color = Color.gray; } } }
-    public virtual void TakeDamage(float damage, Vector2 force = default, Unit origin = null) { if (IsDead || IsInvincible) return; if (damage > 0) { StartCoroutine(Hurt(0.25f)); } HitPoint -= damage; if (HealthUI != null) { HealthUI.SetHealth(HitPoint / MaxHitPoint); } if (RB != null && force != Vector2.zero) { RB.AddForce(force * Mathf.Max(1f - KnockbackResistance, 0f)); } if (HitPoint <= 0f) { HitPoint = 0f; IsDead = true; Die(); } }
+    public virtual void TakeDamage(float damage, Vector2 force = default, Unit origin = null) { 
+        if (IsDead || IsInvincible) return; 
+        if (damage > 0) { 
+            StartCoroutine(Hurt(0.25f)); 
+        } 
+        HitPoint -= damage; 
+        if (HealthUI != null) { 
+            HealthUI.SetHealth(HitPoint / MaxHitPoint); 
+        } 
+        if (RB != null && force != Vector2.zero) { 
+            RB.AddForce(force * Mathf.Max(1f - KnockbackResistance, 0f)); 
+        } 
+        if (HitPoint <= 0f) { 
+            HitPoint = 0f; IsDead = true; Die(); 
+        } 
+    }
+
     public abstract void Die();
     protected virtual IEnumerator Hurt(float hurtDuration) {
         float elapsed = 0f;
