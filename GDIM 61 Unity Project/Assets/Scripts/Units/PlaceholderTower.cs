@@ -17,7 +17,7 @@ public class PlaceholderTower : Unit {
 
     public override void TakeDamage(float damage, Vector2 force = default, Unit origin = null) {
         base.TakeDamage(damage, force, origin);
-        Debug.Log(gameObject.name + " took " + damage + " damage from " + origin?.gameObject.name + " at " + Time.time);
+        // Debug.Log(gameObject.name + " took " + damage + " damage from " + origin?.gameObject.name + " at " + Time.time);
     }
 
     // 似了
@@ -27,6 +27,10 @@ public class PlaceholderTower : Unit {
     }
 
     public override void PerformAttack(Unit targetUnit) {
+        // throw new System.NotImplementedException();
+    }
+
+    public override void MoveTo(Vector2 destination) {
         // throw new System.NotImplementedException();
     }
 }

@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class AnimationController : MonoBehaviour {
     [SerializeField] private Animator _animator;
+    public Animator Animator => _animator;
     [field:SerializeField] public SpriteRenderer SR { get; private set; }
 
     public bool CanChangeAnimationState = true;
@@ -10,7 +11,8 @@ public class AnimationController : MonoBehaviour {
     public enum AnimationState {
         Idle,
         Moving_Forward, Moving_Backward, 
-        Attacking_Forward, Attacking_Backward
+        Attacking_Forward, Attacking_Backward,
+        Skill_1, Skill_2, Skill_3
     }
 
     [SerializeField] private AnimationClip[] _animations = new AnimationClip[5];

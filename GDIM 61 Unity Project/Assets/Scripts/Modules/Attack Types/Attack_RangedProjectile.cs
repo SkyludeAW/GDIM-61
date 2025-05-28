@@ -29,6 +29,8 @@ public class Attack_RangedHomingAOE : Attack {
     private void AttackAnimationComplete() => AttackComplete?.Invoke();
 
     private void AttackTrigger() {
+        if (_target == null || _target.IsDead) return;
+
         base.AttackTriggered?.Invoke();
 
         Instantiate(_projectile, transform.position, Quaternion.identity).Initialize(_damage, _target.transform, _origin);

@@ -26,6 +26,7 @@ public class PursueState : UnitBaseState {
     public override void UpdateState() {
         if (_unit.Target == null || _unit.Target.IsDead) {
             _unit.Target = null;
+            _unit.IsTargetLocked = false;
             // Access CurrentStance from the base Unit class
             if (_unit.CurrentStance == Unit.Stance.Offensive) {
                 _stateMachine.ChangeState(new OffensiveState(_unit, _stateMachine));
@@ -45,7 +46,9 @@ public class PursueState : UnitBaseState {
         }
 
         if (_nextTargetCheckTime <= Time.time) {
-            _unit.FindAndSetClosestTarget(_unit.Faction == 0 ? 1 : 0);
+            if (!_unit.IsTargetLocked)
+                _unit.FindAndSetClosestTarget(_unit.Faction == 0 ? 1 : 0);
+
             _nextTargetCheckTime = Time.time + _retargetingInterval;
 
             if (_unit.Agent != null && _unit.Agent.isOnNavMesh) {

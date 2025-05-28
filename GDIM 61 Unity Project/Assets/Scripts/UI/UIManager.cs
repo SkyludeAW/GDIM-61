@@ -25,6 +25,9 @@ public class UIManager : MonoBehaviour {
     }
 
     public void SelectCard(int index) {
+        if (GameController.Instance.CardsInHand[index] == null)
+            return;
+
         DeselectCard();
         GameController.Instance.SwitchControlState(GameController.ControlState.DeployingUnit);
         SelectedCardIndex = index;

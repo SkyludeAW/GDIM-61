@@ -32,9 +32,6 @@ public class BasicUnit : Unit {
     private void Awake() {
         base.Initialize(); // Sets up stats from Card Base. Does NOT set faction or stance yet.
 
-        // Configure faction using the value set in the Inspector (prefab's default faction).
-        // This will set Unit.Faction, Unit.CurrentStance, and then call OnFactionConfigured().
-        ConfigureFaction(this.Faction); // this.Faction here is the Inspector value before ConfigureFaction runs.
         if (_overrideStance)
             SetStance(_overriddenStance);
 
@@ -146,5 +143,14 @@ public class BasicUnit : Unit {
             Collider.enabled = false;
         }
         Destroy(this.gameObject, 0.1f);
+    }
+
+    public override void MoveTo(Vector2 destination) {
+        _stateMachine.ChangeState(new MoveState(this, _stateMachine, destination));
+    }
+
+    public override void ForceSetTarget(Unit targetUnit) {
+        base.ForceSetTarget(targetUnit);
+        _stateMachine.ChangeState(new PursueState(this, _stateMachine));
     }
 }

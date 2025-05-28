@@ -371,7 +371,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 6791696601138215487}
   m_Father: {fileID: 6996510372169893972}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4905669276927814202
@@ -523,7 +524,6 @@ Transform:
   - {fileID: 8065184065559368925}
   - {fileID: 6152976376182715642}
   - {fileID: 7108404528228555131}
-  - {fileID: 6791696601138215487}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &7962030054817763804
@@ -631,7 +631,17 @@ MonoBehaviour:
   <Collider>k__BackingField: {fileID: 7962030054817763804}
   AnimationController: {fileID: 6010824990126144697}
   _attack: {fileID: 3609923425242934543}
+  _overrideStats: 0
+  maxHitPoint: 0
+  speed: 1
+  baseDamage: 0
+  attackRange: 0
+  attackCooldown: 0
+  knockbackPower: 0
+  knockbackResistance: 0
   _overrideAggroRadius: 0
+  _overrideStance: 0
+  _overriddenStance: 0
 --- !u!114 &2833938768783166232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -914,12 +924,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8249675339864220404}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.39700007, y: 1.051, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6996510372169893972}
+  m_Father: {fileID: 7817815774390152107}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3609923425242934543
 MonoBehaviour:

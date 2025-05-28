@@ -76,4 +76,8 @@ public class PlaceholderUnit : Unit {
     public override void PerformAttack(Unit targetUnit) {
         // throw new System.NotImplementedException();
     }
+
+    public override void MoveTo(Vector2 destination) {
+        // throw new System.NotImplementedException();
+    }
 }

@@ -19,7 +19,7 @@ MonoBehaviour:
   Cost: 3
   HitPoint: 100
   Damage: 36
-  AttackCooldown: 1.6
+  AttackCooldown: 1.8
   Speed: 1.2
   KnockbackPower: 60
   KnockbackResistance: 0

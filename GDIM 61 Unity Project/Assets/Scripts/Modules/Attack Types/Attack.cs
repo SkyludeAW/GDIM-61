@@ -7,7 +7,7 @@ public abstract class Attack : MonoBehaviour {
     protected Unit _target;
     protected Unit _origin;
 
-    public virtual void Initialize(float damage, Unit target, float force = default, Unit origin = null) {
+    public virtual void Initialize(float damage, Unit target = null, float force = default, Unit origin = null) {
         _damage = damage;
         _knockback = force;
         _target = target;

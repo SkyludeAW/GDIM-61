@@ -39,7 +39,7 @@ public abstract class Unit : MonoBehaviour {
     public Unit Target;
 
     [Tooltip("True if the target was manually set by the player and should not be overridden by AI scans.")]
-    public bool IsTargetLocked { get; private set; } // NEW: Flag for manual target lock
+    public bool IsTargetLocked;
 
     public LayerMask UnpierceableLayers;
     [SerializeField] public NavMeshAgent Agent;
@@ -52,6 +52,8 @@ public abstract class Unit : MonoBehaviour {
     [Header("State Machine Related")]
     public Stance CurrentStance { get; protected set; } = Stance.Offensive;
     [SerializeField] public AnimationController AnimationController;
+
+    protected Coroutine hurtCoroutine;
     #endregion
 
     #region Methods
@@ -131,10 +133,12 @@ public abstract class Unit : MonoBehaviour {
         }
     }
 
+    public abstract void MoveTo(Vector2 destination);
+
     /// <summary>
     /// Manually sets a target unit for this unit if it's controllable and locks it.
     /// </summary>
-    public void ForceSetTarget(Unit targetUnit) {
+    public virtual void ForceSetTarget(Unit targetUnit) {
         if (Controllable && Agent != null) {
             Target = targetUnit;
             IsTargetLocked = true; // NEW: Manually setting a target locks it
@@ -196,32 +200,50 @@ public abstract class Unit : MonoBehaviour {
     public void SetSelectionActive(bool selected) { if (SelectionSR == null) return; if (selected) { SelectionSR.color = Color.green; } else { try { SelectionSR.color = FACTION_COLORS[Faction]; } catch (IndexOutOfRangeException) { SelectionSR.color = Color.gray; } } }
     public virtual void TakeDamage(float damage, Vector2 force = default, Unit origin = null) { 
         if (IsDead || IsInvincible) return; 
-        if (damage > 0) { 
-            StartCoroutine(Hurt(0.25f)); 
-        } 
-        HitPoint -= damage; 
-        if (HealthUI != null) { 
-            HealthUI.SetHealth(HitPoint / MaxHitPoint); 
+        if (damage != 0) { 
+            if (hurtCoroutine != null)
+                StopCoroutine(hurtCoroutine);
+
+            hurtCoroutine = StartCoroutine(Hurt(damage));
+
+            HitPoint -= damage;
+            if (HealthUI != null) {
+                HealthUI.SetHealth(HitPoint / MaxHitPoint);
+            }
         } 
         if (RB != null && force != Vector2.zero) { 
             RB.AddForce(force * Mathf.Max(1f - KnockbackResistance, 0f)); 
         } 
         if (HitPoint <= 0f) { 
-            HitPoint = 0f; IsDead = true; Die(); 
-        } 
+            HitPoint = 0f; 
+            IsDead = true; 
+            Die(); 
+        } else if (HitPoint > MaxHitPoint) {
+            HitPoint = MaxHitPoint;
+        }
     }
 
     public abstract void Die();
-    protected virtual IEnumerator Hurt(float hurtDuration) {
+    protected virtual IEnumerator Hurt(float damageTaken = 0, float hurtDuration = 0.25f) {
         float elapsed = 0f;
 
-        while (elapsed < hurtDuration) {
-            SR.color = new Color(1f, Mathf.Min(elapsed / hurtDuration, 1f), Mathf.Min(elapsed / hurtDuration, 1f));
-            elapsed += Time.deltaTime;
-            yield return null;
+        if (damageTaken > 0f) {
+            while (elapsed < hurtDuration) {
+                SR.color = new Color(1f, Mathf.Min(elapsed / hurtDuration, 1f), Mathf.Min(elapsed / hurtDuration, 1f));
+                elapsed += Time.deltaTime;
+                yield return null;
+            }
+        } else if (damageTaken < 0f) {
+            while (elapsed < hurtDuration) {
+                SR.color = new Color(Mathf.Min(elapsed / hurtDuration, 1f), 1f, Mathf.Min(elapsed / hurtDuration, 1f));
+                elapsed += Time.deltaTime;
+                yield return null;
+            }
         }
+
         SR.color = Color.white;
     }
+
     protected virtual void OnDrawGizmosSelected() { 
         if (Agent != null && Agent.hasPath) { 
             Gizmos.color = Color.yellow; 

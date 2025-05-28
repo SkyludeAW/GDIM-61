@@ -66,6 +66,7 @@ public class Projectile_HomingAoE : Projecile {
     protected override void UpdatePosition() {
         if ( target == null ) {
             Purge();
+            return;
         }
 
         direction = (target.position - transform.position).normalized;

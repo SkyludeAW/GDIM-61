@@ -25,6 +25,7 @@ public class GameController : MonoBehaviour {
     private Queue<Card> _deckQueue;
     [UnityEngine.Range(1, 10)] public int MaxHandSize = 5;
     private Card[] _cardsInHand;
+    public Card[] CardsInHand => _cardsInHand;
 
     private float _cost;
     public float CostGrowthSpeed = 0.4f;
@@ -107,13 +108,14 @@ public class GameController : MonoBehaviour {
                         if (selectedTarget != null) {
                             _selectedUnits.RemoveAll(unit => unit == null);
                             foreach (Unit unit in _selectedUnits) {
-                                if (unit != selectedTarget)
+                                if (unit != selectedTarget && unit.Controllable)
                                     unit.ForceSetTarget(selectedTarget);
                             }
                         }
                     } else {
                         foreach (Unit unit in _selectedUnits) {
-                            unit.SetTargetDestination(currentMousePosition);
+                            if (unit.Controllable)
+                                unit.MoveTo(currentMousePosition);
                         }
                     }
                 }
