@@ -1,4 +1,3 @@
-using System.Linq;
 using UnityEngine;
 
 public class NexusTower : Unit {
@@ -9,14 +8,20 @@ public class NexusTower : Unit {
 
     protected override void Initialize() {
         base.Initialize();
-        if (UnitsManager.Instance != null && !UnitsManager.Instance.GetUnitsInFaction(Faction).Contains(this)) {
-            UnitsManager.Instance.RegisterUnit(this);
-        }
+
+        foreach (var unit in GetComponentsInChildren<Unit>())
+            unit.ConfigureFaction(Faction);
     }
 
     public override void Die() {
-        Destroy(this.gameObject);
-        SceneController.Instance.GoToDefeatScene();
+        IsDead = true;
+        if (HealthUI != null)
+            Destroy(HealthUI.gameObject);
+
+        if (Faction == 0)
+            GameStateManager.Instance.EndGame(false);
+        else
+            GameStateManager.Instance.EndGame(true);
     }
 
     public override void PerformAttack(Unit targetUnit) {

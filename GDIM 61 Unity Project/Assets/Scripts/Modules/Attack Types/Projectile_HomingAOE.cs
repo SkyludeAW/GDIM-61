@@ -50,6 +50,10 @@ public class Projectile_HomingAoE : Projecile {
     }
 
     protected override void OnHit() {
+        if (activated)
+            return;
+
+        activated = true;
         vfx?.PlayAnimation(vfxName);
 
         foreach (var hit in Physics2D.OverlapCircleAll(transform.position, impactRadius, tangibleLayers)) {
@@ -64,8 +68,8 @@ public class Projectile_HomingAoE : Projecile {
     }
 
     protected override void UpdatePosition() {
-        if ( target == null ) {
-            Purge();
+        if (target == null) {
+            OnHit();
             return;
         }
 
@@ -83,7 +87,6 @@ public class Projectile_HomingAoE : Projecile {
             if (unit != null && origin != null && unit.Faction == origin.Faction || activated) {
                 return;
             }
-            activated = true;
             OnHit();
         }
     }
