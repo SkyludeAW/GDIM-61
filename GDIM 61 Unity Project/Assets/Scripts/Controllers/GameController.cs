@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GameController : MonoBehaviour {
-    public static GameController Instance;
+    public static GameController Instance { get; private set; }
 
     #region Unit Selection Variables
     private Vector2 _clickStartPosition;
@@ -20,7 +20,7 @@ public class GameController : MonoBehaviour {
     }
     private ControlState _currentState;
 
-    #region Deck & In-Game Variables
+    #region Deck & Deployment Variables
     public List<Card> Deck;
     private Queue<Card> _deckQueue;
     [UnityEngine.Range(1, 10)] public int MaxHandSize = 5;
@@ -31,6 +31,9 @@ public class GameController : MonoBehaviour {
     public float CostGrowthSpeed = 0.4f;
     [SerializeField] private float _costUIUpdateInterval = 0.1f;
     private float _nextCostUIUpdateTime;
+
+    [SerializeField] CompositeCollider2D deployableArea;
+    [SerializeField] PopupMessage popupMessagePrefab;
     #endregion
 
     private void Awake() {
@@ -49,7 +52,7 @@ public class GameController : MonoBehaviour {
         _selectionAreaTransform.gameObject.SetActive(false);
         _deckQueue = Card.ShuffleToQueue(Deck);
         DealCards();
-        UIManager.Instance.InitializeCardUI(_cardsInHand);
+        CardUIManager.Instance.InitializeCardUI(_cardsInHand);
     }
 
     private void OnValidate() {
@@ -102,13 +105,13 @@ public class GameController : MonoBehaviour {
                 // Right mouse button down sets destination or target for all selected units
                 if (Input.GetMouseButtonDown(1)) {
                     Vector3 currentMousePosition = GetMouseWorldPosition();
-                    Collider2D selectedCollider = Physics2D.OverlapPoint(currentMousePosition);
+                    Collider2D selectedCollider = Physics2D.OverlapPoint(currentMousePosition, _unitLayer);
                     if (selectedCollider != null) {
                         Unit selectedTarget = selectedCollider.GetComponent<Unit>();
                         if (selectedTarget != null) {
                             _selectedUnits.RemoveAll(unit => unit == null);
                             foreach (Unit unit in _selectedUnits) {
-                                if (unit != selectedTarget && unit.Controllable)
+                                if (unit != selectedTarget && unit.Controllable && (unit.Faction != selectedTarget.Faction))
                                     unit.ForceSetTarget(selectedTarget);
                             }
                         }
@@ -125,20 +128,27 @@ public class GameController : MonoBehaviour {
                 // Left mouse button down deploys the selected unit in UIManager
                 if (Input.GetMouseButtonDown(0)) {
                     _clickBeganInBattleState = false;
-                    float cardCost = _cardsInHand[UIManager.Instance.SelectedCardIndex].Cost;
-                    if (cardCost <= _cost) {
-                        Instantiate(PlayCard(UIManager.Instance.SelectedCardIndex).SummonedUnit, GetMouseWorldPosition(), Quaternion.identity);
-                        _cost -= cardCost;
+                    Vector3 currentMousePosition = GetMouseWorldPosition();
+                    if (deployableArea == null || deployableArea.OverlapPoint(currentMousePosition)) {
+                        float cardCost = _cardsInHand[CardUIManager.Instance.SelectedCardIndex].Cost;
+                        if (cardCost <= _cost) {
+                            Instantiate(PlayCard(CardUIManager.Instance.SelectedCardIndex).SummonedUnit, currentMousePosition, Quaternion.identity);
+                            _cost -= cardCost;
+                        } else {
+                            Instantiate(popupMessagePrefab, currentMousePosition, Quaternion.identity).SetUpAndActivate("Insufficient cost!", new Vector2(0f, 0.05f));
+                            CardUIManager.Instance.PlayInsufficientCostAnimation();
+                        }
+                        CardUIManager.Instance.DeselectCard();
+                        SwitchControlState(ControlState.InBattle);
                     } else {
-                        UIManager.Instance.PlayInsufficientCostAnimation();
+                        if (popupMessagePrefab != null)
+                            Instantiate(popupMessagePrefab, currentMousePosition, Quaternion.identity).SetUpAndActivate("Cannot deploy here!", new Vector2(0f, 0.05f));
                     }
-                    UIManager.Instance.DeselectCard();
-                    SwitchControlState(ControlState.InBattle);
                 }
 
                 // Right mouse button down deselects the unit in UIManager
                 if (Input.GetMouseButtonDown(1)) {
-                    UIManager.Instance.DeselectCard();
+                    CardUIManager.Instance.DeselectCard();
                     SwitchControlState(ControlState.InBattle);
                 }
                 break;
@@ -147,7 +157,7 @@ public class GameController : MonoBehaviour {
         _cost += Time.deltaTime * CostGrowthSpeed;
         if (Time.time > _nextCostUIUpdateTime) {
             _nextCostUIUpdateTime = Time.time + _costUIUpdateInterval;
-            UIManager.Instance.UpdateCostUIValue(_cost);
+            CardUIManager.Instance.UpdateCostUIValue(_cost);
         }
     }
 
@@ -177,7 +187,7 @@ public class GameController : MonoBehaviour {
         // Debug.Log(_cardsInHand[Mathf.Min(Deck.Count, MaxHandSize) - 1].Name + " dealt to position " + (Mathf.Min(_deckQueue.Count, MaxHandSize) - 1));
 
         // Update UI
-        UIManager.Instance.InitializeCardUI(_cardsInHand);
+        CardUIManager.Instance.InitializeCardUI(_cardsInHand);
 
         return playedCard;
     }

@@ -24,6 +24,8 @@ public abstract class Unit : MonoBehaviour {
     [SerializeField] protected float KnockbackResistance = 0f;
     [SerializeField] protected bool IsInvincible = false;
     [field: SerializeField] public bool IsDead { get; protected set; } = false;
+    public delegate void DieEvent();
+    public event DieEvent OnDie;
 
     [field: SerializeField] public Vector3 PatrolCenter { get; set; }
     [field: SerializeField] public float AggroRadius { get; set; } = 10f;
@@ -223,7 +225,11 @@ public abstract class Unit : MonoBehaviour {
         }
     }
 
-    public abstract void Die();
+    public virtual void Die() {
+        IsDead = true;
+        OnDie?.Invoke();
+    }
+
     protected virtual IEnumerator Hurt(float damageTaken = 0, float hurtDuration = 0.25f) {
         float elapsed = 0f;
 

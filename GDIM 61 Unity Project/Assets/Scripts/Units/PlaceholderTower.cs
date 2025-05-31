@@ -22,8 +22,9 @@ public class PlaceholderTower : Unit {
 
     // 似了
     public override void Die() {
-        IsDead = true;
-        Destroy(this.gameObject);
+        base.Die();
+
+        Destroy(this.gameObject, 0.1f);
     }
 
     public override void PerformAttack(Unit targetUnit) {

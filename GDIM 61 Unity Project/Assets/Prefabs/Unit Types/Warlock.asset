@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0f3d14bec57aec4b9666eb977aff1b0, type: 3}
+  m_Name: Warlock
+  m_EditorClassIdentifier: 
+  Name: Warlock
+  Description: A warlock that is capable of casting aoe spells that pulls enemies
+    inwards at good range.
+  Art: {fileID: 827538889749247048, guid: 764033bc3b0291248a1a6ecfd7bb1cd9, type: 3}
+  Cost: 6
+  HitPoint: 200
+  Damage: 80
+  AttackCooldown: 4.5
+  Speed: 0.5
+  KnockbackPower: -800
+  KnockbackResistance: 0
+  AttackRange: 7
+  AggroRadius: 10
+  UnitDeploySprite: {fileID: -5010287565412364656, guid: 764033bc3b0291248a1a6ecfd7bb1cd9, type: 3}
+  SummonedUnit: {fileID: 2350849531185524327, guid: 17a453b161c81d54fb31c02f3323b781, type: 3}

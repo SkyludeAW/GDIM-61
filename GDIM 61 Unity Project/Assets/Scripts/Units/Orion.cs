@@ -91,7 +91,8 @@ public class Orion : Unit {
     }
 
     public override void Die() {
-        IsDead = true;
+        base.Die();
+
         if (Agent != null && Agent.isOnNavMesh) {
             Agent.isStopped = true;
             Agent.enabled = false;
@@ -118,6 +119,7 @@ public class Orion : Unit {
     }
 
     public override void MoveTo(Vector2 destination) {
+
         _stateMachine.ChangeState(new MoveState(this, _stateMachine, destination));
     }
 

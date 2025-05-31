@@ -29,9 +29,6 @@ public class CombatState : UnitBaseState {
             return;
         }
 
-        if (attackComplete)
-            return;
-
         if (Physics2D.Distance(_unit.Collider, _unit.Target.Collider).distance > _unit.Range * 1.2f || Physics2D.Linecast(_unit.transform.position, _unit.Target.transform.position, _unit.UnpierceableLayers)) {
             _stateMachine.ChangeState(new PursueState(_unit, _stateMachine));
             return;

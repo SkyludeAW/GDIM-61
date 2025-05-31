@@ -12,7 +12,7 @@ public class MoveState : UnitBaseState {
     public override void EnterState() {
         // Debug.Log($"{_unit.gameObject.name} entering Pursue State, Target: {(_unit.Target != null ? _unit.Target.name : "null")}");
         if (agent != null && agent.isOnNavMesh) {
-            
+            agent.ResetPath();
             _unit.SetTargetDestination(destination);
 
             // Access AnimationController from the base Unit class

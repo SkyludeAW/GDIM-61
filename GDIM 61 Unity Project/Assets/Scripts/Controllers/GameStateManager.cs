@@ -1,11 +1,13 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GameStateManager : MonoBehaviour {
-    public static GameStateManager Instance;
+    public static GameStateManager Instance { get; private set; }
 
     [SerializeField] GameObject pauseMenu;
     [SerializeField] GameObject inGameUI;
 
+    bool gameEnded;
     [SerializeField] GameObject victoryEndScreen;
     [SerializeField] GameObject defeatEndScreen;
 
@@ -23,6 +25,7 @@ public class GameStateManager : MonoBehaviour {
         }
 
         CanPause = true;
+        gameEnded = false;
     }
 
     private void Update() {
@@ -34,7 +37,7 @@ public class GameStateManager : MonoBehaviour {
         if (pause) {
             IsPaused = true;
             Time.timeScale = 0f;
-            UIManager.Instance?.DeselectCard();
+            CardUIManager.Instance?.DeselectCard();
 
             pauseMenu?.SetActive(true);
             inGameUI?.SetActive(false);
@@ -52,9 +55,14 @@ public class GameStateManager : MonoBehaviour {
     }
 
     public void EndGame(bool victory = true) {
+        if (gameEnded)
+            return;
+
+        gameEnded = true;
+
         TriggerPause(false);
 
-        UIManager.Instance?.DeselectCard();
+        CardUIManager.Instance?.DeselectCard();
         inGameUI?.SetActive(false);
         GameController.Instance.enabled = false;
         CanPause = false;

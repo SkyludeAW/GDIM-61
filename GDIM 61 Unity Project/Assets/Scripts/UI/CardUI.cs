@@ -34,8 +34,8 @@ public class CardUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler {
     }
 
     private void SelectOnClick() {
-        if (UIManager.Instance.SelectedCardIndex != Index)
-            UIManager.Instance.SelectCard(Index);
+        if (CardUIManager.Instance.SelectedCardIndex != Index)
+            CardUIManager.Instance.SelectCard(Index);
     }
 
     private IEnumerator InflateAnimation(bool beginningAnimation) {
@@ -60,12 +60,12 @@ public class CardUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler {
     }
 
     public void OnPointerEnter(PointerEventData eventData) {
-        if (UIManager.Instance.SelectedCardIndex != Index)
+        if (CardUIManager.Instance.SelectedCardIndex != Index)
             StartInflate(); 
     }
 
     public void OnPointerExit(PointerEventData eventData) {
-        if (UIManager.Instance.SelectedCardIndex != Index)
+        if (CardUIManager.Instance.SelectedCardIndex != Index)
             StartDeflate();
     }
 

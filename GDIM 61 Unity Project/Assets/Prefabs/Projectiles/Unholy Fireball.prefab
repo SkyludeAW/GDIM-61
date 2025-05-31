@@ -277,7 +277,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 384
   collider: {fileID: 7580576210385491925}
-  impactRadius: 3
+  impactRadius: 3.5
   vfx: {fileID: 1429214334790438230}
   vfxName: Explosion - Unholy
   listener: {fileID: 6984310125601688721}
@@ -316,7 +316,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.2
+  m_Radius: 0.16
 --- !u!50 &3916033720513505623
 Rigidbody2D:
   serializedVersion: 5

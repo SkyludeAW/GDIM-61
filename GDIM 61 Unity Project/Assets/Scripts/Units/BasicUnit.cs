@@ -133,7 +133,8 @@ public class BasicUnit : Unit {
     }
 
     public override void Die() {
-        IsDead = true;
+        base.Die();
+
         if (Agent != null && Agent.isOnNavMesh) {
             Agent.isStopped = true;
             Agent.enabled = false;
