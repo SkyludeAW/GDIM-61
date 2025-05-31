@@ -90,7 +90,8 @@ public class GameController : MonoBehaviour {
                             unit.SetSelectionActive(false);
                     }
                     _selectedUnits.Clear();
-                    
+                    UnitInfoUIManager.Instance.ClearUnitInfo();
+
                     Collider2D[] selectedUnits = Physics2D.OverlapAreaAll(_clickStartPosition, GetMouseWorldPosition());
 
                     foreach (Collider2D collider in selectedUnits) {
@@ -99,6 +100,10 @@ public class GameController : MonoBehaviour {
                             _selectedUnits.Add(unit);
                             unit.SetSelectionActive(true);
                         }
+                    }
+
+                    if (_selectedUnits.Count == 1) {
+                        UnitInfoUIManager.Instance.DisplayUnitInfo(_selectedUnits[0]);
                     }
                 }
 

@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: Suppressor
   m_EditorClassIdentifier: 
   Name: Suppressor
-  Description: His name stands for suppressive fire, not a stealth suppressor.
+  Description: "His name stands for suppressive fire, not a stealth suppressor. \\n\u5965\u4E01\u72D7\u4E00\u6761\u3002
+    \\n\"It's a machine gun!\""
   Art: {fileID: 7439426567979852956, guid: f1769319ed34b524ebf2f391c2af7cb2, type: 3}
   Cost: 7
   HitPoint: 250
   Damage: 28
   AttackCooldown: 0.33
   Speed: 0.8
-  KnockbackPower: 50
+  KnockbackPower: 40
   KnockbackResistance: 0.2
   AttackRange: 4
   AggroRadius: 10

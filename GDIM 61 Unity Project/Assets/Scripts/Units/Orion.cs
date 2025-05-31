@@ -110,10 +110,10 @@ public class Orion : Unit {
         }
 
         if (_nextSkillCastTime <= Time.time) {
-            _skill.Initialize(BaseDamage * 0.75f, null, default, this);
+            _skill.Initialize(baseDamage * 0.75f, null, default, this);
             _skill.Execute();
         } else {
-            _attack.Initialize(BaseDamage, targetUnit, KnockbackPower, this);
+            _attack.Initialize(baseDamage, targetUnit, KnockbackPower, this);
             _attack.Execute();
         }
     }

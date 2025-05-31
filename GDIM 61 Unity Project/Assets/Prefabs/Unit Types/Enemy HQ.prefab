@@ -340,15 +340,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Base: {fileID: 0}
-  HitPoint: 0
-  MaxHitPoint: 6000
-  Speed: 0
-  BaseDamage: 0
+  hitPoint: 0
+  maxHitPoint: 6000
+  speed: 0
+  baseDamage: 0
   AttackRange: 0
   AttackCooldown: 0
   <NextAttackTime>k__BackingField: 0
   KnockbackPower: 0
-  KnockbackResistance: 0
+  KnockbackResistance: 1
   IsInvincible: 0
   <IsDead>k__BackingField: 0
   <PatrolCenter>k__BackingField: {x: 0, y: 0, z: 0}

@@ -49,7 +49,7 @@ public class PlaceholderUnit : Unit {
     }
 
     private void Attack(Unit target) {
-        target.TakeDamage(BaseDamage, (target.transform.position - transform.position) * KnockbackPower);
+        target.TakeDamage(baseDamage, (target.transform.position - transform.position) * KnockbackPower);
         NextAttackTime = Time.time + AttackCooldown;
     }
 

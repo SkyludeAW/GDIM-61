@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: Defender
   m_EditorClassIdentifier: 
   Name: Defender
-  Description: A durable defender. Immune to knockbacks and hits with great force.
+  Description: "A durable defender. Almost immune to knockbacks and hits with great
+    force. \\n\u4ED6\u8FD8\u5728\u68A6\u60F3\u6210\u4E3A\u76FE\u4E4B\u52C7\u8005\u3002
+    \\n\"Not all shield-wielders can rise in isekai.\""
   Art: {fileID: 1494634796927554989, guid: 47c6e70e45b38d74fa53d8bdac1e81b7, type: 3}
   Cost: 5
   HitPoint: 1200

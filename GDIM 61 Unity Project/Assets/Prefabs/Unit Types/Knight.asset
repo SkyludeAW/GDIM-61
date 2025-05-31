@@ -13,13 +13,14 @@ MonoBehaviour:
   m_Name: Knight
   m_EditorClassIdentifier: 
   Name: Knight
-  Description: A durable knight. May withstand good amounts of damage.
+  Description: "A durable knight. May withstand a fair amount of damage. \\n\u5B69\u5B50\u4EEC\u8FD9\u7EDD\u5BF9\u4E0D\u662F\u7FFB\u7248\u7EF4\u5A1C\u3002\\n
+    \"EX\u3001\u5496\u55B1\u68D2\uFF01\uFF01\uFF01\""
   Art: {fileID: 1816506484, guid: a92696d7e193d0f47a9683032afeb4fb, type: 3}
   Cost: 4
   HitPoint: 480
   Damage: 75
   AttackCooldown: 2
-  Speed: 0.8
+  Speed: 0.9
   KnockbackPower: 300
   KnockbackResistance: 0.3
   AttackRange: 0.8

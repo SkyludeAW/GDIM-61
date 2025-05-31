@@ -302,10 +302,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Base: {fileID: 11400000, guid: 95abfcbec8ef8034f9745c7f7a9e0dd8, type: 2}
-  HitPoint: 0
-  MaxHitPoint: 0
-  Speed: 1
-  BaseDamage: 0
+  hitPoint: 0
+  maxHitPoint: 1
+  speed: 0
+  baseDamage: 40
   AttackRange: 0
   AttackCooldown: 0
   <NextAttackTime>k__BackingField: 0
@@ -316,7 +316,7 @@ MonoBehaviour:
   <PatrolCenter>k__BackingField: {x: 0, y: 0, z: 0}
   <AggroRadius>k__BackingField: 10
   <Attack>k__BackingField: {fileID: 8483972682945173146}
-  Selectable: 1
+  Selectable: 0
   Controllable: 0
   <Faction>k__BackingField: 0
   Target: {fileID: 0}
@@ -333,13 +333,13 @@ MonoBehaviour:
   AnimationController: {fileID: 5387437005325143346}
   _attack: {fileID: 8483972682945173146}
   _overrideStats: 1
-  maxHitPoint: 1
-  speed: 0
-  baseDamage: 40
-  attackRange: 8
-  attackCooldown: 3.5
-  knockbackPower: -500
-  knockbackResistance: 1
+  _maxHitPoint: 1
+  _speed: 0
+  _baseDamage: 45
+  _attackRange: 8
+  _attackCooldown: 3.5
+  _knockbackPower: -800
+  _knockbackResistance: 1
   _overrideAggroRadius: 0.01
   _overrideStance: 1
   _overriddenStance: 1
@@ -1075,11 +1075,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a2fd09ae69bca438bafe6f196d8b1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Base: {fileID: 11400000, guid: fba4d0c08eaab80419c04fe966e26e0d, type: 2}
-  HitPoint: 0
-  MaxHitPoint: 600
-  Speed: 0
-  BaseDamage: 10
+  Base: {fileID: 11400000, guid: 3f961b2739312604e85d9610febc10a2, type: 2}
+  hitPoint: 0
+  maxHitPoint: 0
+  speed: 1
+  baseDamage: 0
   AttackRange: 0
   AttackCooldown: 0
   <NextAttackTime>k__BackingField: 0
@@ -1090,7 +1090,7 @@ MonoBehaviour:
   <PatrolCenter>k__BackingField: {x: 0, y: 0, z: 0}
   <AggroRadius>k__BackingField: 0
   <Attack>k__BackingField: {fileID: 0}
-  Selectable: 0
+  Selectable: 1
   Controllable: 0
   <Faction>k__BackingField: 0
   Target: {fileID: 0}

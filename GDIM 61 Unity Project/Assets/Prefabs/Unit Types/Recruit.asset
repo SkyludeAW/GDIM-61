@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Recruit
   m_EditorClassIdentifier: 
   Name: Recruit
-  Description: A lightweight recruit. Performs ranged attacks of moderate damage
-    and fire rate.
+  Description: "A lightweight recruit. Performs ranged attacks of moderate damage
+    and fire rate. \\n\u5979\u53EF\u4E0D\u4F1A\u5BF9\u654C\u4EBA\u7684\u80CC\u8EAB\u7A7A\u4E09\u67AA\u5E76\u88AB\u53CD\u6740\u3002
+    \\n \"\u5348\u65F6\u5DF2\u5230!\""
   Art: {fileID: -6306969538060732093, guid: b26216aa13d0c6f4b9d3aa80a998d59e, type: 3}
   Cost: 3
   HitPoint: 140

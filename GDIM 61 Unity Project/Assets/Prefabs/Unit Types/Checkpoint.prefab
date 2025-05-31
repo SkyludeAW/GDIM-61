@@ -604,10 +604,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Base: {fileID: 0}
-  HitPoint: 0
-  MaxHitPoint: 2000
-  Speed: 0
-  BaseDamage: 0
+  hitPoint: 0
+  maxHitPoint: 2000
+  speed: 0
+  baseDamage: 0
   AttackRange: 0
   AttackCooldown: 0
   <NextAttackTime>k__BackingField: 0

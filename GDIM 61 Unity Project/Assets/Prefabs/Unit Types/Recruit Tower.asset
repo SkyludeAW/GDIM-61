@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Recruit Tower
   m_EditorClassIdentifier: 
   Name: Recruit Tower
-  Description: A tower that helds a recruit with good range.
+  Description: A tower that helds a recruit with good range. \n"I have the high ground!"
   Art: {fileID: 21300000, guid: ad4d84dbb05cf3d4daba182101709bcd, type: 3}
   Cost: 6
   HitPoint: 1000

@@ -9,13 +9,13 @@ public class BasicUnit : Unit {
     [Header("BasicUnit Specifics")]
     [SerializeField] private Attack _attack; // The attack behavior component specific to BasicUnit
     [SerializeField] private bool _overrideStats;
-    [SerializeField] protected float maxHitPoint;
-    [SerializeField] protected float speed = 1f;
-    [SerializeField] protected float baseDamage;
-    [SerializeField] protected float attackRange;
-    [SerializeField] protected float attackCooldown;
-    [SerializeField] protected float knockbackPower;
-    [SerializeField] protected float knockbackResistance = 0f;
+    [SerializeField] protected float _maxHitPoint;
+    [SerializeField] protected float _speed = 1f;
+    [SerializeField] protected float _baseDamage;
+    [SerializeField] protected float _attackRange;
+    [SerializeField] protected float _attackCooldown;
+    [SerializeField] protected float _knockbackPower;
+    [SerializeField] protected float _knockbackResistance = 0f;
 
     [Tooltip("Aggro radius specific override for this BasicUnit. If 0, uses Unit.AggroRadius (from Card or default).")]
     [SerializeField] private float _overrideAggroRadius = 0f;
@@ -36,17 +36,17 @@ public class BasicUnit : Unit {
             SetStance(_overriddenStance);
 
         if (_overrideStats) {
-            MaxHitPoint = maxHitPoint;
-            HitPoint = MaxHitPoint;
-            Speed = speed;
-            BaseDamage = baseDamage;
-            AttackRange = attackRange;
-            AttackCooldown = attackCooldown;
-            KnockbackPower = knockbackPower;
-            KnockbackResistance = knockbackResistance;
+            base.maxHitPoint = _maxHitPoint;
+            hitPoint = base.maxHitPoint;
+            speed = _speed;
+            baseDamage = _baseDamage;
+            AttackRange = _attackRange;
+            AttackCooldown = _attackCooldown;
+            KnockbackPower = _knockbackPower;
+            KnockbackResistance = _knockbackResistance;
 
             if (Agent != null && Agent.enabled)
-                Agent.speed = Speed;
+                Agent.speed = speed;
         }
     }
 
@@ -120,7 +120,7 @@ public class BasicUnit : Unit {
             return;
         }
 
-        _attack.Initialize(BaseDamage, targetUnit, KnockbackPower, this);
+        _attack.Initialize(baseDamage, targetUnit, KnockbackPower, this);
         _attack.Execute();
     }
 

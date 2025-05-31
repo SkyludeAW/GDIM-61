@@ -383,10 +383,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Base: {fileID: 11400000, guid: fba4d0c08eaab80419c04fe966e26e0d, type: 2}
-  HitPoint: 0
-  MaxHitPoint: 800
-  Speed: 0
-  BaseDamage: 10
+  hitPoint: 0
+  maxHitPoint: 0
+  speed: 1
+  baseDamage: 0
   AttackRange: 0
   AttackCooldown: 0
   <NextAttackTime>k__BackingField: 0
@@ -397,7 +397,7 @@ MonoBehaviour:
   <PatrolCenter>k__BackingField: {x: 0, y: 0, z: 0}
   <AggroRadius>k__BackingField: 0
   <Attack>k__BackingField: {fileID: 0}
-  Selectable: 0
+  Selectable: 1
   Controllable: 0
   <Faction>k__BackingField: 0
   Target: {fileID: 0}
@@ -1411,10 +1411,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Base: {fileID: 11400000, guid: aef2f368b011ef042bb2a0d1ab8fcb92, type: 2}
-  HitPoint: 0
-  MaxHitPoint: 0
-  Speed: 1
-  BaseDamage: 0
+  hitPoint: 0
+  maxHitPoint: 1
+  speed: 0
+  baseDamage: 36
   AttackRange: 0
   AttackCooldown: 0
   <NextAttackTime>k__BackingField: 0
@@ -1425,7 +1425,7 @@ MonoBehaviour:
   <PatrolCenter>k__BackingField: {x: 0, y: 0, z: 0}
   <AggroRadius>k__BackingField: 10
   <Attack>k__BackingField: {fileID: 8136159346360038510}
-  Selectable: 1
+  Selectable: 0
   Controllable: 0
   <Faction>k__BackingField: 0
   Target: {fileID: 0}
@@ -1442,13 +1442,13 @@ MonoBehaviour:
   AnimationController: {fileID: 3031236306548636159}
   _attack: {fileID: 8136159346360038510}
   _overrideStats: 1
-  maxHitPoint: 1
-  speed: 0
-  baseDamage: 36
-  attackRange: 9
-  attackCooldown: 1.6
-  knockbackPower: 100
-  knockbackResistance: 1
+  _maxHitPoint: 1
+  _speed: 0
+  _baseDamage: 50
+  _attackRange: 9
+  _attackCooldown: 1.7
+  _knockbackPower: 60
+  _knockbackResistance: 1
   _overrideAggroRadius: 0.01
   _overrideStance: 1
   _overriddenStance: 1

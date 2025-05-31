@@ -13,13 +13,14 @@ MonoBehaviour:
   m_Name: Orion
   m_EditorClassIdentifier: 
   Name: Orion
-  Description: A cool red dude.
+  Description: "A cool red dude. \\n \u53EF\u4F7F\u7528\u795E\u79D8\u5C0F\u6280\u80FD\u5C06\u4E00\u5B9A\u8303\u56F4\u5185\u7684\u654C\u4EBA\u805A\u81F3\u8EAB\u524D\u5E76\u8098\u51FB\u4ED6\u4EEC\uFF01\\n\"\u6851\u4E18\u786C\u8840\u6D3E\u5965\u4E49
+    - La Sangre\""
   Art: {fileID: -1855956676, guid: 4b6ef9d43f2b560439ab93b77d153283, type: 3}
   Cost: 20
   HitPoint: 1000
   Damage: 32
   AttackCooldown: 2
-  Speed: 1.2
+  Speed: 1.35
   KnockbackPower: 300
   KnockbackResistance: 0.8
   AttackRange: 1

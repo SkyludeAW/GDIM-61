@@ -12,15 +12,15 @@ public abstract class Unit : MonoBehaviour {
     public enum Stance { Offensive, Defensive }
 
     #region Member Variables
-    [SerializeField] protected Card Base;
-    [SerializeField] protected float HitPoint;
-    [SerializeField] protected float MaxHitPoint;
-    [SerializeField] protected float Speed = 1f;
-    [SerializeField] protected float BaseDamage;
+    [SerializeField] protected Card Base; public Card BaseCard => Base;
+    [SerializeField] protected float hitPoint; public float Hitpoint => hitPoint;
+    [SerializeField] protected float maxHitPoint; public float MaxHitPoint => maxHitPoint;
+    [SerializeField] protected float speed = 1f; public float Speed => speed;
+    [SerializeField] protected float baseDamage; public float Damage => baseDamage;
     [SerializeField] protected float AttackRange; public float Range => AttackRange;
-    [SerializeField] protected float AttackCooldown;
+    [SerializeField] protected float AttackCooldown; public float Cooldown => AttackCooldown;
     [field: SerializeField] public float NextAttackTime { get; set; }
-    [SerializeField] protected float KnockbackPower;
+    [SerializeField] protected float KnockbackPower; public float Knockback => KnockbackPower;
     [SerializeField] protected float KnockbackResistance = 0f;
     [SerializeField] protected bool IsInvincible = false;
     [field: SerializeField] public bool IsDead { get; protected set; } = false;
@@ -45,7 +45,7 @@ public abstract class Unit : MonoBehaviour {
 
     public LayerMask UnpierceableLayers;
     [SerializeField] public NavMeshAgent Agent;
-    [SerializeField] protected SpriteRenderer SR;
+    [SerializeField] protected SpriteRenderer SR; public SpriteRenderer SpriteRenderer => SR;
     [SerializeField] protected SpriteRenderer SelectionSR;
     [SerializeField] protected HealthBarUI HealthUI;
     [SerializeField] protected Rigidbody2D RB;
@@ -61,17 +61,17 @@ public abstract class Unit : MonoBehaviour {
     #region Methods
     protected virtual void Initialize() {
         if (Base != null) {
-            MaxHitPoint = Base.HitPoint;
-            BaseDamage = Base.Damage;
+            maxHitPoint = Base.HitPoint;
+            baseDamage = Base.Damage;
             AttackCooldown = Base.AttackCooldown;
-            Speed = Base.Speed;
+            speed = Base.Speed;
             KnockbackPower = Base.KnockbackPower;
             KnockbackResistance = Base.KnockbackResistance;
             AttackRange = Base.AttackRange;
         }
-        HitPoint = MaxHitPoint;
+        hitPoint = maxHitPoint;
         if (HealthUI != null) {
-            HealthUI.SetHealth(HitPoint / MaxHitPoint);
+            HealthUI.SetHealth(hitPoint / maxHitPoint);
         }
         if (PatrolCenter == Vector3.zero) {
             PatrolCenter = transform.position;
@@ -80,7 +80,7 @@ public abstract class Unit : MonoBehaviour {
         if (Agent != null && Agent.enabled) {
             Agent.updateRotation = false; // This line prevents the NavMeshAgent from rotating the Unit's transform.
             Agent.updateUpAxis = false;   // This is also important for 2D NavMesh setups, especially with NavMeshPlus.
-            Agent.speed = Speed;
+            Agent.speed = speed;
             Agent.isStopped = false;
         }
         ConfigureFaction(Faction);
@@ -198,7 +198,7 @@ public abstract class Unit : MonoBehaviour {
         }
     }
 
-    public void Initialize(float maxHP, float attack) { Initialize(); MaxHitPoint = maxHP; HitPoint = MaxHitPoint; BaseDamage = attack; if (HealthUI != null) { HealthUI.SetHealth(HitPoint / MaxHitPoint); } }
+    public void Initialize(float maxHP, float attack) { Initialize(); maxHitPoint = maxHP; hitPoint = maxHitPoint; baseDamage = attack; if (HealthUI != null) { HealthUI.SetHealth(hitPoint / maxHitPoint); } }
     public void SetSelectionActive(bool selected) { if (SelectionSR == null) return; if (selected) { SelectionSR.color = Color.green; } else { try { SelectionSR.color = FACTION_COLORS[Faction]; } catch (IndexOutOfRangeException) { SelectionSR.color = Color.gray; } } }
     public virtual void TakeDamage(float damage, Vector2 force = default, Unit origin = null) { 
         if (IsDead || IsInvincible) return; 
@@ -208,20 +208,20 @@ public abstract class Unit : MonoBehaviour {
 
             hurtCoroutine = StartCoroutine(Hurt(damage));
 
-            HitPoint -= damage;
+            hitPoint -= damage;
             if (HealthUI != null) {
-                HealthUI.SetHealth(HitPoint / MaxHitPoint);
+                HealthUI.SetHealth(hitPoint / maxHitPoint);
             }
         } 
         if (RB != null && force != Vector2.zero) { 
             RB.AddForce(force * Mathf.Max(1f - KnockbackResistance, 0f)); 
         } 
-        if (HitPoint <= 0f) { 
-            HitPoint = 0f; 
+        if (hitPoint <= 0f) { 
+            hitPoint = 0f; 
             IsDead = true; 
             Die(); 
-        } else if (HitPoint > MaxHitPoint) {
-            HitPoint = MaxHitPoint;
+        } else if (hitPoint > maxHitPoint) {
+            hitPoint = maxHitPoint;
         }
     }
 
