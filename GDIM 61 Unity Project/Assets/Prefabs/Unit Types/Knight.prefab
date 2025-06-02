@@ -144,6 +144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7749550546894080509}
   - component: {fileID: 5545481649337971934}
+  - component: {fileID: 7138882973458402179}
   m_Layer: 8
   m_Name: Melee Attack
   m_TagString: Untagged
@@ -210,6 +211,105 @@ MonoBehaviour:
         m_CallState: 2
   _animationController: {fileID: 1208962625254630823}
   _animationListener: {fileID: 534551520341283269}
+  audioRadius: 20
+  audioSource: {fileID: 7138882973458402179}
+--- !u!82 &7138882973458402179
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707123168551142174}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: e882200fe0f3f5e49b1ac495340a36a6, type: 3}
+  m_Resource: {fileID: 8300000, guid: e882200fe0f3f5e49b1ac495340a36a6, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &2416170274230812065
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,10 +427,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Base: {fileID: 11400000, guid: 8cf5d811d254d134bb7188276c8f4ff3, type: 2}
-  HitPoint: 0
-  MaxHitPoint: 0
-  Speed: 1
-  BaseDamage: 0
+  hitPoint: 0
+  maxHitPoint: 0
+  speed: 1
+  baseDamage: 0
   AttackRange: 0
   AttackCooldown: 0
   <NextAttackTime>k__BackingField: 0
@@ -358,13 +458,13 @@ MonoBehaviour:
   AnimationController: {fileID: 1208962625254630823}
   _attack: {fileID: 5545481649337971934}
   _overrideStats: 0
-  maxHitPoint: 0
-  speed: 1
-  baseDamage: 0
-  attackRange: 0
-  attackCooldown: 0
-  knockbackPower: 0
-  knockbackResistance: 0
+  _maxHitPoint: 0
+  _speed: 1
+  _baseDamage: 0
+  _attackRange: 0
+  _attackCooldown: 0
+  _knockbackPower: 0
+  _knockbackResistance: 0
   _overrideAggroRadius: 0
   _overrideStance: 0
   _overriddenStance: 0

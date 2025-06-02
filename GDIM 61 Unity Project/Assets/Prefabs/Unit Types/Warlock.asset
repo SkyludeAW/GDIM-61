@@ -18,9 +18,9 @@ MonoBehaviour:
     \\n\"Back in my days warlocks can wield the power of the Burning Legion.\""
   Art: {fileID: 827538889749247048, guid: 764033bc3b0291248a1a6ecfd7bb1cd9, type: 3}
   Cost: 6
-  HitPoint: 200
-  Damage: 80
-  AttackCooldown: 4
+  HitPoint: 320
+  Damage: 120
+  AttackCooldown: 3.8
   Speed: 0.6
   KnockbackPower: -800
   KnockbackResistance: 0

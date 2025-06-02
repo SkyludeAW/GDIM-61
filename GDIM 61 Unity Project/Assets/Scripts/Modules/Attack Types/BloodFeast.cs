@@ -5,11 +5,14 @@ using static UnityEngine.UI.Image;
 public class BloodFeast : Attack {
 
     [SerializeField] private AnimationController _animationController;
-    [SerializeField] private AnimationListener _animationListener;
+    [SerializeField] private AnimationListener _animationListener; public AnimationListener AnimationListener => _animationListener;
     public float Radius = 5f;
     public float Duration = 6f;
     public float SkillForce = 500f;
     private LayerMask _unitLayer;
+
+    [SerializeField] private float audioRadius = 25f;
+    [SerializeField] private AudioSource audioSource;
 
     private void Awake() {
         //_unitLayer = LayerMask.NameToLayer("Unit");
@@ -45,6 +48,13 @@ public class BloodFeast : Attack {
     }
 
     private void SkillTrigger() {
+        if (audioSource != null) {
+            audioSource.Stop();
+            audioSource.volume = Mathf.Lerp(1f, 0f, Vector3.Distance(CameraLocator.Instance.transform.position, transform.position) / audioRadius);
+            audioSource.pitch = Random.Range(0.9f, 1.2f);
+            audioSource.Play();
+        }
+
         foreach (var hit in Physics2D.OverlapCircleAll(transform.position, Radius, _unitLayer)) {
             if (!hit.TryGetComponent<Unit>(out Unit unit))
                 continue;

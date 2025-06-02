@@ -4,6 +4,9 @@ public class Attack_MeleeSingle : Attack {
     [SerializeField] private AnimationController _animationController;
     [SerializeField] private AnimationListener _animationListener;
 
+    [SerializeField] private float audioRadius = 20f;
+    [SerializeField] private AudioSource audioSource;
+
     private void OnEnable() {
         _animationListener.AnimationEnd += AttackAnimationComplete;
         _animationListener.AttackTrigger += TargetHit;
@@ -33,6 +36,13 @@ public class Attack_MeleeSingle : Attack {
 
             Vector2 knockbackDirection = (_target.transform.position - transform.position).normalized;
             _target.TakeDamage(_damage, knockbackDirection * _knockback, _origin);
+
+            if (audioSource != null) {
+                audioSource.Stop();
+                audioSource.volume = Mathf.Lerp(1f, 0f, Vector3.Distance(CameraLocator.Instance.transform.position, transform.position) / audioRadius);
+                audioSource.pitch = Random.Range(0.8f, 1.6f);
+                audioSource.Play();
+            }
         }
     }
 }

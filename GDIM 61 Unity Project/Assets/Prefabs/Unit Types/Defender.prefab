@@ -117,10 +117,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Base: {fileID: 11400000, guid: 26b2d0f69d0e9e34188dd2121a75a31d, type: 2}
-  HitPoint: 0
-  MaxHitPoint: 0
-  Speed: 1
-  BaseDamage: 0
+  hitPoint: 0
+  maxHitPoint: 0
+  speed: 1
+  baseDamage: 0
   AttackRange: 0
   AttackCooldown: 0
   <NextAttackTime>k__BackingField: 0
@@ -148,13 +148,13 @@ MonoBehaviour:
   AnimationController: {fileID: 7236520122639118360}
   _attack: {fileID: 4451544353218468670}
   _overrideStats: 0
-  maxHitPoint: 0
-  speed: 1
-  baseDamage: 0
-  attackRange: 0
-  attackCooldown: 0
-  knockbackPower: 0
-  knockbackResistance: 0
+  _maxHitPoint: 0
+  _speed: 1
+  _baseDamage: 0
+  _attackRange: 0
+  _attackCooldown: 0
+  _knockbackPower: 0
+  _knockbackResistance: 0
   _overrideAggroRadius: 0
   _overrideStance: 0
   _overriddenStance: 0
@@ -468,6 +468,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4239029720457214567}
   - component: {fileID: 4451544353218468670}
+  - component: {fileID: 2487759872427504130}
   m_Layer: 8
   m_Name: Melee Attack
   m_TagString: Untagged
@@ -534,6 +535,105 @@ MonoBehaviour:
         m_CallState: 2
   _animationController: {fileID: 7236520122639118360}
   _animationListener: {fileID: 8462012333871208120}
+  audioRadius: 20
+  audioSource: {fileID: 2487759872427504130}
+--- !u!82 &2487759872427504130
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4753141619085428361}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: e882200fe0f3f5e49b1ac495340a36a6, type: 3}
+  m_Resource: {fileID: 8300000, guid: e882200fe0f3f5e49b1ac495340a36a6, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &5392979280771228301
 GameObject:
   m_ObjectHideFlags: 0

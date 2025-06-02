@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0f3d14bec57aec4b9666eb977aff1b0, type: 3}
+  m_Name: Assassin
+  m_EditorClassIdentifier: 
+  Name: Assassin
+  Description: "A controllable assassin that enters stealth after not attacking or
+    getting hit for some time. \\n \u541B\u541B\u53EF\u7231\u634F\u3002 \\n\"Kage
+    no jitsuryoukusha ni naritakute!\""
+  Art: {fileID: 827538889749247048, guid: ed73621f6ddbfbe4ea916a1a81e0b541, type: 3}
+  Cost: 5
+  HitPoint: 340
+  Damage: 50
+  AttackCooldown: 1.6
+  Speed: 1.6
+  KnockbackPower: -60
+  KnockbackResistance: 0
+  AttackRange: 0.5
+  AggroRadius: 10
+  UnitDeploySprite: {fileID: 827538889749247048, guid: 50d24ec9c8ebac640bfe22bc0111ba27, type: 3}
+  SummonedUnit: {fileID: 8629048623650656547, guid: 4aa00648a8e80af4fa9b85d693b88f93, type: 3}

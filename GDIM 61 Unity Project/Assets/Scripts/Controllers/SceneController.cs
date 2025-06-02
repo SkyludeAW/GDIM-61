@@ -8,7 +8,6 @@ public class SceneController : MonoBehaviour {
     private void Awake() {
         if (Instance == null) {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
         } else {
             Destroy(gameObject);
         }
@@ -34,5 +33,9 @@ public class SceneController : MonoBehaviour {
         SceneManager.LoadSceneAsync("Defeat");
         GameStateManager.Instance.CanPause = true;
         GameStateManager.Instance.TriggerPause(false);
+    }
+
+    public void Quit() {
+        Application.Quit();
     }
 }

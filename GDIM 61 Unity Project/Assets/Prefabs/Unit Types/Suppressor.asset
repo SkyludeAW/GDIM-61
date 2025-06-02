@@ -17,11 +17,11 @@ MonoBehaviour:
     \\n\"It's a machine gun!\""
   Art: {fileID: 7439426567979852956, guid: f1769319ed34b524ebf2f391c2af7cb2, type: 3}
   Cost: 7
-  HitPoint: 250
-  Damage: 28
-  AttackCooldown: 0.33
+  HitPoint: 220
+  Damage: 39
+  AttackCooldown: 0.3
   Speed: 0.8
-  KnockbackPower: 40
+  KnockbackPower: 60
   KnockbackResistance: 0.2
   AttackRange: 4
   AggroRadius: 10

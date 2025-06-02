@@ -1,0 +1,179 @@
+using UnityEngine;
+
+public class Assassin : Unit {
+
+    [Header("Override Stats")]
+    [SerializeField] private bool _overrideStats;
+    [SerializeField] protected float _maxHitPoint;
+    [SerializeField] protected float _speed = 1f;
+    [SerializeField] protected float _baseDamage;
+    [SerializeField] protected float _attackRange;
+    [SerializeField] protected float _attackCooldown;
+    [SerializeField] protected float _knockbackPower;
+    [SerializeField] protected float _knockbackResistance = 0f;
+
+    [Tooltip("Aggro radius specific override for this unit. If 0, uses Unit.AggroRadius (from Card or default).")]
+    [SerializeField] private float _overrideAggroRadius = 0f;
+
+    [SerializeField] private bool _overrideStance;
+    [SerializeField] private Unit.Stance _overriddenStance;
+
+    private UnitStateMachine _stateMachine; // The state machine instance governing this unit's behavior
+
+    [SerializeField] float stealthCooldown = 8f;
+    float nextTimeToEnterStealth;
+
+    /// <summary>
+    /// Called when the script instance is being loaded.
+    /// Initializes the unit's stats and then configures its faction and state machine.
+    /// </summary>
+    private void Awake() {
+        base.Initialize(); // Sets up stats from Card Base. Does NOT set faction or stance yet.
+
+        if (_overrideStance)
+            SetStance(_overriddenStance);
+
+        if (_overrideStats) {
+            base.maxHitPoint = _maxHitPoint;
+            hitPoint = base.maxHitPoint;
+            speed = _speed;
+            baseDamage = _baseDamage;
+            AttackRange = _attackRange;
+            AttackCooldown = _attackCooldown;
+            KnockbackPower = _knockbackPower;
+            KnockbackResistance = _knockbackResistance;
+
+            if (Agent != null && Agent.enabled)
+                Agent.speed = speed;
+        }
+    }
+
+    /// <summary>
+    /// Called by Unit.ConfigureFaction after Faction and CurrentStance (derived from Faction) are set.
+    /// Responsible for initializing or updating the state machine.
+    /// </summary>
+    protected override void OnFactionConfigured() {
+        // Apply aggro radius override if specified for this BasicUnit type
+        if (_overrideAggroRadius > 0.01f) {
+            AggroRadius = _overrideAggroRadius;
+        }
+        // Else, it uses the AggroRadius set in Unit.Initialize (from Card or default)
+
+        // Debug.Log($"{gameObject.name} OnFactionConfigured. Faction: {Faction}, Stance: {CurrentStance}. Initializing/Updating SM.");
+        UpdateStateMachineForCurrentStance();
+    }
+
+    /// <summary>
+    /// Called by Unit.ManualSetStance after CurrentStance is explicitly changed.
+    /// Responsible for updating the state machine.
+    /// </summary>
+    protected override void OnStanceChanged() {
+        // Debug.Log($"{gameObject.name} OnStanceManuallyChanged. New Stance: {CurrentStance}. Updating SM.");
+        UpdateStateMachineForCurrentStance();
+    }
+
+    /// <summary>
+    /// Initializes or changes the state of the state machine based on the unit's CurrentStance.
+    /// </summary>
+    private void UpdateStateMachineForCurrentStance() {
+        bool isNewStateMachine = _stateMachine == null;
+        if (isNewStateMachine) {
+            _stateMachine = new UnitStateMachine();
+        }
+
+        // CurrentStance is already correctly set in the base Unit class
+        if (CurrentStance == Stance.Offensive) {
+            if (isNewStateMachine)
+                _stateMachine.Initialize(new OffensiveState(this, _stateMachine));
+            else
+                _stateMachine.ChangeState(new OffensiveState(this, _stateMachine));
+        } else { // Defensive (or any other future stances that default to defensive-like behavior)
+            if (isNewStateMachine)
+                _stateMachine.Initialize(new DefensiveState(this, _stateMachine));
+            else
+                _stateMachine.ChangeState(new DefensiveState(this, _stateMachine));
+        }
+    }
+
+
+    /// <summary>
+    /// Called every frame. Updates the current state of the state machine.
+    /// </summary>
+    private void Update() {
+        if (IsDead)
+            return;
+
+        if (nextTimeToEnterStealth < Time.time) {
+            TriggerStealth(true);
+        }
+
+        _stateMachine?.Update();
+    }
+
+    /// <summary>
+    /// Implements the abstract PerformAttack method from the Unit class.
+    /// </summary>
+    public override void PerformAttack(Unit targetUnit) {
+        if (Attack == null || targetUnit == null || targetUnit.IsDead) {
+            if (CurrentStance == Unit.Stance.Offensive) {
+                _stateMachine.ChangeState(new OffensiveState(this, _stateMachine));
+            } else {
+                _stateMachine.ChangeState(new DefensiveState(this, _stateMachine));
+            }
+            return;
+        }
+
+        TriggerStealth(false);
+        Attack.Initialize(baseDamage, targetUnit, KnockbackPower, this);
+        Attack.Execute();
+    }
+
+    public void AttackComplete() {
+        _stateMachine.ChangeState(new PursueState(this, _stateMachine));
+    }
+
+    public void AttackTriggered() {
+        NextAttackTime = Time.time + AttackCooldown;
+    }
+
+    public override void TakeDamage(float damage, Vector2 force = default, Unit origin = null) {
+        base.TakeDamage(damage, force, origin);
+
+        if (damage > 0)
+            TriggerStealth(false);
+    }
+
+    public override void Die() {
+        base.Die();
+
+        if (Agent != null && Agent.isOnNavMesh) {
+            Agent.isStopped = true;
+            Agent.enabled = false;
+        }
+        // Unregistration from UnitsManager is handled by Unit.OnDisable
+        if (Collider != null) {
+            Collider.enabled = false;
+        }
+        Destroy(this.gameObject, 0.1f);
+    }
+
+    public override void MoveTo(Vector2 destination) {
+        _stateMachine.ChangeState(new MoveState(this, _stateMachine, destination));
+    }
+
+    public override void ForceSetTarget(Unit targetUnit) {
+        base.ForceSetTarget(targetUnit);
+        _stateMachine.ChangeState(new PursueState(this, _stateMachine));
+    }
+
+    void TriggerStealth(bool enterStealth) {
+        if (enterStealth) {
+            IsInvincible = true;
+            SpriteRenderer.color = new Color(SpriteRenderer.color.r, SpriteRenderer.color.g, SpriteRenderer.color.b, 0.4f);
+        } else {
+            IsInvincible = false;
+            SpriteRenderer.color = new Color(SpriteRenderer.color.r, SpriteRenderer.color.g, SpriteRenderer.color.b, 1f);
+            nextTimeToEnterStealth = Time.time + stealthCooldown;
+        }
+    }
+}

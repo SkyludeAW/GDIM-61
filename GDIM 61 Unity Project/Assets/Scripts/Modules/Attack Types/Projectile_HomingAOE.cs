@@ -5,10 +5,14 @@ public class Projectile_HomingAoE : Projecile {
     [SerializeField] new Collider2D collider;
     [SerializeField] float impactRadius;
     Vector3 direction;
+    Vector3 targetPos;
 
     [SerializeField] VFXHandler vfx;
     [SerializeField] string vfxName;
     [SerializeField] AnimationListener listener;
+
+    [SerializeField] private float audioRadius = 25f;
+    [SerializeField] private AudioSource audioSource;
 
     bool activated;
 
@@ -30,10 +34,12 @@ public class Projectile_HomingAoE : Projecile {
         }
     }
 
-    public override void Initialize(float damage, Transform target, Unit origin = null) {
+    public override void Initialize(float damage, Transform target, Unit origin = null, float knockback = default) {
         base.Initialize(damage, target, origin);
         collider.enabled = true;
         activated = false;
+        if (knockback != default)
+            this.knockback = knockback;
     }
 
     public GameObject Initialize(float damage, Transform target, float radius, Unit origin, float knockback, float speed) {
@@ -64,17 +70,32 @@ public class Projectile_HomingAoE : Projecile {
             unit.TakeDamage(damage, Mathf.Lerp(Mathf.Max(knockback, 0f), Mathf.Min(knockback, 0f), distanceFromCenter.magnitude / impactRadius) * distanceFromCenter.normalized, origin);
         }
 
+        if (audioSource != null) {
+            audioSource.Stop();
+            audioSource.volume = Mathf.Lerp(1.6f, 0f, Vector3.Distance(CameraLocator.Instance.transform.position, transform.position) / audioRadius);
+            audioSource.pitch = Random.Range(0.8f, 1.1f);
+            audioSource.Play();
+        }
+
         if (vfx == null) Purge();
     }
 
+    protected override void Purge() => Destroy(gameObject, 0.6f);
+
     protected override void UpdatePosition() {
-        if (target == null) {
+        Vector3 distance = targetPos - transform.position;
+        float fixedSpeed = speed * Time.fixedDeltaTime;
+        direction = distance.normalized;
+
+        if (distance.sqrMagnitude <= 0.01f || distance.magnitude <= fixedSpeed) {
             OnHit();
             return;
         }
 
-        direction = (target.position - transform.position).normalized;
-        transform.position += direction * speed * Time.fixedDeltaTime;
+        if (target != null)
+            targetPos = target.position;
+
+        transform.position += direction * fixedSpeed;
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {

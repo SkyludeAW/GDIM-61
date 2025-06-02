@@ -1,3 +1,4 @@
+﻿using System.Collections;
 using UnityEngine;
 
 public class Orion : Unit {
@@ -5,15 +6,22 @@ public class Orion : Unit {
 
     [SerializeField] private Attack _attack;
     [SerializeField] private BloodFeast _skill;
+
+    [SerializeField] private float reviveTime = 30f;
     
-    [SerializeField] private float _skillCooldown;
-    private float _nextSkillCastTime;
+    [SerializeField] private float _skillCooldown; public float SkillCooldown => _skillCooldown;
+    public event StatusEvent OnCastSkill;
+    private float _nextSkillCastTime; public float RemainingSkillCooldown => Mathf.Max(_nextSkillCastTime - Time.time, 0f);
     private bool _isCasting;
 
     private UnitStateMachine _stateMachine;
 
+    [SerializeField] PopupMessage popupMessagePrefab;
+
     private void Awake() {
         base.Initialize();
+        UpdateStateMachineForCurrentStance();
+        _nextSkillCastTime = 0f;
     }
 
     /// <summary>
@@ -22,7 +30,7 @@ public class Orion : Unit {
     /// </summary>
     protected override void OnFactionConfigured() {
         // Debug.Log($"{gameObject.name} OnFactionConfigured. Faction: {Faction}, Stance: {CurrentStance}. Initializing/Updating SM.");
-        UpdateStateMachineForCurrentStance();
+        // UpdateStateMachineForCurrentStance();
     }
 
     /// <summary>
@@ -78,6 +86,7 @@ public class Orion : Unit {
     }
 
     public void SkillTriggered() {
+        OnCastSkill?.Invoke();
         _nextSkillCastTime = Time.time + _skillCooldown;
         Controllable = false;
         _isCasting = true;
@@ -100,7 +109,48 @@ public class Orion : Unit {
         if (Collider != null) {
             Collider.enabled = false;
         }
-        Destroy(this.gameObject, 0.1f);
+        baseDamage = 0f;
+        KnockbackPower = 0f;
+        Target = null;
+        _skill.enabled = false;
+        _attack.enabled = false;
+
+        StopAllCoroutines();
+
+        StartCoroutine(Revive());
+    }
+
+    IEnumerator Revive() {
+        float regernationRate = -(maxHitPoint / reviveTime);
+        _skill.AnimationListener.AttackTriggerBegin += SkillTriggered;
+        _skill.AnimationListener.AnimationEnd += SkillComplete;
+        _skill.AnimationListener.AnimationEnd += ReviveEnd;
+
+        this.AnimationController.Animator.ResetTrigger("SkillEnd");
+        this.AnimationController.ChangeAnimationState(AnimationController.AnimationState.Skill_1);
+
+        while (hitPoint < maxHitPoint) {
+            TakeDamage(regernationRate * Time.deltaTime);
+
+            yield return null;
+        }
+
+        this.AnimationController.Animator.SetTrigger("SkillEnd");
+
+        Initialize();
+    }
+
+    private void ReviveEnd() {
+        Instantiate(popupMessagePrefab, transform.position, Quaternion.Euler(0f, 0f, Random.Range(-30f, 30f))).SetUpAndActivate("孩子们我回来了！", new Vector2(0f, Random.Range(0.01f, 0.1f)), Random.Range(5f, 10f));
+
+        OnCastSkill?.Invoke();
+
+        _skill.enabled = true;
+        _attack.enabled = true;
+        _nextSkillCastTime = Time.time + _skillCooldown;
+        _skill.AnimationListener.AttackTriggerBegin -= SkillTriggered;
+        _skill.AnimationListener.AnimationEnd -= SkillComplete;
+        _skill.AnimationListener.AnimationEnd -= ReviveEnd;
     }
 
     public override void PerformAttack(Unit targetUnit) {
@@ -119,7 +169,6 @@ public class Orion : Unit {
     }
 
     public override void MoveTo(Vector2 destination) {
-
         _stateMachine.ChangeState(new MoveState(this, _stateMachine, destination));
     }
 

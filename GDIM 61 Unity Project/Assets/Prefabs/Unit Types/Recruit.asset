@@ -18,9 +18,9 @@ MonoBehaviour:
     \\n \"\u5348\u65F6\u5DF2\u5230!\""
   Art: {fileID: -6306969538060732093, guid: b26216aa13d0c6f4b9d3aa80a998d59e, type: 3}
   Cost: 3
-  HitPoint: 140
+  HitPoint: 160
   Damage: 42
-  AttackCooldown: 1.8
+  AttackCooldown: 1.7
   Speed: 1.2
   KnockbackPower: 60
   KnockbackResistance: 0
