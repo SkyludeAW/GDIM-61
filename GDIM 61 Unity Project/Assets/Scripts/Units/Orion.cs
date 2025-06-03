@@ -109,6 +109,8 @@ public class Orion : Unit {
         if (Collider != null) {
             Collider.enabled = false;
         }
+
+        _stateMachine.ChangeState(new IdleState(this, _stateMachine));
         baseDamage = 0f;
         KnockbackPower = 0f;
         Target = null;
