@@ -18,12 +18,12 @@ MonoBehaviour:
     no jitsuryoukusha ni naritakute!\""
   Art: {fileID: 827538889749247048, guid: ed73621f6ddbfbe4ea916a1a81e0b541, type: 3}
   Cost: 5
-  HitPoint: 340
-  Damage: 50
-  AttackCooldown: 1.6
+  HitPoint: 360
+  Damage: 80
+  AttackCooldown: 1.9
   Speed: 1.6
   KnockbackPower: -60
-  KnockbackResistance: 0
+  KnockbackResistance: 0.3
   AttackRange: 0.5
   AggroRadius: 10
   UnitDeploySprite: {fileID: 827538889749247048, guid: 50d24ec9c8ebac640bfe22bc0111ba27, type: 3}
