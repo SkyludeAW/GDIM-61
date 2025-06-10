@@ -110,7 +110,6 @@ public class Orion : Unit {
             Collider.enabled = false;
         }
 
-        _stateMachine.ChangeState(new IdleState(this, _stateMachine));
         baseDamage = 0f;
         KnockbackPower = 0f;
         Target = null;
@@ -123,29 +122,38 @@ public class Orion : Unit {
     }
 
     IEnumerator Revive() {
-        float regernationRate = -(maxHitPoint / reviveTime);
+        float regenerationRate = -(maxHitPoint / reviveTime);
         _skill.AnimationListener.AttackTriggerBegin += SkillTriggered;
         _skill.AnimationListener.AnimationEnd += SkillComplete;
         _skill.AnimationListener.AnimationEnd += ReviveEnd;
+
+        _stateMachine.ChangeState(new ReviveState(this, _stateMachine));
 
         this.AnimationController.Animator.ResetTrigger("SkillEnd");
         this.AnimationController.ChangeAnimationState(AnimationController.AnimationState.Skill_1);
 
         while (hitPoint < maxHitPoint) {
-            TakeDamage(regernationRate * Time.deltaTime);
+            TakeDamage(regenerationRate * Time.deltaTime);
 
             yield return null;
         }
 
         this.AnimationController.Animator.SetTrigger("SkillEnd");
-
         Initialize();
+        
+    }
+
+    private class ReviveState : UnitBaseState {
+        public ReviveState(Unit unit, UnitStateMachine stateMachine) : base(unit, stateMachine) {}
+
+        public override void UpdateState() {}
     }
 
     private void ReviveEnd() {
         Instantiate(popupMessagePrefab, transform.position, Quaternion.Euler(0f, 0f, Random.Range(-30f, 30f))).SetUpAndActivate("孩子们我回来了！", new Vector2(0f, Random.Range(0.01f, 0.1f)), Random.Range(5f, 10f));
 
         OnCastSkill?.Invoke();
+        _stateMachine.ChangeState(new IdleState(this, _stateMachine));
 
         _skill.enabled = true;
         _attack.enabled = true;
